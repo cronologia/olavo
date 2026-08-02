@@ -22,17 +22,26 @@ perennialism — the 2011 Carvalho–Dugin debate; tariqa — his Traditionalist
 period). This repo gives those cross-references one documented, dated place to
 point at, instead of each project re-explaining him in event notes.
 
-## The two layers
+## The three layers
 
 1. **The chronology** (`data/chronology.json` events): his life and works —
    journalism, books with publication dates, the move abroad, the COF, the
-   political years, death and the disputes around it.
-2. **The reception layer** (planned per-philosopher pages; wave 1 tracked in
-   tickets): for each philosopher Olavo referenced, a page with the thinker's
-   own timeline plus "reception in COF" — which aulas engage him, on which
-   dates. The reception index is computed from the public community
-   transcription corpus; corpus-frequency measurement lives with the source
-   material, not here.
+   political years, death and the disputes around it. 32 of 37 core event
+   dates are verified against external sources; every flag and disagreement
+   is visible in the entries.
+2. **The reception layer** (SHIPPED: twenty per-philosopher pages, three
+   locales): for each philosopher Olavo referenced, a page with the thinker's
+   own cited timeline plus "Reception in the COF" — which lectures engage
+   him, on which dates, from `data/cof-reception.json` (computed from the
+   public community transcription corpus). Quotations wait on audio
+   verification (olavo#2); design in ADR-0002.
+3. **The self-testimony layer** (ADR-0003): what Olavo said about his own
+   life during the lectures — 397 first-person recollections indexed with
+   the source material, surfaced into the chronology as paraphrase with
+   lecture-date attribution: the childhood-illness origin story, the
+   journalism start, the Escola Júpiter and tariqa self-chronologies, the
+   Padre Paulo Ricardo confessor arc. Testimony is a perspective: it colors
+   the chronology, it never verifies it.
 
 ## Disambiguations that matter
 

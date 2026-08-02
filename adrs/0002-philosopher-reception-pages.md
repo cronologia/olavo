@@ -19,10 +19,16 @@ Two ways to build it were considered:
 
 1. **Port `fsp`'s country-dossier machinery** (`adopt-template`-style), which
    generates per-entity detail pages from per-entity data files.
-2. **A small in-repo module** (`philosophers.js`) that renders from a single
-   `data/philosophers.json` + the reception index, reusing the template
-   build's own primitives (`esc`, `renderCites`, `seoHead`, `langSwitcher`)
-   passed in as helpers.
+2. **A small in-repo module** (`philosophers.js`) that renders the pages,
+   reusing the template build's own primitives (`esc`, `renderCites`,
+   `seoHead`, `langSwitcher`) passed in as helpers.
+
+   *(Amended 2026-08-02: the data initially lived in a separate
+   `data/philosophers.json`; CI's drift test — which re-renders pages from
+   the exported `ROUTES`/`renderPage` — exposed that design, and the data
+   moved to an optional top-level `philosophers` key on
+   `data/chronology.json`, the exact ADR-0001 idiom. `philosophers.js` now
+   reads the key off whatever dataset it is given.)*
 
 ## Decision
 

@@ -24,7 +24,11 @@ referenced to the dated lectures that engage them.
 
 ## Status
 
-Bootstrapped 2026-08-02 (hub candidate ticket: cronologia.github.io#30;
-corpus-measured rationale: the COF frequency table in the archive's topic
-survey). The philosopher reception pages ship in waves — see the open
-tickets.
+Bootstrapped and built out 2026-08-02 (hub ticket: cronologia.github.io#30).
+Live: the chronology (39 events, 32 external-source-verified dates), all
+**twenty philosopher reception pages** in three locales (en authoritative;
+es/pt hand-translated, ADR-0004), Wayback fallbacks on the references, and
+the **self-testimony layer** — Olavo's own in-lecture accounts of his life,
+surfaced as attributed paraphrase (ADR-0003; findings in olavo#3). Open:
+verbatim quotations (blocked on audio verification, olavo#2) and the
+remaining flagged dates (olavo#1).

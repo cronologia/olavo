@@ -43,13 +43,32 @@ compiles it into static HTML served by GitHub Pages.
    Kant here documents *what Olavo said about Kant and when* — never what Kant
    "really" meant. The philosopher's own life-and-works timeline uses standard
    public references; the reception layer cites aulas.
+7. **Self-testimony is a layer, never a verifier** (ADR-0003). Olavo's own
+   recollections in the lectures enter the dataset as PARAPHRASE with
+   lecture-date attribution ("his own telling in the course: …"), always
+   framed as testimony via the community transcriptions. Testimony never flips
+   a `dateVerified` flag, never overrides an external source, and is never
+   quoted verbatim until checked against the audio (the corpus's own rule).
+   Sensitive single-source recollections about third parties stay out of the
+   public dataset until corroborated.
 
 ## Repository map
 
 ```
-data/chronology.json     SOURCE OF TRUTH — facts, events, figures, organizations, references (hand-edited, English)
-data/i18n/{es,pt}.json   MACHINE-GENERATED translation caches (written by scripts/translate.js; committed) — do NOT hand-edit
+data/chronology.json     SOURCE OF TRUTH — facts, events, figures, organizations, references,
+                         AND the optional `philosophers` key (the reception pages' data; ADR-0002).
+                         Hand-edited, English-authoritative.
+data/cof-reception.json  Reception index: which COF lectures engage which philosopher, with dates —
+                         computed from the PUBLIC community transcription corpus; its _meta documents
+                         the two measurement traps (UTF-8 accent width, substring inflation)
+data/i18n/{es,pt}.json   HAND-AUTHORED translation caches, committed with the data they translate
+                         (ADR-0004 — deliberate divergence from the template's MT default). Keys must
+                         be EXACT dataset strings; when an English string changes, update or prune its
+                         translations in the same commit or the locale silently falls back.
 data/archives.json       MACHINE-GENERATED Wayback snapshot cache (written by scripts/archive-refs.js; committed)
+philosophers.js          This repo's own optional renderer for the per-philosopher pages (ADR-0002)
+KEYWORDS.md              Finding aid: naming variants, ASR manglings, corpus-measurement traps —
+                         read it BEFORE any corpus or source search (sourcing-rules)
 data/glossary-terms.json VENDORED, PINNED list of cronologia/glossary term ids (written by scripts/sync-glossary-terms.js; committed) — validates [[term-id]] cross-links offline
 data/places.json         VENDORED, PINNED copy of the cronologia/core gazetteer (written by scripts/sync-places.js; committed) — coordinates for the optional placesMap renderer; only needed when placesMap is declared
 src/styles.css           Stylesheet (copied into the build)
@@ -75,11 +94,13 @@ docs/                    COMPILED OUTPUT, served by GitHub Pages (committed)
 ## Multi-language (i18n) & SEO
 
 The site ships in **English (default, authoritative), Spanish and Portuguese**.
-`es`/`pt` are **machine-translated** from the committed caches in `data/i18n/`
-and carry a visible "machine-translated" disclaimer. The language is a path
-segment **after** the project (`/<repo>/{en|pt|es}/…`) because GitHub Pages
-serves each repo under `https://<org>.github.io/<repo>/`; `/<repo>/` redirects
-to the visitor's locale. See `adrs/0001-multilingual.md` and `cronologia/core#9`.
+Unlike the template default, this repo's `es`/`pt` caches are **hand-authored**
+and committed together with the data they translate (ADR-0004); the visible
+disclaimer says "hand-reviewed translation; English is the reference version".
+The language is a path segment **after** the project (`/<repo>/{en|pt|es}/…`)
+because GitHub Pages serves each repo under `https://<org>.github.io/<repo>/`;
+`/<repo>/` redirects to the visitor's locale. See `adrs/0001-multilingual.md`,
+`adrs/0004-hand-authored-i18n.md` and `cronologia/core#9`.
 
 - **No backend, ever.** The site is static HTML on GitHub Pages; nothing
   translates at runtime. `es`/`pt` are **pre-authored, committed** caches in
