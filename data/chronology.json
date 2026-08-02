@@ -1,0 +1,875 @@
+{
+  "meta": {
+    "title": "Olavo de Carvalho — Cronologia",
+    "subtitle": "Chronology of Olavo de Carvalho (1947–2022): life and works",
+    "description": "An open, source-referenced chronology of Olavo de Carvalho — journalist, astrologer, self-taught philosopher, teacher of the Curso Online de Filosofia, and the central intellectual reference of the Brazilian New Right.",
+    "language": "en",
+    "siteUrl": "https://cronologia.github.io/olavo/",
+    "lastUpdated": "2026-08-02",
+    "dataQualityNote": "Work-in-progress dataset compiled from public sources (see references). Contested claims — above all his influence on the Bolsonaro government, the cause of his death, and the episodes of his early trajectory — are attributed to their authors, never asserted in this site's voice. Dates not verified against a primary source are flagged. Corrections against primary sources are welcome.",
+    "vizChips": [
+      {
+        "href": "#chronology",
+        "label": "📜 Chronology"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "label": "Who",
+      "value": "Olavo Luiz Pimentel de Carvalho — journalist, professional astrologer in the 1980s, self-taught philosopher and polemicist; from 2009 teacher of the Curso Online de Filosofia (COF)",
+      "sources": ["agenciabrasil-obit", "gazetadopovo-obit", "calil-argumentum"]
+    },
+    {
+      "label": "Born",
+      "value": "29 April 1947, Campinas, São Paulo, Brazil",
+      "sources": ["agenciabrasil-obit", "gazetadopovo-obit", "wikipedia-en"]
+    },
+    {
+      "label": "Died",
+      "value": "Night of 24 January 2022, in a hospital in the Richmond, Virginia area (USA), aged 74; announced by the family in the early hours of 25 January. The cause was publicly disputed — see the chronology",
+      "sources": ["agenciabrasil-obit", "poder360-obit", "metropoles-obit", "nyt-obit"]
+    },
+    {
+      "label": "Residency",
+      "value": "Brazilian citizen; resident in the United States (Richmond, Virginia area) from 2005 until his death; buried at St. Joseph's Cemetery, Petersburg, Virginia",
+      "sources": ["gazetadopovo-obit", "agenciabrasil-obit", "findagrave-memorial"]
+    },
+    {
+      "label": "Decorations",
+      "value": "Medalha do Pacificador (Brazilian Army, 1999); Medalha Mérito Santos Dumont (Brazilian Air Force, 2001); Grã-Cruz of the Ordem de Rio Branco (2019 — contested, see chronology)",
+      "sources": ["agenciabrasil-obit", "gazetadopovo-riobranco", "camara-riobranco"]
+    },
+    {
+      "label": "Family",
+      "value": "Married to Roxane Andrade de Souza; eight children and eighteen grandchildren at his death",
+      "sources": ["agenciabrasil-obit", "gazetadopovo-obit"]
+    }
+  ],
+  "events": [
+    {
+      "year": 1947,
+      "date": "1947-04-29",
+      "dateVerified": true,
+      "place": "Campinas, SP, Brazil",
+      "title": "Born in Campinas, São Paulo",
+      "text": "Born Olavo Luiz Pimentel de Carvalho. Obituaries note he had little formal schooling and described himself as self-taught.",
+      "sources": ["agenciabrasil-obit", "gazetadopovo-obit", "wikipedia-en"]
+    },
+    {
+      "year": 1966,
+      "date": "1966",
+      "dateVerified": false,
+      "place": "São Paulo, Brazil",
+      "title": "Brief affiliation with the Brazilian Communist Party (PCB)",
+      "text": "Portuguese Wikipedia dates his PCB affiliation to 1966–1968, in opposition to the military dictatorship; the historian Gilberto Calil likewise records a brief PCB passage in his youth. Exact dates rest on secondary summaries.",
+      "sources": ["wikipedia-pt", "calil-argumentum"]
+    },
+    {
+      "year": 1977,
+      "date": "1977-02",
+      "dateVerified": true,
+      "place": "São Paulo, Brazil",
+      "title": "First contributions to Folha de S.Paulo",
+      "text": "Both Wikipedias date his first Folha de S.Paulo piece (in the Folhetim section, on The Magic Flute) to February 1977. Other sources push his journalism back earlier — Gazeta do Povo says he started at 17 at Folha da Manhã; Calil says he began writing for major newspapers in 1967. The sources do not reconcile these, and they may describe different roles.",
+      "sources": ["wikipedia-en", "wikipedia-pt", "gazetadopovo-obit"]
+    },
+    {
+      "year": 1979,
+      "date": "1979",
+      "dateVerified": true,
+      "place": "São Paulo, Brazil",
+      "title": "Co-founds the Escola Júpiter de Astrologia",
+      "text": "Worked professionally as an astrologer c. 1979–1982, co-founding the school and its Revista de Astrologia Júpiter and collaborating on a university-extension astrology course at PUC-SP; Calil (2021) reports the school had about 140 students by 1980. He later abandoned and disavowed astrology.",
+      "sources": ["wikipedia-pt", "wikipedia-en", "calil-argumentum", "gazetadopovo-obit"]
+    },
+    {
+      "year": 1980,
+      "date": "1980",
+      "dateVerified": false,
+      "place": "São Paulo, Brazil",
+      "title": "First book: A Imagem do Homem na Astrologia",
+      "text": "Per Portuguese Wikipedia's bibliography. Agência Brasil's obituary instead dates his first book, on astrological symbolism, to 1983 — the sources disagree.",
+      "sources": ["wikipedia-pt", "agenciabrasil-obit"]
+    },
+    {
+      "year": 1982,
+      "date": "1982",
+      "dateVerified": false,
+      "place": "Brazil",
+      "title": "Enters the Traditionalist / Perennialist milieu",
+      "text": "Per Calil (2021), around 1982 he joined an esoteric 'Tradition' group. Mark Sedgwick, the leading historian of Traditionalism, writes that during the 1980s he was 'first a Traditionalist and then briefly a Maryami and the khalifa of Frithjof Schuon in Brazil'. Approximate dating; all characterizations are these scholars'.",
+      "sources": ["calil-argumentum", "sedgwick-blog"]
+    },
+    {
+      "year": 1984,
+      "date": "1984",
+      "dateVerified": false,
+      "place": "Brazil",
+      "title": "Involvement with Sufi Islam (the Maryamiyya of Frithjof Schuon)",
+      "text": "Calil (2021) states he converted to Islam in 1984, took the name Sidi Mohammad Ibrahim, and set up a tariqa of his own that dissolved within months. Sedgwick describes him as Schuon's khalifa in Brazil before he 'left Schuon, and reinvented himself as a Catholic philosopher', coining 'post-Traditionalist' for his later fierce criticism of perennialism. All positions attributed; he himself later minimized the episode, and the accounts of it differ.",
+      "sources": ["calil-argumentum", "sedgwick-blog"]
+    },
+    {
+      "year": 1994,
+      "date": "1994",
+      "dateVerified": true,
+      "place": "Rio de Janeiro, Brazil",
+      "title": "Publishes A Nova Era e a Revolução Cultural",
+      "text": "On Gramsci and Fritjof Capra (Instituto de Artes Liberais); obituaries treat it as the book that established him as a conservative polemicist.",
+      "sources": ["wikipedia-en", "gazetadopovo-obit", "calil-argumentum"]
+    },
+    {
+      "year": 1995,
+      "date": "1995",
+      "dateVerified": true,
+      "place": "Rio de Janeiro, Brazil",
+      "title": "Publishes O Jardim das Aflições",
+      "text": "Subtitled 'de Epicuro à ressurreição de César' (Diadorim); later republished, and the source of the 2017 documentary's title.",
+      "sources": ["wikipedia-en", "gazetadopovo-obit"]
+    },
+    {
+      "year": 1996,
+      "date": "1996",
+      "dateVerified": true,
+      "place": "Rio de Janeiro, Brazil",
+      "title": "Publishes O Imbecil Coletivo",
+      "text": "His polemic against the Brazilian intelligentsia ('atualidades inculturais brasileiras'); Calil (2021) notes it achieved significant circulation and made him a public figure.",
+      "sources": ["gazetadopovo-obit", "calil-argumentum", "wikipedia-pt"]
+    },
+    {
+      "year": 1996,
+      "date": "1996",
+      "dateVerified": true,
+      "place": "Rio de Janeiro, Brazil",
+      "title": "Publishes Aristóteles em Nova Perspectiva",
+      "text": "His 'theory of the four discourses' reading of Aristotle (Topbooks); year and publisher rest on a single tertiary source.",
+      "sources": ["wikipedia-en"]
+    },
+    {
+      "year": 1999,
+      "date": "1999",
+      "dateVerified": true,
+      "place": "Brazil",
+      "title": "Receives the Medalha do Pacificador (Brazilian Army)",
+      "text": "Reported in Agência Brasil's obituary career summary.",
+      "sources": ["agenciabrasil-obit"]
+    },
+    {
+      "year": 2001,
+      "date": "2001",
+      "dateVerified": true,
+      "place": "Brazil",
+      "title": "Receives the Medalha Mérito Santos Dumont (Brazilian Air Force)",
+      "text": "Reported in Agência Brasil's obituary career summary.",
+      "sources": ["agenciabrasil-obit"]
+    },
+    {
+      "year": 2002,
+      "date": "2002",
+      "dateVerified": true,
+      "place": "Brazil",
+      "title": "Founds the website Mídia Sem Máscara",
+      "text": "A media-criticism site against what it described as leftist bias in the Brazilian press; Calil (2021) treats it as his main ideological platform from 2002 until it went offline around 2017.",
+      "sources": ["calil-argumentum", "wikipedia-en", "wikipedia-pt"]
+    },
+    {
+      "year": 2005,
+      "date": "2005",
+      "dateVerified": true,
+      "place": "Virginia, USA",
+      "title": "Moves to the United States",
+      "text": "Settled in the Richmond, Virginia area, where he lived until his death; the date is given consistently across obituaries and profiles.",
+      "sources": ["gazetadopovo-obit", "agenciabrasil-obit", "gazetadopovo-riobranco", "wikipedia-en"]
+    },
+    {
+      "year": 2006,
+      "date": "2006",
+      "dateVerified": false,
+      "place": "USA (online)",
+      "title": "Begins the online radio program True Outspeak",
+      "text": "Hosted on BlogTalkRadio, 2006–2013, per English Wikipedia (single tertiary source).",
+      "sources": ["wikipedia-en"]
+    },
+    {
+      "year": 2009,
+      "date": "2009-03-14",
+      "dateVerified": true,
+      "place": "Online (from Virginia, USA)",
+      "title": "First lecture of the Curso Online de Filosofia (COF)",
+      "text": "The paid weekly online philosophy course he taught until his death — 585 lectures over thirteen years. A student index and English Wikipedia date the first class to 14 March 2009. The community transcription corpus of the course is public (see references); this project cites it by aula and date only.",
+      "sources": ["rafaelalmeida-cof", "wikipedia-en", "cof-transcriptions"]
+    },
+    {
+      "year": 2009,
+      "date": "2009",
+      "dateVerified": false,
+      "place": "USA",
+      "title": "Founds the Inter-American Institute for Philosophy, Government, and Social Thought",
+      "text": "Served as its president; English Wikipedia states the institute closed in 2018. Single tertiary source for both dates.",
+      "sources": ["wikipedia-en"]
+    },
+    {
+      "year": 2011,
+      "date": "2011-03-04",
+      "dateVerified": true,
+      "place": "Online",
+      "title": "Written debate with Aleksandr Dugin begins",
+      "text": "The Carvalho–Dugin debate on 'The USA and the New World Order' ran online from 4 March to 31 July 2011, when both published their conclusions; the host site was reportedly accessed by some 200,000 people from over thirty countries.",
+      "sources": ["academia-dugin-review", "gazetadopovo-frascolla"]
+    },
+    {
+      "year": 2012,
+      "date": "2012",
+      "dateVerified": true,
+      "place": "Campinas, SP, Brazil",
+      "title": "The Dugin debate is published as Os EUA e a Nova Ordem Mundial",
+      "text": "Portuguese edition of the debate (VIDE Editorial, trans. Giuliano Moraes); still sold by the official Seminário de Filosofia bookstore.",
+      "sources": ["academia-dugin-review", "livraria-seminario-dugin"]
+    },
+    {
+      "year": 2013,
+      "date": "2013",
+      "dateVerified": true,
+      "place": "Rio de Janeiro, Brazil",
+      "title": "Publishes O Mínimo que Você Precisa Saber para Não Ser um Idiota",
+      "text": "193 press articles from 1997–2013, organized by Felipe Moura Brasil (Record). A best-seller: English Wikipedia cites c. 320,000 copies; Poder360 reports 400,000 combined with O Imbecil Coletivo by 2019 — the figures differ.",
+      "sources": ["padrepauloricardo-minimo", "wikipedia-en", "poder360-obit"]
+    },
+    {
+      "year": 2015,
+      "date": "2015",
+      "dateVerified": false,
+      "place": "USA (online)",
+      "title": "Launches his YouTube channel",
+      "text": "Per Portuguese Wikipedia; the channel passed one million subscribers by his death. Around 2014–2015 he also began public exchanges with Jair Bolsonaro via conservative channels, per English Wikipedia.",
+      "sources": ["wikipedia-pt", "wikipedia-en"]
+    },
+    {
+      "year": 2017,
+      "date": "2017-03-23",
+      "dateVerified": true,
+      "place": "Richmond, VA, USA",
+      "title": "The documentary O Jardim das Aflições premieres",
+      "text": "Josias Teófilo's debut feature about Olavo's life and thought, named after the 1995 book, first screened at Virginia Commonwealth University with Olavo present. An October 2017 screening at UFPE was disrupted — an episode sympathetic outlets described as violent repression (attributed; that account's link is unverified). AdoroCinema catalogs the film as 2015, a discrepancy the sources leave unresolved.",
+      "sources": ["wikipedia-pt-film", "sensoincomum-ufpe"]
+    },
+    {
+      "year": 2017,
+      "date": "2017",
+      "dateVerified": false,
+      "place": "Online",
+      "title": "Mídia Sem Máscara goes offline",
+      "text": "Per Calil (2021), the site operated 2002–2017.",
+      "sources": ["calil-argumentum"]
+    },
+    {
+      "year": 2018,
+      "date": "2018-10-28",
+      "dateVerified": true,
+      "place": "Rio de Janeiro, Brazil",
+      "title": "Bolsonaro's victory-night table displays O Mínimo",
+      "text": "In his election-night livestream, Jair Bolsonaro kept on the table a Bible, the Constitution, a Churchill biography and O Mínimo que Você Precisa Saber para Não Ser um Idiota — widely read by the press as signaling Olavo's status as intellectual reference of the incoming government (that reading is the press's).",
+      "sources": ["nexo-livros", "observador-discursos"]
+    },
+    {
+      "year": 2018,
+      "date": "2018-11",
+      "dateVerified": true,
+      "place": "Brasília, Brazil",
+      "title": "Ernesto Araújo named foreign minister; the press attributes the choice to Olavo",
+      "text": "Fox News (14 November 2018) and other outlets reported Bolsonaro chose the little-known diplomat after Olavo recommended him. Attribution of ministerial picks to Olavo — Araújo at Itamaraty, Ricardo Vélez Rodríguez and later Abraham Weintraub at Education — is a press and academic characterization (Calil 2021; Gazeta do Povo calls him the ministers' 'guru'), which Olavo himself alternately embraced and dismissed.",
+      "sources": ["foxnews-araujo", "calil-argumentum", "gazetadopovo-riobranco"]
+    },
+    {
+      "year": 2019,
+      "date": "2019-01-01",
+      "dateVerified": true,
+      "place": "Brasília, Brazil",
+      "title": "The Bolsonaro government takes office with ministers labeled 'olavistas'",
+      "text": "Academics and commentators (Calil 2021; Castro Rocha 2021) describe the Education and Foreign Affairs ministries as staffed on Olavo's recommendation; the press routinely labeled him the government's 'guru' or 'ideologue' — a title he publicly rejected, and which the scholar Mark Sedgwick also considers overstated.",
+      "sources": ["calil-argumentum", "castrorocha-review", "revistarosa-olavismo", "sedgwick-blog"]
+    },
+    {
+      "year": 2019,
+      "date": "2019-04-30",
+      "dateVerified": true,
+      "place": "Brasília, Brazil",
+      "title": "Awarded the Grã-Cruz of the Ordem de Rio Branco",
+      "text": "Decree published in an extra edition of the Diário Oficial da União on 30 April 2019, giving him the order's highest rank alongside state authorities; Flávio and Eduardo Bolsonaro received the lower Grande Oficial rank in the same decree. A bill in the Chamber of Deputies later sought to annul the concession as contrary to the order's rules — the award remained contested.",
+      "sources": ["gazetadopovo-riobranco", "camara-riobranco", "pragmatismo-riobranco"]
+    },
+    {
+      "year": 2019,
+      "date": "2019",
+      "dateVerified": false,
+      "place": "Online",
+      "title": "Launch of the online newspaper Brasil Sem Medo",
+      "text": "Poder360's obituary records the 2019 launch, with Olavo as its figurehead.",
+      "sources": ["poder360-obit"]
+    },
+    {
+      "year": 2020,
+      "date": "2020-11-11",
+      "dateVerified": true,
+      "place": "Brazil",
+      "title": "Court upholds R$ 2.9 million owed to Caetano Veloso",
+      "text": "Consultor Jurídico reported that his appeal failed against accumulated daily fines plus R$ 65,000 in moral damages, for refusing to delete 2017 social-media posts about the musician Caetano Veloso that the courts had found defamatory. In 2024 CartaCapital reported his heirs were notified of the debt.",
+      "sources": ["conjur-caetano", "cartacapital-herdeiras"]
+    },
+    {
+      "year": 2021,
+      "date": "2021-07-15",
+      "dateVerified": true,
+      "place": "Brazil",
+      "title": "Returns to Brazil for medical treatment",
+      "text": "Poder360's obituary timeline records hospitalizations for pneumonia (February 2021) and respiratory problems (April 2021), travel to Brazil for treatment in July with bladder surgery on 15 July, and readmission for a urinary infection in August.",
+      "sources": ["poder360-obit"]
+    },
+    {
+      "year": 2021,
+      "date": "2021-11-17",
+      "dateVerified": true,
+      "place": "Virginia, USA",
+      "title": "Returns to the United States after treatment in Brazil",
+      "text": "Per Poder360's obituary timeline.",
+      "sources": ["poder360-obit"]
+    },
+    {
+      "year": 2022,
+      "date": "2022-01-15",
+      "dateVerified": true,
+      "place": "Virginia, USA",
+      "title": "COVID-19 diagnosis announced; course classes suspended",
+      "text": "A message on his Telegram channel dated 15 January 2022 announced the diagnosis and the cancellation of his course classes. Some international outlets date the announcement to 16 January — a minor discrepancy the sources leave open.",
+      "sources": ["revistaoeste-medico", "noticiasaominuto-filha", "gazetadopovo-obit"]
+    },
+    {
+      "year": 2022,
+      "date": "2022-01-24",
+      "dateVerified": true,
+      "place": "Richmond area, Virginia, USA",
+      "title": "Dies in hospital, aged 74",
+      "text": "The family's statement, posted to his social accounts in the early hours of 25 January, said he died 'na noite de 24 de janeiro' and gave no cause. The cause was publicly disputed: his daughter Heloísa said he 'died of Covid'; his personal physician, Ahmed Youssif El Tassa, stated the death resulted from respiratory failure due to emphysema with heart failure and bacterial pneumonia and was 'not related to COVID'; critical outlets noted the COVID diagnosis announced days earlier and his public minimization of the pandemic. Each position is its author's.",
+      "sources": ["agenciabrasil-obit", "poder360-obit", "metropoles-obit", "correiobraziliense-obit", "nyt-obit", "brasildefato-obit", "aventurasnahistoria-filha", "revistaoeste-medico"]
+    },
+    {
+      "year": 2022,
+      "date": "2022-01-25",
+      "dateVerified": true,
+      "place": "Brasília, Brazil",
+      "title": "Bolsonaro decrees one day of official national mourning",
+      "text": "The decree of 25 January 2022 declared official mourning throughout Brazil 'as a sign of grief for the death of Professor Olavo Luiz Pimentel de Carvalho'; Bolsonaro called him 'one of the greatest thinkers in the history of our country'. It was only the second mourning decree of his term.",
+      "sources": ["cnnbrasil-luto", "exame-luto", "poder360-luto"]
+    },
+    {
+      "year": 2022,
+      "date": "2022",
+      "dateVerified": false,
+      "place": "Petersburg, VA, USA",
+      "title": "Burial at St. Joseph's Cemetery, Petersburg, Virginia",
+      "text": "Per the Find a Grave memorial and English Wikipedia; the exact burial date was not verified from a primary report.",
+      "sources": ["findagrave-memorial", "wikipedia-en"]
+    },
+    {
+      "year": 2024,
+      "date": "2024",
+      "dateVerified": false,
+      "place": "Brazil",
+      "title": "Heirs notified over the Caetano Veloso judgment debt",
+      "text": "CartaCapital reported that the courts notified his heirs of the R$ 2.9 million owed to Caetano Veloso. The article was verified only via a Wayback snapshot (December 2024); its exact date is unconfirmed.",
+      "sources": ["cartacapital-herdeiras"]
+    }
+  ],
+  "figures": [
+    {
+      "name": "Roxane Andrade de Souza",
+      "role": "Widow",
+      "country": "USA",
+      "sources": ["agenciabrasil-obit", "wikipedia-en"]
+    },
+    {
+      "name": "Heloísa de Carvalho",
+      "role": "Eldest daughter, publicly estranged; stated after his death that her father 'died of Covid'",
+      "country": "Brazil",
+      "sources": ["noticiasaominuto-filha", "aventurasnahistoria-filha"]
+    },
+    {
+      "name": "Jair Bolsonaro",
+      "role": "President of Brazil 2019–2022; decreed national mourning at Olavo's death. The press called Olavo his 'guru' — a label Olavo rejected; Metrópoles reported (attributed) that he 'died resentful' of the Bolsonaro family after their public estrangement from 2020–2021",
+      "dates": "b. 1955",
+      "country": "Brazil",
+      "sources": ["cnnbrasil-luto", "metropoles-obit", "nyt-obit"]
+    },
+    {
+      "name": "Flávio and Eduardo Bolsonaro",
+      "role": "Presidential sons and public admirers; Calil dates the family's approach to Olavo to c. 2012–2013. Both received the Ordem de Rio Branco (Grande Oficial) in the same 2019 decree that gave Olavo the Grã-Cruz",
+      "country": "Brazil",
+      "sources": ["calil-argumentum", "gazetadopovo-riobranco"]
+    },
+    {
+      "name": "Ernesto Araújo",
+      "role": "Foreign minister 2019–2021; his appointment was widely attributed to Olavo's recommendation (Fox News, November 2018)",
+      "country": "Brazil",
+      "sources": ["foxnews-araujo"]
+    },
+    {
+      "name": "Ricardo Vélez Rodríguez",
+      "role": "Education minister January–April 2019; appointment attributed by press and academics to Olavo's recommendation",
+      "country": "Brazil",
+      "sources": ["calil-argumentum"]
+    },
+    {
+      "name": "Abraham Weintraub",
+      "role": "Education minister 2019–2020; commonly described as an Olavo-endorsed pick (Gazeta do Povo calls Olavo the 'guru' of ministers Araújo and Weintraub)",
+      "country": "Brazil",
+      "sources": ["gazetadopovo-riobranco"]
+    },
+    {
+      "name": "Aleksandr Dugin",
+      "role": "Russian ideologue; opponent in the 2011 written debate published as Os EUA e a Nova Ordem Mundial (2012)",
+      "dates": "b. 1962",
+      "country": "Russia",
+      "sources": ["academia-dugin-review", "gazetadopovo-frascolla"]
+    },
+    {
+      "name": "Frithjof Schuon",
+      "role": "Perennialist master; per Mark Sedgwick, Olavo was briefly his khalifa in Brazil in the 1980s before breaking with him and becoming a fierce critic of perennialism",
+      "dates": "1907–1998",
+      "country": "Switzerland/USA",
+      "sources": ["sedgwick-blog"]
+    },
+    {
+      "name": "Josias Teófilo",
+      "role": "Director of the documentary O Jardim das Aflições (2017), his debut feature",
+      "country": "Brazil",
+      "sources": ["wikipedia-pt-film"]
+    },
+    {
+      "name": "Juan Alfredo César Muller",
+      "role": "Argentine psychologist and astrologer; named as Olavo's astrology teacher (single tertiary source)",
+      "country": "Argentina",
+      "sources": ["wikipedia-en"]
+    },
+    {
+      "name": "Stanislavs Ladusans",
+      "role": "Jesuit philosopher; Olavo studied at his Conpefil center (PUC-Rio) c. 1990–1993 and left without completing a degree after Ladusans's death",
+      "dates": "1912–1993",
+      "country": "Latvia/Brazil",
+      "sources": ["wikipedia-pt"]
+    },
+    {
+      "name": "Ahmed Youssif El Tassa",
+      "role": "Personal physician; publicly stated the death was from respiratory failure due to emphysema and associated conditions, 'not related to COVID'",
+      "country": "Brazil",
+      "sources": ["revistaoeste-medico"]
+    },
+    {
+      "name": "Felipe Moura Brasil",
+      "role": "Journalist; selected and organized the 193 articles of O Mínimo (2013)",
+      "country": "Brazil",
+      "sources": ["padrepauloricardo-minimo", "wikipedia-en"]
+    },
+    {
+      "name": "Caetano Veloso",
+      "role": "Musician; won cumulative fines and damages (R$ 2.9 million upheld in 2020) over 2017 posts the courts found defamatory",
+      "dates": "b. 1942",
+      "country": "Brazil",
+      "sources": ["conjur-caetano"]
+    },
+    {
+      "name": "Mark Sedgwick",
+      "role": "Historian of Traditionalism (Aarhus University); documents Olavo's Maryamiyya period and coined the 'post-Traditionalist' characterization",
+      "country": "Denmark",
+      "sources": ["sedgwick-blog"]
+    },
+    {
+      "name": "Gilberto Calil",
+      "role": "Historian (Unioeste); author of the key critical academic study of Olavo's trajectory (Argumentum, 2021) — critical perspective, labeled as such",
+      "country": "Brazil",
+      "sources": ["calil-argumentum"]
+    },
+    {
+      "name": "João Cezar de Castro Rocha",
+      "role": "Literary scholar (UERJ); analyzes Olavo's rhetoric as central to Bolsonarism in Guerra cultural e retórica do ódio (2021) — critical perspective, labeled as such",
+      "country": "Brazil",
+      "sources": ["castrorocha-review"]
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Curso Online de Filosofia (COF) / Seminário de Filosofia",
+      "founded": "2009",
+      "place": "Online (from Virginia, USA)",
+      "relation": "His weekly online philosophy course (585 lectures, 2009–2022) and the platform that continues his courses. The community transcription corpus of the lectures is public and is cited here by aula and date only; the founding date of the earlier in-person Seminário de Filosofia course is not verified",
+      "sources": ["rafaelalmeida-cof", "cof-transcriptions", "wikipedia-en"]
+    },
+    {
+      "name": "Mídia Sem Máscara",
+      "founded": "2002",
+      "place": "Brazil (online)",
+      "relation": "Founder; his main ideological web platform until it went offline c. 2017 (Calil 2021)",
+      "sources": ["calil-argumentum", "wikipedia-en"]
+    },
+    {
+      "name": "Inter-American Institute for Philosophy, Government, and Social Thought",
+      "founded": "2009",
+      "place": "USA",
+      "relation": "Founder and president; closed 2018 per English Wikipedia (single tertiary source for both dates)",
+      "sources": ["wikipedia-en"]
+    },
+    {
+      "name": "Escola Júpiter de Astrologia",
+      "founded": "1979",
+      "place": "São Paulo, Brazil",
+      "relation": "Co-founder, in his professional-astrologer phase; about 140 students by 1980 per Calil",
+      "sources": ["calil-argumentum", "wikipedia-pt"]
+    },
+    {
+      "name": "Maryamiyya (tariqa of Frithjof Schuon)",
+      "place": "Brazil",
+      "relation": "Member and briefly Schuon's khalifa in Brazil in the 1980s, per Sedgwick; Calil records a 1984 conversion and a short-lived tariqa of his own. All details are these scholars' accounts",
+      "sources": ["sedgwick-blog", "calil-argumentum"]
+    },
+    {
+      "name": "Brazilian press (Folha de S.Paulo, O Globo, Jornal da Tarde, Jornal do Brasil, Zero Hora, Época, Bravo!, Primeira Leitura, Diário do Comércio)",
+      "place": "Brazil",
+      "relation": "Papers and magazines he wrote for from the 1970s to the 2010s; obituaries list the outlets, but the precise period at each is poorly documented and the Diário do Comércio column's end date is disputed between sources",
+      "sources": ["agenciabrasil-obit", "gazetadopovo-obit", "wikipedia-pt"]
+    },
+    {
+      "name": "Gazeta do Povo and Revista Oeste",
+      "place": "Brazil",
+      "relation": "Sympathetic outlets he wrote columns for late in life; both identified themselves as publishers of his columns in their obituaries",
+      "sources": ["gazetadopovo-obit", "revistaoeste-medico"]
+    },
+    {
+      "name": "Brasil Sem Medo",
+      "founded": "2019",
+      "place": "Online",
+      "relation": "Online newspaper launched 2019 with Olavo as figurehead, per Poder360",
+      "sources": ["poder360-obit"]
+    },
+    {
+      "name": "VIDE Editorial",
+      "place": "Campinas, SP, Brazil",
+      "relation": "Publisher of the Dugin debate book (Os EUA e a Nova Ordem Mundial, 2012) and of reissues of his works",
+      "sources": ["academia-dugin-review", "livraria-seminario-dugin"]
+    },
+    {
+      "name": "Editora Record",
+      "place": "Rio de Janeiro, Brazil",
+      "relation": "Publisher of O Mínimo que Você Precisa Saber para Não Ser um Idiota (2013)",
+      "sources": ["padrepauloricardo-minimo", "wikipedia-en"]
+    },
+    {
+      "name": "Partido Comunista Brasileiro (PCB)",
+      "place": "Brazil",
+      "relation": "Brief youthful affiliation, c. 1966–1968, per Portuguese Wikipedia and Calil",
+      "sources": ["wikipedia-pt", "calil-argumentum"]
+    }
+  ],
+  "disambiguation": {
+    "note": "Almost everything about this subject is contested terrain — his title, his influence, his death, and his own retellings of his trajectory. This section records the distinctions the sources themselves make.",
+    "items": [
+      {
+        "title": "olavodecarvalho.org is no longer his site",
+        "text": "As of August 2026 the live domain returns a page of unrelated e-commerce spam (apparently lapsed and squatted). His actual site must be cited via Internet Archive snapshots (e.g. the 15 December 2021 capture). Do not link the live domain as an official site.",
+        "sources": ["olavodecarvalho-org-wayback"]
+      },
+      {
+        "title": "'Philosopher' is a claimed and contested title",
+        "text": "He styled himself a philosopher and taught philosophy for decades, but held no degree in the field (he left PUC-Rio's Conpefil without completing studies); mainstream obituaries write 'self-described philosopher', his students insist on the title without qualification. This site records who calls him what.",
+        "sources": ["wikipedia-pt", "metropoles-obit"]
+      },
+      {
+        "title": "Two works named O Jardim das Aflições",
+        "text": "The 1995 book (Diadorim) and the 2017 documentary about him (dir. Josias Teófilo) share the name; AdoroCinema additionally mislabels the film as 2015.",
+        "sources": ["wikipedia-pt-film"]
+      },
+      {
+        "title": "Not the other Carvalhos",
+        "text": "Not the historian José Murilo de Carvalho (d. 2023), the poet Ronald de Carvalho, or the politician Salatiel Carvalho — search results routinely conflate them.",
+        "sources": ["wikipedia-en"]
+      },
+      {
+        "title": "'Guru of Bolsonaro' is an attributed label",
+        "text": "The international press (NYT: 'Bolsonaro's Far-Right Guru') and much of the Brazilian press used the label; Olavo publicly rejected it, and the scholar Mark Sedgwick considers it overstated. It appears on this site only as someone's characterization, never in the site's own voice.",
+        "sources": ["nyt-obit", "sedgwick-blog"]
+      },
+      {
+        "title": "The COF corpus is cited, not reproduced",
+        "text": "The Curso Online de Filosofia's community transcriptions (585 lectures) are public and of varying review quality, and the lecture header dates carry known defects. This project cites lectures by aula number and date only; the reception index in data/cof-reception.json records which lectures engage which philosopher.",
+        "sources": ["cof-transcriptions", "cof-audio"]
+      }
+    ]
+  },
+  "references": [
+    {
+      "id": "agenciabrasil-obit",
+      "title": "Olavo de Carvalho morre, aos 74 anos, nos Estados Unidos",
+      "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2022-01/olavo-de-carvalho-morre-aos-74-anos-nos-estados-unidos",
+      "publisher": "Agência Brasil (EBC — state news agency)",
+      "type": "news"
+    },
+    {
+      "id": "poder360-obit",
+      "title": "Olavo de Carvalho morre aos 74 anos",
+      "url": "https://www.poder360.com.br/brasil/olavo-de-carvalho-morre-aos-74-anos/",
+      "publisher": "Poder360",
+      "type": "news"
+    },
+    {
+      "id": "poder360-luto",
+      "title": "Bolsonaro decreta luto oficial por morte de Olavo de Carvalho",
+      "url": "https://www.poder360.com.br/governo/bolsonaro-decreta-luto-no-brasil-por-morte-de-olavo-de-carvalho/",
+      "publisher": "Poder360 (URL found via search, not individually re-verified)",
+      "type": "news"
+    },
+    {
+      "id": "metropoles-obit",
+      "title": "Olavo de Carvalho, guru do bolsonarismo, morre aos 74 anos",
+      "url": "https://www.metropoles.com/brasil/olavo-de-carvalho-guru-do-bolsonarismo-morre-aos-74-anos",
+      "publisher": "Metrópoles",
+      "type": "news"
+    },
+    {
+      "id": "correiobraziliense-obit",
+      "title": "Morre Olavo de Carvalho, aos 74 anos, nos Estados Unidos",
+      "url": "https://www.correiobraziliense.com.br/brasil/2022/01/4980029-morre-olavo-de-carvalho-aos-74-anos-nos-estados-unidos.html",
+      "publisher": "Correio Braziliense",
+      "type": "news"
+    },
+    {
+      "id": "cnnbrasil-luto",
+      "title": "Presidente Bolsonaro declara luto oficial após morte de Olavo de Carvalho",
+      "url": "https://www.cnnbrasil.com.br/nacional/presidente-bolsonaro-declara-luto-oficial-apos-morte-de-olavo-de-carvalho/",
+      "publisher": "CNN Brasil",
+      "type": "news"
+    },
+    {
+      "id": "exame-luto",
+      "title": "Bolsonaro decreta luto de um dia por morte de Olavo de Carvalho",
+      "url": "https://exame.com/brasil/bolsonaro-decreta-luto-de-um-dia-por-morte-de-olavo-de-carvalho/",
+      "publisher": "Exame",
+      "type": "news"
+    },
+    {
+      "id": "nyt-obit",
+      "title": "Olavo de Carvalho, Bolsonaro's Far-Right Guru, Dies at 74",
+      "url": "https://www.nytimes.com/2022/01/26/world/americas/olavo-de-carvalho-dead.html",
+      "publisher": "The New York Times (international press; live URL bot-blocked to our checker — verified via Wayback availability)",
+      "type": "news"
+    },
+    {
+      "id": "gazetadopovo-obit",
+      "title": "Olavo de Carvalho morre aos 74 anos nos Estados Unidos",
+      "url": "https://www.gazetadopovo.com.br/ideias/olavo-de-carvalho-morre-aos-74-anos-nos-estados-unidos/",
+      "publisher": "Gazeta do Povo (conservative outlet he wrote for — sympathetic)",
+      "type": "news"
+    },
+    {
+      "id": "gazetadopovo-riobranco",
+      "title": "Bolsonaro concede Ordem de Rio Branco ao escritor Olavo de Carvalho",
+      "url": "https://www.gazetadopovo.com.br/republica/bolsonaro-concede-ordem-de-rio-branco-a-olavo-de-carvalho-e-dois-dos-filhos/",
+      "publisher": "Gazeta do Povo (sympathetic)",
+      "type": "news"
+    },
+    {
+      "id": "gazetadopovo-frascolla",
+      "title": "O debate Olavo–Dugin dez anos depois (Bruna Frascolla)",
+      "url": "https://www.gazetadopovo.com.br/vozes/bruna-frascolla/o-debate-olavo-dugin-dez-anos-depois/",
+      "publisher": "Gazeta do Povo (opinion column — sympathetic)",
+      "type": "news"
+    },
+    {
+      "id": "revistaoeste-medico",
+      "title": "Olavo de Carvalho não morreu de covid-19, afirma médico particular do escritor",
+      "url": "https://revistaoeste.com/brasil/olavo-de-carvalho-nao-morreu-de-covid-19-afirma-medico-particular-do-escritor/",
+      "publisher": "Revista Oeste (outlet he wrote for — sympathetic; carries the physician's statement)",
+      "type": "news"
+    },
+    {
+      "id": "padrepauloricardo-minimo",
+      "title": "O Mínimo que Você Precisa Saber para Não Ser um Idiota (book presentation)",
+      "url": "https://padrepauloricardo.org/episodios/o-minimo-que-voce-precisa-saber-para-nao-ser-um-idiota",
+      "publisher": "padrepauloricardo.org (Catholic conservative site — sympathetic)",
+      "type": "web"
+    },
+    {
+      "id": "sensoincomum-ufpe",
+      "title": "Exibição de 'O Jardim das Aflições' é violentamente reprimida na UFPE",
+      "url": "https://sensoincomum.org/2017/10/27/filme-jardim-aflicoes-olavo-carvalho-ufpe/",
+      "publisher": "Senso Incomum (olavista blog — sympathetic; link unverified, account attributed)",
+      "type": "web"
+    },
+    {
+      "id": "brasildefato-obit",
+      "title": "Morre Olavo de Carvalho: astrólogo estava com covid; causa da morte não foi divulgada",
+      "url": "https://www.brasildefato.com.br/2022/01/25/morre-olavo-de-carvalho-astrologo-estava-com-covid-causa-da-morte-nao-foi-divulgada/",
+      "publisher": "Brasil de Fato (left-wing outlet — critical perspective)",
+      "type": "news"
+    },
+    {
+      "id": "pragmatismo-riobranco",
+      "title": "Bolsonaro condecora Olavo com a Grã-Cruz da Ordem de Rio Branco",
+      "url": "https://www.pragmatismopolitico.com.br/2019/05/bolsonaro-condecora-olavo-ordem-de-rio-branco.html",
+      "publisher": "Pragmatismo Político (left-wing site — critical perspective)",
+      "type": "news"
+    },
+    {
+      "id": "cartacapital-herdeiras",
+      "title": "Justiça notifica herdeiras de Olavo por dívida de R$ 2,9 milhões a Caetano Veloso",
+      "url": "https://www.cartacapital.com.br/justica/justica-notifica-herdeiras-de-olavo-por-divida-de-29-milhoes-a-caetano-veloso/",
+      "publisher": "CartaCapital (left-leaning magazine — critical perspective; live URL bot-blocked, verified via Wayback availability)",
+      "type": "news"
+    },
+    {
+      "id": "conjur-caetano",
+      "title": "Negado recurso para sustar R$ 2,9 mi que Olavo deve pagar a Caetano",
+      "url": "https://www.conjur.com.br/2020-nov-11/negado-recurso-sustar-29-mi-olavo-pagar-caetano/",
+      "publisher": "Consultor Jurídico (legal press)",
+      "type": "news"
+    },
+    {
+      "id": "camara-riobranco",
+      "title": "Projeto anula decreto que concedeu Ordem de Rio Branco a Olavo de Carvalho",
+      "url": "https://www.camara.leg.br/noticias/669762-projeto-anula-decreto-que-concedeu-ordem-de-rio-branco-a-olavo-de-carvalho",
+      "publisher": "Câmara dos Deputados (official legislative news portal)",
+      "type": "official"
+    },
+    {
+      "id": "foxnews-araujo",
+      "title": "Pro-Trump diplomat to become Brazil's foreign minister",
+      "url": "https://www.foxnews.com/world/pro-trump-diplomat-to-become-brazils-foreign-minister",
+      "publisher": "Fox News (US conservative press)",
+      "type": "news"
+    },
+    {
+      "id": "nexo-livros",
+      "title": "Como Bolsonaro usa livros para reforçar seu discurso",
+      "url": "https://nexojornal.com.br/expresso/2018/11/09/Como-Bolsonaro-usa-livros-para-refor%C3%A7ar-seu-discurso",
+      "publisher": "Nexo Jornal",
+      "type": "news"
+    },
+    {
+      "id": "observador-discursos",
+      "title": "Deus, Constituição e flirts. Os discursos de Bolsonaro nas entrelinhas",
+      "url": "https://observador.pt/especiais/deus-constituicao-e-flirts-os-discursos-de-bolsonaro-nas-entrelinhas/",
+      "publisher": "Observador (Portugal)",
+      "type": "news"
+    },
+    {
+      "id": "noticiasaominuto-filha",
+      "title": "Olavo de Carvalho morreu de Covid, diz filha do guru do bolsonarismo",
+      "url": "https://www.noticiasaominuto.com.br/politica/1879160/3-olavo-de-carvalho-morreu-de-covid-diz-filha-do-guru-do-bolsonarismo",
+      "publisher": "Notícias ao Minuto Brasil (carries the daughter's statement)",
+      "type": "news"
+    },
+    {
+      "id": "aventurasnahistoria-filha",
+      "title": "Olavo de Carvalho morreu de Covid-19, diz filha",
+      "url": "https://aventurasnahistoria.com.br/noticias/historia-hoje/olavo-de-carvalho-morreu-de-covid-19-diz-filha.phtml",
+      "publisher": "Aventuras na História (UOL)",
+      "type": "news"
+    },
+    {
+      "id": "calil-argumentum",
+      "title": "Olavo de Carvalho e a ascensão da extrema-direita (Gilberto Calil), Argumentum v. 13 n. 2, pp. 64–81",
+      "url": "https://www.redalyc.org/journal/4755/475571195007/",
+      "publisher": "Argumentum (UFES), via Redalyc (peer-reviewed — academic, critical perspective)",
+      "type": "academic"
+    },
+    {
+      "id": "sedgwick-blog",
+      "title": "Brazil's most prominent post-Traditionalist dies (Mark Sedgwick)",
+      "url": "https://traditionalistblog.blogspot.com/2022/01/Olavodeath.html",
+      "publisher": "Traditionalists blog (specialist scholar of Traditionalism; blog, not peer-reviewed)",
+      "type": "academic"
+    },
+    {
+      "id": "castrorocha-review",
+      "title": "Review of João Cezar de Castro Rocha, Guerra cultural e retórica do ódio (Caminhos, 2021)",
+      "url": "https://periodicos.ufrn.br/interlegere/article/download/25175/14977/89867",
+      "publisher": "Interlegere (UFRN journal — academic, critical perspective)",
+      "type": "academic"
+    },
+    {
+      "id": "revistarosa-olavismo",
+      "title": "Olavismo e bolsonarismo",
+      "url": "https://revistarosa.com/1/olavismo-e-bolsonarismo",
+      "publisher": "Revista Rosa n. 1 (essay journal — academic, critical perspective)",
+      "type": "academic"
+    },
+    {
+      "id": "academia-dugin-review",
+      "title": "Review: CARVALHO, Olavo de; DUGIN, Alexandre. Os EUA e a Nova Ordem Mundial (VIDE Editorial, 2012)",
+      "url": "https://www.academia.edu/97714282/CARVALHO_Olavo_de_DUGIN_Alexandre_Os_EUA_e_a_Nova_Ordem_Mundial_Tradu%C3%A7%C3%A3o_de_Giuliano_Moraes_Campinas_SP_VIDE_Editorial_2012",
+      "publisher": "Academia.edu (journal review PDF — link bot-walled in our check; bibliographic details corroborated elsewhere)",
+      "type": "academic"
+    },
+    {
+      "id": "olavodecarvalho-org-wayback",
+      "title": "Olavo de Carvalho — official website (archived 15 December 2021)",
+      "url": "http://web.archive.org/web/20211215180559/https://olavodecarvalho.org/",
+      "publisher": "olavodecarvalho.org via Internet Archive (official — his own site; the live domain is now squatted)",
+      "type": "archive"
+    },
+    {
+      "id": "livraria-seminario-dugin",
+      "title": "Os EUA e a Nova Ordem Mundial — product page",
+      "url": "https://livraria.seminariodefilosofia.org/os-eua-e-a-nom",
+      "publisher": "Livraria Seminário de Filosofia (his course's official bookstore)",
+      "type": "official"
+    },
+    {
+      "id": "rafaelalmeida-cof",
+      "title": "Índice de aulas do Curso Online de Filosofia (COF)",
+      "url": "https://www.rafaelalmeida.com/cof.html",
+      "publisher": "rafaelalmeida.com (student archive — sympathetic)",
+      "type": "index"
+    },
+    {
+      "id": "cof-transcriptions",
+      "title": "COF — community transcriptions of the Curso Online de Filosofia (585 lectures)",
+      "url": "https://github.com/alissonryan/cof-olavo",
+      "publisher": "Community transcription repository (upstream declares CC0 for the transcription work; the lectures remain the estate's)",
+      "type": "corpus"
+    },
+    {
+      "id": "cof-audio",
+      "title": "COF em Áudio — lecture audio collection",
+      "url": "https://archive.org/details/COFemAudio",
+      "publisher": "Internet Archive (community upload)",
+      "type": "corpus"
+    },
+    {
+      "id": "findagrave-memorial",
+      "title": "Olavo Luiz Pimentel de Carvalho (1947–2022) — Find a Grave Memorial 236247781",
+      "url": "https://www.findagrave.com/memorial/236247781/olavo_luiz_pimentel_de-carvalho",
+      "publisher": "Find a Grave (genealogical database; live URL bot-blocked, verified via Wayback availability)",
+      "type": "database"
+    },
+    {
+      "id": "wikipedia-en",
+      "title": "Olavo de Carvalho",
+      "url": "https://en.wikipedia.org/wiki/Olavo_de_Carvalho",
+      "publisher": "English Wikipedia (tertiary — orientation only; prefer its underlying sources)",
+      "type": "encyclopedia"
+    },
+    {
+      "id": "wikipedia-pt",
+      "title": "Olavo de Carvalho",
+      "url": "https://pt.wikipedia.org/wiki/Olavo_de_Carvalho",
+      "publisher": "Portuguese Wikipedia (tertiary — orientation only; detailed bibliography)",
+      "type": "encyclopedia"
+    },
+    {
+      "id": "wikipedia-pt-film",
+      "title": "O Jardim das Aflições (filme)",
+      "url": "https://pt.wikipedia.org/wiki/O_Jardim_das_Afli%C3%A7%C3%B5es_(filme)",
+      "publisher": "Portuguese Wikipedia (tertiary)",
+      "type": "encyclopedia"
+    }
+  ]
+}

@@ -1,0 +1,2662 @@
+{
+  "_meta": {
+    "what": "Reception index: which COF aulas engage which philosopher, with dates. Computed from the PUBLIC community transcription corpus of the Curso Online de Filosofia (585 lectures, 2009-2022); see the cof-transcriptions reference in data/chronology.json.",
+    "method": "accent-insensitive word-boundary counts over cof transcriptions; dates joined from cof/index.json; generated 2026-08-02",
+    "generated": "2026-08-02",
+    "traps": "Two measurement traps demonstrated on this corpus: (1) accented characters are two bytes in UTF-8 - single-char wildcards silently zero accented names; (2) substring matching inflates - case-insensitive 'Dante' matches comandante/mandante/abundante (407 files vs the true word-boundary 83). All counts here are accent-insensitive AND word-boundary.",
+    "dateCaveat": "Dates join from the corpus header dating; ~332 of 589 files carry no verified date. Null date = undated file, not an undated lecture.",
+    "engagedThreshold": "engagedAulas counts files with >= 5 hits"
+  },
+  "philosophers": {
+    "aristoteles": {
+      "canonical": "Aristóteles",
+      "variants": [
+        "Aristoteles",
+        "Aristotle"
+      ],
+      "filesWithHits": 422,
+      "totalHits": 2987,
+      "topAulas": [
+        {
+          "aula": 37,
+          "id": "COF037",
+          "hits": 73,
+          "date": "2009-12-19",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 13,
+          "id": "COF013",
+          "hits": 71,
+          "date": "2009-07-04",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 18,
+          "id": "COF018",
+          "hits": 68,
+          "date": "2009-08-18",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 167,
+          "id": "COF167",
+          "hits": 68,
+          "date": "2012-08-11",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 32,
+          "id": "COF032",
+          "hits": 59,
+          "date": "2009-11-14",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 325,
+          "id": "COF325",
+          "hits": 54,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 25,
+          "id": "COF025",
+          "hits": 43,
+          "date": "2009-09-26",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 27,
+          "id": "COF027",
+          "hits": 43,
+          "date": "2010-10-10",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 48,
+          "id": "COF048",
+          "hits": 41,
+          "date": "2010-03-06",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 11,
+          "id": "COF011",
+          "hits": 35,
+          "date": "2009-06-20",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 326,
+          "id": "COF326",
+          "hits": 30,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 310,
+          "id": "COF310",
+          "hits": 29,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 14,
+          "id": "COF014",
+          "hits": 28,
+          "date": "2009-07-11",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 43,
+          "id": "COF043",
+          "hits": 28,
+          "date": "2010-01-30",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 218,
+          "id": "COF218",
+          "hits": 28,
+          "date": "2013-08-31",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        }
+      ],
+      "engagedAulas": 189
+    },
+    "platao": {
+      "canonical": "Platão",
+      "variants": [
+        "Platao",
+        "Platon",
+        "Plato"
+      ],
+      "filesWithHits": 315,
+      "totalHits": 1659,
+      "topAulas": [
+        {
+          "aula": 324,
+          "id": "COF324",
+          "hits": 46,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 144,
+          "id": "COF144",
+          "hits": 33,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 146,
+          "id": "COF146",
+          "hits": 31,
+          "date": "2012-03-17",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 72,
+          "id": "COF072",
+          "hits": 28,
+          "date": "2010-08-29",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 103,
+          "id": "COF103",
+          "hits": 28,
+          "date": "2011-04-23",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 211,
+          "id": "COF211",
+          "hits": 26,
+          "date": "2013-07-13",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 325,
+          "id": "COF325",
+          "hits": 24,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 97,
+          "id": "COF097",
+          "hits": 23,
+          "date": "2011-03-12",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 151,
+          "id": "COF151",
+          "hits": 22,
+          "date": "2012-04-21",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": null,
+          "id": "#PreCOF002",
+          "hits": 20,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 74,
+          "id": "COF074",
+          "hits": 20,
+          "date": "2010-09-11",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 243,
+          "id": "COF243",
+          "hits": 20,
+          "date": "2014-03-22",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 2,
+          "id": "COF002",
+          "hits": 19,
+          "date": "2009-03-21",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 43,
+          "id": "COF043",
+          "hits": 19,
+          "date": "2010-01-30",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 58,
+          "id": "COF058",
+          "hits": 19,
+          "date": "2010-05-15",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        }
+      ],
+      "engagedAulas": 114
+    },
+    "socrates": {
+      "canonical": "Sócrates",
+      "variants": [
+        "Socrates"
+      ],
+      "filesWithHits": 182,
+      "totalHits": 1005,
+      "topAulas": [
+        {
+          "aula": 103,
+          "id": "COF103",
+          "hits": 48,
+          "date": "2011-04-23",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 142,
+          "id": "COF142",
+          "hits": 39,
+          "date": "2012-02-19",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 1,
+          "id": "COF001",
+          "hits": 35,
+          "date": "2009-03-14",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 149,
+          "id": "COF149",
+          "hits": 35,
+          "date": "2011-04-07",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 146,
+          "id": "COF146",
+          "hits": 27,
+          "date": "2012-03-17",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 72,
+          "id": "COF072",
+          "hits": 26,
+          "date": "2010-08-29",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 161,
+          "id": "COF161",
+          "hits": 25,
+          "date": "2012-06-30",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 117,
+          "id": "COF117",
+          "hits": 24,
+          "date": "2011-08-06",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 104,
+          "id": "COF104",
+          "hits": 23,
+          "date": "2011-04-30",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 243,
+          "id": "COF243",
+          "hits": 21,
+          "date": "2014-03-22",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 324,
+          "id": "COF324",
+          "hits": 21,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 148,
+          "id": "COF148",
+          "hits": 20,
+          "date": "2012-03-31",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 99,
+          "id": "COF099",
+          "hits": 18,
+          "date": "2011-03-26",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 113,
+          "id": "COF113",
+          "hits": 18,
+          "date": "2011-07-09",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 118,
+          "id": "COF118",
+          "hits": 18,
+          "date": "2011-08-13",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        }
+      ],
+      "engagedAulas": 57
+    },
+    "marx": {
+      "canonical": "Marx",
+      "variants": [
+        "Marx"
+      ],
+      "filesWithHits": 322,
+      "totalHits": 1545,
+      "topAulas": [
+        {
+          "aula": 40,
+          "id": "COF040",
+          "hits": 65,
+          "date": "2010-01-09",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 548,
+          "id": "COF548",
+          "hits": 61,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 395,
+          "id": "COF395",
+          "hits": 45,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 171,
+          "id": "COF171",
+          "hits": 32,
+          "date": "2012-09-08",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 428,
+          "id": "COF428",
+          "hits": 32,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 547,
+          "id": "COF547",
+          "hits": 31,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 80,
+          "id": "COF080",
+          "hits": 28,
+          "date": "2010-10-23",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 502,
+          "id": "COF502",
+          "hits": 27,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 443,
+          "id": "COF443",
+          "hits": 24,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 546,
+          "id": "COF546",
+          "hits": 22,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 450,
+          "id": "COF450",
+          "hits": 21,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 524,
+          "id": "COF524",
+          "hits": 21,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 276,
+          "id": "COF276",
+          "hits": 20,
+          "date": "2014-12-27",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 333,
+          "id": "COF333",
+          "hits": 19,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 577,
+          "id": "COF577",
+          "hits": 19,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        }
+      ],
+      "engagedAulas": 105
+    },
+    "dante": {
+      "canonical": "Dante",
+      "variants": [
+        "Dante"
+      ],
+      "filesWithHits": 83,
+      "totalHits": 155,
+      "topAulas": [
+        {
+          "aula": 160,
+          "id": "COF160",
+          "hits": 12,
+          "date": "2012-06-23",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 41,
+          "id": "COF041",
+          "hits": 8,
+          "date": "2010-01-16",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 148,
+          "id": "COF148",
+          "hits": 6,
+          "date": "2012-03-31",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 286,
+          "id": "COF286",
+          "hits": 6,
+          "date": "2015-03-28",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 297,
+          "id": "COF297",
+          "hits": 5,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 303,
+          "id": "COF303",
+          "hits": 5,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 311,
+          "id": "COF311",
+          "hits": 4,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 377,
+          "id": "COF377",
+          "hits": 4,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 11,
+          "id": "COF011",
+          "hits": 3,
+          "date": "2009-06-20",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 20,
+          "id": "COF020",
+          "hits": 3,
+          "date": "2009-08-22",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 30,
+          "id": "COF030",
+          "hits": 3,
+          "date": "2009-10-31",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 38,
+          "id": "COF038",
+          "hits": 3,
+          "date": "2009-12-26",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 211,
+          "id": "COF211",
+          "hits": 3,
+          "date": "2013-07-13",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 313,
+          "id": "COF313",
+          "hits": 3,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 336,
+          "id": "COF336",
+          "hits": 3,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        }
+      ],
+      "engagedAulas": 6
+    },
+    "descartes": {
+      "canonical": "Descartes",
+      "variants": [
+        "Descartes"
+      ],
+      "filesWithHits": 261,
+      "totalHits": 2183,
+      "topAulas": [
+        {
+          "aula": 76,
+          "id": "COF076",
+          "hits": 95,
+          "date": "2010-11-25",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 119,
+          "id": "COF119",
+          "hits": 91,
+          "date": "2011-08-20",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 72,
+          "id": "COF072",
+          "hits": 89,
+          "date": "2010-08-29",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 120,
+          "id": "COF120",
+          "hits": 75,
+          "date": "2011-09-03",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 118,
+          "id": "COF118",
+          "hits": 74,
+          "date": "2011-08-13",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 212,
+          "id": "COF212",
+          "hits": 66,
+          "date": "2013-07-20",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 122,
+          "id": "COF122",
+          "hits": 56,
+          "date": "2011-09-17",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 123,
+          "id": "COF123",
+          "hits": 55,
+          "date": "2011-09-24",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 206,
+          "id": "COF206",
+          "hits": 48,
+          "date": "2013-06-01",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 136,
+          "id": "COF136",
+          "hits": 43,
+          "date": "2012-01-07",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 77,
+          "id": "COF077",
+          "hits": 42,
+          "date": "2010-10-02",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 133,
+          "id": "COF133",
+          "hits": 42,
+          "date": "2011-12-03",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 117,
+          "id": "COF117",
+          "hits": 39,
+          "date": "2011-08-06",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 125,
+          "id": "COF125",
+          "hits": 39,
+          "date": "2011-10-08",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 124,
+          "id": "COF124",
+          "hits": 37,
+          "date": "2011-10-01",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        }
+      ],
+      "engagedAulas": 102
+    },
+    "kant": {
+      "canonical": "Kant",
+      "variants": [
+        "Kant"
+      ],
+      "filesWithHits": 222,
+      "totalHits": 1113,
+      "topAulas": [
+        {
+          "aula": 273,
+          "id": "COF273",
+          "hits": 45,
+          "date": "2014-12-06",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 271,
+          "id": "COF271",
+          "hits": 44,
+          "date": "2014-11-15",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 270,
+          "id": "COF270",
+          "hits": 34,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 263,
+          "id": "COF263",
+          "hits": 31,
+          "date": "2014-09-12",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 276,
+          "id": "COF276",
+          "hits": 25,
+          "date": "2014-12-27",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 269,
+          "id": "COF269",
+          "hits": 24,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 213,
+          "id": "COF213",
+          "hits": 22,
+          "date": "2013-07-27",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 266,
+          "id": "COF266",
+          "hits": 22,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 120,
+          "id": "COF120",
+          "hits": 21,
+          "date": "2011-09-03",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 91,
+          "id": "COF091",
+          "hits": 20,
+          "date": "2011-01-22",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 355,
+          "id": "COF355",
+          "hits": 19,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 562,
+          "id": "COF562",
+          "hits": 19,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 265,
+          "id": "COF265",
+          "hits": 18,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 212,
+          "id": "COF212",
+          "hits": 17,
+          "date": "2013-07-20",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 65,
+          "id": "COF065",
+          "hits": 14,
+          "date": "2010-07-10",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        }
+      ],
+      "engagedAulas": 75,
+      "derivativeHits": 177
+    },
+    "tomas-de-aquino": {
+      "canonical": "Tomás de Aquino",
+      "variants": [
+        "Tomas de Aquino",
+        "Sao Tomas",
+        "Santo Tomas",
+        "Aquino"
+      ],
+      "filesWithHits": 242,
+      "totalHits": 1239,
+      "topAulas": [
+        {
+          "aula": 115,
+          "id": "COF115",
+          "hits": 32,
+          "date": "2011-06-23",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 117,
+          "id": "COF117",
+          "hits": 29,
+          "date": "2011-08-06",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 89,
+          "id": "COF089",
+          "hits": 26,
+          "date": "2011-11-22",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 114,
+          "id": "COF114",
+          "hits": 24,
+          "date": "2011-07-16",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 15,
+          "id": "COF015",
+          "hits": 20,
+          "date": "2009-07-18",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 37,
+          "id": "COF037",
+          "hits": 20,
+          "date": "2009-12-19",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 12,
+          "id": "COF012",
+          "hits": 19,
+          "date": "2009-06-20",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 41,
+          "id": "COF041",
+          "hits": 19,
+          "date": "2010-01-16",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 116,
+          "id": "COF116",
+          "hits": 19,
+          "date": "2011-07-30",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 28,
+          "id": "COF028",
+          "hits": 18,
+          "date": "2009-10-17",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 66,
+          "id": "COF066",
+          "hits": 18,
+          "date": "2010-07-17",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 420,
+          "id": "COF420",
+          "hits": 18,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 16,
+          "id": "COF016",
+          "hits": 16,
+          "date": "2009-07-25",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 59,
+          "id": "COF059",
+          "hits": 16,
+          "date": "2010-05-22",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 137,
+          "id": "COF137",
+          "hits": 16,
+          "date": "2012-01-14",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        }
+      ],
+      "engagedAulas": 82
+    },
+    "hegel": {
+      "canonical": "Hegel",
+      "variants": [
+        "Hegel"
+      ],
+      "filesWithHits": 168,
+      "totalHits": 661,
+      "topAulas": [
+        {
+          "aula": 213,
+          "id": "COF213",
+          "hits": 89,
+          "date": "2013-07-27",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 214,
+          "id": "COF214",
+          "hits": 46,
+          "date": "2013-08-03",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 40,
+          "id": "COF040",
+          "hits": 26,
+          "date": "2010-01-09",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 171,
+          "id": "COF171",
+          "hits": 21,
+          "date": "2012-09-08",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 357,
+          "id": "COF357",
+          "hits": 21,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 150,
+          "id": "COF150",
+          "hits": 18,
+          "date": "2012-04-14",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 299,
+          "id": "COF299",
+          "hits": 14,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 176,
+          "id": "COF176",
+          "hits": 13,
+          "date": "2012-09-08",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 14,
+          "id": "COF014",
+          "hits": 12,
+          "date": "2009-07-11",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 58,
+          "id": "COF058",
+          "hits": 12,
+          "date": "2010-05-15",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 566,
+          "id": "COF566",
+          "hits": 11,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 164,
+          "id": "COF164",
+          "hits": 10,
+          "date": "2012-07-21",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 70,
+          "id": "COF070",
+          "hits": 7,
+          "date": "2010-08-14",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 222,
+          "id": "COF222",
+          "hits": 7,
+          "date": "2013-10-22",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 234,
+          "id": "COF234",
+          "hits": 7,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        }
+      ],
+      "engagedAulas": 32
+    },
+    "nietzsche": {
+      "canonical": "Nietzsche",
+      "variants": [
+        "Nietzsche",
+        "Nietsche",
+        "Nietzche",
+        "Nitzsche",
+        "Nitsche"
+      ],
+      "filesWithHits": 156,
+      "totalHits": 563,
+      "topAulas": [
+        {
+          "aula": 216,
+          "id": "COF216",
+          "hits": 31,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 455,
+          "id": "COF455",
+          "hits": 21,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 75,
+          "id": "COF075",
+          "hits": 19,
+          "date": "2010-09-18",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 72,
+          "id": "COF072",
+          "hits": 18,
+          "date": "2010-08-29",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 334,
+          "id": "COF334",
+          "hits": 12,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 396,
+          "id": "COF396",
+          "hits": 12,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 185,
+          "id": "COF185",
+          "hits": 11,
+          "date": "2012-12-22",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 409,
+          "id": "COF409",
+          "hits": 11,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 549,
+          "id": "COF549",
+          "hits": 11,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 357,
+          "id": "COF357",
+          "hits": 10,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 114,
+          "id": "COF114",
+          "hits": 9,
+          "date": "2011-07-16",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 229,
+          "id": "COF229",
+          "hits": 9,
+          "date": "2013-11-30",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 266,
+          "id": "COF266",
+          "hits": 9,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 310,
+          "id": "COF310",
+          "hits": 9,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 354,
+          "id": "COF354",
+          "hits": 9,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        }
+      ],
+      "engagedAulas": 39
+    },
+    "leibniz": {
+      "canonical": "Leibniz",
+      "variants": [
+        "Leibniz",
+        "Leibnitz"
+      ],
+      "filesWithHits": 144,
+      "totalHits": 372,
+      "topAulas": [
+        {
+          "aula": 152,
+          "id": "COF152",
+          "hits": 17,
+          "date": "2012-04-28",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 72,
+          "id": "COF072",
+          "hits": 16,
+          "date": "2010-08-29",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 122,
+          "id": "COF122",
+          "hits": 10,
+          "date": "2011-09-17",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 124,
+          "id": "COF124",
+          "hits": 9,
+          "date": "2011-10-01",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 239,
+          "id": "COF239",
+          "hits": 9,
+          "date": "2014-02-15",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 240,
+          "id": "COF240",
+          "hits": 8,
+          "date": "2014-02-22",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 286,
+          "id": "COF286",
+          "hits": 7,
+          "date": "2015-03-28",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 19,
+          "id": "COF019",
+          "hits": 6,
+          "date": "2009-08-15",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 70,
+          "id": "COF070",
+          "hits": 6,
+          "date": "2010-08-14",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 120,
+          "id": "COF120",
+          "hits": 6,
+          "date": "2011-09-03",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 568,
+          "id": "COF568",
+          "hits": 6,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 85,
+          "id": "COF085",
+          "hits": 5,
+          "date": "2010-11-27",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 93,
+          "id": "COF093",
+          "hits": 5,
+          "date": "2011-02-05",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 139,
+          "id": "COF139",
+          "hits": 5,
+          "date": "2012-01-28",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 171,
+          "id": "COF171",
+          "hits": 5,
+          "date": "2012-09-08",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        }
+      ],
+      "engagedAulas": 17
+    },
+    "santo-agostinho": {
+      "canonical": "Santo Agostinho",
+      "variants": [
+        "Agostinho"
+      ],
+      "filesWithHits": 136,
+      "totalHits": 367,
+      "topAulas": [
+        {
+          "aula": 114,
+          "id": "COF114",
+          "hits": 19,
+          "date": "2011-07-16",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 115,
+          "id": "COF115",
+          "hits": 17,
+          "date": "2011-06-23",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 9,
+          "id": "COF009",
+          "hits": 16,
+          "date": "2009-06-06",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 1,
+          "id": "COF001",
+          "hits": 15,
+          "date": "2009-03-14",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 574,
+          "id": "COF574",
+          "hits": 12,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 7,
+          "id": "COF007",
+          "hits": 9,
+          "date": "2009-05-16",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 569,
+          "id": "COF569",
+          "hits": 9,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 56,
+          "id": "COF056",
+          "hits": 8,
+          "date": "2010-05-01",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 97,
+          "id": "COF097",
+          "hits": 7,
+          "date": "2011-03-12",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 34,
+          "id": "COF034",
+          "hits": 6,
+          "date": "2009-11-28",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 36,
+          "id": "COF036",
+          "hits": 6,
+          "date": "2009-12-12",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 79,
+          "id": "COF079",
+          "hits": 6,
+          "date": "2012-10-16",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 192,
+          "id": "COF192",
+          "hits": 6,
+          "date": "2013-02-16",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 54,
+          "id": "COF054",
+          "hits": 5,
+          "date": "2010-04-17",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 68,
+          "id": "COF068",
+          "hits": 5,
+          "date": "2010-07-31",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        }
+      ],
+      "engagedAulas": 19
+    },
+    "eric-voegelin": {
+      "canonical": "Eric Voegelin",
+      "variants": [
+        "Voegelin",
+        "Voeglin",
+        "Vogelin",
+        "Vegelin",
+        "Voguelin"
+      ],
+      "filesWithHits": 132,
+      "totalHits": 504,
+      "topAulas": [
+        {
+          "aula": 6,
+          "id": "COF006",
+          "hits": 70,
+          "date": "2009-05-03",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 155,
+          "id": "COF155",
+          "hits": 56,
+          "date": "2012-05-19",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 167,
+          "id": "COF167",
+          "hits": 17,
+          "date": "2012-08-11",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 82,
+          "id": "COF082",
+          "hits": 16,
+          "date": "2010-11-06",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 30,
+          "id": "COF030",
+          "hits": 13,
+          "date": "2009-10-31",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 153,
+          "id": "COF153",
+          "hits": 13,
+          "date": "2012-05-05",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 69,
+          "id": "COF069",
+          "hits": 12,
+          "date": "2010-08-07",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 146,
+          "id": "COF146",
+          "hits": 8,
+          "date": "2012-03-17",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 3,
+          "id": "COF003",
+          "hits": 7,
+          "date": "2009-04-04",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 56,
+          "id": "COF056",
+          "hits": 7,
+          "date": "2010-05-01",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 66,
+          "id": "COF066",
+          "hits": 7,
+          "date": "2010-07-17",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 5,
+          "id": "COF005",
+          "hits": 6,
+          "date": "2009-04-25",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 13,
+          "id": "COF013",
+          "hits": 6,
+          "date": "2009-07-04",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 65,
+          "id": "COF065",
+          "hits": 6,
+          "date": "2010-07-10",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 68,
+          "id": "COF068",
+          "hits": 6,
+          "date": "2010-07-31",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        }
+      ],
+      "engagedAulas": 26
+    },
+    "rene-guenon": {
+      "canonical": "René Guénon",
+      "variants": [
+        "Guenon",
+        "Genon",
+        "Ganon",
+        "Guon",
+        "Rune Genon",
+        "Rene Guon",
+        "Rene Ganon"
+      ],
+      "filesWithHits": 118,
+      "totalHits": 711,
+      "topAulas": [
+        {
+          "aula": 209,
+          "id": "COF209",
+          "hits": 65,
+          "date": "2013-06-29",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 41,
+          "id": "COF041",
+          "hits": 46,
+          "date": "2010-01-16",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 344,
+          "id": "COF344",
+          "hits": 44,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 223,
+          "id": "COF223",
+          "hits": 41,
+          "date": "2013-10-12",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 19,
+          "id": "COF019",
+          "hits": 36,
+          "date": "2009-08-15",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 343,
+          "id": "COF343",
+          "hits": 30,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 465,
+          "id": "COF465",
+          "hits": 24,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 218,
+          "id": "COF218",
+          "hits": 22,
+          "date": "2013-08-31",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 551,
+          "id": "COF551",
+          "hits": 22,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 94,
+          "id": "COF094",
+          "hits": 17,
+          "date": "2011-02-12",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 105,
+          "id": "COF105",
+          "hits": 16,
+          "date": "2011-05-07",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 342,
+          "id": "COF342",
+          "hits": 16,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 43,
+          "id": "COF043",
+          "hits": 15,
+          "date": "2010-01-30",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 131,
+          "id": "COF131",
+          "hits": 14,
+          "date": "2011-11-19",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 421,
+          "id": "COF421",
+          "hits": 14,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        }
+      ],
+      "engagedAulas": 32
+    },
+    "mario-ferreira": {
+      "canonical": "Mário Ferreira dos Santos",
+      "variants": [
+        "Mario Ferreira"
+      ],
+      "filesWithHits": 141,
+      "totalHits": 358,
+      "topAulas": [
+        {
+          "aula": 73,
+          "id": "COF073",
+          "hits": 13,
+          "date": "2010-09-04",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 71,
+          "id": "COF071",
+          "hits": 12,
+          "date": "2010-08-21",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 100,
+          "id": "COF100",
+          "hits": 12,
+          "date": "2011-04-02",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 409,
+          "id": "COF409",
+          "hits": 12,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 11,
+          "id": "COF011",
+          "hits": 11,
+          "date": "2009-06-20",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 14,
+          "id": "COF014",
+          "hits": 9,
+          "date": "2009-07-11",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 75,
+          "id": "COF075",
+          "hits": 9,
+          "date": "2010-09-18",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 141,
+          "id": "COF141",
+          "hits": 8,
+          "date": "2012-02-11",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 322,
+          "id": "COF322",
+          "hits": 8,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 42,
+          "id": "COF042",
+          "hits": 7,
+          "date": "2010-01-23",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 279,
+          "id": "COF279",
+          "hits": 7,
+          "date": "2015-01-17",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 32,
+          "id": "COF032",
+          "hits": 6,
+          "date": "2009-11-14",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 33,
+          "id": "COF033",
+          "hits": 6,
+          "date": "2009-11-21",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 41,
+          "id": "COF041",
+          "hits": 6,
+          "date": "2010-01-16",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 48,
+          "id": "COF048",
+          "hits": 6,
+          "date": "2010-03-06",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        }
+      ],
+      "engagedAulas": 20
+    },
+    "louis-lavelle": {
+      "canonical": "Louis Lavelle",
+      "variants": [
+        "Lavelle",
+        "Lavell",
+        "Lavel"
+      ],
+      "filesWithHits": 93,
+      "totalHits": 637,
+      "topAulas": [
+        {
+          "aula": 203,
+          "id": "COF203",
+          "hits": 42,
+          "date": "2013-05-11",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 190,
+          "id": "COF190",
+          "hits": 41,
+          "date": "2013-02-02",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 187,
+          "id": "COF187",
+          "hits": 36,
+          "date": "2013-01-12",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 193,
+          "id": "COF193",
+          "hits": 36,
+          "date": "2013-02-23",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 192,
+          "id": "COF192",
+          "hits": 33,
+          "date": "2013-02-16",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 189,
+          "id": "COF189",
+          "hits": 30,
+          "date": "2013-01-26",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 191,
+          "id": "COF191",
+          "hits": 29,
+          "date": "2013-02-09",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 205,
+          "id": "COF205",
+          "hits": 25,
+          "date": "2013-05-18",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 186,
+          "id": "COF186",
+          "hits": 24,
+          "date": "2013-01-05",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 195,
+          "id": "COF195",
+          "hits": 23,
+          "date": "2013-03-09",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 10,
+          "id": "COF010",
+          "hits": 20,
+          "date": "2009-06-13",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 13,
+          "id": "COF013",
+          "hits": 17,
+          "date": "2009-07-04",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 201,
+          "id": "COF201",
+          "hits": 16,
+          "date": "2013-04-20",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 204,
+          "id": "COF204",
+          "hits": 16,
+          "date": "2013-05-18",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 196,
+          "id": "COF196",
+          "hits": 15,
+          "date": "2013-03-16",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        }
+      ],
+      "engagedAulas": 30
+    },
+    "husserl": {
+      "canonical": "Edmund Husserl",
+      "variants": [
+        "Husserl",
+        "Russerl"
+      ],
+      "filesWithHits": 107,
+      "totalHits": 355,
+      "topAulas": [
+        {
+          "aula": 65,
+          "id": "COF065",
+          "hits": 29,
+          "date": "2010-07-10",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 159,
+          "id": "COF159",
+          "hits": 15,
+          "date": "2012-06-16",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 176,
+          "id": "COF176",
+          "hits": 15,
+          "date": "2012-09-08",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 125,
+          "id": "COF125",
+          "hits": 12,
+          "date": "2011-10-08",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 142,
+          "id": "COF142",
+          "hits": 11,
+          "date": "2012-02-19",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 48,
+          "id": "COF048",
+          "hits": 10,
+          "date": "2010-03-06",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 115,
+          "id": "COF115",
+          "hits": 10,
+          "date": "2011-06-23",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 173,
+          "id": "COF173",
+          "hits": 9,
+          "date": "2012-09-22",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 40,
+          "id": "COF040",
+          "hits": 8,
+          "date": "2010-01-09",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 241,
+          "id": "COF241",
+          "hits": 8,
+          "date": "2014-03-01",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 25,
+          "id": "COF025",
+          "hits": 7,
+          "date": "2009-09-26",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 97,
+          "id": "COF097",
+          "hits": 7,
+          "date": "2011-03-12",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 169,
+          "id": "COF169",
+          "hits": 7,
+          "date": "2012-08-25",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 203,
+          "id": "COF203",
+          "hits": 7,
+          "date": "2013-05-11",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 260,
+          "id": "COF260",
+          "hits": 7,
+          "date": "2014-08-16",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        }
+      ],
+      "engagedAulas": 24
+    },
+    "heidegger": {
+      "canonical": "Martin Heidegger",
+      "variants": [
+        "Heidegger"
+      ],
+      "filesWithHits": 99,
+      "totalHits": 379,
+      "topAulas": [
+        {
+          "aula": 281,
+          "id": "COF281",
+          "hits": 39,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 276,
+          "id": "COF276",
+          "hits": 14,
+          "date": "2014-12-27",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 396,
+          "id": "COF396",
+          "hits": 14,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 549,
+          "id": "COF549",
+          "hits": 14,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 425,
+          "id": "COF425",
+          "hits": 13,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 411,
+          "id": "COF411",
+          "hits": 11,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 526,
+          "id": "COF526",
+          "hits": 11,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 138,
+          "id": "COF138",
+          "hits": 8,
+          "date": "2012-01-21",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 150,
+          "id": "COF150",
+          "hits": 8,
+          "date": "2012-04-14",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 222,
+          "id": "COF222",
+          "hits": 8,
+          "date": "2013-10-22",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 537,
+          "id": "COF537",
+          "hits": 8,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 74,
+          "id": "COF074",
+          "hits": 7,
+          "date": "2010-09-11",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 88,
+          "id": "COF088",
+          "hits": 7,
+          "date": "2010-12-18",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 142,
+          "id": "COF142",
+          "hits": 7,
+          "date": "2012-02-19",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 282,
+          "id": "COF282",
+          "hits": 7,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        }
+      ],
+      "engagedAulas": 28
+    },
+    "schuon": {
+      "canonical": "Frithjof Schuon",
+      "variants": [
+        "Schuon",
+        "Chuon",
+        "Xuon"
+      ],
+      "filesWithHits": 55,
+      "totalHits": 262,
+      "topAulas": [
+        {
+          "aula": 209,
+          "id": "COF209",
+          "hits": 35,
+          "date": "2013-06-29",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 15,
+          "id": "COF015",
+          "hits": 32,
+          "date": "2009-07-18",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 41,
+          "id": "COF041",
+          "hits": 17,
+          "date": "2010-01-16",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 223,
+          "id": "COF223",
+          "hits": 17,
+          "date": "2013-10-12",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 218,
+          "id": "COF218",
+          "hits": 16,
+          "date": "2013-08-31",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 241,
+          "id": "COF241",
+          "hits": 13,
+          "date": "2014-03-01",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 279,
+          "id": "COF279",
+          "hits": 13,
+          "date": "2015-01-17",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 94,
+          "id": "COF094",
+          "hits": 12,
+          "date": "2011-02-12",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 584,
+          "id": "COF584",
+          "hits": 10,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 258,
+          "id": "COF258",
+          "hits": 7,
+          "date": "2014-08-02",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 530,
+          "id": "COF530",
+          "hits": 6,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 28,
+          "id": "COF028",
+          "hits": 5,
+          "date": "2009-10-17",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 43,
+          "id": "COF043",
+          "hits": 5,
+          "date": "2010-01-30",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 220,
+          "id": "COF220",
+          "hits": 5,
+          "date": "2013-09-14",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 10,
+          "id": "COF010",
+          "hits": 4,
+          "date": "2009-06-13",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        }
+      ],
+      "engagedAulas": 14
+    },
+    "ortega-y-gasset": {
+      "canonical": "Ortega y Gasset",
+      "variants": [
+        "Ortega y Gasset",
+        "Ortega y Gassett",
+        "Ortega Cela",
+        "Ortega C"
+      ],
+      "filesWithHits": 82,
+      "totalHits": 166,
+      "topAulas": [
+        {
+          "aula": 528,
+          "id": "COF528",
+          "hits": 9,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 13,
+          "id": "COF013",
+          "hits": 8,
+          "date": "2009-07-04",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 2,
+          "id": "COF002",
+          "hits": 6,
+          "date": "2009-03-21",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 538,
+          "id": "COF538",
+          "hits": 6,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 37,
+          "id": "COF037",
+          "hits": 5,
+          "date": "2009-12-19",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 350,
+          "id": "COF350",
+          "hits": 5,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 452,
+          "id": "COF452",
+          "hits": 5,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 8,
+          "id": "COF008",
+          "hits": 4,
+          "date": "2009-05-23",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 12,
+          "id": "COF012",
+          "hits": 4,
+          "date": "2009-06-20",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 158,
+          "id": "COF158",
+          "hits": 4,
+          "date": "2012-06-09",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 274,
+          "id": "COF274",
+          "hits": 4,
+          "date": "2014-12-13",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 584,
+          "id": "COF584",
+          "hits": 4,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 4,
+          "id": "COF004",
+          "hits": 3,
+          "date": "2009-04-18",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 75,
+          "id": "COF075",
+          "hits": 3,
+          "date": "2010-09-18",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 82,
+          "id": "COF082",
+          "hits": 3,
+          "date": "2010-11-06",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        }
+      ],
+      "engagedAulas": 7
+    }
+  }
+}

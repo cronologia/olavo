@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="canonical" href="https://cronologia.github.io/olavo/en/">
+  <link rel="alternate" hreflang="en" href="https://cronologia.github.io/olavo/en/">
+  <link rel="alternate" hreflang="es" href="https://cronologia.github.io/olavo/es/">
+  <link rel="alternate" hreflang="pt" href="https://cronologia.github.io/olavo/pt/">
+  <link rel="alternate" hreflang="x-default" href="https://cronologia.github.io/olavo/en/">
+  <script>
+    (function () {
+      var supported = ["en","es","pt"];
+      var stored = null; try { stored = localStorage.getItem('lang'); } catch (e) {}
+      var nav = (navigator.language || 'en').slice(0, 2).toLowerCase();
+      var pick = supported.indexOf(stored) >= 0 ? stored : (supported.indexOf(nav) >= 0 ? nav : 'en');
+      location.replace('./' + pick + '/');
+    })();
+  </script>
+  <noscript><meta http-equiv="refresh" content="0; url=./en/"></noscript>
+  <title>Cronologia</title>
+</head>
+<body><p>Redirecting… <a href="./en/">English</a> · <a href="./es/">Español</a> · <a href="./pt/">Português</a></p></body>
+</html>
