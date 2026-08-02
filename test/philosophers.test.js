@@ -109,7 +109,8 @@ test('routes cover every slug', () => {
 
 test('shipped data, when present, is internally consistent', () => {
   const dataDir = path.join(__dirname, '..', 'data');
-  const shipped = ph.loadPhilosophers(dataDir);
+  const chronology = JSON.parse(fs.readFileSync(path.join(dataDir, 'chronology.json'), 'utf8'));
+  const shipped = ph.getPhilosophers(chronology);
   if (!shipped) return; // feature not shipped yet — nothing to check
   const reception = ph.loadReception(dataDir);
   const refIds = new Set(shipped.references.map((r) => r.id));

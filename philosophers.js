@@ -20,10 +20,15 @@
 const fs = require('fs');
 const path = require('path');
 
-function loadPhilosophers(dataDir) {
-  const file = path.join(dataDir, 'philosophers.json');
-  if (!fs.existsSync(file)) return null;
-  return JSON.parse(fs.readFileSync(file, 'utf8'));
+/**
+ * The philosopher pages are driven by an OPTIONAL top-level `philosophers`
+ * key on data/chronology.json (ADR-0001 idiom: absent key = byte-identical
+ * build). This accessor exists so callers never poke the shape directly.
+ */
+function getPhilosophers(data) {
+  return (data && data.philosophers && Array.isArray(data.philosophers.philosophers))
+    ? data.philosophers
+    : null;
 }
 
 function loadReception(dataDir) {
@@ -183,7 +188,7 @@ ${cards}
 }
 
 module.exports = {
-  loadPhilosophers, loadReception, philosopherRoutes,
+  getPhilosophers, loadReception, philosopherRoutes,
   renderPhilosopherPage, renderPhilosophersIndexSection,
   renderTimelineRows, renderReceptionRows,
 };

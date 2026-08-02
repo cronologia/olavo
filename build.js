@@ -55,6 +55,16 @@ const OG_LOCALE = { en: 'en_US', es: 'es_ES', pt: 'pt_BR' };
 // and hreflang stay complete.
 const ROUTES = [''];
 
+// Philosopher pages are driven by the optional `philosophers` key on the
+// dataset (ADR-0001 idiom). Routes are derived at MODULE scope — the drift
+// test re-renders the sitemap from the exported ROUTES, so the routes must
+// exist for importers too, not only when main() runs.
+const PH_DATA = (phMod && fs.existsSync(DATA_FILE))
+  ? phMod.getPhilosophers(JSON.parse(fs.readFileSync(DATA_FILE, 'utf8')))
+  : null;
+const PH_RECEPTION = PH_DATA ? phMod.loadReception(path.join(ROOT, 'data')) : null;
+if (PH_DATA) ROUTES.push(...phMod.philosopherRoutes(PH_DATA));
+
 // Data fields whose string values are prose to translate. Reference titles/
 // publishers, proper names, URLs, ids, dates and numbers are NOT here, and the
 // whole `references` array is skipped, so bibliographic data is passed verbatim.
@@ -1689,8 +1699,12 @@ function renderPage(data, archives, opts = {}) {
 
   // Optional visual sections ('' when the data declares none — the page is
   // then byte-identical to a build without these features).
-  const philosophersHtml = (opts.philosophers && phMod)
-    ? phMod.renderPhilosophersIndexSection(opts.philosophers, opts.reception, ui, { esc })
+  // Driven by the dataset's own optional key — synthetic test data without it
+  // renders byte-identically to the plain template.
+  const phLocalized = phMod ? phMod.getPhilosophers(data) : null;
+  const phReception = opts.reception !== undefined ? opts.reception : PH_RECEPTION;
+  const philosophersHtml = phLocalized
+    ? phMod.renderPhilosophersIndexSection(phLocalized, phReception, ui, { esc })
     : '';
   const lineageHtml = renderLineageSection(lineage, refNumById);
   const branchTimelineHtml = renderBranchTimeline(branchTimeline, refNumById);
@@ -1835,18 +1849,16 @@ function main() {
   const base = siteBase(data.meta);
   const places = loadPlaces();
   const world = loadWorld();
-  const phData = phMod ? phMod.loadPhilosophers(path.dirname(DATA_FILE)) : null;
-  const reception = phData ? phMod.loadReception(path.dirname(DATA_FILE)) : null;
-  if (phData) ROUTES.push(...phMod.philosopherRoutes(phData));
+  const reception = PH_RECEPTION;
 
   fs.mkdirSync(OUT_DIR, { recursive: true });
   for (const lang of LOCALES) {
     const dict = loadDict(lang);
     const localized = localizeData(data, dict, lang);
-    const localizedPh = phData ? localizeData(phData, dict, lang) : null;
+    const localizedPh = phMod ? phMod.getPhilosophers(localized) : null;
     const dir = path.join(OUT_DIR, lang);
     fs.mkdirSync(dir, { recursive: true });
-    fs.writeFileSync(path.join(dir, 'index.html'), renderPage(localized, archives, { lang, base, route: '', places, world, philosophers: localizedPh, reception }));
+    fs.writeFileSync(path.join(dir, 'index.html'), renderPage(localized, archives, { lang, base, route: '', places, world }));
     if (localizedPh) {
       const pdir = path.join(dir, 'philosophers');
       fs.mkdirSync(pdir, { recursive: true });
@@ -1873,7 +1885,7 @@ function main() {
     `Built ${LOCALES.length} locales (${LOCALES.join(', ')}) × ${ROUTES.length} route(s) + root redirect, sitemap, robots — ` +
     `${data.events.length} events, ${data.figures.length} figures, ` +
     `${data.references.length} references, ${archivedRefs} with archive fallback` +
-    (phData ? `, ${phData.philosophers.length} philosopher pages per locale` : '') + '.'
+    (PH_DATA ? `, ${PH_DATA.philosophers.length} philosopher pages per locale` : '') + '.'
   );
 }
 
