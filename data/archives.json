@@ -1,0 +1,210 @@
+{
+  "generatedBy": "scripts/archive-refs.js",
+  "updatedAt": "2026-08-02",
+  "snapshots": {
+    "https://agenciabrasil.ebc.com.br/geral/noticia/2022-01/olavo-de-carvalho-morre-aos-74-anos-nos-estados-unidos": {
+      "refId": "agenciabrasil-obit",
+      "archiveUrl": "https://web.archive.org/web/20260514034147/https://agenciabrasil.ebc.com.br/geral/noticia/2022-01/olavo-de-carvalho-morre-aos-74-anos-nos-estados-unidos",
+      "timestamp": "20260514034147",
+      "checkedAt": "2026-08-02"
+    },
+    "https://aventurasnahistoria.com.br/noticias/historia-hoje/olavo-de-carvalho-morreu-de-covid-19-diz-filha.phtml": {
+      "refId": "aventurasnahistoria-filha",
+      "archiveUrl": "https://web.archive.org/web/20250707222826/https://aventurasnahistoria.com.br/noticias/historia-hoje/olavo-de-carvalho-morreu-de-covid-19-diz-filha.phtml",
+      "timestamp": "20250707222826",
+      "checkedAt": "2026-08-02"
+    },
+    "https://en.wikipedia.org/wiki/Olavo_de_Carvalho": {
+      "refId": "wikipedia-en",
+      "archiveUrl": "https://web.archive.org/web/20260605211447/https://en.wikipedia.org/wiki/Olavo_de_Carvalho",
+      "timestamp": "20260605211447",
+      "checkedAt": "2026-08-02"
+    },
+    "https://exame.com/brasil/bolsonaro-decreta-luto-de-um-dia-por-morte-de-olavo-de-carvalho/": {
+      "refId": "exame-luto",
+      "archiveUrl": "https://web.archive.org/web/20260607145658/https://exame.com/brasil/bolsonaro-decreta-luto-de-um-dia-por-morte-de-olavo-de-carvalho/",
+      "timestamp": "20260607145658",
+      "checkedAt": "2026-08-02"
+    },
+    "https://livraria.seminariodefilosofia.org/os-eua-e-a-nom": {
+      "refId": "livraria-seminario-dugin",
+      "archiveUrl": "https://web.archive.org/web/20220125204238/https://livraria.seminariodefilosofia.org/os-eua-e-a-nom",
+      "timestamp": "20220125204238",
+      "checkedAt": "2026-08-02"
+    },
+    "https://nexojornal.com.br/expresso/2018/11/09/Como-Bolsonaro-usa-livros-para-refor%C3%A7ar-seu-discurso": {
+      "refId": "nexo-livros",
+      "archiveUrl": "https://web.archive.org/web/20250818105133/https://www.nexojornal.com.br/expresso/2018/11/09/Como-Bolsonaro-usa-livros-para-refor%C3%A7ar-seu-discurso",
+      "timestamp": "20250818105133",
+      "checkedAt": "2026-08-02"
+    },
+    "https://observador.pt/especiais/deus-constituicao-e-flirts-os-discursos-de-bolsonaro-nas-entrelinhas/": {
+      "refId": "observador-discursos",
+      "archiveUrl": "https://web.archive.org/web/20210514051037/https://observador.pt/especiais/deus-constituicao-e-flirts-os-discursos-de-bolsonaro-nas-entrelinhas/",
+      "timestamp": "20210514051037",
+      "checkedAt": "2026-08-02"
+    },
+    "https://padrepauloricardo.org/episodios/o-minimo-que-voce-precisa-saber-para-nao-ser-um-idiota": {
+      "refId": "padrepauloricardo-minimo",
+      "archiveUrl": "https://web.archive.org/web/20260607112740/https://padrepauloricardo.org/episodios/o-minimo-que-voce-precisa-saber-para-nao-ser-um-idiota",
+      "timestamp": "20260607112740",
+      "checkedAt": "2026-08-02"
+    },
+    "https://periodicos.ufrn.br/interlegere/article/download/25175/14977/89867": {
+      "refId": "castrorocha-review",
+      "archiveUrl": "https://web.archive.org/web/20241125080742/https://periodicos.ufrn.br/interlegere/article/download/25175/14977/89867",
+      "timestamp": "20241125080742",
+      "checkedAt": "2026-08-02"
+    },
+    "https://pt.wikipedia.org/wiki/O_Jardim_das_Afli%C3%A7%C3%B5es_(filme)": {
+      "refId": "wikipedia-pt-film",
+      "archiveUrl": "https://web.archive.org/web/20260708215339/https://pt.wikipedia.org/wiki/O_Jardim_das_Afli%C3%A7%C3%B5es_(filme)",
+      "timestamp": "20260708215339",
+      "checkedAt": "2026-08-02"
+    },
+    "https://pt.wikipedia.org/wiki/Olavo_de_Carvalho": {
+      "refId": "wikipedia-pt",
+      "archiveUrl": "https://web.archive.org/web/20260618203000/https://pt.wikipedia.org/wiki/Olavo_de_Carvalho",
+      "timestamp": "20260618203000",
+      "checkedAt": "2026-08-02"
+    },
+    "https://revistaoeste.com/brasil/olavo-de-carvalho-nao-morreu-de-covid-19-afirma-medico-particular-do-escritor/": {
+      "refId": "revistaoeste-medico",
+      "archiveUrl": "https://web.archive.org/web/20250923094703/https://revistaoeste.com/brasil/olavo-de-carvalho-nao-morreu-de-covid-19-afirma-medico-particular-do-escritor/",
+      "timestamp": "20250923094703",
+      "checkedAt": "2026-08-02"
+    },
+    "https://revistarosa.com/1/olavismo-e-bolsonarismo": {
+      "refId": "revistarosa-olavismo",
+      "archiveUrl": "https://web.archive.org/web/20240514193150/https://revistarosa.com/1/olavismo-e-bolsonarismo",
+      "timestamp": "20240514193150",
+      "checkedAt": "2026-08-02"
+    },
+    "https://sensoincomum.org/2017/10/27/filme-jardim-aflicoes-olavo-carvalho-ufpe/": {
+      "refId": "sensoincomum-ufpe",
+      "archiveUrl": "https://web.archive.org/web/20250708210625/https://sensoincomum.org/2017/10/27/filme-jardim-aflicoes-olavo-carvalho-ufpe/",
+      "timestamp": "20250708210625",
+      "checkedAt": "2026-08-02"
+    },
+    "https://www.brasildefato.com.br/2022/01/25/morre-olavo-de-carvalho-astrologo-estava-com-covid-causa-da-morte-nao-foi-divulgada/": {
+      "refId": "brasildefato-obit",
+      "archiveUrl": "https://web.archive.org/web/20250624075355/https://www.brasildefato.com.br/2022/01/25/morre-olavo-de-carvalho-astrologo-estava-com-covid-causa-da-morte-nao-foi-divulgada/",
+      "timestamp": "20250624075355",
+      "checkedAt": "2026-08-02"
+    },
+    "https://www.camara.leg.br/noticias/669762-projeto-anula-decreto-que-concedeu-ordem-de-rio-branco-a-olavo-de-carvalho": {
+      "refId": "camara-riobranco",
+      "archiveUrl": "https://web.archive.org/web/20250724113257/https://www.camara.leg.br/noticias/669762-projeto-anula-decreto-que-concedeu-ordem-de-rio-branco-a-olavo-de-carvalho/",
+      "timestamp": "20250724113257",
+      "checkedAt": "2026-08-02"
+    },
+    "https://www.cartacapital.com.br/justica/justica-notifica-herdeiras-de-olavo-por-divida-de-29-milhoes-a-caetano-veloso/": {
+      "refId": "cartacapital-herdeiras",
+      "archiveUrl": "https://web.archive.org/web/20241222164939/https://www.cartacapital.com.br/justica/justica-notifica-herdeiras-de-olavo-por-divida-de-29-milhoes-a-caetano-veloso/",
+      "timestamp": "20241222164939",
+      "checkedAt": "2026-08-02"
+    },
+    "https://www.cnnbrasil.com.br/nacional/presidente-bolsonaro-declara-luto-oficial-apos-morte-de-olavo-de-carvalho/": {
+      "refId": "cnnbrasil-luto",
+      "archiveUrl": "https://web.archive.org/web/20250121103408/https://www.cnnbrasil.com.br/nacional/presidente-bolsonaro-declara-luto-oficial-apos-morte-de-olavo-de-carvalho/",
+      "timestamp": "20250121103408",
+      "checkedAt": "2026-08-02"
+    },
+    "https://www.conjur.com.br/2020-nov-11/negado-recurso-sustar-29-mi-olavo-pagar-caetano/": {
+      "refId": "conjur-caetano",
+      "archiveUrl": "https://web.archive.org/web/20250512190124/https://www.conjur.com.br/2020-nov-11/negado-recurso-sustar-29-mi-olavo-pagar-caetano/",
+      "timestamp": "20250512190124",
+      "checkedAt": "2026-08-02"
+    },
+    "https://www.correiobraziliense.com.br/brasil/2022/01/4980029-morre-olavo-de-carvalho-aos-74-anos-nos-estados-unidos.html": {
+      "refId": "correiobraziliense-obit",
+      "archiveUrl": "https://web.archive.org/web/20240404022503/https://www.correiobraziliense.com.br/brasil/2022/01/4980029-morre-olavo-de-carvalho-aos-74-anos-nos-estados-unidos.html",
+      "timestamp": "20240404022503",
+      "checkedAt": "2026-08-02"
+    },
+    "https://www.findagrave.com/memorial/236247781/olavo_luiz_pimentel_de-carvalho": {
+      "refId": "findagrave-memorial",
+      "archiveUrl": "https://web.archive.org/web/20251231162354/https://www.findagrave.com/memorial/236247781/olavo_luiz_pimentel_de-carvalho",
+      "timestamp": "20251231162354",
+      "checkedAt": "2026-08-02"
+    },
+    "https://www.folhape.com.br/politica/quem-e-heloisa-filha-excluida-do-testamento-de-olavo-de-carvalho/337362/": {
+      "refId": "folhape-heloisa",
+      "archiveUrl": "https://web.archive.org/web/20251011065103/https://www.folhape.com.br/politica/quem-e-heloisa-filha-excluida-do-testamento-de-olavo-de-carvalho/337362/",
+      "timestamp": "20251011065103",
+      "checkedAt": "2026-08-02"
+    },
+    "https://www.foxnews.com/world/pro-trump-diplomat-to-become-brazils-foreign-minister": {
+      "refId": "foxnews-araujo",
+      "archiveUrl": "https://web.archive.org/web/20250121123225/https://www.foxnews.com/world/pro-trump-diplomat-to-become-brazils-foreign-minister",
+      "timestamp": "20250121123225",
+      "checkedAt": "2026-08-02"
+    },
+    "https://www.gazetadopovo.com.br/ideias/olavo-de-carvalho-morre-aos-74-anos-nos-estados-unidos/": {
+      "refId": "gazetadopovo-obit",
+      "archiveUrl": "https://web.archive.org/web/20250326043152/https://www.gazetadopovo.com.br/ideias/olavo-de-carvalho-morre-aos-74-anos-nos-estados-unidos/",
+      "timestamp": "20250326043152",
+      "checkedAt": "2026-08-02"
+    },
+    "https://www.gazetadopovo.com.br/republica/bolsonaro-concede-ordem-de-rio-branco-a-olavo-de-carvalho-e-dois-dos-filhos/": {
+      "refId": "gazetadopovo-riobranco",
+      "archiveUrl": "https://web.archive.org/web/20250806094421/https://www.gazetadopovo.com.br/republica/bolsonaro-concede-ordem-de-rio-branco-a-olavo-de-carvalho-e-dois-dos-filhos/",
+      "timestamp": "20250806094421",
+      "checkedAt": "2026-08-02"
+    },
+    "https://www.gazetadopovo.com.br/vozes/bruna-frascolla/o-debate-olavo-dugin-dez-anos-depois/": {
+      "refId": "gazetadopovo-frascolla",
+      "archiveUrl": "https://web.archive.org/web/20230930183642/https://www.gazetadopovo.com.br/vozes/bruna-frascolla/o-debate-olavo-dugin-dez-anos-depois/",
+      "timestamp": "20230930183642",
+      "checkedAt": "2026-08-02"
+    },
+    "https://www.metropoles.com/brasil/olavo-de-carvalho-guru-do-bolsonarismo-morre-aos-74-anos": {
+      "refId": "metropoles-obit",
+      "archiveUrl": "https://web.archive.org/web/20251210220208/https://www.metropoles.com/brasil/olavo-de-carvalho-guru-do-bolsonarismo-morre-aos-74-anos",
+      "timestamp": "20251210220208",
+      "checkedAt": "2026-08-02"
+    },
+    "https://www.noticiasaominuto.com.br/politica/1879160/3-olavo-de-carvalho-morreu-de-covid-diz-filha-do-guru-do-bolsonarismo": {
+      "refId": "noticiasaominuto-filha",
+      "archiveUrl": "https://web.archive.org/web/20220523175208/https://www.noticiasaominuto.com.br/politica/1879160/3-olavo-de-carvalho-morreu-de-covid-diz-filha-do-guru-do-bolsonarismo",
+      "timestamp": "20220523175208",
+      "checkedAt": "2026-08-02"
+    },
+    "https://www.nytimes.com/2022/01/26/world/americas/olavo-de-carvalho-dead.html": {
+      "refId": "nyt-obit",
+      "archiveUrl": "https://web.archive.org/web/20250424010222/https://www.nytimes.com/2022/01/26/world/americas/olavo-de-carvalho-dead.html/",
+      "timestamp": "20250424010222",
+      "checkedAt": "2026-08-02"
+    },
+    "https://www.poder360.com.br/brasil/olavo-de-carvalho-esta-no-brasil-para-tratar-problemas-respiratorios/": {
+      "refId": "poder360-brasil-respiratorio",
+      "archiveUrl": "https://web.archive.org/web/20250621210407/https://www.poder360.com.br/brasil/olavo-de-carvalho-esta-no-brasil-para-tratar-problemas-respiratorios/",
+      "timestamp": "20250621210407",
+      "checkedAt": "2026-08-02"
+    },
+    "https://www.poder360.com.br/brasil/olavo-de-carvalho-morre-aos-74-anos/": {
+      "refId": "poder360-obit",
+      "archiveUrl": "https://web.archive.org/web/20251115095236/https://www.poder360.com.br/brasil/olavo-de-carvalho-morre-aos-74-anos/",
+      "timestamp": "20251115095236",
+      "checkedAt": "2026-08-02"
+    },
+    "https://www.poder360.com.br/governo/bolsonaro-decreta-luto-no-brasil-por-morte-de-olavo-de-carvalho/": {
+      "refId": "poder360-luto",
+      "archiveUrl": "https://web.archive.org/web/20230410094252/https://www.poder360.com.br/governo/bolsonaro-decreta-luto-no-brasil-por-morte-de-olavo-de-carvalho/",
+      "timestamp": "20230410094252",
+      "checkedAt": "2026-08-02"
+    },
+    "https://www.pragmatismopolitico.com.br/2019/05/bolsonaro-condecora-olavo-ordem-de-rio-branco.html": {
+      "refId": "pragmatismo-riobranco",
+      "archiveUrl": "https://web.archive.org/web/20260313172228/https://www.pragmatismopolitico.com.br/2019/05/bolsonaro-condecora-olavo-ordem-de-rio-branco.html",
+      "timestamp": "20260313172228",
+      "checkedAt": "2026-08-02"
+    },
+    "https://www.rafaelalmeida.com/cof.html": {
+      "refId": "rafaelalmeida-cof",
+      "archiveUrl": "https://web.archive.org/web/20260726042015/https://www.rafaelalmeida.com/cof.html",
+      "timestamp": "20260726042015",
+      "checkedAt": "2026-08-02"
+    }
+  }
+}
