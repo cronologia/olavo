@@ -1147,10 +1147,10 @@
   "philosophers": {
     "_meta": {
       "what": "Wave-1 philosopher pages (olavo#2): each philosopher's life-and-works timeline from standard public references, rendered together with the COF reception index (data/cof-reception.json). English is authoritative; pt/es come from the i18n caches.",
-      "selection": "The ten most engaged philosophers in the COF corpus by the corrected word-boundary measurement (cronologia/archive#44 and its correction comment).",
+      "selection": "The twenty most engaged philosophers in the COF corpus by the corrected word-boundary measurement (cronologia/archive#44 and its correction comment); shipped in two waves (olavo#2).",
       "disciplineNote": "Timeline entries assert the philosopher's own public record; the reception layer asserts what Olavo said and when — never what the philosopher 'really' meant (AGENTS.md rule 6). Scholarly date estimates carry approx: true and render with a flag."
     },
-    "intro": "The ten philosophers most engaged by the Curso Online de Filosofia, by measured presence in the 585-lecture corpus. Each page carries the thinker's own life and works, and the record of which lectures engage him.",
+    "intro": "The twenty philosophers most engaged by the Curso Online de Filosofia, by measured presence in the 585-lecture corpus. Each page carries the thinker's own life and works, and the record of which lectures engage him.",
     "philosophers": [
       {
         "slug": "aristoteles",
@@ -2125,6 +2125,1000 @@
           "uqam-lavelle",
           "universalis-lavelle"
         ]
+      },
+      {
+        "slug": "nietzsche",
+        "name": "Nietzsche",
+        "fullName": "Friedrich Wilhelm Nietzsche",
+        "dates": "1844–1900",
+        "place": "Röcken, Saxony (Prussia, present-day Germany)",
+        "summary": "German philosopher and cultural critic, trained as a classical philologist, who published intensely through the 1870s and 1880s. He is known for his radical critiques of traditional European morality, religion and philosophy, and for concepts such as the will to power, the eternal recurrence and the Übermensch. His productive career ended abruptly with the mental collapse of 1889.",
+        "timeline": [
+          {
+            "when": "15 October 1844",
+            "label": "Born in Röcken, near Leipzig, son of a Lutheran pastor.",
+            "sources": [
+              "sep-nietzsche",
+              "brit-nietzsche"
+            ]
+          },
+          {
+            "when": "May 1869",
+            "label": "At 24, called to the chair of classical philology at the University of Basel — the youngest ever appointed to such a post; in his student years at Leipzig he had met Richard Wagner.",
+            "sources": [
+              "sep-nietzsche",
+              "brit-nietzsche"
+            ]
+          },
+          {
+            "when": "1872",
+            "label": "Publishes his first book, The Birth of Tragedy, a polemic that breaks with conventional philological scholarship.",
+            "sources": [
+              "sep-nietzsche",
+              "brit-nietzsche"
+            ]
+          },
+          {
+            "when": "1878",
+            "label": "Publishes Human, All Too Human, the landmark of his 'positivist' phase and of the break with Wagner.",
+            "sources": [
+              "brit-nietzsche",
+              "sep-nietzsche"
+            ]
+          },
+          {
+            "when": "1879",
+            "label": "Resigns the Basel chair for health reasons; begins the decade of itinerant life between Switzerland, Italy and France, devoted to writing.",
+            "sources": [
+              "sep-nietzsche",
+              "brit-nietzsche"
+            ]
+          },
+          {
+            "when": "1882",
+            "label": "Publishes The Gay Science (expanded second edition 1887), where the announcement of the 'death of God' first appears.",
+            "sources": [
+              "sep-nietzsche"
+            ]
+          },
+          {
+            "when": "1883–1885",
+            "label": "Publishes Thus Spoke Zarathustra, in four parts.",
+            "sources": [
+              "sep-nietzsche",
+              "brit-nietzsche"
+            ]
+          },
+          {
+            "when": "1886–1887",
+            "label": "Publishes Beyond Good and Evil (1886) and On the Genealogy of Morality (1887), central works of his maturity.",
+            "sources": [
+              "sep-nietzsche"
+            ]
+          },
+          {
+            "when": "1888",
+            "label": "Last productive year: writes Twilight of the Idols, The Case of Wagner and other final texts.",
+            "sources": [
+              "sep-nietzsche"
+            ]
+          },
+          {
+            "when": "January 1889",
+            "label": "Suffers a mental collapse in Turin; spends his final years in the care of his mother and then his sister, in deepening silence.",
+            "sources": [
+              "sep-nietzsche"
+            ]
+          },
+          {
+            "when": "25 August 1900",
+            "label": "Dies in Weimar, of a stroke complicated by pneumonia; his sister Elisabeth takes control of his literary estate.",
+            "sources": [
+              "brit-nietzsche",
+              "sep-nietzsche"
+            ]
+          }
+        ],
+        "sources": [
+          "sep-nietzsche",
+          "brit-nietzsche",
+          "iep-nietzsche"
+        ]
+      },
+      {
+        "slug": "leibniz",
+        "name": "Leibniz",
+        "fullName": "Gottfried Wilhelm Leibniz",
+        "dates": "1646–1716",
+        "place": "Leipzig, Saxony (Germany)",
+        "summary": "German polymath — philosopher, mathematician, jurist and diplomat — counted among the great rationalists of the seventeenth century. He developed the differential and integral calculus independently of Newton and formulated a metaphysical system centered on the monads and pre-established harmony. He spent most of his career in the service of the House of Hanover.",
+        "timeline": [
+          {
+            "when": "1 July 1646",
+            "label": "Born in Leipzig (21 June by the Julian calendar then in use; 1 July by the Gregorian, as Britannica records).",
+            "sources": [
+              "brit-leibniz"
+            ]
+          },
+          {
+            "when": "1661",
+            "label": "Enters the University of Leipzig, beginning his formation in philosophy and law.",
+            "sources": [
+              "sep-leibniz"
+            ]
+          },
+          {
+            "when": "1667",
+            "label": "Completes his doctorate in law; the same year he meets Baron von Boineburg, who secures him a position at the court of the Elector of Mainz.",
+            "sources": [
+              "sep-leibniz"
+            ]
+          },
+          {
+            "when": "1672–1676",
+            "label": "Diplomatic mission in Paris, then the center of European science, with a brief journey to London (1673); he frequents the leading savants of the age.",
+            "sources": [
+              "sep-leibniz",
+              "brit-leibniz"
+            ]
+          },
+          {
+            "when": "late 1675",
+            "label": "Lays the foundations of the differential and integral calculus, per Britannica.",
+            "sources": [
+              "brit-leibniz"
+            ]
+          },
+          {
+            "when": "1676",
+            "label": "Enters the service of the House of Hanover as librarian to Duke Johann Friedrich; on the way, meets Spinoza in Amsterdam (18–21 November).",
+            "sources": [
+              "sep-leibniz"
+            ]
+          },
+          {
+            "when": "1686",
+            "label": "Writes the Discourse on Metaphysics and begins the correspondence with Arnauld, central expositions of his mature metaphysics.",
+            "sources": [
+              "sep-leibniz"
+            ]
+          },
+          {
+            "when": "1710",
+            "label": "Publishes the Essays of Theodicy, the only philosophical book he published in his lifetime.",
+            "sources": [
+              "sep-leibniz"
+            ]
+          },
+          {
+            "when": "1714",
+            "label": "Writes the Monadology and the Principles of Nature and Grace, final syntheses of his system; that year his patron Georg Ludwig becomes George I of England, but Leibniz remains in Hanover.",
+            "sources": [
+              "sep-leibniz"
+            ]
+          },
+          {
+            "when": "14 November 1716",
+            "label": "Dies in Hanover.",
+            "sources": [
+              "sep-leibniz",
+              "brit-leibniz"
+            ]
+          }
+        ],
+        "sources": [
+          "sep-leibniz",
+          "brit-leibniz",
+          "iep-leibniz-met"
+        ]
+      },
+      {
+        "slug": "mario-ferreira",
+        "name": "Mário Ferreira dos Santos",
+        "fullName": "Mário Dias Ferreira dos Santos",
+        "dates": "1907–1968",
+        "place": "Tietê, São Paulo (Brazil)",
+        "summary": "Brazilian philosopher, translator and writer, creator of the system he named 'concrete philosophy'. In little more than fifteen years he published the monumental Enciclopédia de Ciências Filosóficas e Sociais, in dozens of volumes, working outside the university establishment. He fell into relative obscurity after his death and has been republished since the 2000s, with the rights to his work acquired by the publisher É Realizações.",
+        "timeline": [
+          {
+            "when": "3 January 1907",
+            "label": "Born in Tietê (SP), son of the Portuguese Francisco Dias Ferreira dos Santos, a theatrical entrepreneur and cinema pioneer established in Pelotas (RS).",
+            "sources": [
+              "luizberto-mario",
+              "migalhas-mario"
+            ]
+          },
+          {
+            "when": "1913",
+            "label": "Appears, still a child, in his father's silent film 'Os óculos do vovô', one of the oldest Brazilian films known.",
+            "sources": [
+              "luizberto-mario"
+            ]
+          },
+          {
+            "when": "1910s–1920s",
+            "approx": true,
+            "label": "Early schooling at the Ginásio Gonzaga, the Jesuit college of Pelotas; at 14 he wishes to enter the Society of Jesus but is counseled against it.",
+            "sources": [
+              "luizberto-mario"
+            ]
+          },
+          {
+            "when": "1925–1930",
+            "label": "Studies at the Law Faculty of Porto Alegre, graduating in 1930; begins writing for newspapers of Pelotas and Porto Alegre (Diário de Notícias, Correio do Povo).",
+            "sources": [
+              "luizberto-mario"
+            ]
+          },
+          {
+            "when": "1930s",
+            "approx": true,
+            "label": "Works as a journalist; after the Revolution of 1930, is jailed for criticism of the new regime.",
+            "sources": [
+              "luizberto-mario"
+            ]
+          },
+          {
+            "when": "1940",
+            "label": "Hired by Livraria do Globo as a translator from Latin, Greek, German and French; translates Aristotle, Nietzsche, Kant, Pascal and Thomas Aquinas, among others.",
+            "sources": [
+              "luizberto-mario"
+            ]
+          },
+          {
+            "when": "1945",
+            "label": "Moves to São Paulo, continuing his work as a translator at Editora Flama.",
+            "sources": [
+              "luizberto-mario"
+            ]
+          },
+          {
+            "when": "1952",
+            "label": "Begins, with Filosofia e Cosmovisão, the publication of the Enciclopédia de Ciências Filosóficas e Sociais, the systematic project that would occupy the rest of his life (counts of the total vary: 45 and more than 50 volumes are both cited).",
+            "sources": [
+              "faje-mario"
+            ]
+          },
+          {
+            "when": "1953–1956",
+            "label": "Publishes the encyclopedia's introductory volumes at speed: Lógica e Dialética (1953), Psicologia (1953), Teoria do Conhecimento (1954), Ontologia e Cosmologia (1954), Tratado de Simbólica (1956), Filosofia da Crise (1956), O Homem Perante o Infinito (1956) and Noologia Geral (1956).",
+            "sources": [
+              "faje-mario"
+            ]
+          },
+          {
+            "when": "1957",
+            "label": "Publishes Filosofia Concreta, the tenth work of the series, in which he establishes his own way of philosophizing and the core of his system.",
+            "sources": [
+              "faje-mario"
+            ]
+          },
+          {
+            "when": "11 April 1968",
+            "label": "Dies, leaving the encyclopedia almost entirely published and a vast body of work partly unpublished.",
+            "sources": [
+              "luizberto-mario",
+              "faje-mario",
+              "migalhas-mario"
+            ]
+          },
+          {
+            "when": "2000s",
+            "approx": true,
+            "label": "His work returns to circulation: the publisher É Realizações acquires the rights and republishes his books, among them A Invasão Vertical dos Bárbaros (repub. 2012).",
+            "sources": [
+              "luizberto-mario",
+              "migalhas-mario"
+            ]
+          }
+        ],
+        "sources": [
+          "luizberto-mario",
+          "faje-mario",
+          "migalhas-mario"
+        ]
+      },
+      {
+        "slug": "santo-agostinho",
+        "name": "Santo Agostinho",
+        "fullName": "Aurelius Augustinus (Augustine of Hippo)",
+        "dates": "354–430",
+        "place": "Thagaste, Numidia (present-day Souk Ahras, Algeria)",
+        "summary": "Bishop of Hippo and one of the most influential Christian thinkers of all time, the bridge between ancient philosophy and medieval thought. A professor of rhetoric converted to ascetic Christianity in 386, he left more than five million words of surviving writings, among them the Confessions and The City of God.",
+        "timeline": [
+          {
+            "when": "13 November 354",
+            "label": "Born in Thagaste, in Roman Africa (present-day Souk Ahras, Algeria), son of Monica, a devout Christian, and Patricius, baptized only on his deathbed.",
+            "sources": [
+              "sep-agostinho",
+              "brit-agostinho"
+            ]
+          },
+          {
+            "when": "c. 373",
+            "approx": true,
+            "label": "Becomes a 'hearer' (auditor) of Manichaeism, the dualist religion of Persian origin, to which he remains attached for about a decade.",
+            "sources": [
+              "sep-agostinho"
+            ]
+          },
+          {
+            "when": "383–384",
+            "approx": true,
+            "label": "Moves to Italy and takes up in Milan, then capital of the Western Empire, the public post of professor of rhetoric and panegyrist of the imperial court (the SEP dates the move to Milan to 383).",
+            "sources": [
+              "sep-agostinho"
+            ]
+          },
+          {
+            "when": "summer 386",
+            "label": "Converts to ascetic Christianity and renounces the chair of rhetoric and his career prospects.",
+            "sources": [
+              "sep-agostinho"
+            ]
+          },
+          {
+            "when": "386–387",
+            "label": "At the rural retreat of Cassiciacum, near Milan, writes his first philosophical dialogues (Contra Academicos, De beata vita, De ordine).",
+            "sources": [
+              "sep-agostinho"
+            ]
+          },
+          {
+            "when": "Easter 387",
+            "label": "Baptized by Ambrose in Milan; on the return to Africa, his mother dies at Ostia (388).",
+            "sources": [
+              "sep-agostinho"
+            ]
+          },
+          {
+            "when": "391",
+            "label": "Ordained a priest at Hippo Regius (present-day Annaba, Algeria), apparently against his own wishes.",
+            "sources": [
+              "sep-agostinho",
+              "brit-agostinho"
+            ]
+          },
+          {
+            "when": "395/396",
+            "label": "Becomes bishop of Hippo — Britannica gives 395 or 396; the SEP, about 396.",
+            "sources": [
+              "sep-agostinho",
+              "brit-agostinho"
+            ]
+          },
+          {
+            "when": "c. 396–400",
+            "approx": true,
+            "label": "Writes the Confessions, 'philosophy in autobiography' — the SEP dates the work to c. 396–400; Britannica, to c. 400.",
+            "sources": [
+              "sep-agostinho",
+              "brit-agostinho"
+            ]
+          },
+          {
+            "when": "c. 413–426",
+            "approx": true,
+            "label": "Writes The City of God, his great work of the theology of history, begun after the sack of Rome.",
+            "sources": [
+              "brit-agostinho"
+            ]
+          },
+          {
+            "when": "28 August 430",
+            "label": "Dies at Hippo Regius, aged 75.",
+            "sources": [
+              "sep-agostinho",
+              "brit-agostinho"
+            ]
+          }
+        ],
+        "sources": [
+          "sep-agostinho",
+          "brit-agostinho",
+          "iep-agostinho"
+        ]
+      },
+      {
+        "slug": "eric-voegelin",
+        "name": "Eric Voegelin",
+        "fullName": "Eric Hermann Wilhelm Voegelin",
+        "dates": "1901–1985",
+        "place": "Cologne (Germany); formed in Vienna",
+        "summary": "German-American political philosopher, formed in Vienna, who fled Nazism in 1938 and made his career in the United States and Munich. He sought a comprehensive philosophy of man, society and history, and became known for his analysis of modern political movements as 'gnosticism'. His principal works include The New Science of Politics and the Order and History series.",
+        "timeline": [
+          {
+            "when": "3 January 1901",
+            "label": "Born in Cologne, Germany; the family later moves to Vienna, where he receives his entire formation.",
+            "sources": [
+              "brit-voegelin",
+              "voegelinview-bio"
+            ]
+          },
+          {
+            "when": "1928",
+            "label": "Obtains the habilitation and begins teaching at the University of Vienna (Britannica records his teaching at the Law Faculty from 1929 to 1938).",
+            "sources": [
+              "voegelinview-bio",
+              "brit-voegelin"
+            ]
+          },
+          {
+            "when": "1933",
+            "label": "Publishes two books critically analyzing racism and race ideas, which set him against Nazism.",
+            "sources": [
+              "voegelinview-bio"
+            ]
+          },
+          {
+            "when": "1936",
+            "label": "Publishes Der autoritäre Staat (The Authoritarian State).",
+            "sources": [
+              "brit-voegelin"
+            ]
+          },
+          {
+            "when": "1938",
+            "label": "After the Anschluss, flees Austria with his wife, passing through Switzerland before emigrating to the United States.",
+            "sources": [
+              "brit-voegelin",
+              "voegelinview-bio"
+            ]
+          },
+          {
+            "when": "1942–1958",
+            "label": "Professor at Louisiana State University, Baton Rouge; becomes a US citizen in 1944.",
+            "sources": [
+              "voegelinview-bio"
+            ]
+          },
+          {
+            "when": "1952",
+            "label": "Publishes The New Science of Politics, the work that projects him into the American intellectual debate.",
+            "sources": [
+              "brit-voegelin",
+              "voegelinview-bio"
+            ]
+          },
+          {
+            "when": "1956–1957",
+            "label": "Publishes the first three volumes of Order and History; volume 4 appears in 1974 and the posthumous volume 5 in 1987.",
+            "sources": [
+              "voegelinview-bio",
+              "brit-voegelin"
+            ]
+          },
+          {
+            "when": "1958",
+            "label": "Takes up in Munich the former chair of Max Weber in political science at the Ludwig-Maximilians-Universität.",
+            "sources": [
+              "brit-voegelin",
+              "voegelinview-bio"
+            ]
+          },
+          {
+            "when": "1966",
+            "label": "Publishes Anamnesis: Zur Theorie der Geschichte und Politik, central to his philosophy of consciousness.",
+            "sources": [
+              "voegelinview-bio"
+            ]
+          },
+          {
+            "when": "1969",
+            "label": "Returns to the United States as senior research fellow at the Hoover Institution, Stanford University.",
+            "sources": [
+              "brit-voegelin",
+              "voegelinview-bio"
+            ]
+          },
+          {
+            "when": "19 January 1985",
+            "label": "Dies at Stanford, California.",
+            "sources": [
+              "brit-voegelin",
+              "voegelinview-bio"
+            ]
+          }
+        ],
+        "sources": [
+          "brit-voegelin",
+          "voegelinview-bio"
+        ]
+      },
+      {
+        "slug": "husserl",
+        "name": "Husserl",
+        "fullName": "Edmund Gustav Albrecht Husserl",
+        "dates": "1859–1938",
+        "place": "Proßnitz, Moravia (present-day Prostějov, Czechia)",
+        "summary": "A mathematician by training and the founder of phenomenology, the movement that marked all of twentieth-century continental philosophy. He made his career at Halle, Göttingen and Freiburg, where Heidegger succeeded him. Of Jewish origin, he spent his last years excluded from German university life under the Nazi regime.",
+        "timeline": [
+          {
+            "when": "8 April 1859",
+            "label": "Born in Proßnitz, Moravia, then in the Austrian Empire (present-day Prostějov, Czechia).",
+            "sources": [
+              "brit-husserl"
+            ]
+          },
+          {
+            "when": "January 1883",
+            "label": "Takes his doctorate in mathematics in Vienna with a thesis on the calculus of variations; works briefly as Weierstrass's assistant in Berlin.",
+            "sources": [
+              "sep-husserl"
+            ]
+          },
+          {
+            "when": "1887–1901",
+            "label": "Privatdozent at the University of Halle for fourteen years; in 1891 publishes his first book, Philosophy of Arithmetic.",
+            "sources": [
+              "sep-husserl"
+            ]
+          },
+          {
+            "when": "1900–1901",
+            "label": "Publishes the Logical Investigations, the founding work of phenomenology.",
+            "sources": [
+              "sep-husserl",
+              "brit-husserl"
+            ]
+          },
+          {
+            "when": "1901–1916",
+            "label": "Professor at Göttingen (extraordinarius from 1901, ordinarius from 1906), a position secured by the success of the Investigations.",
+            "sources": [
+              "sep-husserl",
+              "brit-husserl"
+            ]
+          },
+          {
+            "when": "1913",
+            "label": "Publishes Ideas for a Pure Phenomenology (Ideas I), the transcendental turn of his thought.",
+            "sources": [
+              "brit-husserl"
+            ]
+          },
+          {
+            "when": "1916",
+            "label": "Takes the chair of philosophy at Freiburg, succeeding the neo-Kantian Heinrich Rickert; Edith Stein becomes his assistant.",
+            "sources": [
+              "sep-husserl"
+            ]
+          },
+          {
+            "when": "1928",
+            "label": "Retires at Freiburg, succeeded by Heidegger; shortly afterwards delivers in Paris the lectures that would become the Cartesian Meditations.",
+            "sources": [
+              "sep-husserl"
+            ]
+          },
+          {
+            "when": "1933",
+            "label": "With the arrival of Nazism, suffers the exclusion imposed on Jews in Germany — in a letter of 4 May 1933 he speaks of the erection of a 'spiritual ghetto' in which he and his children were being enclosed.",
+            "sources": [
+              "sep-husserl"
+            ]
+          },
+          {
+            "when": "1936",
+            "label": "Publishes (in part) The Crisis of European Sciences and Transcendental Phenomenology, developed from lectures in Vienna and Prague.",
+            "sources": [
+              "sep-husserl"
+            ]
+          },
+          {
+            "when": "27 April 1938",
+            "label": "Dies in Freiburg im Breisgau.",
+            "sources": [
+              "brit-husserl"
+            ]
+          }
+        ],
+        "sources": [
+          "sep-husserl",
+          "brit-husserl",
+          "iep-husserl"
+        ]
+      },
+      {
+        "slug": "heidegger",
+        "name": "Heidegger",
+        "fullName": "Martin Heidegger",
+        "dates": "1889–1976",
+        "place": "Messkirch, Baden (Germany)",
+        "summary": "A central figure of twentieth-century European philosophy, author of Being and Time (1927) and renewer of the question of the meaning of being. Husserl's disciple and successor at Freiburg, he influenced existentialism, hermeneutics and deconstruction. His involvement with Nazism — the 1933–34 rectorate and party membership until 1945 — remains an object of controversy.",
+        "timeline": [
+          {
+            "when": "26 September 1889",
+            "label": "Born in Messkirch, in the Black Forest region of Germany.",
+            "sources": [
+              "brit-heidegger",
+              "sep-heidegger"
+            ]
+          },
+          {
+            "when": "1923",
+            "label": "Becomes associate professor at the University of Marburg, where he teaches ontology, logic and the history of philosophy until 1928.",
+            "sources": [
+              "sep-heidegger",
+              "brit-heidegger"
+            ]
+          },
+          {
+            "when": "1927",
+            "label": "Publishes Being and Time, his greatest work, and is promoted to full professor at Marburg.",
+            "sources": [
+              "sep-heidegger",
+              "brit-heidegger"
+            ]
+          },
+          {
+            "when": "1928",
+            "label": "Appointed to the Freiburg chair previously held by Rickert and by Husserl, whose successor he becomes.",
+            "sources": [
+              "sep-heidegger"
+            ]
+          },
+          {
+            "when": "April 1933",
+            "label": "Elected rector of the University of Freiburg after Hitler's seizure of power; joins the Nazi Party on 1 May and conducts the 'alignment' (Gleichschaltung) of the university.",
+            "sources": [
+              "sep-heidegger"
+            ]
+          },
+          {
+            "when": "April 1934",
+            "label": "Resigns the rectorate, but remains a party member until the end of the regime.",
+            "sources": [
+              "sep-heidegger"
+            ]
+          },
+          {
+            "when": "1936–1939",
+            "label": "Delivers the great lecture courses on Nietzsche, later collected in book form; in the 1930s–40s he also lectures on Hölderlin, Schelling, Hegel and the pre-Socratics.",
+            "sources": [
+              "sep-heidegger"
+            ]
+          },
+          {
+            "when": "1945–1946",
+            "label": "After Germany's surrender and the denazification hearings, the French military government bans him from all teaching and university activity.",
+            "sources": [
+              "sep-heidegger"
+            ]
+          },
+          {
+            "when": "1949",
+            "label": "The teaching ban is lifted, allowing him to assume emeritus status at Freiburg.",
+            "sources": [
+              "sep-heidegger"
+            ]
+          },
+          {
+            "when": "1950",
+            "label": "Publishes Holzwege (Off the Beaten Track), collecting essays from 1935–1946.",
+            "sources": [
+              "sep-heidegger"
+            ]
+          },
+          {
+            "when": "26 May 1976",
+            "label": "Dies in Freiburg im Breisgau.",
+            "sources": [
+              "brit-heidegger"
+            ]
+          }
+        ],
+        "sources": [
+          "sep-heidegger",
+          "brit-heidegger",
+          "iep-heidegger"
+        ]
+      },
+      {
+        "slug": "schuon",
+        "name": "Frithjof Schuon",
+        "fullName": "Frithjof Schuon",
+        "dates": "1907–1998",
+        "place": "Basel, Switzerland",
+        "summary": "Swiss-German writer and metaphysician, the leading exponent of the perennialist (Traditionalist) school in the twentieth century alongside René Guénon and Ananda Coomaraswamy. Initiated into Sufism in Algeria in 1933, he directed from Europe — and, after 1980, from Bloomington, Indiana — the order that became known as the Maryamiyya, and wrote dozens of books on metaphysics, comparative religion and sacred art. The accounts of his life here follow chiefly his estate's site and the historian of Traditionalism Mark Sedgwick.",
+        "timeline": [
+          {
+            "when": "18 June 1907",
+            "label": "Born in Basel, Switzerland, son of a German violinist.",
+            "sources": [
+              "fschuon-bio"
+            ]
+          },
+          {
+            "when": "1920",
+            "label": "After his father's death, moves with his mother to Mulhouse, in French Alsace.",
+            "sources": [
+              "fschuon-bio"
+            ]
+          },
+          {
+            "when": "1930",
+            "label": "Settles in Paris, where he works and deepens his study of Arabic and of Eastern doctrines.",
+            "sources": [
+              "fschuon-bio"
+            ]
+          },
+          {
+            "when": "1933",
+            "label": "Travels to Mostaganem, Algeria, enters Islam and spends about four months at the zawiya of the Sufi shaykh Ahmad al-Alawi, from whom he receives initiation (the date per the estate's site; other reconstructions place the departure from Europe in late 1932).",
+            "sources": [
+              "fschuon-bio"
+            ]
+          },
+          {
+            "when": "1935",
+            "label": "Publishes his first book, in German: Leitgedanken zur Urbesinnung (Primordial Meditation).",
+            "sources": [
+              "fschuon-bio"
+            ]
+          },
+          {
+            "when": "1941",
+            "label": "Settles in Lausanne, Switzerland, his base for nearly four decades.",
+            "sources": [
+              "fschuon-bio"
+            ]
+          },
+          {
+            "when": "1948",
+            "label": "Publishes De l'Unité transcendante des religions, his first and best-known book in French, the classic formulation of the perennialist thesis.",
+            "sources": [
+              "fschuon-bio"
+            ]
+          },
+          {
+            "when": "1949",
+            "label": "Marries Catherine Feer; obtains Swiss citizenship shortly afterwards.",
+            "sources": [
+              "fschuon-bio"
+            ]
+          },
+          {
+            "when": "1959 and 1963",
+            "label": "Travels to the American West at the invitation of Indigenous friends; on the 1959 visit he is adopted by the Sioux (and, in 1984, by the Crow).",
+            "sources": [
+              "fschuon-bio"
+            ]
+          },
+          {
+            "when": "1970s",
+            "approx": true,
+            "label": "Publishes mature works such as Logic and Transcendence, Form and Substance in the Religions and Esoterism as Principle and as Way.",
+            "sources": [
+              "fschuon-bio"
+            ]
+          },
+          {
+            "when": "1980",
+            "label": "Emigrates with his wife to the United States, settling in Bloomington, Indiana, near a community of disciples; in the first years there publishes From the Divine to the Human, To Have a Center and Roots of the Human Condition.",
+            "sources": [
+              "fschuon-bio"
+            ]
+          },
+          {
+            "when": "1991",
+            "label": "Becomes the target, in Bloomington, of accusations taken to a grand jury on the complaints of a former disciple; the prosecution dropped the charges shortly afterwards — an episode documented by the historian Mark Sedgwick in Against the Modern World (2004) and discussed on his academic blog.",
+            "sources": [
+              "sedgwick-oup",
+              "sedgwick-blog-schuon"
+            ]
+          },
+          {
+            "when": "5 May 1998",
+            "label": "Dies in Bloomington, Indiana.",
+            "sources": [
+              "fschuon-bio"
+            ]
+          }
+        ],
+        "sources": [
+          "fschuon-bio",
+          "sedgwick-blog-schuon",
+          "sedgwick-oup"
+        ]
+      },
+      {
+        "slug": "ortega-y-gasset",
+        "name": "Ortega y Gasset",
+        "fullName": "José Ortega y Gasset",
+        "dates": "1883–1955",
+        "place": "Madrid, Spain",
+        "summary": "Spanish philosopher, essayist and intellectual leader, formed in German neo-Kantianism and creator of 'vital reason' ('I am I and my circumstance'). Professor of metaphysics in Madrid and founder of the Revista de Occidente, he became world-famous with The Revolt of the Masses. He left Spain with the Civil War and returned after the Second World War.",
+        "timeline": [
+          {
+            "when": "9 May 1883",
+            "label": "Born in Madrid, into a family tied to liberal journalism.",
+            "sources": [
+              "sep-gasset",
+              "brit-ortega"
+            ]
+          },
+          {
+            "when": "c. 1905–1907",
+            "approx": true,
+            "label": "Studies in Germany — Leipzig, Berlin and, decisively, Marburg, under neo-Kantianism — before returning to Madrid.",
+            "sources": [
+              "sep-gasset"
+            ]
+          },
+          {
+            "when": "1910",
+            "label": "Wins the competition (8 October) for the chair of metaphysics at the Central University of Madrid, vacant since the death of Nicolás Salmerón.",
+            "sources": [
+              "sep-gasset"
+            ]
+          },
+          {
+            "when": "1914",
+            "label": "Publishes Meditaciones del Quijote, where the formula 'I am I and my circumstance' appears.",
+            "sources": [
+              "sep-gasset",
+              "brit-ortega"
+            ]
+          },
+          {
+            "when": "1921/1922",
+            "label": "Publishes España invertebrada — the SEP dates the book to 1921; Britannica, to 1922.",
+            "sources": [
+              "sep-gasset",
+              "brit-ortega"
+            ]
+          },
+          {
+            "when": "1923",
+            "label": "Founds the Revista de Occidente, the leading organ of intellectual renewal in the Spain of the period.",
+            "sources": [
+              "brit-ortega"
+            ]
+          },
+          {
+            "when": "1929/1930",
+            "label": "Publishes La rebelión de las masas, his most famous work — Britannica dates it to 1929 (as a series of articles); the SEP records the book in 1930.",
+            "sources": [
+              "brit-ortega",
+              "sep-gasset"
+            ]
+          },
+          {
+            "when": "1931",
+            "label": "Becomes one of the first members of the Constituent Cortes of the Second Spanish Republic.",
+            "sources": [
+              "sep-gasset"
+            ]
+          },
+          {
+            "when": "1936–1945",
+            "label": "With the outbreak of the Civil War, leaves Spain; lives in Europe and Argentina, returning at the end of the Second World War (Britannica describes the period as voluntary exile).",
+            "sources": [
+              "sep-gasset",
+              "brit-ortega"
+            ]
+          },
+          {
+            "when": "1948",
+            "label": "Founds in Madrid, with his disciple Julián Marías, the Instituto de Humanidades — he never resumed his university chair, and the government restricts the institute's activities until its closure in 1950.",
+            "sources": [
+              "sep-gasset"
+            ]
+          },
+          {
+            "when": "18 October 1955",
+            "label": "Dies in Madrid.",
+            "sources": [
+              "brit-ortega",
+              "sep-gasset"
+            ]
+          }
+        ],
+        "sources": [
+          "sep-gasset",
+          "brit-ortega"
+        ]
+      },
+      {
+        "slug": "dante",
+        "name": "Dante Alighieri",
+        "fullName": "Dante Alighieri (Durante di Alighiero degli Alighieri)",
+        "dates": "c. 1265–1321",
+        "place": "Florence (Italy)",
+        "summary": "Poet, political thinker and 'father of the Italian language', author of the Divine Comedy, the poetic synthesis of medieval culture. He took an active part in the civic life of Florence until his condemnation to exile in 1302, and wrote in banishment his great prose works and the poem that immortalized him. He died in Ravenna in 1321.",
+        "timeline": [
+          {
+            "when": "c. May–June 1265",
+            "approx": true,
+            "label": "Born in Florence — if he was indeed born under Gemini, as the Paradiso suggests, the birthday would fall between mid-May and mid-June (Britannica records c. 21 May–20 June).",
+            "sources": [
+              "sep-dante",
+              "brit-dante"
+            ]
+          },
+          {
+            "when": "c. 1274",
+            "approx": true,
+            "label": "By the testimony of his own writings, meets at age nine Beatrice Portinari, whom after her death (1290) he will invoke as the inspiration of his poetic vision.",
+            "sources": [
+              "sep-dante"
+            ]
+          },
+          {
+            "when": "1285",
+            "label": "Marries and starts a family; from then on takes part in Florence's cultural and civic life, serves as a soldier and holds various political offices.",
+            "sources": [
+              "sep-dante"
+            ]
+          },
+          {
+            "when": "c. 1293",
+            "approx": true,
+            "label": "Composes the Vita nuova, the prosimetrum in praise of Beatrice.",
+            "sources": [
+              "brit-dante"
+            ]
+          },
+          {
+            "when": "1302",
+            "label": "Condemned and exiled from Florence in the struggle between Guelph factions; he will never return to the city.",
+            "sources": [
+              "sep-dante",
+              "brit-dante"
+            ]
+          },
+          {
+            "when": "c. 1304–1307",
+            "approx": true,
+            "label": "Writes the Convivio, abandoned with only four of the projected treatises, and De vulgari eloquentia, on the illustrious vernacular.",
+            "sources": [
+              "sep-dante"
+            ]
+          },
+          {
+            "when": "c. 1308–1321",
+            "approx": true,
+            "label": "Composes the Divine Comedy (Inferno, Purgatorio, Paradiso), per Britannica's dating.",
+            "sources": [
+              "brit-dante"
+            ]
+          },
+          {
+            "when": "1312",
+            "label": "In the years of the expedition of Henry VII of Luxembourg, crowned emperor in 1312, becomes an impassioned propagandist of universal empire.",
+            "sources": [
+              "sep-dante"
+            ]
+          },
+          {
+            "when": "after 1314",
+            "approx": true,
+            "label": "Writes the Monarchia, the Latin treatise on the necessity of an imperial power independent of the Church — its dating is disputed; the SEP considers composition after 1314 probable.",
+            "sources": [
+              "sep-dante"
+            ]
+          },
+          {
+            "when": "1319",
+            "label": "Moves from Verona (the court of Cangrande della Scala) to Ravenna, where he completes the Paradiso.",
+            "sources": [
+              "sep-dante"
+            ]
+          },
+          {
+            "when": "13/14 September 1321",
+            "label": "Dies in Ravenna — Britannica records the date as 13/14 September.",
+            "sources": [
+              "brit-dante",
+              "sep-dante"
+            ]
+          }
+        ],
+        "sources": [
+          "sep-dante",
+          "brit-dante"
+        ]
       }
     ],
     "references": [
@@ -2372,6 +3366,195 @@
         "url": "https://archive.org/details/COFemAudio",
         "publisher": "Internet Archive (community upload)",
         "type": "corpus"
+      },
+      {
+        "id": "sep-nietzsche",
+        "title": "Friedrich Nietzsche",
+        "url": "https://plato.stanford.edu/entries/nietzsche/",
+        "publisher": "Stanford Encyclopedia of Philosophy",
+        "type": "encyclopedia"
+      },
+      {
+        "id": "brit-nietzsche",
+        "title": "Friedrich Nietzsche",
+        "url": "https://www.britannica.com/biography/Friedrich-Nietzsche",
+        "publisher": "Encyclopaedia Britannica",
+        "type": "encyclopedia"
+      },
+      {
+        "id": "iep-nietzsche",
+        "title": "Friedrich Nietzsche",
+        "url": "https://iep.utm.edu/nietzsche/",
+        "publisher": "Internet Encyclopedia of Philosophy",
+        "type": "encyclopedia"
+      },
+      {
+        "id": "sep-leibniz",
+        "title": "Gottfried Wilhelm Leibniz",
+        "url": "https://plato.stanford.edu/entries/leibniz/",
+        "publisher": "Stanford Encyclopedia of Philosophy",
+        "type": "encyclopedia"
+      },
+      {
+        "id": "brit-leibniz",
+        "title": "Gottfried Wilhelm Leibniz",
+        "url": "https://www.britannica.com/biography/Gottfried-Wilhelm-Leibniz",
+        "publisher": "Encyclopaedia Britannica",
+        "type": "encyclopedia"
+      },
+      {
+        "id": "iep-leibniz-met",
+        "title": "Gottfried Leibniz: Metaphysics",
+        "url": "https://iep.utm.edu/leib-met/",
+        "publisher": "Internet Encyclopedia of Philosophy",
+        "type": "encyclopedia"
+      },
+      {
+        "id": "luizberto-mario",
+        "title": "Os Brasileiros: Mário Ferreira dos Santos",
+        "url": "https://luizberto.com/os-brasileiros-mario-ferreira-dos-santos/",
+        "publisher": "Jornal da Besta Fubana (Brazilian cultural blog — biographical profile, sympathetic perspective)",
+        "type": "article"
+      },
+      {
+        "id": "faje-mario",
+        "title": "O ponto arquimédico da Filosofia Concreta segundo a concepção de Mário Ferreira dos Santos (Miriam Dornas Gomes Pereira, monografia, 2019)",
+        "url": "https://faculdadejesuita.edu.br/wp-content/uploads/2024/07/2019-MIRIAN-DORNAS-GOMES-PEREIRA.pdf",
+        "publisher": "FAJE — Faculdade Jesuíta de Filosofia e Teologia (academic monograph)",
+        "type": "academic"
+      },
+      {
+        "id": "migalhas-mario",
+        "title": "Redescobrindo o filósofo brasileiro Mário Ferreira dos Santos (Eduardo Luiz Santos Cabette, 2014)",
+        "url": "https://www.migalhas.com.br/depeso/210801/redescobrindo-o-filosofo-brasileiro-mario-ferreira-dos-santos--uma-pontual-abordagem-criminologico-cultural",
+        "publisher": "Migalhas (Brazilian legal portal — opinion article, sympathetic perspective)",
+        "type": "article"
+      },
+      {
+        "id": "sep-agostinho",
+        "title": "Augustine of Hippo",
+        "url": "https://plato.stanford.edu/entries/augustine/",
+        "publisher": "Stanford Encyclopedia of Philosophy",
+        "type": "encyclopedia"
+      },
+      {
+        "id": "brit-agostinho",
+        "title": "St. Augustine",
+        "url": "https://www.britannica.com/biography/Saint-Augustine",
+        "publisher": "Encyclopaedia Britannica",
+        "type": "encyclopedia"
+      },
+      {
+        "id": "iep-agostinho",
+        "title": "Augustine of Hippo (354—430 C.E.)",
+        "url": "https://iep.utm.edu/augustin/",
+        "publisher": "Internet Encyclopedia of Philosophy",
+        "type": "encyclopedia"
+      },
+      {
+        "id": "brit-voegelin",
+        "title": "Eric Voegelin",
+        "url": "https://www.britannica.com/biography/Eric-Herman-Wilhelm-Voegelin",
+        "publisher": "Encyclopaedia Britannica",
+        "type": "encyclopedia"
+      },
+      {
+        "id": "voegelinview-bio",
+        "title": "Eric Voegelin Biographical Sketch",
+        "url": "https://voegelinview.com/biographical-sketch/",
+        "publisher": "VoegelinView (journal devoted to Voegelin's thought — sympathetic perspective)",
+        "type": "biography"
+      },
+      {
+        "id": "sep-husserl",
+        "title": "Edmund Husserl",
+        "url": "https://plato.stanford.edu/entries/husserl/",
+        "publisher": "Stanford Encyclopedia of Philosophy",
+        "type": "encyclopedia"
+      },
+      {
+        "id": "brit-husserl",
+        "title": "Edmund Husserl",
+        "url": "https://www.britannica.com/biography/Edmund-Husserl",
+        "publisher": "Encyclopaedia Britannica",
+        "type": "encyclopedia"
+      },
+      {
+        "id": "iep-husserl",
+        "title": "Edmund Husserl",
+        "url": "https://iep.utm.edu/husserl/",
+        "publisher": "Internet Encyclopedia of Philosophy",
+        "type": "encyclopedia"
+      },
+      {
+        "id": "sep-heidegger",
+        "title": "Martin Heidegger",
+        "url": "https://plato.stanford.edu/entries/heidegger/",
+        "publisher": "Stanford Encyclopedia of Philosophy",
+        "type": "encyclopedia"
+      },
+      {
+        "id": "brit-heidegger",
+        "title": "Martin Heidegger",
+        "url": "https://www.britannica.com/biography/Martin-Heidegger-German-philosopher",
+        "publisher": "Encyclopaedia Britannica",
+        "type": "encyclopedia"
+      },
+      {
+        "id": "iep-heidegger",
+        "title": "Martin Heidegger",
+        "url": "https://iep.utm.edu/heidegge/",
+        "publisher": "Internet Encyclopedia of Philosophy",
+        "type": "encyclopedia"
+      },
+      {
+        "id": "fschuon-bio",
+        "title": "Frithjof Schuon — Biography",
+        "url": "https://en.fschuon.info/?page_id=209",
+        "publisher": "fschuon.info (Schuon estate/circle site — perennialist perspective, labeled as such)",
+        "type": "biography"
+      },
+      {
+        "id": "sedgwick-blog-schuon",
+        "title": "Traditionalists: New website and new videos about Schuon (12 Oct 2020)",
+        "url": "https://traditionalistblog.blogspot.com/2020/10/new-website-and-new-videos-about-schuon.html",
+        "publisher": "Traditionalists blog, Mark Sedgwick (academic historian of Traditionalism — independent/critical perspective)",
+        "type": "blog"
+      },
+      {
+        "id": "sedgwick-oup",
+        "title": "Against the Modern World: Traditionalism and the Secret Intellectual History of the Twentieth Century (Mark Sedgwick, OUP, 2004)",
+        "url": "https://global.oup.com/academic/product/against-the-modern-world-9780195396010",
+        "publisher": "Oxford University Press (academic study — independent/critical perspective)",
+        "type": "book"
+      },
+      {
+        "id": "sep-gasset",
+        "title": "José Ortega y Gasset",
+        "url": "https://plato.stanford.edu/entries/gasset/",
+        "publisher": "Stanford Encyclopedia of Philosophy",
+        "type": "encyclopedia"
+      },
+      {
+        "id": "brit-ortega",
+        "title": "José Ortega y Gasset",
+        "url": "https://www.britannica.com/biography/Jose-Ortega-y-Gasset",
+        "publisher": "Encyclopaedia Britannica",
+        "type": "encyclopedia"
+      },
+      {
+        "id": "sep-dante",
+        "title": "Dante Alighieri",
+        "url": "https://plato.stanford.edu/entries/dante/",
+        "publisher": "Stanford Encyclopedia of Philosophy",
+        "type": "encyclopedia"
+      },
+      {
+        "id": "brit-dante",
+        "title": "Dante | Italian Poet",
+        "url": "https://www.britannica.com/biography/Dante-Alighieri",
+        "publisher": "Encyclopaedia Britannica",
+        "type": "encyclopedia"
       }
     ]
   }
