@@ -558,6 +558,19 @@
       ]
     },
     {
+      "year": 2022,
+      "date": "2022-07",
+      "dateVerified": true,
+      "place": "Rio de Janeiro / Curitiba, Brazil",
+      "title": "Posthumous honors: the Biblioteca Nacional medal, then Curitiba",
+      "text": "In July 2022 the Biblioteca Nacional's Medalha — Ordem do Mérito do Livro honored him posthumously, his widow Roxane receiving it (the family-side archive shows her at the ceremony on 2 July). That year's honors list was itself contested: writers publicly refused their medals over other honorees in the same batch, and the critical coverage that confirms his homage folded his death back into the cause dispute in the same sentence. On 25 April 2023 the Curitiba city council held a posthumous tribute session and moved a grant of honorary citizenship.",
+      "sources": [
+        "hdp-medalha",
+        "olavofb-medalha",
+        "curitiba-camara"
+      ]
+    },
+    {
       "year": 2023,
       "date": "2023-09",
       "dateVerified": true,
@@ -574,11 +587,12 @@
   "figures": [
     {
       "name": "Roxane Andrade de Souza",
-      "role": "Widow",
+      "role": "Widow; received his posthumous Biblioteca Nacional medal (July 2022)",
       "country": "USA",
       "sources": [
         "agenciabrasil-obit",
-        "wikipedia-en"
+        "olavofb-medalha",
+        "hdp-medalha"
       ]
     },
     {
@@ -1304,6 +1318,27 @@
       "url": "https://blogs.opovo.com.br/ancoradouro/2022/01/25/olavo-de-carvalho-recebe-os-sacramentos-antes-de-sua-morte/",
       "publisher": "O POVO, blog Ancoradouro (carries Silvio Grimaldo's account)",
       "type": "news"
+    },
+    {
+      "id": "hdp-medalha",
+      "title": "Intelectuais recusam medalha da Biblioteca Nacional e criticam homenagem a bolsonaristas",
+      "url": "https://horadopovo.com.br/intelectuais-recusam-medalha-da-biblioteca-nacional-e-criticam-homenagem-a-bolsonaristas-golpistas/",
+      "publisher": "Hora do Povo (left-wing outlet — critical perspective; confirms the posthumous homage while contesting the honors batch)",
+      "type": "news"
+    },
+    {
+      "id": "olavofb-medalha",
+      "title": "Medalha Biblioteca Nacional — Roxane recebe a homenagem póstuma (2 July 2022)",
+      "url": "https://olavodecarvalhofb.wordpress.com/2022/07/02/41846/",
+      "publisher": "olavodecarvalhofb.wordpress.com (fan archive by Marie Asmar mirroring his social-media presence — labeled as such; family-side record of the ceremony)",
+      "type": "archive"
+    },
+    {
+      "id": "curitiba-camara",
+      "title": "Câmara homenageia Olavo de Carvalho",
+      "url": "https://www.curitiba.pr.leg.br/informacao/noticias/camara-homenageia-olavo-de-carvalho",
+      "publisher": "Câmara Municipal de Curitiba (official legislative portal)",
+      "type": "official"
     }
   ],
   "philosophers": {
