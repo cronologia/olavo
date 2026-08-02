@@ -11,8 +11,90 @@
       {
         "href": "#chronology",
         "label": "📜 Chronology"
+      },
+      {
+        "href": "#threads",
+        "label": "🧵 Currents"
       }
-    ]
+    ],
+    "threads": {
+      "navLabel": "Currents",
+      "note": "These lanes are an editorial reading of a contested life, not a neutral fact: the currents are the ones he himself named as his formation — in a 2012 lecture he called it his great sin to have spent 'thirty-some years absorbing all the influences' (per the community transcriptions) — plus the public roles the record documents. Lanes are containers for dated events, never a claim that the currents weigh the same. Left out as lanes, deliberately: family life (private; it appears only where already public), the transcription corpus's internal scholarship (its own project), and the Brazilian New Right ecosystem around him (a distinct, living-persons subject).",
+      "lanes": [
+        {
+          "id": "health",
+          "label": "Illness & the body",
+          "basis": "His own repeated origin story — sick from birth, seven years bedridden — which he himself tied to his drive to understand human situations (lectures of 2010-10-09 and after), through the 2018 surgery and the final year.",
+          "sources": [
+            "cof-transcriptions",
+            "jc-trachea-2021"
+          ]
+        },
+        {
+          "id": "formation-press",
+          "label": "Journalism & the press",
+          "basis": "His own periodization of his livelihood (working from 14, journalism at 17 for the five-hour day; lecture of 2010-11-13) and the press-career record (obituaries; the Comunique-se profile).",
+          "sources": [
+            "comuniquese-dc",
+            "cof-transcriptions"
+          ]
+        },
+        {
+          "id": "communist-youth",
+          "label": "Communist youth",
+          "basis": "His own bracketing (1964 not yet militant; 'twenty years cleaning it out') and the BBC Brasil interview profile's 1966–1968.",
+          "sources": [
+            "ihu-bbc",
+            "cof-transcriptions"
+          ]
+        },
+        {
+          "id": "esoteric-quest",
+          "label": "Astrology & the esoteric quest",
+          "basis": "His own master list of the seeker years (lecture of 2012-09-08: psychoanalyses, New Age, Rosicrucians, astrology, 'macumbas', Islamic esoterism) and Calil's account of the Escola Júpiter period.",
+          "sources": [
+            "calil-argumentum",
+            "cof-transcriptions"
+          ]
+        },
+        {
+          "id": "tariqa-traditionalism",
+          "label": "Traditionalism & the tariqa",
+          "basis": "Mark Sedgwick's scholarship of the Maryamiyya episode and his own tellings (met Schuon 1986, muqaddam on arrival, about a year and a half).",
+          "sources": [
+            "sedgwick-blog",
+            "cof-transcriptions"
+          ]
+        },
+        {
+          "id": "catholicism",
+          "label": "Catholic return",
+          "basis": "His own dated lecture statements (Padre Paulo Ricardo named his personal confessor, 2010-10-30; confession practice into 2020) and the deathbed-sacraments account.",
+          "sources": [
+            "cof-transcriptions",
+            "opovo-sacramentos"
+          ]
+        },
+        {
+          "id": "philosophy-teaching",
+          "label": "Philosophy & teaching",
+          "basis": "The works record (the 1994–96 books onward, the Seminário, the 585-lecture COF) and his self-periodization: teaching since 1989, first book at 48.",
+          "sources": [
+            "olavo-cv-pdf",
+            "cof-transcriptions"
+          ]
+        },
+        {
+          "id": "politics-influence",
+          "label": "Politics & attributed influence",
+          "basis": "Press and academic characterizations — always attributed, and rejected by him in his own dated words — plus his documented 2020–21 rift statements.",
+          "sources": [
+            "nyt-obit",
+            "correio-guru-2020"
+          ]
+        }
+      ]
+    }
   },
   "facts": [
     {
@@ -93,6 +175,9 @@
       "text": "His most repeated origin story in the course: sick from birth and bedridden through his first seven years with constant fever, then suddenly and inexplicably cured around age seven, going straight to school afterward (told, among other places, in the lectures of 9 October 2010 and 20 April 2013). In a lecture of 16 January 2010 he added that he was born with an undiagnosed tracheal tumor still with him in his sixties; in a lecture of c. 2020 he tied his late-diagnosed emphysema to a lung operation decades earlier. All of this is his own retrospective testimony via the community transcriptions, unverified against audio — recorded here as testimony, not as a medical record.",
       "sources": [
         "cof-transcriptions"
+      ],
+      "threads": [
+        "health"
       ]
     },
     {
@@ -107,6 +192,9 @@
         "calil-argumentum",
         "wikipedia-pt",
         "cof-transcriptions"
+      ],
+      "threads": [
+        "communist-youth"
       ]
     },
     {
@@ -121,6 +209,9 @@
         "wikipedia-pt",
         "gazetadopovo-obit",
         "cof-transcriptions"
+      ],
+      "threads": [
+        "formation-press"
       ]
     },
     {
@@ -136,6 +227,9 @@
         "calil-argumentum",
         "gazetadopovo-obit",
         "cof-transcriptions"
+      ],
+      "threads": [
+        "esoteric-quest"
       ]
     },
     {
@@ -149,6 +243,10 @@
         "wikipedia-pt",
         "agenciabrasil-obit",
         "olavo-cv-pdf"
+      ],
+      "threads": [
+        "esoteric-quest",
+        "philosophy-teaching"
       ]
     },
     {
@@ -161,6 +259,10 @@
       "sources": [
         "calil-argumentum",
         "sedgwick-blog"
+      ],
+      "threads": [
+        "esoteric-quest",
+        "tariqa-traditionalism"
       ]
     },
     {
@@ -174,6 +276,9 @@
         "calil-argumentum",
         "sedgwick-blog",
         "cof-transcriptions"
+      ],
+      "threads": [
+        "tariqa-traditionalism"
       ]
     },
     {
@@ -187,6 +292,10 @@
         "wikipedia-en",
         "gazetadopovo-obit",
         "calil-argumentum"
+      ],
+      "threads": [
+        "philosophy-teaching",
+        "esoteric-quest"
       ]
     },
     {
@@ -199,6 +308,9 @@
       "sources": [
         "wikipedia-en",
         "gazetadopovo-obit"
+      ],
+      "threads": [
+        "philosophy-teaching"
       ]
     },
     {
@@ -212,6 +324,9 @@
         "gazetadopovo-obit",
         "calil-argumentum",
         "wikipedia-pt"
+      ],
+      "threads": [
+        "philosophy-teaching"
       ]
     },
     {
@@ -223,6 +338,9 @@
       "text": "His 'theory of the four discourses' reading of Aristotle (Topbooks); year and publisher rest on a single tertiary source.",
       "sources": [
         "wikipedia-en"
+      ],
+      "threads": [
+        "philosophy-teaching"
       ]
     },
     {
@@ -234,6 +352,9 @@
       "text": "Reported in Agência Brasil's obituary career summary.",
       "sources": [
         "agenciabrasil-obit"
+      ],
+      "threads": [
+        "politics-influence"
       ]
     },
     {
@@ -245,6 +366,9 @@
       "text": "Reported in Agência Brasil's obituary career summary.",
       "sources": [
         "agenciabrasil-obit"
+      ],
+      "threads": [
+        "politics-influence"
       ]
     },
     {
@@ -258,6 +382,10 @@
         "calil-argumentum",
         "wikipedia-en",
         "wikipedia-pt"
+      ],
+      "threads": [
+        "politics-influence",
+        "formation-press"
       ]
     },
     {
@@ -285,6 +413,10 @@
         "ia-trueoutspeak",
         "calil-argumentum",
         "wikipedia-en"
+      ],
+      "threads": [
+        "formation-press",
+        "politics-influence"
       ]
     },
     {
@@ -298,6 +430,9 @@
         "rafaelalmeida-cof",
         "wikipedia-en",
         "cof-transcriptions"
+      ],
+      "threads": [
+        "philosophy-teaching"
       ]
     },
     {
@@ -311,6 +446,10 @@
         "propublica-iai",
         "catracalivre-iai",
         "olavofb-iai"
+      ],
+      "threads": [
+        "philosophy-teaching",
+        "politics-influence"
       ]
     },
     {
@@ -323,6 +462,9 @@
       "sources": [
         "cof-transcriptions",
         "opovo-sacramentos"
+      ],
+      "threads": [
+        "catholicism"
       ]
     },
     {
@@ -335,6 +477,10 @@
       "sources": [
         "academia-dugin-review",
         "gazetadopovo-frascolla"
+      ],
+      "threads": [
+        "politics-influence",
+        "tariqa-traditionalism"
       ]
     },
     {
@@ -347,6 +493,10 @@
       "sources": [
         "academia-dugin-review",
         "livraria-seminario-dugin"
+      ],
+      "threads": [
+        "politics-influence",
+        "tariqa-traditionalism"
       ]
     },
     {
@@ -360,6 +510,10 @@
         "padrepauloricardo-minimo",
         "wikipedia-en",
         "poder360-obit"
+      ],
+      "threads": [
+        "philosophy-teaching",
+        "formation-press"
       ]
     },
     {
@@ -372,6 +526,10 @@
       "sources": [
         "youtube-channel",
         "wikipedia-pt"
+      ],
+      "threads": [
+        "formation-press",
+        "politics-influence"
       ]
     },
     {
@@ -385,6 +543,9 @@
         "wikipedia-pt-film",
         "sensoincomum-ufpe",
         "adorocinema-estreia"
+      ],
+      "threads": [
+        "philosophy-teaching"
       ]
     },
     {
@@ -396,6 +557,10 @@
       "text": "Per Calil (2021), the site operated 2002–2017.",
       "sources": [
         "calil-argumentum"
+      ],
+      "threads": [
+        "politics-influence",
+        "formation-press"
       ]
     },
     {
@@ -410,6 +575,9 @@
         "boletim-cirurgia-2018",
         "jc-trachea-2021",
         "istoe-alta-2020"
+      ],
+      "threads": [
+        "health"
       ]
     },
     {
@@ -422,6 +590,9 @@
       "sources": [
         "nexo-livros",
         "observador-discursos"
+      ],
+      "threads": [
+        "politics-influence"
       ]
     },
     {
@@ -435,6 +606,9 @@
         "foxnews-araujo",
         "calil-argumentum",
         "gazetadopovo-riobranco"
+      ],
+      "threads": [
+        "politics-influence"
       ]
     },
     {
@@ -449,6 +623,9 @@
         "castrorocha-review",
         "revistarosa-olavismo",
         "sedgwick-blog"
+      ],
+      "threads": [
+        "politics-influence"
       ]
     },
     {
@@ -462,6 +639,9 @@
         "gazetadopovo-riobranco",
         "camara-riobranco",
         "pragmatismo-riobranco"
+      ],
+      "threads": [
+        "politics-influence"
       ]
     },
     {
@@ -475,6 +655,10 @@
         "metropoles-bsm",
         "gazetadopovo-bsm",
         "poder360-obit"
+      ],
+      "threads": [
+        "formation-press",
+        "politics-influence"
       ]
     },
     {
@@ -503,6 +687,9 @@
         "poder360-sepse",
         "olavofb-bladder",
         "poder360-obit"
+      ],
+      "threads": [
+        "health"
       ]
     },
     {
@@ -515,6 +702,9 @@
       "sources": [
         "folhape-retorno",
         "poder360-obit"
+      ],
+      "threads": [
+        "health"
       ]
     },
     {
@@ -529,6 +719,9 @@
         "poder360-falta-2021",
         "em-briga-2021",
         "metropoles-obit"
+      ],
+      "threads": [
+        "politics-influence"
       ]
     },
     {
@@ -542,6 +735,9 @@
         "revistaoeste-medico",
         "noticiasaominuto-filha",
         "gazetadopovo-obit"
+      ],
+      "threads": [
+        "health"
       ]
     },
     {
@@ -562,6 +758,10 @@
         "revistaoeste-medico",
         "diariodonordeste-medico",
         "cof-transcriptions"
+      ],
+      "threads": [
+        "health",
+        "catholicism"
       ]
     },
     {
@@ -575,6 +775,9 @@
         "cnnbrasil-luto",
         "exame-luto",
         "poder360-luto"
+      ],
+      "threads": [
+        "politics-influence"
       ]
     },
     {
@@ -588,6 +791,9 @@
         "metropoles-enterro",
         "correiobraziliense-enterro",
         "findagrave-memorial"
+      ],
+      "threads": [
+        "catholicism"
       ]
     },
     {
@@ -601,6 +807,9 @@
         "hdp-medalha",
         "olavofb-medalha",
         "curitiba-camara"
+      ],
+      "threads": [
+        "politics-influence"
       ]
     },
     {
