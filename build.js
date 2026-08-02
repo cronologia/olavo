@@ -26,6 +26,14 @@ const SRC_DIR = path.join(ROOT, 'src');
 const WORLD_FILE = path.join(SRC_DIR, 'world-land.json');
 const OUT_DIR = path.join(ROOT, 'docs');
 
+// This repo's own second layer: per-philosopher reception pages. The module is
+// a no-op when data/philosophers.json is absent (build stays byte-identical to
+// the plain template — same contract as every optional renderer, ADR-0001).
+// Guarded require: the template's own tests copy build.js into fixture dirs
+// that don't carry this module, and they must keep passing there.
+let phMod = null;
+try { phMod = require('./philosophers.js'); } catch { phMod = null; }
+
 /* ---------------------------------------------------------------------------
  * Multi-language (i18n) + SEO. English is authoritative and hand-written; es/pt
  * are machine-translated from committed caches (data/i18n/<lang>.json, generated
@@ -103,6 +111,14 @@ const UI = {
     factFlagTitle: 'Not yet verified against a primary source',
     footer: 'Compiled static site generated from <code>data/chronology.json</code> by <code>build.js</code>. Open data — corrections welcome via pull request.\n      Part of the Cronologia project family.',
     refsIntro: (n, a) => `${n} sources${a ? ` · ${a} with an Internet Archive fallback` : ''}. Sources span the\n      spectrum of perspectives by design; contested claims are attributed to their authors.`,
+    philosophers: 'Philosophers', philosophersHeading: 'The philosophers he referenced',
+    phTimelineHeading: 'Life and works', phReceptionHeading: 'Reception in the COF',
+    phAula: 'Lecture (aula)', phDate: 'Date', phHits: 'Mentions',
+    phBack: 'Back to the chronology', phApproxTitle: 'Approximate date (scholarly estimate)',
+    phReceptionIntro: (files, engaged) => `Present in ${files} of the 589 transcription files of the Curso Online de Filosofia; ${engaged} lectures engage him substantially (5 or more mentions). The most engaged lectures:`,
+    phReceptionNote: 'This section documents what Olavo said and when — never what the philosopher "really" meant. Characterizations are Olavo’s, tied to a lecture by number and date.',
+    phDateCaveat: 'A dash in the date column means the transcription file carries no verified date — an undated file, not an undated lecture. Counts are accent-insensitive, word-boundary matches over the public community transcription corpus.',
+    phCardReception: (files, engaged) => `COF reception: present in ${files} files; ${engaged} lectures engage him.`,
     disclaimer: null,
   },
   es: {
@@ -147,6 +163,14 @@ const UI = {
     factFlagTitle: 'Aún no verificado con una fuente primaria',
     footer: 'Sitio estático compilado a partir de <code>data/chronology.json</code> por <code>build.js</code>. Datos abiertos — correcciones bienvenidas mediante pull request.\n      Parte de la familia de proyectos Cronologia.',
     refsIntro: (n, a) => `${n} fuentes${a ? ` · ${a} con copia en Internet Archive` : ''}. Las fuentes abarcan el\n      espectro de perspectivas de forma deliberada; las afirmaciones controvertidas se atribuyen a sus autores.`,
+    philosophers: 'Filósofos', philosophersHeading: 'Los filósofos que referenció',
+    phTimelineHeading: 'Vida y obra', phReceptionHeading: 'Recepción en el COF',
+    phAula: 'Clase (aula)', phDate: 'Fecha', phHits: 'Menciones',
+    phBack: 'Volver a la cronología', phApproxTitle: 'Fecha aproximada (estimación académica)',
+    phReceptionIntro: (files, engaged) => `Presente en ${files} de los 589 archivos de transcripción del Curso Online de Filosofia; ${engaged} clases lo tratan sustancialmente (5 o más menciones). Las clases con mayor presencia:`,
+    phReceptionNote: 'Esta sección documenta lo que Olavo dijo y cuándo — nunca lo que el filósofo «realmente» quiso decir. Las caracterizaciones son de Olavo, ligadas a una clase por número y fecha.',
+    phDateCaveat: 'Un guion en la columna de fecha significa que el archivo de transcripción no tiene fecha verificada: un archivo sin fecha, no una clase sin fecha. Los conteos son coincidencias insensibles a acentos y con límite de palabra sobre el corpus público de transcripciones.',
+    phCardReception: (files, engaged) => `Recepción en el COF: presente en ${files} archivos; ${engaged} clases lo tratan.`,
     disclaimer: 'Traducción automática del inglés; la página en inglés es la versión de referencia.',
   },
   pt: {
@@ -191,6 +215,14 @@ const UI = {
     factFlagTitle: 'Ainda não verificado com uma fonte primária',
     footer: 'Site estático compilado a partir de <code>data/chronology.json</code> por <code>build.js</code>. Dados abertos — correções bem-vindas via pull request.\n      Parte da família de projetos Cronologia.',
     refsIntro: (n, a) => `${n} fontes${a ? ` · ${a} com cópia no Internet Archive` : ''}. As fontes abrangem o\n      espectro de perspectivas de forma deliberada; afirmações controversas são atribuídas aos seus autores.`,
+    philosophers: 'Filósofos', philosophersHeading: 'Os filósofos que ele referenciou',
+    phTimelineHeading: 'Vida e obra', phReceptionHeading: 'Recepção no COF',
+    phAula: 'Aula', phDate: 'Data', phHits: 'Menções',
+    phBack: 'Voltar à cronologia', phApproxTitle: 'Data aproximada (estimativa acadêmica)',
+    phReceptionIntro: (files, engaged) => `Presente em ${files} dos 589 arquivos de transcrição do Curso Online de Filosofia; ${engaged} aulas o tratam substancialmente (5 ou mais menções). As aulas com maior presença:`,
+    phReceptionNote: 'Esta seção documenta o que Olavo disse e quando — nunca o que o filósofo «realmente» quis dizer. As caracterizações são de Olavo, ligadas a uma aula por número e data.',
+    phDateCaveat: 'Um traço na coluna de data significa que o arquivo de transcrição não tem data verificada: um arquivo sem data, não uma aula sem data. As contagens são correspondências insensíveis a acentos e com limite de palavra sobre o corpus público de transcrições.',
+    phCardReception: (files, engaged) => `Recepção no COF: presente em ${files} arquivos; ${engaged} aulas o tratam.`,
     disclaimer: 'Tradução automática do inglês; a página em inglês é a versão de referência.',
   },
 };
@@ -285,7 +317,7 @@ function seoHead(meta, base, route, lang) {
   <meta name="twitter:title" content="${esc(title)}">
   <meta name="twitter:description" content="${esc(description)}">
   <script type="application/ld+json">
-${JSON.stringify(jsonLd, null, 2).split('\n').map((l) => '  ' + l).join('\n')}
+${JSON.stringify(jsonLd, null, 2).replace(/</g, '\\u003c').split('\n').map((l) => '  ' + l).join('\n')}
   </script>`;
 }
 
@@ -1657,6 +1689,9 @@ function renderPage(data, archives, opts = {}) {
 
   // Optional visual sections ('' when the data declares none — the page is
   // then byte-identical to a build without these features).
+  const philosophersHtml = (opts.philosophers && phMod)
+    ? phMod.renderPhilosophersIndexSection(opts.philosophers, opts.reception, ui, { esc })
+    : '';
   const lineageHtml = renderLineageSection(lineage, refNumById);
   const branchTimelineHtml = renderBranchTimeline(branchTimeline, refNumById);
   const numbersChartHtml = renderNumbersChart(numbersChart, refNumById);
@@ -1721,7 +1756,7 @@ ${seoHead(meta, base, route, lang)}
   <nav class="site-nav">
     <div class="wrap">
       <a href="#about">${esc(ui.about)}</a>
-      <a href="#chronology">${esc(ui.chronology)}</a>${chronologySpineHtml ? `\n      <a href="#chronology-spine">${esc((chronologySpine && chronologySpine.navLabel) || ui.spineNav)}</a>` : ''}${swimlanesHtml ? `\n      <a href="#threads">${esc((threads && threads.navLabel) || ui.swNav)}</a>` : ''}${placesMapHtml ? `\n      <a href="#places-map">${esc((placesMap && placesMap.navLabel) || ui.mapNav)}</a>` : ''}${tierMapHtml ? `\n      <a href="#map">${esc((tierMap && tierMap.navLabel) || ui.tierMapHeading)}</a>` : ''}${lineageHtml ? `\n      <a href="#lineage">${esc(lineage.navLabel || 'Genealogy')}</a>` : ''}${branchTimelineHtml ? `\n      <a href="#branch-timeline">${esc(branchTimeline.navLabel || 'Divisions')}</a>` : ''}${numbersChartHtml ? `\n      <a href="#numbers-chart">${esc(numbersChart.navLabel || 'Numbers')}</a>` : ''}
+      <a href="#chronology">${esc(ui.chronology)}</a>${philosophersHtml ? `\n      <a href="#philosophers">${esc(ui.philosophers)}</a>` : ''}${chronologySpineHtml ? `\n      <a href="#chronology-spine">${esc((chronologySpine && chronologySpine.navLabel) || ui.spineNav)}</a>` : ''}${swimlanesHtml ? `\n      <a href="#threads">${esc((threads && threads.navLabel) || ui.swNav)}</a>` : ''}${placesMapHtml ? `\n      <a href="#places-map">${esc((placesMap && placesMap.navLabel) || ui.mapNav)}</a>` : ''}${tierMapHtml ? `\n      <a href="#map">${esc((tierMap && tierMap.navLabel) || ui.tierMapHeading)}</a>` : ''}${lineageHtml ? `\n      <a href="#lineage">${esc(lineage.navLabel || 'Genealogy')}</a>` : ''}${branchTimelineHtml ? `\n      <a href="#branch-timeline">${esc(branchTimeline.navLabel || 'Divisions')}</a>` : ''}${numbersChartHtml ? `\n      <a href="#numbers-chart">${esc(numbersChart.navLabel || 'Numbers')}</a>` : ''}
       <a href="#figures">${esc(ui.figures)}</a>
       <a href="#organizations">${esc(ui.organizations)}</a>
       ${disambigCards ? `<a href="#disambiguation">${esc(ui.disambiguation)}</a>` : ''}
@@ -1753,7 +1788,7 @@ ${eventRows}
       </div>
     </section>
 
-${swimlanesHtml}${placesMapHtml}${tierMapHtml}${lineageHtml}${branchTimelineHtml}${numbersChartHtml}    <section id="figures">
+${philosophersHtml}${swimlanesHtml}${placesMapHtml}${tierMapHtml}${lineageHtml}${branchTimelineHtml}${numbersChartHtml}    <section id="figures">
       <h2>${esc(ui.figuresHeading)}</h2>
       <div class="party-grid">
 ${figures.map((f) => renderFigureCard(f, refNumById)).join('\n')}
@@ -1800,13 +1835,31 @@ function main() {
   const base = siteBase(data.meta);
   const places = loadPlaces();
   const world = loadWorld();
+  const phData = phMod ? phMod.loadPhilosophers(path.dirname(DATA_FILE)) : null;
+  const reception = phData ? phMod.loadReception(path.dirname(DATA_FILE)) : null;
+  if (phData) ROUTES.push(...phMod.philosopherRoutes(phData));
 
   fs.mkdirSync(OUT_DIR, { recursive: true });
   for (const lang of LOCALES) {
-    const localized = localizeData(data, loadDict(lang), lang);
+    const dict = loadDict(lang);
+    const localized = localizeData(data, dict, lang);
+    const localizedPh = phData ? localizeData(phData, dict, lang) : null;
     const dir = path.join(OUT_DIR, lang);
     fs.mkdirSync(dir, { recursive: true });
-    fs.writeFileSync(path.join(dir, 'index.html'), renderPage(localized, archives, { lang, base, route: '', places, world }));
+    fs.writeFileSync(path.join(dir, 'index.html'), renderPage(localized, archives, { lang, base, route: '', places, world, philosophers: localizedPh, reception }));
+    if (localizedPh) {
+      const pdir = path.join(dir, 'philosophers');
+      fs.mkdirSync(pdir, { recursive: true });
+      const ui = UI[lang] || UI.en;
+      for (const entry of localizedPh.philosophers) {
+        const rec = (reception && reception.philosophers && reception.philosophers[entry.receptionKey || entry.slug]) || null;
+        fs.writeFileSync(path.join(pdir, `${entry.slug}.html`), phMod.renderPhilosopherPage({
+          entry, reception: rec, meta: localized.meta, ui, lang, base,
+          route: `philosophers/${entry.slug}.html`, references: localizedPh.references,
+          helpers: { esc, renderCites, seoHead, langSwitcher }, analytics: ANALYTICS,
+        }));
+      }
+    }
   }
   fs.writeFileSync(path.join(OUT_DIR, 'index.html'), renderRootStub(base));
   fs.writeFileSync(path.join(OUT_DIR, 'sitemap.xml'), renderSitemap(base, ROUTES));
@@ -1819,7 +1872,8 @@ function main() {
   console.log(
     `Built ${LOCALES.length} locales (${LOCALES.join(', ')}) × ${ROUTES.length} route(s) + root redirect, sitemap, robots — ` +
     `${data.events.length} events, ${data.figures.length} figures, ` +
-    `${data.references.length} references, ${archivedRefs} with archive fallback.`
+    `${data.references.length} references, ${archivedRefs} with archive fallback` +
+    (phData ? `, ${phData.philosophers.length} philosopher pages per locale` : '') + '.'
   );
 }
 
