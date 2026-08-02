@@ -444,10 +444,11 @@
       "date": "2021-07-15",
       "dateVerified": true,
       "place": "Brazil",
-      "title": "Returns to Brazil for medical treatment",
-      "text": "Poder360's obituary timeline records hospitalizations for pneumonia (February 2021) and respiratory problems (April 2021), travel to Brazil for treatment in July with bladder surgery on 15 July, and readmission for a urinary infection in August.",
+      "title": "Returns to Brazil to treat his respiratory condition",
+      "text": "The July 2021 trip to Brazil was for treatment of his respiratory problems — the same condition behind the February (pneumonia) and April hospitalizations in the US: Poder360 reported at the time that he fell ill suddenly on the flight from the US to São Paulo and arrived by ambulance at InCor (Hospital das Clínicas, USP). During the stay he also underwent bladder surgery on 15 July and was readmitted for a urinary infection in August, per Poder360's obituary timeline.",
       "sources": [
-        "poder360-obit"
+        "poder360-obit",
+        "poder360-brasil-respiratorio"
       ]
     },
     {
@@ -930,6 +931,13 @@
       "title": "Olavo de Carvalho não morreu de covid-19, afirma médico particular do escritor",
       "url": "https://revistaoeste.com/brasil/olavo-de-carvalho-nao-morreu-de-covid-19-afirma-medico-particular-do-escritor/",
       "publisher": "Revista Oeste (outlet he wrote for — sympathetic; carries the physician's statement)",
+      "type": "news"
+    },
+    {
+      "id": "poder360-brasil-respiratorio",
+      "title": "Olavo de Carvalho está no Brasil para tratar problemas respiratórios",
+      "url": "https://www.poder360.com.br/brasil/olavo-de-carvalho-esta-no-brasil-para-tratar-problemas-respiratorios/",
+      "publisher": "Poder360 (contemporaneous report, July 2021)",
       "type": "news"
     },
     {
