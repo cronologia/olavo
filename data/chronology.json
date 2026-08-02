@@ -85,16 +85,28 @@
       ]
     },
     {
+      "year": 1954,
+      "date": "c. 1947–1954",
+      "dateVerified": false,
+      "place": "Brazil",
+      "title": "Childhood illness — his own account",
+      "text": "His most repeated origin story in the course: sick from birth and bedridden through his first seven years with constant fever, then suddenly and inexplicably cured around age seven, going straight to school afterward (told, among other places, in the lectures of 9 October 2010 and 20 April 2013). In a lecture of 16 January 2010 he added that he was born with an undiagnosed tracheal tumor still with him in his sixties; in a lecture of c. 2020 he tied his late-diagnosed emphysema to a lung operation decades earlier. All of this is his own retrospective testimony via the community transcriptions, unverified against audio — recorded here as testimony, not as a medical record.",
+      "sources": [
+        "cof-transcriptions"
+      ]
+    },
+    {
       "year": 1966,
       "date": "1966",
       "dateVerified": false,
       "place": "São Paulo, Brazil",
       "title": "Brief affiliation with the Brazilian Communist Party (PCB)",
-      "text": "A BBC Brasil profile built on an in-person interview (Fellet, December 2016) states 'Entre 1966 e 1968, militou no Partido Comunista'; the historian Gilberto Calil records a brief PCB passage in the 1960s without exact dates. The dating rests on his own recollection as relayed by the interviewer, so the flag stays.",
+      "text": "A BBC Brasil profile built on an in-person interview (Fellet, December 2016) states 'Entre 1966 e 1968, militou no Partido Comunista'; the historian Gilberto Calil records a brief PCB passage in the 1960s without exact dates. The dating rests on his own recollection as relayed by the interviewer, so the flag stays. In the course he bracketed the period himself: in 1964 he was a secondary student with vague leftist sympathy, not yet a militant, and he recalled joining the party 'to stir up trouble' and spending twenty years working the influence out of himself (lectures of 2009 and 2014, per the community transcriptions).",
       "sources": [
         "ihu-bbc",
         "calil-argumentum",
-        "wikipedia-pt"
+        "wikipedia-pt",
+        "cof-transcriptions"
       ]
     },
     {
@@ -103,11 +115,12 @@
       "dateVerified": true,
       "place": "São Paulo, Brazil",
       "title": "First contributions to Folha de S.Paulo",
-      "text": "Both Wikipedias date his first Folha de S.Paulo piece (in the Folhetim section, on The Magic Flute) to February 1977. Other sources push his journalism back earlier — Gazeta do Povo says he started at 17 at Folha da Manhã; Calil says he began writing for major newspapers in 1967. The sources do not reconcile these, and they may describe different roles.",
+      "text": "Both Wikipedias date his first Folha de S.Paulo piece (in the Folhetim section, on The Magic Flute) to February 1977. Other sources push his journalism back earlier — Gazeta do Povo says he started at 17 at Folha da Manhã; Calil says he began writing for major newspapers in 1967. The sources do not reconcile these, and they may describe different roles. His own telling in the course: working from age 14 to ease his mother's burden, and entering journalism at 17 expressly because the legal five-hour day left time to study (lecture of 13 November 2010, among others), with the professional registry later obtained by time of service.",
       "sources": [
         "wikipedia-en",
         "wikipedia-pt",
-        "gazetadopovo-obit"
+        "gazetadopovo-obit",
+        "cof-transcriptions"
       ]
     },
     {
@@ -116,12 +129,13 @@
       "dateVerified": true,
       "place": "São Paulo, Brazil",
       "title": "Co-founds the Escola Júpiter de Astrologia",
-      "text": "Worked professionally as an astrologer c. 1979–1982, co-founding the school and its Revista de Astrologia Júpiter and collaborating on a university-extension astrology course at PUC-SP; Calil (2021) reports the school had about 140 students by 1980. He later abandoned and disavowed astrology.",
+      "text": "Worked professionally as an astrologer c. 1979–1982, co-founding the school and its Revista de Astrologia Júpiter and collaborating on a university-extension astrology course at PUC-SP; Calil (2021) reports the school had about 140 students by 1980. He later abandoned and disavowed astrology. His own telling in the course: professionally an astrologer for about two years, with some 5,000 charts interpreted — psychiatrists sent him patients' horoscopes — and the school closing around 1980; he quit after judging the techniques unserious.",
       "sources": [
         "wikipedia-pt",
         "wikipedia-en",
         "calil-argumentum",
-        "gazetadopovo-obit"
+        "gazetadopovo-obit",
+        "cof-transcriptions"
       ]
     },
     {
@@ -155,10 +169,11 @@
       "dateVerified": false,
       "place": "Brazil",
       "title": "Involvement with Sufi Islam (the Maryamiyya of Frithjof Schuon)",
-      "text": "Calil (2021) states he converted to Islam in 1984, took the name Sidi Mohammad Ibrahim, and set up a tariqa of his own that dissolved within months. Sedgwick describes him as Schuon's khalifa in Brazil before he 'left Schuon, and reinvented himself as a Catholic philosopher', coining 'post-Traditionalist' for his later fierce criticism of perennialism. All positions attributed; he himself later minimized the episode, and the accounts of it differ.",
+      "text": "Calil (2021) states he converted to Islam in 1984, took the name Sidi Mohammad Ibrahim, and set up a tariqa of his own that dissolved within months. Sedgwick describes him as Schuon's khalifa in Brazil before he 'left Schuon, and reinvented himself as a Catholic philosopher', coining 'post-Traditionalist' for his later fierce criticism of perennialism. All positions attributed; he himself later minimized the episode, and the accounts of it differ. His own tellings in the course complement the scholars' dating rather than contradicting it: he dated meeting Schuon to 1986, said he was made muqaddam for Brazil on arrival, stayed about a year and a half, and described provoking his own expulsion — placing his exit around 1987–88 (per the community transcriptions).",
       "sources": [
         "calil-argumentum",
-        "sedgwick-blog"
+        "sedgwick-blog",
+        "cof-transcriptions"
       ]
     },
     {
@@ -296,6 +311,18 @@
         "propublica-iai",
         "catracalivre-iai",
         "olavofb-iai"
+      ]
+    },
+    {
+      "year": 2010,
+      "date": "2010-10-30",
+      "dateVerified": true,
+      "place": "Online (from Virginia, USA)",
+      "title": "Names Padre Paulo Ricardo as his personal confessor",
+      "text": "In the lecture of 30 October 2010 he described Padre Paulo Ricardo de Azevedo as his personal confessor; a year earlier (28 November 2009) he had called him the only priest in Brazil he trusted, and in May 2010 he recounted the priest's recent visit to his Virginia home. Together with his stated practice of confession as late as 2020 and the sacraments received on his deathbed (reported by Silvio Grimaldo of Brasil Sem Medo), this documents in his own dated words his return to full Catholic practice during the US years. The origin of that return — accounts circulate of a c. 2006 visit — remains unverified and is told differently by sympathetic and hostile sources.",
+      "sources": [
+        "cof-transcriptions",
+        "opovo-sacramentos"
       ]
     },
     {
@@ -490,7 +517,7 @@
       "dateVerified": true,
       "place": "Richmond area, Virginia, USA",
       "title": "Dies in hospital, aged 74",
-      "text": "The family's statement, posted to his social accounts in the early hours of 25 January, said he died 'na noite de 24 de janeiro' and gave no cause; no official cause of death was ever released. The cause was publicly disputed: his daughter Heloísa — publicly estranged from her father for years — said he 'died of Covid'; his personal physician, Ahmed Youssif El Tassa, stated the death resulted from acute respiratory failure caused by pulmonary emphysema, a chronic condition, associated with congestive heart failure, bacterial pneumonia from methicillin-resistant Staphylococcus aureus and generalized infection, and was 'not related to COVID'; critical outlets noted the COVID diagnosis announced days earlier and his public minimization of the pandemic. Each position is its author's; this site does not adjudicate between them.",
+      "text": "The family's statement, posted to his social accounts in the early hours of 25 January, said he died 'na noite de 24 de janeiro' and gave no cause; no official cause of death was ever released. The cause was publicly disputed: his daughter Heloísa — publicly estranged from her father for years — said he 'died of Covid'; his personal physician, Ahmed Youssif El Tassa, stated the death resulted from acute respiratory failure caused by pulmonary emphysema, a chronic condition, associated with congestive heart failure, bacterial pneumonia from methicillin-resistant Staphylococcus aureus and generalized infection, and was 'not related to COVID'; critical outlets noted the COVID diagnosis announced days earlier and his public minimization of the pandemic. His own lectures had recounted a lifelong pulmonary history — bedridden through his first seven years and, in a c. 2020 lecture, decades of asymptomatic emphysema after an old lung operation (per the community transcriptions). Each position is its author's; this site does not adjudicate between them.",
       "sources": [
         "agenciabrasil-obit",
         "poder360-obit",
@@ -500,7 +527,8 @@
         "brasildefato-obit",
         "aventurasnahistoria-filha",
         "revistaoeste-medico",
-        "diariodonordeste-medico"
+        "diariodonordeste-medico",
+        "cof-transcriptions"
       ]
     },
     {
@@ -626,6 +654,16 @@
       "country": "Switzerland/USA",
       "sources": [
         "sedgwick-blog"
+      ]
+    },
+    {
+      "name": "Padre Paulo Ricardo de Azevedo Jr.",
+      "role": "Catholic priest (Cuiabá) and media figure; by Olavo's own dated account (lecture of 30 October 2010), his personal confessor — the best-documented figure of his return to full Catholic practice; the two later collaborated publicly",
+      "country": "Brazil",
+      "sources": [
+        "cof-transcriptions",
+        "opovo-sacramentos",
+        "padrepauloricardo-minimo"
       ]
     },
     {
@@ -1258,6 +1296,13 @@
       "title": "Antes de ser guru bolsonarista, Olavo de Carvalho teve palco na imprensa",
       "url": "https://portal.comunique-se.com.br/antes-de-ser-guru-bolsonarista-olavo-de-carvalho-teve-palco-na-imprensa/",
       "publisher": "Comunique-se (media-industry portal)",
+      "type": "news"
+    },
+    {
+      "id": "opovo-sacramentos",
+      "title": "Olavo de Carvalho recebe os sacramentos antes de sua morte",
+      "url": "https://blogs.opovo.com.br/ancoradouro/2022/01/25/olavo-de-carvalho-recebe-os-sacramentos-antes-de-sua-morte/",
+      "publisher": "O POVO, blog Ancoradouro (carries Silvio Grimaldo's account)",
       "type": "news"
     }
   ],

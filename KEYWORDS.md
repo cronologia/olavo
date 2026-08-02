@@ -35,6 +35,9 @@ search traps; multiword variants live in `core/tools/cof-entity-aliases.json`)
 | Edmund Husserl | Russerl (6) |
 | Ortega y Gasset | Gassett (5); multiword "Ortega C"/"Ortega Cela" are in the core alias table |
 | Nietzsche | Nietsche (4), Nietzche (2), Nitzsche, Nitsche |
+| Roxane (his wife) | Oshane |
+| Frithjof Schuon (again) | Chuom |
+| Ananda/Rama Coomaraswamy | Comarassame, Comarassoume |
 
 ## Terms known to return nothing (checked 2026-08-02)
 
