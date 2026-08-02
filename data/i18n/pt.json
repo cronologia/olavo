@@ -1,20 +1,13 @@
 {
   "_meta": {
     "targetLang": "pt",
-    "coverage": "268 strings",
+    "coverage": "261 strings",
     "generatedBy": "hand-authored translations committed with the data (philosopher pages: PT text authored alongside the EN data, 2026-08-02); earlier template seed strings retained",
     "note": "Example cache for the bundled chronology.example.json so a fresh bootstrap renders all three locales. A real project replaces it. Record the true origin of your strings here: 'scripts/translate.js via TRANSLATE_ENDPOINT' only when a backend actually produced them.",
     "humanReviewed": false
   },
   "strings": {
-    "An open, source-referenced chronology of <subject>.": "Uma cronologia aberta e referenciada a fontes de <subject>.",
-    "Work-in-progress dataset compiled from public sources (see references). Contested claims are attributed to their authors; dates not yet verified against a primary source are flagged with a ? mark. Corrections against primary sources are welcome.": "Conjunto de dados em andamento, compilado a partir de fontes públicas (ver referências). Afirmações controversas são atribuídas aos seus autores; datas ainda não verificadas com uma fonte primária são marcadas com um sinal ?. Correções com fontes primárias são bem-vindas.",
-    "What it is": "O que é",
-    "Founded": "Fundação",
     "📜 Chronology": "📜 Cronologia",
-    "🌳 Genealogy": "🌳 Genealogia",
-    "📊 Numbers": "📊 Números",
-    "The ten philosophers most engaged by the Curso Online de Filosofia, by measured presence in the 585-lecture corpus. Each page carries the thinker's own life and works, and the record of which lectures engage him.": "Os dez filósofos mais tratados no Curso Online de Filosofia, pela presença medida no corpus de 585 aulas. Cada página traz a vida e a obra do pensador e o registro de quais aulas o tratam.",
     "Greek philosopher, disciple of Plato and tutor of Alexander of Macedon, founder of the Lyceum in Athens. His surviving treatises cover logic, physics, biology, metaphysics, ethics, politics, rhetoric and poetics, and shaped much of ancient, medieval and modern philosophy.": "Filósofo grego, discípulo de Platão e tutor de Alexandre da Macedônia, fundador do Liceu em Atenas. Seus tratados conservados cobrem lógica, física, biologia, metafísica, ética, política, retórica e poética, e formaram a base de boa parte da filosofia antiga, medieval e moderna.",
     "Stagira, Chalcidice (northern Greece)": "Estagira, Calcídica (norte da Grécia)",
     "Born in Stagira, a small city of Chalcidice in northern Greece.": "Nasce em Estagira, pequena cidade da Calcídica, no norte da Grécia.",
