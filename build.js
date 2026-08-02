@@ -181,7 +181,7 @@ const UI = {
     phReceptionNote: 'Esta sección documenta lo que Olavo dijo y cuándo — nunca lo que el filósofo «realmente» quiso decir. Las caracterizaciones son de Olavo, ligadas a una clase por número y fecha.',
     phDateCaveat: 'Un guion en la columna de fecha significa que el archivo de transcripción no tiene fecha verificada: un archivo sin fecha, no una clase sin fecha. Los conteos son coincidencias insensibles a acentos y con límite de palabra sobre el corpus público de transcripciones.',
     phCardReception: (files, engaged) => `Recepción en el COF: presente en ${files} archivos; ${engaged} clases lo tratan.`,
-    disclaimer: 'Traducción automática del inglés; la página en inglés es la versión de referencia.',
+    disclaimer: 'Traducción del inglés revisada a mano; la página en inglés es la versión de referencia.',
   },
   pt: {
     about: 'Sobre', chronology: 'Cronologia', figures: 'Figuras-chave',
@@ -233,7 +233,7 @@ const UI = {
     phReceptionNote: 'Esta seção documenta o que Olavo disse e quando — nunca o que o filósofo «realmente» quis dizer. As caracterizações são de Olavo, ligadas a uma aula por número e data.',
     phDateCaveat: 'Um traço na coluna de data significa que o arquivo de transcrição não tem data verificada: um arquivo sem data, não uma aula sem data. As contagens são correspondências insensíveis a acentos e com limite de palavra sobre o corpus público de transcrições.',
     phCardReception: (files, engaged) => `Recepção no COF: presente em ${files} arquivos; ${engaged} aulas o tratam.`,
-    disclaimer: 'Tradução automática do inglês; a página em inglês é a versão de referência.',
+    disclaimer: 'Tradução do inglês revisada à mão; a página em inglês é a versão de referência.',
   },
 };
 
