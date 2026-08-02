@@ -480,7 +480,7 @@
       "dateVerified": true,
       "place": "Richmond area, Virginia, USA",
       "title": "Dies in hospital, aged 74",
-      "text": "The family's statement, posted to his social accounts in the early hours of 25 January, said he died 'na noite de 24 de janeiro' and gave no cause. The cause was publicly disputed: his daughter Heloísa said he 'died of Covid'; his personal physician, Ahmed Youssif El Tassa, stated the death resulted from respiratory failure due to emphysema with heart failure and bacterial pneumonia and was 'not related to COVID'; critical outlets noted the COVID diagnosis announced days earlier and his public minimization of the pandemic. Each position is its author's.",
+      "text": "The family's statement, posted to his social accounts in the early hours of 25 January, said he died 'na noite de 24 de janeiro' and gave no cause; no official cause of death was ever released. The cause was publicly disputed: his daughter Heloísa — publicly estranged from her father for years — said he 'died of Covid'; his personal physician, Ahmed Youssif El Tassa, stated the death resulted from acute respiratory failure caused by pulmonary emphysema, a chronic condition, associated with congestive heart failure, bacterial pneumonia from methicillin-resistant Staphylococcus aureus and generalized infection, and was 'not related to COVID'; critical outlets noted the COVID diagnosis announced days earlier and his public minimization of the pandemic. Each position is its author's; this site does not adjudicate between them.",
       "sources": [
         "agenciabrasil-obit",
         "poder360-obit",
@@ -489,7 +489,8 @@
         "nyt-obit",
         "brasildefato-obit",
         "aventurasnahistoria-filha",
-        "revistaoeste-medico"
+        "revistaoeste-medico",
+        "diariodonordeste-medico"
       ]
     },
     {
@@ -541,11 +542,14 @@
     },
     {
       "name": "Heloísa de Carvalho",
-      "role": "Eldest daughter, publicly estranged; stated after his death that her father 'died of Covid'",
+      "role": "Eldest daughter, publicly estranged from her father for years and excluded from his will; stated after his death that he 'died of Covid', which his personal physician publicly denied. Found dead at her home in Atibaia, São Paulo, in January 2026; the cause was not disclosed",
+      "dates": "d. 2026",
       "country": "Brazil",
       "sources": [
         "noticiasaominuto-filha",
-        "aventurasnahistoria-filha"
+        "aventurasnahistoria-filha",
+        "folhape-heloisa",
+        "cnnbrasil-heloisa-morte"
       ]
     },
     {
@@ -926,6 +930,27 @@
       "title": "Olavo de Carvalho não morreu de covid-19, afirma médico particular do escritor",
       "url": "https://revistaoeste.com/brasil/olavo-de-carvalho-nao-morreu-de-covid-19-afirma-medico-particular-do-escritor/",
       "publisher": "Revista Oeste (outlet he wrote for — sympathetic; carries the physician's statement)",
+      "type": "news"
+    },
+    {
+      "id": "diariodonordeste-medico",
+      "title": "Morte de Olavo de Carvalho não teve relação com a Covid, alega seu médico particular",
+      "url": "https://diariodonordeste.verdesmares.com.br/ultima-hora/pais/morte-de-olavo-de-carvalho-nao-teve-relacao-com-a-covid-alega-seu-medico-particular-1.3184656",
+      "publisher": "Diário do Nordeste (mainstream — carries the physician's full clinical statement)",
+      "type": "news"
+    },
+    {
+      "id": "folhape-heloisa",
+      "title": "Quem é Heloísa, filha excluída do testamento de Olavo de Carvalho",
+      "url": "https://www.folhape.com.br/politica/quem-e-heloisa-filha-excluida-do-testamento-de-olavo-de-carvalho/337362/",
+      "publisher": "Folha PE",
+      "type": "news"
+    },
+    {
+      "id": "cnnbrasil-heloisa-morte",
+      "title": "Morre Heloísa, filha de Olavo de Carvalho",
+      "url": "https://www.cnnbrasil.com.br/politica/morre-heloisa-filha-de-olavo-de-carvalho/",
+      "publisher": "CNN Brasil",
       "type": "news"
     },
     {
