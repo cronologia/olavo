@@ -90,10 +90,11 @@
       "dateVerified": false,
       "place": "São Paulo, Brazil",
       "title": "Brief affiliation with the Brazilian Communist Party (PCB)",
-      "text": "Portuguese Wikipedia dates his PCB affiliation to 1966–1968, in opposition to the military dictatorship; the historian Gilberto Calil likewise records a brief PCB passage in his youth. Exact dates rest on secondary summaries.",
+      "text": "A BBC Brasil profile built on an in-person interview (Fellet, December 2016) states 'Entre 1966 e 1968, militou no Partido Comunista'; the historian Gilberto Calil records a brief PCB passage in the 1960s without exact dates. The dating rests on his own recollection as relayed by the interviewer, so the flag stays.",
       "sources": [
-        "wikipedia-pt",
-        "calil-argumentum"
+        "ihu-bbc",
+        "calil-argumentum",
+        "wikipedia-pt"
       ]
     },
     {
@@ -129,10 +130,11 @@
       "dateVerified": false,
       "place": "São Paulo, Brazil",
       "title": "First book: A Imagem do Homem na Astrologia",
-      "text": "Per Portuguese Wikipedia's bibliography. Agência Brasil's obituary instead dates his first book, on astrological symbolism, to 1983 — the sources disagree.",
+      "text": "The 1980 date belongs to a 38-page booklet (Ed. Júpiter), grown out of the 1979 PUC-SP astrology course. Olavo's own CV opens its 'Livros publicados' list with three 1983 titles (Speculum) — which explains Agência Brasil's 'first book, 1983': the two dates describe different things (a course booklet vs. his first books proper). The 1980 edition is attested only by book-trade listings, so the flag stays.",
       "sources": [
         "wikipedia-pt",
-        "agenciabrasil-obit"
+        "agenciabrasil-obit",
+        "olavo-cv-pdf"
       ]
     },
     {
@@ -259,12 +261,14 @@
     },
     {
       "year": 2006,
-      "date": "2006",
-      "dateVerified": false,
+      "date": "2006-12-04",
+      "dateVerified": true,
       "place": "USA (online)",
       "title": "Begins the online radio program True Outspeak",
-      "text": "Hosted on BlogTalkRadio, 2006–2013, per English Wikipedia (single tertiary source).",
+      "text": "First episode aired 4 December 2006 — preserved with the show's own audio and a transcript ('estamos inaugurando o nosso programa') in an Internet Archive collection; Calil (2021) confirms the program. It ran on BlogTalkRadio until 2013 per English Wikipedia.",
       "sources": [
+        "ia-trueoutspeak",
+        "calil-argumentum",
         "wikipedia-en"
       ]
     },
@@ -284,12 +288,14 @@
     {
       "year": 2009,
       "date": "2009",
-      "dateVerified": false,
+      "dateVerified": true,
       "place": "USA",
       "title": "Founds the Inter-American Institute for Philosophy, Government, and Social Thought",
-      "text": "Served as its president; English Wikipedia states the institute closed in 2018. Single tertiary source for both dates.",
+      "text": "Founded in late 2009 (its web domain was registered 10 December 2009 and it operated as a Virginia 501(c)(3), per IRS records); Olavo served as president. He announced its closure himself on 29 November 2018 ('Fechei o Interamerican...'), reported by the press days later.",
       "sources": [
-        "wikipedia-en"
+        "propublica-iai",
+        "catracalivre-iai",
+        "olavofb-iai"
       ]
     },
     {
@@ -330,15 +336,15 @@
       ]
     },
     {
-      "year": 2015,
-      "date": "2015",
-      "dateVerified": false,
+      "year": 2007,
+      "date": "2007-07-07",
+      "dateVerified": true,
       "place": "USA (online)",
-      "title": "Launches his YouTube channel",
-      "text": "Per Portuguese Wikipedia; the channel passed one million subscribers by his death. Around 2014–2015 he also began public exchanges with Jair Bolsonaro via conservative channels, per English Wikipedia.",
+      "title": "His YouTube channel is created",
+      "text": "The channel's own About page records 'Joined Jul 7, 2007' — a primary source that contradicts Portuguese Wikipedia's 2015 launch claim (2015 may reflect when regular use began, but no source supports it). The channel passed one million subscribers by his death.",
       "sources": [
-        "wikipedia-pt",
-        "wikipedia-en"
+        "youtube-channel",
+        "wikipedia-pt"
       ]
     },
     {
@@ -347,10 +353,11 @@
       "dateVerified": true,
       "place": "Richmond, VA, USA",
       "title": "The documentary O Jardim das Aflições premieres",
-      "text": "Josias Teófilo's debut feature about Olavo's life and thought, named after the 1995 book, first screened at Virginia Commonwealth University with Olavo present. An October 2017 screening at UFPE was disrupted — an episode sympathetic outlets described as violent repression (attributed; that account's link is unverified). AdoroCinema catalogs the film as 2015, a discrepancy the sources leave unresolved.",
+      "text": "Josias Teófilo's debut feature about Olavo's life and thought, named after the 1995 book, first screened at Virginia Commonwealth University with Olavo present. An October 2017 screening at UFPE was disrupted — an episode sympathetic outlets described as violent repression (attributed; that account's link is unverified). The film had a limited Brazilian theatrical release from 31 May–1 June 2017 (Brasília, Porto Alegre, Rio, São Paulo) per AdoroCinema's own dated news desk — which contradicts the '2015' label on AdoroCinema's film page.",
       "sources": [
         "wikipedia-pt-film",
-        "sensoincomum-ufpe"
+        "sensoincomum-ufpe",
+        "adorocinema-estreia"
       ]
     },
     {
@@ -418,12 +425,14 @@
     },
     {
       "year": 2019,
-      "date": "2019",
-      "dateVerified": false,
+      "date": "2019-12-19",
+      "dateVerified": true,
       "place": "Online",
       "title": "Launch of the online newspaper Brasil Sem Medo",
-      "text": "Poder360's obituary records the 2019 launch, with Olavo as its figurehead.",
+      "text": "Announced on 6 December 2019 and live from 19 December 2019, with Olavo as figurehead — reported independently by Metrópoles and Gazeta do Povo; the site is in the Wayback record by 26 December 2019.",
       "sources": [
+        "metropoles-bsm",
+        "gazetadopovo-bsm",
         "poder360-obit"
       ]
     },
@@ -509,24 +518,27 @@
     },
     {
       "year": 2022,
-      "date": "2022",
-      "dateVerified": false,
+      "date": "2022-01-26",
+      "dateVerified": true,
       "place": "Petersburg, VA, USA",
       "title": "Burial at St. Joseph's Cemetery, Petersburg, Virginia",
-      "text": "Per the Find a Grave memorial and English Wikipedia; the exact burial date was not verified from a primary report.",
+      "text": "Buried on 26 January 2022 at St. Joseph's Cemetery, Petersburg, Virginia — the ceremony reported same-day by Metrópoles and by Correio Braziliense/Folhapress.",
       "sources": [
-        "findagrave-memorial",
-        "wikipedia-en"
+        "metropoles-enterro",
+        "correiobraziliense-enterro",
+        "findagrave-memorial"
       ]
     },
     {
-      "year": 2024,
-      "date": "2024",
-      "dateVerified": false,
+      "year": 2023,
+      "date": "2023-09",
+      "dateVerified": true,
       "place": "Brazil",
       "title": "Heirs notified over the Caetano Veloso judgment debt",
-      "text": "CartaCapital reported that the courts notified his heirs of the R$ 2.9 million owed to Caetano Veloso. The article was verified only via a Wayback snapshot (December 2024); its exact date is unconfirmed.",
+      "text": "In early September 2023 the courts notified his heirs of the R$ 2.9 million owed to Caetano Veloso — reported by NSC Total (5 September) and Bahia Notícias (6 September); the CartaCapital article is in the Wayback record on 5 September 2023. The dataset previously carried this as 2024, an error introduced by a later related report.",
       "sources": [
+        "nsctotal-herdeiras",
+        "bahianoticias-herdeiras",
         "cartacapital-herdeiras"
       ]
     }
@@ -708,7 +720,7 @@
       "name": "Mídia Sem Máscara",
       "founded": "2002",
       "place": "Brazil (online)",
-      "relation": "Founder; his main ideological web platform until it went offline c. 2017 (Calil 2021)",
+      "relation": "Founder (2002); his main ideological web platform. Calil dates its going offline to 2017 (taken down by a former collaborator), though the Wayback record still shows live captures into September 2018 — the end may mark activity rather than the site itself; kept flagged",
       "sources": [
         "calil-argumentum",
         "wikipedia-en"
@@ -745,11 +757,11 @@
     {
       "name": "Brazilian press (Folha de S.Paulo, O Globo, Jornal da Tarde, Jornal do Brasil, Zero Hora, Época, Bravo!, Primeira Leitura, Diário do Comércio)",
       "place": "Brazil",
-      "relation": "Papers and magazines he wrote for from the 1970s to the 2010s; obituaries list the outlets, but the precise period at each is poorly documented and the Diário do Comércio column's end date is disputed between sources",
+      "relation": "Papers and magazines he wrote for from the 1970s to the 2010s. The Diário do Comércio column was his last regular outlet: a media-industry profile records it as 2006–2014, Calil says he kept it 'até 2016', and English Wikipedia's 'weekly column in 2019' is supported by nothing found; the precise period at each earlier outlet remains poorly documented",
       "sources": [
         "agenciabrasil-obit",
-        "gazetadopovo-obit",
-        "wikipedia-pt"
+        "comuniquese-dc",
+        "calil-argumentum"
       ]
     },
     {
@@ -1142,6 +1154,111 @@
       "url": "https://pt.wikipedia.org/wiki/O_Jardim_das_Afli%C3%A7%C3%B5es_(filme)",
       "publisher": "Portuguese Wikipedia (tertiary)",
       "type": "encyclopedia"
+    },
+    {
+      "id": "ia-trueoutspeak",
+      "title": "True Outspeak — programa de rádio de Olavo de Carvalho (episode collection, from 4 Dec 2006)",
+      "url": "https://archive.org/details/trueoutspeak_olavo",
+      "publisher": "Internet Archive (community collection carrying the show's own audio)",
+      "type": "archive"
+    },
+    {
+      "id": "propublica-iai",
+      "title": "Inter-American Institute for Philosophy, Government, and Social Thought — IRS nonprofit record (EIN 27-1394713)",
+      "url": "https://projects.propublica.org/nonprofits/organizations/271394713",
+      "publisher": "ProPublica Nonprofit Explorer (IRS records)",
+      "type": "database"
+    },
+    {
+      "id": "catracalivre-iai",
+      "title": "O fim misterioso da entidade de Olavo de Carvalho nos EUA",
+      "url": "https://catracalivre.com.br/cidadania/o-fim-misterioso-da-entidade-da-olavo-de-carvalho-nos-eua/",
+      "publisher": "Catraca Livre (mainstream/critical)",
+      "type": "news"
+    },
+    {
+      "id": "olavofb-iai",
+      "title": "'Fechei o Interamerican...' — Olavo's closure statement, 29 November 2018 (fan mirror)",
+      "url": "https://olavodecarvalhofb.wordpress.com/2018/11/29/",
+      "publisher": "olavodecarvalhofb.wordpress.com (fan archive mirroring his own statement — labeled as such)",
+      "type": "archive"
+    },
+    {
+      "id": "metropoles-bsm",
+      "title": "Olavo de Carvalho lança Brasil Sem Medo, um jornal conservador",
+      "url": "https://www.metropoles.com/chapelaria/olavo-de-carvalho-lanca-brasil-sem-medo-um-jornal-conservador",
+      "publisher": "Metrópoles",
+      "type": "news"
+    },
+    {
+      "id": "gazetadopovo-bsm",
+      "title": "Olavo de Carvalho anuncia jornal online Brasil Sem Medo",
+      "url": "https://www.gazetadopovo.com.br/republica/breves/olavo-de-carvalho-jornal-online-brasil-sem-medo/",
+      "publisher": "Gazeta do Povo (sympathetic)",
+      "type": "news"
+    },
+    {
+      "id": "metropoles-enterro",
+      "title": "Olavo de Carvalho será enterrado em Petersburg, pequena cidade dos EUA",
+      "url": "https://www.metropoles.com/mundo/olavo-de-carvalho-sera-enterrado-em-petersburg-pequena-cidade-dos-eua",
+      "publisher": "Metrópoles",
+      "type": "news"
+    },
+    {
+      "id": "correiobraziliense-enterro",
+      "title": "Olavo de Carvalho é enterrado nos EUA em funeral",
+      "url": "https://www.correiobraziliense.com.br/politica/2022/01/4980493-olavo-de-carvalho-e-enterrado-nos-eua-em-funeral.html",
+      "publisher": "Correio Braziliense / Folhapress",
+      "type": "news"
+    },
+    {
+      "id": "adorocinema-estreia",
+      "title": "O Jardim das Aflições: estreia em circuito limitado (31 May 2017 news item)",
+      "url": "https://www.adorocinema.com/noticias/filmes/noticia-131258/",
+      "publisher": "AdoroCinema (news desk — its own dated article, contradicting the film-page year label)",
+      "type": "news"
+    },
+    {
+      "id": "youtube-channel",
+      "title": "Olavo de Carvalho — YouTube channel About page ('Joined Jul 7, 2007')",
+      "url": "https://www.youtube.com/olavodeca/about",
+      "publisher": "YouTube (the channel's own page — primary)",
+      "type": "official"
+    },
+    {
+      "id": "nsctotal-herdeiras",
+      "title": "Justiça de SC notifica herdeiras de Olavo de Carvalho por dívida milionária",
+      "url": "https://www.nsctotal.com.br/noticias/justica-de-sc-notifica-herdeiras-de-olavo-carvalho-por-divida-milionaria-com-caetano-veloso",
+      "publisher": "NSC Total",
+      "type": "news"
+    },
+    {
+      "id": "bahianoticias-herdeiras",
+      "title": "Caetano Veloso notifica herdeiras de Olavo de Carvalho",
+      "url": "https://www.bahianoticias.com.br/holofote/noticia/71000-caetano-veloso-notifica-herdeiras-de-olavo-de-carvalho",
+      "publisher": "Bahia Notícias",
+      "type": "news"
+    },
+    {
+      "id": "olavo-cv-pdf",
+      "title": "Olavo de Carvalho — Currículo (his own CV, PDF)",
+      "url": "https://olavodecarvalho.org/wp-content/uploads/2018/07/Olavo-de-Carvalho-Curr%C3%ADculo.pdf",
+      "publisher": "olavodecarvalho.org legacy uploads (the author's own document; the domain root is now squatted but this file still serves — primary)",
+      "type": "official"
+    },
+    {
+      "id": "ihu-bbc",
+      "title": "Olavo de Carvalho, o 'parteiro' da nova direita (João Fellet, BBC Brasil, Dec 2016 — mirror)",
+      "url": "https://ihu.unisinos.br/185-noticias/noticias-2016/563424-olavo-de-carvalho-o-parteiro-da-nova-direita-que-diz",
+      "publisher": "BBC Brasil via IHU/Unisinos mirror (interview-based profile)",
+      "type": "news"
+    },
+    {
+      "id": "comuniquese-dc",
+      "title": "Antes de ser guru bolsonarista, Olavo de Carvalho teve palco na imprensa",
+      "url": "https://portal.comunique-se.com.br/antes-de-ser-guru-bolsonarista-olavo-de-carvalho-teve-palco-na-imprensa/",
+      "publisher": "Comunique-se (media-industry portal)",
+      "type": "news"
     }
   ],
   "philosophers": {
