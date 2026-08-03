@@ -1,7 +1,13 @@
 {
   "generatedBy": "scripts/archive-refs.js",
-  "updatedAt": "2026-08-02",
+  "updatedAt": "2026-08-03",
   "snapshots": {
+    "http://web.archive.org/web/20211215180559/https://olavodecarvalho.org/": {
+      "refId": "olavodecarvalho-org-wayback",
+      "archiveUrl": "https://web.archive.org/web/20260803100613/https://olavodecarvalho.org/",
+      "timestamp": "20260803100613",
+      "checkedAt": "2026-08-03"
+    },
     "https://agenciabrasil.ebc.com.br/geral/noticia/2022-01/olavo-de-carvalho-morre-aos-74-anos-nos-estados-unidos": {
       "refId": "agenciabrasil-obit",
       "archiveUrl": "https://web.archive.org/web/20260514034147/https://agenciabrasil.ebc.com.br/geral/noticia/2022-01/olavo-de-carvalho-morre-aos-74-anos-nos-estados-unidos",
@@ -14,6 +20,30 @@
       "timestamp": "20250707222826",
       "checkedAt": "2026-08-02"
     },
+    "https://blogs.opovo.com.br/ancoradouro/2022/01/25/olavo-de-carvalho-recebe-os-sacramentos-antes-de-sua-morte/": {
+      "refId": "opovo-sacramentos",
+      "archiveUrl": "https://web.archive.org/web/20260307180440/https://blogs.opovo.com.br/ancoradouro/2022/01/25/olavo-de-carvalho-recebe-os-sacramentos-antes-de-sua-morte/",
+      "timestamp": "20260307180440",
+      "checkedAt": "2026-08-03"
+    },
+    "https://brill.com/view/journals/arie/21/2/article-p159_1.xml": {
+      "refId": "sedgwick-aries-2021",
+      "archiveUrl": "https://web.archive.org/web/20260223141256/https://brill.com/view/journals/arie/21/2/article-p159_1.xml",
+      "timestamp": "20260223141256",
+      "checkedAt": "2026-08-03"
+    },
+    "https://catracalivre.com.br/cidadania/o-fim-misterioso-da-entidade-da-olavo-de-carvalho-nos-eua/": {
+      "refId": "catracalivre-iai",
+      "archiveUrl": "https://web.archive.org/web/20250919093623/https://catracalivre.com.br/cidadania/o-fim-misterioso-da-entidade-da-olavo-de-carvalho-nos-eua/",
+      "timestamp": "20250919093623",
+      "checkedAt": "2026-08-03"
+    },
+    "https://diariodonordeste.verdesmares.com.br/ultima-hora/pais/morte-de-olavo-de-carvalho-nao-teve-relacao-com-a-covid-alega-seu-medico-particular-1.3184656": {
+      "refId": "diariodonordeste-medico",
+      "archiveUrl": "https://web.archive.org/web/20220525055855/https://diariodonordeste.verdesmares.com.br/ultima-hora/pais/morte-de-olavo-de-carvalho-nao-teve-relacao-com-a-covid-alega-seu-medico-particular-1.3184656",
+      "timestamp": "20220525055855",
+      "checkedAt": "2026-08-03"
+    },
     "https://en.wikipedia.org/wiki/Olavo_de_Carvalho": {
       "refId": "wikipedia-en",
       "archiveUrl": "https://web.archive.org/web/20260605211447/https://en.wikipedia.org/wiki/Olavo_de_Carvalho",
@@ -25,6 +55,30 @@
       "archiveUrl": "https://web.archive.org/web/20260607145658/https://exame.com/brasil/bolsonaro-decreta-luto-de-um-dia-por-morte-de-olavo-de-carvalho/",
       "timestamp": "20260607145658",
       "checkedAt": "2026-08-02"
+    },
+    "https://github.com/alissonryan/cof-olavo": {
+      "refId": "cof-transcriptions",
+      "archiveUrl": "https://web.archive.org/web/20260803100651/https://github.com/alissonryan/cof-olavo",
+      "timestamp": "20260803100651",
+      "checkedAt": "2026-08-03"
+    },
+    "https://horadopovo.com.br/intelectuais-recusam-medalha-da-biblioteca-nacional-e-criticam-homenagem-a-bolsonaristas-golpistas/": {
+      "refId": "hdp-medalha",
+      "archiveUrl": "https://web.archive.org/web/20240423054128/https://horadopovo.com.br/intelectuais-recusam-medalha-da-biblioteca-nacional-e-criticam-homenagem-a-bolsonaristas-golpistas/",
+      "timestamp": "20240423054128",
+      "checkedAt": "2026-08-03"
+    },
+    "https://ihu.unisinos.br/185-noticias/noticias-2016/563424-olavo-de-carvalho-o-parteiro-da-nova-direita-que-diz": {
+      "refId": "ihu-bbc",
+      "archiveUrl": "https://web.archive.org/web/20260803101205/https://ihu.unisinos.br/185-noticias/noticias-2016/563424-olavo-de-carvalho-o-parteiro-da-nova-direita-que-diz",
+      "timestamp": "20260803101205",
+      "checkedAt": "2026-08-03"
+    },
+    "https://istoe.com.br/apos-dois-dias-internado-olavo-de-carvalho-recebe-alta-do-hospital/": {
+      "refId": "istoe-alta-2020",
+      "archiveUrl": "https://web.archive.org/web/20200320033345/https://istoe.com.br/apos-dois-dias-internado-olavo-de-carvalho-recebe-alta-do-hospital/",
+      "timestamp": "20200320033345",
+      "checkedAt": "2026-08-03"
     },
     "https://livraria.seminariodefilosofia.org/os-eua-e-a-nom": {
       "refId": "livraria-seminario-dugin",
@@ -44,6 +98,30 @@
       "timestamp": "20210514051037",
       "checkedAt": "2026-08-02"
     },
+    "https://olavodecarvalho.org/wp-content/uploads/2018/07/Olavo-de-Carvalho-Curr%C3%ADculo.pdf": {
+      "refId": "olavo-cv-pdf",
+      "archiveUrl": "https://web.archive.org/web/20251119115301/https://olavodecarvalho.org/wp-content/uploads/2018/07/Olavo-de-Carvalho-Curr%C3%ADculo.pdf",
+      "timestamp": "20251119115301",
+      "checkedAt": "2026-08-03"
+    },
+    "https://olavodecarvalhofb.wordpress.com/2021/04/14/14-4-2021/": {
+      "refId": "olavofb-trachea",
+      "archiveUrl": "https://web.archive.org/web/20221015032820/https://olavodecarvalhofb.wordpress.com/2021/04/14/14-4-2021/",
+      "timestamp": "20221015032820",
+      "checkedAt": "2026-08-03"
+    },
+    "https://olavodecarvalhofb.wordpress.com/2021/05/18/18-5-2021/": {
+      "refId": "olavofb-bladder",
+      "archiveUrl": "https://web.archive.org/web/20221015032812/https://olavodecarvalhofb.wordpress.com/2021/05/18/18-5-2021/",
+      "timestamp": "20221015032812",
+      "checkedAt": "2026-08-03"
+    },
+    "https://olavodecarvalhofb.wordpress.com/2022/07/02/41846/": {
+      "refId": "olavofb-medalha",
+      "archiveUrl": "https://web.archive.org/web/20250903151551/https://olavodecarvalhofb.wordpress.com/2022/07/02/41846/",
+      "timestamp": "20250903151551",
+      "checkedAt": "2026-08-03"
+    },
     "https://padrepauloricardo.org/episodios/o-minimo-que-voce-precisa-saber-para-nao-ser-um-idiota": {
       "refId": "padrepauloricardo-minimo",
       "archiveUrl": "https://web.archive.org/web/20260607112740/https://padrepauloricardo.org/episodios/o-minimo-que-voce-precisa-saber-para-nao-ser-um-idiota",
@@ -55,6 +133,12 @@
       "archiveUrl": "https://web.archive.org/web/20241125080742/https://periodicos.ufrn.br/interlegere/article/download/25175/14977/89867",
       "timestamp": "20241125080742",
       "checkedAt": "2026-08-02"
+    },
+    "https://portal.comunique-se.com.br/antes-de-ser-guru-bolsonarista-olavo-de-carvalho-teve-palco-na-imprensa/": {
+      "refId": "comuniquese-dc",
+      "archiveUrl": "https://web.archive.org/web/20260803101258/https://portal.comunique-se.com.br/antes-de-ser-guru-bolsonarista-olavo-de-carvalho-teve-palco-na-imprensa/",
+      "timestamp": "20260803101258",
+      "checkedAt": "2026-08-03"
     },
     "https://pt.wikipedia.org/wiki/O_Jardim_das_Afli%C3%A7%C3%B5es_(filme)": {
       "refId": "wikipedia-pt-film",
@@ -86,6 +170,24 @@
       "timestamp": "20250708210625",
       "checkedAt": "2026-08-02"
     },
+    "https://traditionalistblog.blogspot.com/2022/01/Olavodeath.html": {
+      "refId": "sedgwick-blog",
+      "archiveUrl": "https://web.archive.org/web/20251207023853/https://traditionalistblog.blogspot.com/2022/01/Olavodeath.html",
+      "timestamp": "20251207023853",
+      "checkedAt": "2026-08-03"
+    },
+    "https://www.bahianoticias.com.br/holofote/noticia/71000-caetano-veloso-notifica-herdeiras-de-olavo-de-carvalho": {
+      "refId": "bahianoticias-herdeiras",
+      "archiveUrl": "https://web.archive.org/web/20260803101055/https://www.bahianoticias.com.br/holofote/noticia/71000-caetano-veloso-notifica-herdeiras-de-olavo-de-carvalho",
+      "timestamp": "20260803101055",
+      "checkedAt": "2026-08-03"
+    },
+    "https://www.boletimdaliberdade.com.br/2018/03/27/olavo-de-carvalho-fara-cirurgia-para-retirar-cisto-mas-passa-bem/": {
+      "refId": "boletim-cirurgia-2018",
+      "archiveUrl": "https://web.archive.org/web/20260212130702/https://www.boletimdaliberdade.com.br/2018/03/27/olavo-de-carvalho-fara-cirurgia-para-retirar-cisto-mas-passa-bem/",
+      "timestamp": "20260212130702",
+      "checkedAt": "2026-08-03"
+    },
     "https://www.brasildefato.com.br/2022/01/25/morre-olavo-de-carvalho-astrologo-estava-com-covid-causa-da-morte-nao-foi-divulgada/": {
       "refId": "brasildefato-obit",
       "archiveUrl": "https://web.archive.org/web/20250624075355/https://www.brasildefato.com.br/2022/01/25/morre-olavo-de-carvalho-astrologo-estava-com-covid-causa-da-morte-nao-foi-divulgada/",
@@ -110,11 +212,23 @@
       "timestamp": "20250121103408",
       "checkedAt": "2026-08-02"
     },
+    "https://www.cnnbrasil.com.br/politica/morre-heloisa-filha-de-olavo-de-carvalho/": {
+      "refId": "cnnbrasil-heloisa-morte",
+      "archiveUrl": "https://web.archive.org/web/20260113190442/https://www.cnnbrasil.com.br/politica/morre-heloisa-filha-de-olavo-de-carvalho/",
+      "timestamp": "20260113190442",
+      "checkedAt": "2026-08-03"
+    },
     "https://www.conjur.com.br/2020-nov-11/negado-recurso-sustar-29-mi-olavo-pagar-caetano/": {
       "refId": "conjur-caetano",
       "archiveUrl": "https://web.archive.org/web/20250512190124/https://www.conjur.com.br/2020-nov-11/negado-recurso-sustar-29-mi-olavo-pagar-caetano/",
       "timestamp": "20250512190124",
       "checkedAt": "2026-08-02"
+    },
+    "https://www.correiobraziliense.com.br/app/noticia/politica/2020/04/24/interna_politica,848026/olavo-de-carvalho-se-eu-fosse-guru-do-governo-essa-m-nao-acontec.shtml": {
+      "refId": "correio-guru-2020",
+      "archiveUrl": "https://web.archive.org/web/20200517173831/https://www.correiobraziliense.com.br/app/noticia/politica/2020/04/24/interna_politica,848026/olavo-de-carvalho-se-eu-fosse-guru-do-governo-essa-m-nao-acontec.shtml",
+      "timestamp": "20200517173831",
+      "checkedAt": "2026-08-03"
     },
     "https://www.correiobraziliense.com.br/brasil/2022/01/4980029-morre-olavo-de-carvalho-aos-74-anos-nos-estados-unidos.html": {
       "refId": "correiobraziliense-obit",
@@ -122,11 +236,29 @@
       "timestamp": "20240404022503",
       "checkedAt": "2026-08-02"
     },
+    "https://www.curitiba.pr.leg.br/informacao/noticias/camara-homenageia-olavo-de-carvalho": {
+      "refId": "curitiba-camara",
+      "archiveUrl": "https://web.archive.org/web/20250620035817/https://www.curitiba.pr.leg.br/informacao/noticias/camara-homenageia-olavo-de-carvalho",
+      "timestamp": "20250620035817",
+      "checkedAt": "2026-08-03"
+    },
+    "https://www.em.com.br/app/noticia/politica/2021/12/21/interna_politica,1332882/olavo-de-carvalho-sobre-chances-de-reeleicao-de-bolsonaro-briga-perdida.shtml": {
+      "refId": "em-briga-2021",
+      "archiveUrl": "https://web.archive.org/web/20260416110403/https://www.em.com.br/app/noticia/politica/2021/12/21/interna_politica,1332882/olavo-de-carvalho-sobre-chances-de-reeleicao-de-bolsonaro-briga-perdida.shtml",
+      "timestamp": "20260416110403",
+      "checkedAt": "2026-08-03"
+    },
     "https://www.findagrave.com/memorial/236247781/olavo_luiz_pimentel_de-carvalho": {
       "refId": "findagrave-memorial",
       "archiveUrl": "https://web.archive.org/web/20251231162354/https://www.findagrave.com/memorial/236247781/olavo_luiz_pimentel_de-carvalho",
       "timestamp": "20251231162354",
       "checkedAt": "2026-08-02"
+    },
+    "https://www.folhape.com.br/politica/olavo-de-carvalho-volta-aos-eua-apos-quatro-meses-internado-no-brasil/206079/": {
+      "refId": "folhape-retorno",
+      "archiveUrl": "https://web.archive.org/web/20211117173753/https://www.folhape.com.br/politica/olavo-de-carvalho-volta-aos-eua-apos-quatro-meses-internado-no-brasil/206079/",
+      "timestamp": "20211117173753",
+      "checkedAt": "2026-08-03"
     },
     "https://www.folhape.com.br/politica/quem-e-heloisa-filha-excluida-do-testamento-de-olavo-de-carvalho/337362/": {
       "refId": "folhape-heloisa",
@@ -152,6 +284,12 @@
       "timestamp": "20250806094421",
       "checkedAt": "2026-08-02"
     },
+    "https://www.gazetadopovo.com.br/republica/breves/olavo-de-carvalho-jornal-online-brasil-sem-medo/": {
+      "refId": "gazetadopovo-bsm",
+      "archiveUrl": "https://web.archive.org/web/20250524112242/https://www.gazetadopovo.com.br/republica/breves/olavo-de-carvalho-jornal-online-brasil-sem-medo/",
+      "timestamp": "20250524112242",
+      "checkedAt": "2026-08-03"
+    },
     "https://www.gazetadopovo.com.br/vozes/bruna-frascolla/o-debate-olavo-dugin-dez-anos-depois/": {
       "refId": "gazetadopovo-frascolla",
       "archiveUrl": "https://web.archive.org/web/20230930183642/https://www.gazetadopovo.com.br/vozes/bruna-frascolla/o-debate-olavo-dugin-dez-anos-depois/",
@@ -164,17 +302,53 @@
       "timestamp": "20251210220208",
       "checkedAt": "2026-08-02"
     },
+    "https://www.metropoles.com/brasil/politica-brasil/olavo-de-carvalho-diz-ter-sido-operado-de-dois-tumores-na-bexiga": {
+      "refId": "metropoles-bexiga",
+      "archiveUrl": "https://web.archive.org/web/20230109001917/https://www.metropoles.com/brasil/politica-brasil/olavo-de-carvalho-diz-ter-sido-operado-de-dois-tumores-na-bexiga",
+      "timestamp": "20230109001917",
+      "checkedAt": "2026-08-03"
+    },
+    "https://www.metropoles.com/chapelaria/olavo-de-carvalho-lanca-brasil-sem-medo-um-jornal-conservador": {
+      "refId": "metropoles-bsm",
+      "archiveUrl": "https://web.archive.org/web/20250919101545/https://www.metropoles.com/chapelaria/olavo-de-carvalho-lanca-brasil-sem-medo-um-jornal-conservador",
+      "timestamp": "20250919101545",
+      "checkedAt": "2026-08-03"
+    },
+    "https://www.metropoles.com/mundo/olavo-de-carvalho-sera-enterrado-em-petersburg-pequena-cidade-dos-eua": {
+      "refId": "metropoles-enterro",
+      "archiveUrl": "https://web.archive.org/web/20240225053522/https://www.metropoles.com/mundo/olavo-de-carvalho-sera-enterrado-em-petersburg-pequena-cidade-dos-eua",
+      "timestamp": "20240225053522",
+      "checkedAt": "2026-08-03"
+    },
     "https://www.noticiasaominuto.com.br/politica/1879160/3-olavo-de-carvalho-morreu-de-covid-diz-filha-do-guru-do-bolsonarismo": {
       "refId": "noticiasaominuto-filha",
       "archiveUrl": "https://web.archive.org/web/20220523175208/https://www.noticiasaominuto.com.br/politica/1879160/3-olavo-de-carvalho-morreu-de-covid-diz-filha-do-guru-do-bolsonarismo",
       "timestamp": "20220523175208",
       "checkedAt": "2026-08-02"
     },
+    "https://www.nsctotal.com.br/noticias/justica-de-sc-notifica-herdeiras-de-olavo-carvalho-por-divida-milionaria-com-caetano-veloso": {
+      "refId": "nsctotal-herdeiras",
+      "archiveUrl": "https://web.archive.org/web/20260109033901/https://www.nsctotal.com.br/noticias/justica-de-sc-notifica-herdeiras-de-olavo-carvalho-por-divida-milionaria-com-caetano-veloso",
+      "timestamp": "20260109033901",
+      "checkedAt": "2026-08-03"
+    },
     "https://www.nytimes.com/2022/01/26/world/americas/olavo-de-carvalho-dead.html": {
       "refId": "nyt-obit",
       "archiveUrl": "https://web.archive.org/web/20250424010222/https://www.nytimes.com/2022/01/26/world/americas/olavo-de-carvalho-dead.html/",
       "timestamp": "20250424010222",
       "checkedAt": "2026-08-02"
+    },
+    "https://www.poder360.com.br/brasil/internado-olavo-de-carvalho-tem-infeccao-urinaria-e-na-corrente-sanguinea/": {
+      "refId": "poder360-sepse",
+      "archiveUrl": "https://web.archive.org/web/20251019023947/https://www.poder360.com.br/brasil/internado-olavo-de-carvalho-tem-infeccao-urinaria-e-na-corrente-sanguinea/",
+      "timestamp": "20251019023947",
+      "checkedAt": "2026-08-03"
+    },
+    "https://www.poder360.com.br/brasil/medicina-brasileira-e-melhor-diz-olavo-sobre-tratamento-no-pais/": {
+      "refId": "poder360-medicina",
+      "archiveUrl": "https://web.archive.org/web/20251018230314/https://www.poder360.com.br/brasil/medicina-brasileira-e-melhor-diz-olavo-sobre-tratamento-no-pais/",
+      "timestamp": "20251018230314",
+      "checkedAt": "2026-08-03"
     },
     "https://www.poder360.com.br/brasil/olavo-de-carvalho-esta-no-brasil-para-tratar-problemas-respiratorios/": {
       "refId": "poder360-brasil-respiratorio",
@@ -187,6 +361,18 @@
       "archiveUrl": "https://web.archive.org/web/20251115095236/https://www.poder360.com.br/brasil/olavo-de-carvalho-morre-aos-74-anos/",
       "timestamp": "20251115095236",
       "checkedAt": "2026-08-02"
+    },
+    "https://www.poder360.com.br/brasil/olavo-de-carvalho-recebe-alta-e-deixa-o-hospital/": {
+      "refId": "poder360-incor-alta",
+      "archiveUrl": "https://web.archive.org/web/20251019112204/https://www.poder360.com.br/brasil/olavo-de-carvalho-recebe-alta-e-deixa-o-hospital/",
+      "timestamp": "20251019112204",
+      "checkedAt": "2026-08-03"
+    },
+    "https://www.poder360.com.br/brasil/voto-em-bolsonaro-por-falta-de-alternativas-afirma-olavo/": {
+      "refId": "poder360-falta-2021",
+      "archiveUrl": "https://web.archive.org/web/20260413084114/https://www.poder360.com.br/brasil/voto-em-bolsonaro-por-falta-de-alternativas-afirma-olavo/",
+      "timestamp": "20260413084114",
+      "checkedAt": "2026-08-03"
     },
     "https://www.poder360.com.br/governo/bolsonaro-decreta-luto-no-brasil-por-morte-de-olavo-de-carvalho/": {
       "refId": "poder360-luto",
@@ -205,6 +391,12 @@
       "archiveUrl": "https://web.archive.org/web/20260726042015/https://www.rafaelalmeida.com/cof.html",
       "timestamp": "20260726042015",
       "checkedAt": "2026-08-02"
+    },
+    "https://www.redalyc.org/journal/4755/475571195007/": {
+      "refId": "calil-argumentum",
+      "archiveUrl": "https://web.archive.org/web/20260803100506/https://www.redalyc.org/journal/4755/475571195007/",
+      "timestamp": "20260803100506",
+      "checkedAt": "2026-08-03"
     }
   }
 }
