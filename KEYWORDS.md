@@ -49,8 +49,12 @@ because both render as *real words that change the meaning*:
 | **Husserl** | `Russel`, `russer` | Reads as Bertrand Russell. In the Aristotle session the surrounding exchange is about phenomenology, and the same file attaches the name to *The Origin of Geometry* — Husserl's text. Taking the caption at face value would invert his stated 20th-century canon (Lavelle, Husserl, then Zubiri/Voegelin/Lonergan) into its opposite. |
 | **estóicos / estóica** (Stoics) | `históricos`, `histórica` | Systematic through the Hellenistic session. Every Stoic claim in that file reads as a claim about "historical philosophy". A search for Stoicism finds nothing; a reader who does not know the substitution mis-attributes the whole passage. |
 
-Neither is detectable by spellcheck: the wrong word is a valid Portuguese word
-in context. Verify against audio before quoting anything from these passages.
+| **pré-socráticos** | `socráticos` (the prefix is dropped) | Produces sentences that state the exact opposite of what was said. Systematic in the pre-Socratics session, where the distinction between Socratics and pre-Socratics is the whole subject. |
+
+None of the three is detectable by spellcheck: in each case the wrong word is a
+valid Portuguese word in context, and in the third the sentence stays
+grammatical while reversing its meaning. Verify against audio before quoting
+anything from these passages.
 
 ## Terms known to return nothing in the `olavo-video` course (2026-08-03)
 
