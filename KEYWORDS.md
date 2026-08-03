@@ -56,6 +56,31 @@ valid Portuguese word in context, and in the third the sentence stays
 grammatical while reversing its meaning. Verify against audio before quoting
 anything from these passages.
 
+## The accent trap runs BOTH ways — corrected 2026-08-03
+
+Earlier guidance here said to write `..` in place of an accented letter, because
+a single `.` matches one byte of a two-byte character. **That advice is only
+half right, and following it mechanically produces silent zeros of its own.**
+Measured on this corpus:
+
+| Engine | `Plat.o` | `Plat..o` |
+|---|---|---|
+| `LC_ALL=C grep` (byte mode) | 0 | 130 |
+| UTF-8 grep, and Python on `str` | 130 | **0** |
+
+The two are exact inverses. Whichever pattern you pick, one of the two common
+engines returns zero — and a zero looks like a finding rather than a bug.
+
+**Use literal accented strings** (`Platão`, `Sócrates`, `estóicos`). They work
+in both modes. A stem probe is not a safe substitute either: searching `socr`
+for Sócrates returns **zero**, because the word carries its accent on the first
+syllable — a single-method sweep would have missed the second most-discussed
+philosopher in the whole course.
+
+Corollary, learned the same day: **verify every zero before reporting it.** Two
+of the false zeros in this project's history were produced by the search, not
+by the source.
+
 ## Terms known to return nothing in the `olavo-video` course (2026-08-03)
 
 - **Plotinus / Neoplatonism** — absent from all eight sessions.
