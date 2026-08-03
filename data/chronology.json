@@ -433,6 +433,10 @@
     "agenciabrasil-obit",
     "gazetadopovo-riobranco",
     "wikipedia-en"
+   ],
+   "threads": [
+    "philosophy-teaching",
+    "formation-press"
    ]
   },
   {
@@ -722,6 +726,9 @@
    "sources": [
     "conjur-caetano",
     "cartacapital-herdeiras"
+   ],
+   "threads": [
+    "politics-influence"
    ]
   },
   {
@@ -874,6 +881,9 @@
     "nsctotal-herdeiras",
     "bahianoticias-herdeiras",
     "cartacapital-herdeiras"
+   ],
+   "threads": [
+    "politics-influence"
    ]
   }
  ],
