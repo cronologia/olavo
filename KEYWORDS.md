@@ -100,6 +100,20 @@ token, then read the list. That surfaced **21** transcription spellings of one
 organisation's name — more than anyone would have guessed, and the guessed list
 had already missed several.
 
+## More zero-producing traps, from the Fórum da Liberdade set (2026-08-03)
+
+- **`gramsci` returns 0 corpus-wide.** He is rendered "Antônio grampo" and
+  "Antônio Grande" — and he organises an entire 2002 lecture. A search on the
+  correct spelling would have concluded the subject never discusses him.
+- **Vilém Flusser** appears under five spellings, none of them correct.
+  **Bertrand de Jouvenel** under three.
+- **`1964` is transcribed `1904`** — a sixty-year error in a date that matters
+  in Brazilian political argument.
+- **Two files are entirely lowercase ASR.** Any name extraction that keys on
+  capitalisation returns a silent zero across those whole documents while
+  appearing to work on the rest of the corpus. Check the casing of a file
+  before trusting a capitalisation-based method on it.
+
 ## Terms known to return nothing in the `olavo-video` course (2026-08-03)
 
 - **Plotinus / Neoplatonism** — absent from all eight sessions.
