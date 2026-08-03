@@ -79,7 +79,26 @@ philosopher in the whole course.
 
 Corollary, learned the same day: **verify every zero before reporting it.** Two
 of the false zeros in this project's history were produced by the search, not
-by the source.
+by the source. The reliable technique is a **positive control**: pair every
+zero with a probe you know should hit. A sweep reporting "PSB: 0" is only
+credible alongside "PSDB: 82" from the same corpus and the same method.
+
+## Line-wrapping breaks multiword search — added 2026-08-03
+
+The `olavo-video` transcripts are hard-wrapped mid-phrase, so a two-word name
+routinely straddles a newline: `São` ends one line and `Paulo` begins the next.
+A naive search for the phrase misses those occurrences silently, and the loss
+is invisible because plenty of other occurrences do match.
+
+**Normalise whitespace before matching** anything longer than one word. In the
+sweep that caught this, doing so was the difference between a partial tally and
+684 confirmed occurrences of the phrase.
+
+The same wrap also defeats spelling enumeration by guesswork. The technique
+that worked was inverted: tally every distinct word *preceding* the anchor
+token, then read the list. That surfaced **21** transcription spellings of one
+organisation's name — more than anyone would have guessed, and the guessed list
+had already missed several.
 
 ## Terms known to return nothing in the `olavo-video` course (2026-08-03)
 
