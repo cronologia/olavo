@@ -437,6 +437,21 @@
    ]
   },
   {
+   "year": 2007,
+   "date": "2007-04",
+   "dateVerified": false,
+   "place": "São Paulo, Brazil (taught from the United States)",
+   "title": "Teaching Brazil by videoconference: the Seminário de Filosofia, two years before the COF",
+   "text": "His own telling on the True Outspeak broadcasts of April 2007: he was running a Seminário de Filosofia in São Paulo transmitted by videoconference from the United States, hosted at the publisher É Realizações, and announced a session for the 18th of that month. In February 2007 he put the teaching in a longer line — courses 'for twenty years', which he said he was continuing by videoconference — and listeners wrote in as students of the course. This matters for the shape of the biography: the Curso Online de Filosofia of 2009 did not begin the distance teaching, it industrialized an operation already running from abroad. Recorded here as self-testimony from machine-transcribed broadcasts, not as an institutional record; the seminar's founding date and É Realizações' role are still to be documented externally (olavo#1).",
+   "sources": [
+    "olavo-true-outspeak"
+   ],
+   "threads": [
+    "philosophy-teaching",
+    "formation-press"
+   ]
+  },
+  {
    "year": 2009,
    "date": "2009-03-14",
    "dateVerified": true,
@@ -1704,6 +1719,13 @@
    "url": "https://brill.com/view/journals/arie/21/2/article-p159_1.xml",
    "publisher": "Aries — Journal for the Study of Western Esotericism 21 (2021), 159–184 (Brill; DOI 10.1163/15700593-20201001; full text served free at brill.com as checked 2026-08-03 — no Creative Commons licence is stated, so free-to-read, not formally open access)",
    "type": "academic"
+  },
+  {
+   "id": "olavo-true-outspeak",
+   "title": "True Outspeak (weekly programme, 2006–2011)",
+   "url": "https://www.youtube.com/playlist?list=PLeDYbSG3ee95BaJB-caH9btRz6tcv2sne",
+   "publisher": "Olavo de Carvalho, on BlogTalkRadio; playlist on YouTube",
+   "type": "video"
   }
  ],
  "philosophers": {
