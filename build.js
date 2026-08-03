@@ -33,6 +33,8 @@ const OUT_DIR = path.join(ROOT, 'docs');
 // that don't carry this module, and they must keep passing there.
 let phMod = null;
 try { phMod = require('./philosophers.js'); } catch { phMod = null; }
+let dcMod = null;
+try { dcMod = require('./doctrines.js'); } catch { dcMod = null; }
 
 /* ---------------------------------------------------------------------------
  * Multi-language (i18n) + SEO. English is authoritative and hand-written; es/pt
@@ -1706,6 +1708,7 @@ function renderPage(data, archives, opts = {}) {
   const philosophersHtml = phLocalized
     ? phMod.renderPhilosophersIndexSection(phLocalized, phReception, ui, { esc })
     : '';
+  const doctrinesHtml = dcMod ? dcMod.renderDoctrinesSection(data.doctrines, ui, { esc }) : '';
   const lineageHtml = renderLineageSection(lineage, refNumById);
   const branchTimelineHtml = renderBranchTimeline(branchTimeline, refNumById);
   const numbersChartHtml = renderNumbersChart(numbersChart, refNumById);
@@ -1770,7 +1773,7 @@ ${seoHead(meta, base, route, lang)}
   <nav class="site-nav">
     <div class="wrap">
       <a href="#about">${esc(ui.about)}</a>
-      <a href="#chronology">${esc(ui.chronology)}</a>${philosophersHtml ? `\n      <a href="#philosophers">${esc(ui.philosophers)}</a>` : ''}${chronologySpineHtml ? `\n      <a href="#chronology-spine">${esc((chronologySpine && chronologySpine.navLabel) || ui.spineNav)}</a>` : ''}${swimlanesHtml ? `\n      <a href="#threads">${esc((threads && threads.navLabel) || ui.swNav)}</a>` : ''}${placesMapHtml ? `\n      <a href="#places-map">${esc((placesMap && placesMap.navLabel) || ui.mapNav)}</a>` : ''}${tierMapHtml ? `\n      <a href="#map">${esc((tierMap && tierMap.navLabel) || ui.tierMapHeading)}</a>` : ''}${lineageHtml ? `\n      <a href="#lineage">${esc(lineage.navLabel || 'Genealogy')}</a>` : ''}${branchTimelineHtml ? `\n      <a href="#branch-timeline">${esc(branchTimeline.navLabel || 'Divisions')}</a>` : ''}${numbersChartHtml ? `\n      <a href="#numbers-chart">${esc(numbersChart.navLabel || 'Numbers')}</a>` : ''}
+      <a href="#chronology">${esc(ui.chronology)}</a>${philosophersHtml ? `\n      <a href="#philosophers">${esc(ui.philosophers)}</a>` : ''}${doctrinesHtml ? `\n      <a href="#doctrines">${esc(ui.doctrines || 'Doctrines')}</a>` : ''}${chronologySpineHtml ? `\n      <a href="#chronology-spine">${esc((chronologySpine && chronologySpine.navLabel) || ui.spineNav)}</a>` : ''}${swimlanesHtml ? `\n      <a href="#threads">${esc((threads && threads.navLabel) || ui.swNav)}</a>` : ''}${placesMapHtml ? `\n      <a href="#places-map">${esc((placesMap && placesMap.navLabel) || ui.mapNav)}</a>` : ''}${tierMapHtml ? `\n      <a href="#map">${esc((tierMap && tierMap.navLabel) || ui.tierMapHeading)}</a>` : ''}${lineageHtml ? `\n      <a href="#lineage">${esc(lineage.navLabel || 'Genealogy')}</a>` : ''}${branchTimelineHtml ? `\n      <a href="#branch-timeline">${esc(branchTimeline.navLabel || 'Divisions')}</a>` : ''}${numbersChartHtml ? `\n      <a href="#numbers-chart">${esc(numbersChart.navLabel || 'Numbers')}</a>` : ''}
       <a href="#figures">${esc(ui.figures)}</a>
       <a href="#organizations">${esc(ui.organizations)}</a>
       ${disambigCards ? `<a href="#disambiguation">${esc(ui.disambiguation)}</a>` : ''}
@@ -1802,7 +1805,7 @@ ${eventRows}
       </div>
     </section>
 
-${philosophersHtml}${swimlanesHtml}${placesMapHtml}${tierMapHtml}${lineageHtml}${branchTimelineHtml}${numbersChartHtml}    <section id="figures">
+${philosophersHtml}${doctrinesHtml}${swimlanesHtml}${placesMapHtml}${tierMapHtml}${lineageHtml}${branchTimelineHtml}${numbersChartHtml}    <section id="figures">
       <h2>${esc(ui.figuresHeading)}</h2>
       <div class="party-grid">
 ${figures.map((f) => renderFigureCard(f, refNumById)).join('\n')}

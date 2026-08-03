@@ -440,3 +440,44 @@ figure.swimlanes figcaption { font-size: .78rem; color: var(--muted); margin-top
   .sw-bases { display: block; }
   .sw-bases summary { display: none; }
 }
+
+/* --- Doutrinas panel (doctrines.js) ------------------------------------- */
+/* Explicit rgba throughout: color-mix() against an undefined custom property
+   yields an invalid value and the shape falls back to solid black. */
+.doctrines .dc-standing { border-left: 3px solid #b8860b; padding-left: .9rem; }
+.dc-card { border: 1px solid rgba(128,128,128,.35); border-radius: 10px; padding: 1.1rem 1.2rem; margin: 1.1rem 0; }
+.dc-card h3 { margin: 0 0 .5rem; font-size: 1.15rem; }
+.dc-claim { margin: .3rem 0 .8rem; }
+.dc-note { margin: .55rem 0; font-size: .93rem; }
+.dc-correction { border-left: 3px solid #b8860b; padding-left: .8rem; }
+.dc-revision { border-left: 3px solid #7d5a1a; padding-left: .8rem; }
+.dc-caveat, .dc-sources { opacity: .85; font-style: italic; }
+.dc-credits { margin: .6rem 0 .2rem; font-size: .93rem; }
+.dc-chip { display: inline-block; border: 1px solid rgba(128,128,128,.45); border-radius: 999px;
+           padding: .05rem .55rem; margin: 0 .15rem; font-size: .85rem; }
+.dc-exp-h { margin: .7rem 0 .2rem; font-weight: 600; font-size: .9rem; }
+.dc-exp { margin: 0; padding-left: 1.1rem; font-size: .9rem; }
+.dc-date { font-variant-numeric: tabular-nums; }
+.dc-ok { color: #2e7d32; }
+
+.dc-ringwrap { display: flex; flex-wrap: wrap; gap: 1.2rem; align-items: center; margin: 1rem 0; }
+.dc-ring { flex: 0 0 340px; max-width: 100%; height: auto; }
+.dc-legend { flex: 1 1 260px; margin: 0; padding: 0; list-style: none; font-size: .9rem; }
+.dc-legend li { display: flex; align-items: baseline; gap: .5rem; padding: .12rem 0; }
+.dc-num { display: inline-flex; justify-content: center; align-items: center; flex: 0 0 1.5rem;
+          height: 1.5rem; border-radius: 999px; font-size: .8rem; font-weight: 600; color: #3a2a08; }
+.dc-seg-1 path, .dc-num.dc-seg-1 { fill: rgba(125,90,26,.16); background: rgba(125,90,26,.16); }
+.dc-seg-2 path, .dc-num.dc-seg-2 { fill: rgba(125,90,26,.30); background: rgba(125,90,26,.30); }
+.dc-seg-3 path, .dc-num.dc-seg-3 { fill: rgba(125,90,26,.44); background: rgba(125,90,26,.44); }
+.dc-seg path { stroke: #7d5a1a; stroke-width: 1; }
+.dc-seg text { font-size: 12px; font-weight: 600; fill: currentColor; text-anchor: middle; dominant-baseline: central; }
+.dc-ring-mid, .dc-ring-sub { text-anchor: middle; fill: currentColor; }
+.dc-ring-mid { font-size: 14px; font-weight: 600; }
+.dc-ring-sub { font-size: 10px; opacity: .75; }
+
+.dc-nest { display: block; max-width: 520px; width: 100%; height: auto; margin: 1rem auto; }
+.dc-nest-l rect { fill: rgba(125,90,26,.13); stroke: #7d5a1a; stroke-width: 1; }
+.dc-nest-l text { font-size: 12px; fill: currentColor; }
+.dc-nest-ground { font-size: 11px; text-anchor: middle; fill: currentColor; opacity: .8; font-style: italic; }
+@media (prefers-color-scheme: dark) { .dc-num { color: #f0e6d2; } }
+@media print { .dc-card { break-inside: avoid; } }
