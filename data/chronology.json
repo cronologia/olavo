@@ -406,6 +406,21 @@
    ]
   },
   {
+   "year": 2002,
+   "date": "2002",
+   "dateVerified": true,
+   "place": "Curitiba and São Paulo, Brazil",
+   "title": "Records the Curso História Essencial da Filosofia — already its fifth delivery",
+   "text": "An eight-session history-of-philosophy course, videotaped by the publisher É Realizações, running from the pre-Socratics to the advent of Christianity. He dates it on the recordings themselves and says he has already taught it four times, the first in Rio in 1993 — so this is a fifth delivery of a course a decade old, not a new one. It is taught live and in person, in the same room as his separate Seminário de Filosofia, which he mentions meets the following day: the seminar therefore existed in Brazil three years before he emigrated. The recordings are the fullest systematic statement of his reading of the philosophers before the Curso Online de Filosofia begins in 2009, and the printed collection drawn from them runs to 2006.",
+   "sources": [
+    "olavo-video-hef"
+   ],
+   "threads": [
+    "philosophy-teaching",
+    "formation-press"
+   ]
+  },
+  {
    "year": 2005,
    "date": "2005",
    "dateVerified": true,
@@ -441,8 +456,8 @@
    "date": "2007-04",
    "dateVerified": false,
    "place": "São Paulo, Brazil (taught from the United States)",
-   "title": "Teaching Brazil by videoconference: the Seminário de Filosofia, two years before the COF",
-   "text": "His own telling on the True Outspeak broadcasts of April 2007: he was running a Seminário de Filosofia in São Paulo transmitted by videoconference from the United States, hosted at the publisher É Realizações, and announced a session for the 18th of that month. In February 2007 he put the teaching in a longer line — courses 'for twenty years', which he said he was continuing by videoconference — and listeners wrote in as students of the course. This matters for the shape of the biography: the Curso Online de Filosofia of 2009 did not begin the distance teaching, it industrialized an operation already running from abroad. Recorded here as self-testimony from machine-transcribed broadcasts, not as an institutional record; the seminar's founding date and É Realizações' role are still to be documented externally (olavo#1).",
+   "title": "Teaching Brazil by videoconference from the United States",
+   "text": "His own telling on the True Outspeak broadcasts of April 2007: the Seminário de Filosofia he had been running in Brazil since at least 2002 was by then reaching São Paulo by videoconference from the United States, hosted at É Realizações, and he announced a session for the 18th of that month. In February 2007 he put the teaching in a longer line — courses 'for twenty years', which he said he was continuing by videoconference — and listeners wrote in as students. What changed after the 2005 emigration was therefore the delivery, not the teaching: the Curso Online de Filosofia of 2009 industrialized an operation that had already crossed the Atlantic. Recorded as self-testimony from machine-transcribed broadcasts, not as an institutional record.",
    "sources": [
     "olavo-true-outspeak"
    ],
@@ -1725,6 +1740,13 @@
    "title": "True Outspeak (weekly programme, 2006–2011)",
    "url": "https://www.youtube.com/playlist?list=PLeDYbSG3ee95BaJB-caH9btRz6tcv2sne",
    "publisher": "Olavo de Carvalho, on BlogTalkRadio; playlist on YouTube",
+   "type": "video"
+  },
+  {
+   "id": "olavo-video-hef",
+   "title": "Curso História Essencial da Filosofia (eight recorded sessions)",
+   "url": "https://www.youtube.com/playlist?list=PL52ZkoPcWL64AIbTB1UCCdwlW1oMeDJvN",
+   "publisher": "Recorded 2002, videotaped by É Realizações; playlist on YouTube",
    "type": "video"
   }
  ],
