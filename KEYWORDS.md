@@ -39,6 +39,32 @@ search traps; multiword variants live in `core/tools/cof-entity-aliases.json`)
 | Frithjof Schuon (again) | Chuom |
 | Ananda/Rama Coomaraswamy | Comarassame, Comarassoume |
 
+## ASR manglings in the `olavo-video` collection (added 2026-08-03)
+
+The 2002–03 philosophy course produced two traps worse than a misspelled name,
+because both render as *real words that change the meaning*:
+
+| Actual | Appears in captions as | Why it matters |
+|---|---|---|
+| **Husserl** | `Russel`, `russer` | Reads as Bertrand Russell. In the Aristotle session the surrounding exchange is about phenomenology, and the same file attaches the name to *The Origin of Geometry* — Husserl's text. Taking the caption at face value would invert his stated 20th-century canon (Lavelle, Husserl, then Zubiri/Voegelin/Lonergan) into its opposite. |
+| **estóicos / estóica** (Stoics) | `históricos`, `histórica` | Systematic through the Hellenistic session. Every Stoic claim in that file reads as a claim about "historical philosophy". A search for Stoicism finds nothing; a reader who does not know the substitution mis-attributes the whole passage. |
+
+Neither is detectable by spellcheck: the wrong word is a valid Portuguese word
+in context. Verify against audio before quoting anything from these passages.
+
+## Terms known to return nothing in the `olavo-video` course (2026-08-03)
+
+- **Plotinus / Neoplatonism** — absent from all eight sessions.
+- **Scepticism** — announced at the end of Hellenistic part 1 and never
+  delivered in part 2.
+- **Zeno, Chrysippus, Sextus Empiricus, Pyrrho** — never named, although the
+  Stoics are treated at length.
+- **Epicurus** — deliberately delegated to his own book *O Jardim das
+  Aflições* rather than covered.
+
+These are coverage gaps in the source, not search failures: record them as
+such rather than re-running the query.
+
 ## Terms known to return nothing (checked 2026-08-02)
 
 - "Nitche" for Nietzsche — does not occur in the corpus.
