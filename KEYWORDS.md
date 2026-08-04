@@ -58,6 +58,26 @@ valid Portuguese word in context, and in the third the sentence stays
 grammatical while reversing its meaning. Verify against audio before quoting
 anything from these passages.
 
+### Cited authors in the `forum-da-liberdade` series (added 2026-08-04)
+
+These captions were auto-generated from 2000s conference audio and mangle
+*attributions* rather than terms. The failure mode is different and worse: the
+claim survives intact and only the person it is credited to is destroyed, so
+nothing reads as broken and the entry gets the lineage wrong.
+
+| Actual | Appears in captions as | How it was settled |
+|---|---|---|
+| **Bertrand de Jouvenel** | `do jogo né`, `Liberal do jogo né` | Zero under his own name in this series. Resolved by searching the phrase attached to him — power integrating upward and destroying the intermediate powers — which returns *Du Pouvoir* in seven COF files under the correct spelling. |
+| **Ellsworth Huntington** | `Elsword antigo Tom`, `constante de um tom` | The speaker himself insists it is *not* Samuel Huntington. The COF corpus names *The Mainsprings of Civilization* and makes the same disclaimer, which is what confirms the reading. |
+| **Georges Bernanos** | `Jordan Roll joga`, `Jordana nos` | Resolved from the aphorism, not the name: "a democracia não é o contrário da ditadura, é a causa da ditadura" appears twice in COF under `Jorge Bernanlos` / `Jorge Bernanot`. |
+| **Reinhold Niebuhr** | `rádio ônibus`, `famoso teólogo rádio ônibus` | *Moral Man and Immoral Society* is discussed under the correct spelling elsewhere in the corpus. |
+| **Husserl** | `mundo rosto`, `Edmond Russell`, `o russo` | The same Husserl trap as above, in a third disguise. Found via the aphorism — no embryology of triangles, no trigonometry of lions. |
+
+The method that worked in every case: **search the claim, not the name.** A
+mangled name returns nothing and looks like absence; the sentence attached to
+it is usually transcribed well enough to find, and once found it carries the
+correct spelling somewhere else in the corpus.
+
 ## The accent trap runs BOTH ways — corrected 2026-08-03
 
 Earlier guidance here said to write `..` in place of an accented letter, because
