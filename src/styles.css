@@ -483,3 +483,17 @@ figure.swimlanes figcaption { font-size: .78rem; color: var(--muted); margin-top
 @media (prefers-color-scheme: dark) { .dc-num { color: #f0e6d2; } }
 @media print { .dc-card { break-inside: avoid; } }
 .dc-orig { font-weight: 400; font-size: .85em; opacity: .7; font-style: italic; }
+
+/* Chain diagram — the four discourses. Same brand wash as the ring and the
+   nest, but the opacity is set per node by the renderer so it deepens along
+   the chain: the diagram claims certainty rises, and the shading has to agree
+   with the arrow rather than cycle underneath it. */
+.dc-chain { display: block; max-width: 560px; width: 100%; height: auto; margin: 1rem auto; }
+.dc-chain-node rect { fill: #7d5a1a; stroke: #7d5a1a; stroke-width: 1; }
+.dc-chain-num { font-size: 10px; font-weight: 600; fill: currentColor; opacity: .65; }
+.dc-chain-label { font-size: 12px; font-weight: 600; fill: currentColor; text-anchor: middle; }
+.dc-chain-arrow { stroke: #7d5a1a; stroke-width: 1.5; fill: none; }
+.dc-chain-axis { stroke: #7d5a1a; stroke-width: 1; opacity: .55; }
+.dc-chain-axis-label { font-size: 10px; fill: currentColor; opacity: .75; }
+.dc-chain-axis-end { text-anchor: end; }
+#dc-arrow path { fill: #7d5a1a; }

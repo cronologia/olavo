@@ -1,7 +1,7 @@
 {
  "_meta": {
   "targetLang": "pt",
-  "coverage": "566 strings",
+  "coverage": "570 strings",
   "generatedBy": "hand-authored translations committed with the data (ADR-0004); philosopher layer authored alongside the EN data 2026-08-02, chronology layer 2026-08-03, doctrines layer 2026-08-03"
  },
  "strings": {
@@ -477,7 +477,6 @@
   "course lecture 40, on Marx as the worked example": "aula 40 do curso, com Marx como exemplo desenvolvido",
   "course lecture 219 — the narrowed definition": "aula 219 do curso — a definição já restringida",
   "a course announced under this name, Virginia": "um curso anunciado com esse nome, Virgínia",
-  "His most widely deployed framework: four kinds of discourse — poetic, rhetorical, dialectical and analytical — graded by the certainty they can carry, which he treats as one scale rather than four separate disciplines. He read the Aristotelian corpus in that order and held that Aristotle's logic becomes unintelligible once it is amputated from his rhetoric.": "Seu quadro de referência mais empregado: quatro tipos de discurso — poético, retórico, dialético e analítico —, graduados pelo grau de certeza que podem sustentar, que ele trata como uma única escala e não como quatro disciplinas separadas. Ele leu o corpus aristotélico nessa ordem e sustentava que a lógica de Aristóteles se torna ininteligível assim que é amputada de sua retórica.",
   "course lecture 167": "aula 167 do curso",
   "course lecture 82": "aula 82 do curso",
   "The band of possibilities available to a person or a society at a given moment — what is not actual but could become so without a break in continuity. He uses it to argue that judging either a life or a historical situation requires knowing what was really open to it.": "A faixa de possibilidades disponíveis a uma pessoa ou a uma sociedade num dado momento — o que não é atual, mas poderia vir a sê-lo sem quebra de continuidade. Ele o emprega para argumentar que julgar uma vida ou uma situação histórica exige saber o que estava realmente aberto a ela.",
@@ -570,6 +569,11 @@
   "the channel's own page — primary": "a própria página do canal — fonte primária",
   "upstream declares CC0 for the transcription work; the lectures remain the estate's": "o projeto de origem declara CC0 para o trabalho de transcrição; as aulas continuam pertencendo ao espólio",
   "his own BlogTalkRadio programme, 2006–2011; the playlist mirrors it": "seu próprio programa na BlogTalkRadio, 2006–2011; a playlist o espelha",
-  "recorded 2002, videotaped by the publisher É Realizações": "gravado em 2002, filmado pela editora É Realizações"
+  "recorded 2002, videotaped by the publisher É Realizações": "gravado em 2002, filmado pela editora É Realizações",
+  "His most widely deployed framework: four kinds of discourse — poetic, rhetorical, dialectical and analytical — graded by the certainty they can carry, which he treats as one scale rather than four separate disciplines. The order is a dependency, not a preference: he calls it the natural sequence of a human education, in which one learns to imagine and express the world before arguing about conduct, and argues about conduct before demonstrating anything. He read the Aristotelian corpus in that order and held that Aristotle's logic becomes unintelligible once it is amputated from his rhetoric.": "Seu quadro de análise mais empregado: quatro espécies de discurso — poético, retórico, dialético e analítico — graduadas pela certeza que podem sustentar, que ele trata como uma única escala e não como quatro disciplinas separadas. A ordem é uma dependência, não uma preferência: ele a chama de sequência natural da educação humana, em que se aprende a imaginar e exprimir o mundo antes de discutir a conduta, e se discute a conduta antes de demonstrar o que quer que seja. Leu o corpus aristotélico nessa ordem e sustentava que a lógica de Aristóteles se torna ininteligível assim que é amputada de sua retórica.",
+  "Poetic": "Poético",
+  "Rhetorical": "Retórico",
+  "Dialectical": "Dialético",
+  "Analytical": "Analítico"
  }
 }

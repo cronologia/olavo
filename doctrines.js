@@ -80,6 +80,65 @@ ${legend}
   </div>`;
 }
 
+/** A left-to-right chain: each stage presupposes the one before it.
+ *
+ * The four discourses are the case this exists for, and the shape is the
+ * argument. He does not present them as four separate disciplines a reader
+ * might take in any order: they are one scale of certainty, and the sequence
+ * is — his words, paraphrased — the natural sequence of a human education.
+ * You learn to imagine and express the world before you can argue about
+ * conduct, and you argue about conduct before you can demonstrate anything.
+ * So the diagram is a directed chain with a rising axis under it, NOT four
+ * boxes side by side, which would encode exactly the reading he rejects.
+ *
+ * Contrast the ring: there the twelve press simultaneously and a sequence
+ * would be the error. Same renderer file, opposite claim, so the dataset says
+ * which one an entry gets (`diagram`) rather than the code guessing.
+ */
+function renderChain(names, esc, t) {
+  const n = names.length;
+  const W = 560, boxW = 112, gap = (W - 40 - n * boxW) / Math.max(1, n - 1);
+  const nodes = names.map((name, i) => {
+    const x = 20 + i * (boxW + gap);
+    const arrow = i < n - 1
+      ? `      <path class="dc-chain-arrow" d="M ${x + boxW + 6} 58 L ${x + boxW + gap - 6} 58" marker-end="url(#dc-arrow)" />`
+      : '';
+    // Long names wrap: two lines, split near the middle on a space.
+    const words = name.split(' ');
+    const mid = words.length > 2 ? Math.ceil(words.length / 2) : words.length;
+    const l1 = words.slice(0, mid).join(' ');
+    const l2 = words.slice(mid).join(' ');
+    // The wash DARKENS monotonically along the chain, because the axis under it
+    // says certainty rises. The ring's three-colour cycle is right there (twelve
+    // equal segments, no order) and wrong here: reused, it made the analytical
+    // discourse the palest box on a diagram whose whole point is that it is the
+    // most certain. Computed rather than classed so it stays monotonic for any
+    // length.
+    const wash = (0.12 + (0.34 * i) / Math.max(1, n - 1)).toFixed(3);
+    return `      <g class="dc-chain-node">
+        <rect x="${x}" y="28" width="${boxW}" height="60" rx="8" fill-opacity="${wash}" />
+        <text class="dc-chain-num" x="${x + 10}" y="46">${i + 1}</text>
+        <text class="dc-chain-label" x="${x + boxW / 2}" y="${l2 ? 62 : 68}">${esc(l1)}</text>
+        ${l2 ? `<text class="dc-chain-label" x="${x + boxW / 2}" y="78">${esc(l2)}</text>` : ''}
+      </g>
+${arrow}`;
+  });
+  const lo = t('dcChainLow', 'least certainty');
+  const hi = t('dcChainHigh', 'most certainty');
+  return `<svg class="dc-chain" viewBox="0 0 ${W} 130" role="img"
+     aria-label="${esc(t('dcChainAlt', 'Four discourses in a single sequence, each presupposing the one before it, from least to most certainty'))}: ${esc(names.map((x, i) => `${i + 1} ${x}`).join('; '))}">
+    <defs>
+      <marker id="dc-arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto">
+        <path d="M 0 0 L 8 4 L 0 8 z" />
+      </marker>
+    </defs>
+${nodes.join('\n')}
+    <line class="dc-chain-axis" x1="20" y1="108" x2="${W - 20}" y2="108" marker-end="url(#dc-arrow)" />
+    <text class="dc-chain-axis-label" x="20" y="124">${esc(lo)}</text>
+    <text class="dc-chain-axis-label dc-chain-axis-end" x="${W - 20}" y="124">${esc(hi)}</text>
+  </svg>`;
+}
+
 /** Nested frames: three functions around a substantial self, on a ground. */
 function renderNest(names, esc, groundLabel) {
   const rows = names.map((name, i) => {
@@ -127,10 +186,16 @@ function renderDoctrinesSection(doctrines, ui, helpers) {
     const bits = [];
     bits.push(`<p class="dc-claim">${esc(it.claim)}</p>`);
 
-    if (Array.isArray(it.structure) && it.structure.length === 12) {
-      bits.push(renderRing(it.structure, esc, t));
-    } else if (Array.isArray(it.structure) && it.structure.length) {
-      bits.push(renderNest(it.structure, esc, t('dcGround', 'the eternal I — the ground, not a fifth term')));
+    // The dataset names the diagram, because the SHAPE is a claim: a ring says
+    // simultaneous, a chain says ordered, and nesting says contained. Inferring
+    // it from the array length would let a new entry silently acquire an
+    // argument nobody made. `diagram` is optional; the length rule is kept as
+    // the fallback so entries written before it are unchanged.
+    if (Array.isArray(it.structure) && it.structure.length) {
+      const kind = it.diagram || (it.structure.length === 12 ? 'ring' : 'nest');
+      if (kind === 'ring') bits.push(renderRing(it.structure, esc, t));
+      else if (kind === 'chain') bits.push(renderChain(it.structure, esc, t));
+      else bits.push(renderNest(it.structure, esc, t('dcGround', 'the eternal I — the ground, not a fifth term')));
     }
     if (it.countNote) {
       bits.push(`<p class="dc-note dc-correction"><strong>${esc(t('dcCount', 'On the count'))}:</strong> ${esc(it.countNote)}</p>`);
@@ -174,4 +239,4 @@ ${bits.join('\n')}
 </section>`;
 }
 
-module.exports = { getDoctrines, renderDoctrinesSection, renderRing, renderNest };
+module.exports = { getDoctrines, renderDoctrinesSection, renderRing, renderNest, renderChain };
