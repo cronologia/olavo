@@ -507,6 +507,22 @@
     },
     {
       "year": 2007,
+      "date": "2007",
+      "dateVerified": false,
+      "dateNote": "placed by what the account describes — the Jornal do Brasil column and the weekly web radio programme with listener questions — not by any date given in it",
+      "place": "Richmond area, Virginia, USA",
+      "title": "A student lives in the house, and describes the working week",
+      "text": "Ítalo Marsili's account, told years later on a podcast: he arrived in his early twenties with a one-way ticket and no money, having gone bankrupt, and gave the wrong flight time — Carvalho went to the airport eight hours early, waited, went home, worked out the real arrival and came back for him. On the lot stood a large outbuilding holding the office and the library, shelved as literature, theology and philosophy. The household lived on roughly 200 dollars from the Jornal do Brasil column; Marsili says he barely ate and began smoking to fill the gap. The week had a shape: talk ran until seven in the morning and the house slept through the day; on Wednesdays Carvalho read that week's newspaper article aloud to everyone in the office and they argued about it; on Mondays Marsili sorted the listeners' questions into a file for the radio programme. Testimony, and one person's, given long after the fact — the working week it describes is corroborated by the broadcasts, the poverty is not corroborated anywhere else.",
+      "sources": [
+        "marsili-anima-household"
+      ],
+      "threads": [
+        "philosophy-teaching",
+        "formation-press"
+      ]
+    },
+    {
+      "year": 2007,
       "date": "2007-04",
       "dateVerified": false,
       "place": "São Paulo, Brazil (taught from the United States)",
@@ -2028,6 +2044,14 @@
       "url": "https://www.youtube.com/watch?v=p1vP7q1w1JQ",
       "publisher": "YouTube",
       "publisherNote": "students of the course meeting in Europe, with him joining from the United States",
+      "type": "video"
+    },
+    {
+      "id": "marsili-anima-household",
+      "title": "Ítalo Marsili on living in Olavo de Carvalho's house (Anima Podcast clip, 7 min)",
+      "url": "https://www.youtube.com/watch?v=x0D0ZZrQnsY",
+      "publisher": "YouTube",
+      "publisherNote": "testimony — the only account in the collection from someone who lived in the household; undated, and told years afterwards",
       "type": "video"
     }
   ],
@@ -4590,7 +4614,8 @@
           }
         ],
         "title": "The twelve layers of personality",
-        "originalTerm": "As doze camadas da personalidade"
+        "originalTerm": "As doze camadas da personalidade",
+        "lineageNote": "What moves a person between layers, in the class devoted to the scheme, is symbolic material: someone with no culture to think with cannot articulate what the crisis of maturity is doing to them, and so cannot pass out of it — the effort of articulation is itself what carries them across. He puts the intellectual personality on the far side of that crisis, and adds that what began as one person's private trouble becomes useful to others precisely because articulating it gives voice to people who could not. That class is also the strongest evidence for his repeated insistence that the scheme does not depend on astrology: across its full length neither astrology, nor the zodiac, nor Szondi is mentioned once."
       },
       {
         "id": "os-eus",
@@ -5279,5 +5304,302 @@
         ]
       }
     ]
+  },
+  "works": {
+    "note": "The books in order of first publication. He wrote for a living from before he was eighteen and published for forty years, and the shape of that output is an argument in itself: a decade of astrology and symbolism, a burst of small press books from the institute he ran, the polemics that made him a public name, a course sold as thirty-two volumes, and finally a newspaper column collected into ten volumes while he was already teaching from Virginia. Re-editions are shown only where the book changed publisher, title or shape; otherwise the first edition stands for the work.",
+    "sourceNote": "Built from his own curriculum vitae, which is primary and also imperfect: it is a layered document whose sections were updated at different times — the career section still lists him as a current columnist for papers he had left years before — its numbering skips, and it omits his first book and a prize-winning one it mentions elsewhere in its own prizes section. Where it disagrees with other sources the entry says so rather than choosing silently. Everything after 2018 is past the CV's own horizon and rests on the publisher's catalogue and secondary lists, so it is marked as the weaker tier it is. Article-level work is not listed: he published in the press for decades and no reliable index of it exists, so the columns are given as runs rather than as a list of pieces that would be arbitrary.",
+    "phases": [
+      {
+        "label": "Astrology, symbolism and the traditionalist years",
+        "span": "1980–1987",
+        "blurb": "He worked as a professional astrologer around 1979–1982 and kept writing on symbolism after leaving the practice. The first title is a set of course notes rather than a trade book, and the sequence runs from technique toward the critique of it.",
+        "items": [
+          {
+            "year": 1980,
+            "title": "A Imagem do Homem na Astrologia",
+            "publisher": "Jvpiter, São Paulo",
+            "kind": "notes",
+            "note": "Notes for the Astrologia Clínica course at PUC-SP, taught April–August 1979 under Juan Alfredo César Müller — the psychologist his CV credits with more than ten years of his training. Thirty-eight pages. Absent from his own CV, which begins the list in 1983."
+          },
+          {
+            "year": 1983,
+            "title": "Questões de Simbolismo Astrológico",
+            "publisher": "Speculum, São Paulo",
+            "kind": "book"
+          },
+          {
+            "year": 1983,
+            "title": "Universalidade e Abstração",
+            "publisher": "Speculum, São Paulo",
+            "kind": "book"
+          },
+          {
+            "year": 1983,
+            "title": "O Crime da Madre Agnes, ou: A Confusão entre Espiritualidade e Psiquismo",
+            "publisher": "Speculum, São Paulo",
+            "kind": "book"
+          },
+          {
+            "year": 1985,
+            "title": "Astros e Símbolos",
+            "publisher": "Nova Stella, São Paulo",
+            "kind": "book"
+          },
+          {
+            "year": 1986,
+            "title": "O Profeta da Paz: Estudos sobre a Interpretação Simbólica da Vida do Profeta Mohammed",
+            "publisher": "—",
+            "kind": "book",
+            "note": "Named only in the prizes section of his own CV, not in its list of books: it won first prize in an essay competition on Islamic history run by the Saudi embassy. Publisher and print status not established here."
+          },
+          {
+            "year": 1987,
+            "title": "Fronteiras da Tradição",
+            "publisher": "Nova Stella, São Paulo",
+            "kind": "book",
+            "note": "His CV dates it 1987; some catalogues and this chronology previously said 1986. The CV is followed here as the author’s own record, and the disagreement is left visible rather than resolved."
+          }
+        ]
+      },
+      {
+        "label": "The Instituto de Artes Liberais",
+        "span": "1992–1994",
+        "blurb": "Short books issued through the liberal-arts institute he founded in Rio and its associated imprints. This is where the doctrines the panel records were first set down in print.",
+        "items": [
+          {
+            "year": 1992,
+            "title": "Símbolos e Mitos no Filme \"O Silêncio dos Inocentes\"",
+            "publisher": "Instituto de Artes Liberais / Stella Caymmi, Rio de Janeiro",
+            "kind": "book"
+          },
+          {
+            "year": 1992,
+            "title": "Os Gêneros Literários: Seus Fundamentos Metafísicos",
+            "publisher": "Instituto de Artes Liberais / Stella Caymmi, Rio de Janeiro",
+            "kind": "book"
+          },
+          {
+            "year": 1993,
+            "title": "O Caráter como Forma Pura da Personalidade",
+            "publisher": "Astroscientia / Instituto de Artes Liberais, Rio de Janeiro",
+            "kind": "book"
+          },
+          {
+            "year": 1994,
+            "title": "A Nova Era e a Revolução Cultural: Fritjof Capra & Antonio Gramsci",
+            "publisher": "Instituto de Artes Liberais / Stella Caymmi, Rio de Janeiro",
+            "kind": "book",
+            "note": "Two editions in its first year, February and August. Reissued by Vide in a fourth edition in 2014."
+          },
+          {
+            "year": 1994,
+            "title": "Uma Filosofia Aristotélica da Cultura",
+            "publisher": "Instituto de Artes Liberais / Stella Caymmi, Rio de Janeiro",
+            "kind": "book"
+          }
+        ]
+      },
+      {
+        "label": "The polemics, and the books that made his name",
+        "span": "1995–1998",
+        "blurb": "Four years in which he became a national figure. O Imbecil Coletivo reached a sixth edition within two years of publication.",
+        "items": [
+          {
+            "year": 1995,
+            "title": "O Jardim das Aflições: De Epicuro à Ressurreição de César — Ensaio sobre o Materialismo e a Religião Civil",
+            "publisher": "Diadorim, Rio de Janeiro",
+            "kind": "book",
+            "note": "Third edition Vide, 2015; a further edition in 2019. The documentary of the same name (dir. Josias Teófilo) followed in 2017."
+          },
+          {
+            "year": 1996,
+            "title": "O Imbecil Coletivo: Atualidades Inculturais Brasileiras",
+            "publisher": "Faculdade da Cidade / Academia Brasileira de Filosofia, Rio de Janeiro",
+            "kind": "book",
+            "note": "Launched at the Teatro da Faculdade da Cidade on 22 August 1996 with a lecture on the present state of Brazilian culture. Sixth edition by May 1998."
+          },
+          {
+            "year": 1996,
+            "title": "Aristóteles em Nova Perspectiva: Introdução à Teoria dos Quatro Discursos",
+            "publisher": "Topbooks, Rio de Janeiro",
+            "kind": "book",
+            "note": "The statement of the four-discourse theory. Preceded by an Instituto de Artes Liberais edition in 1994; reissued by Vide in 2013."
+          },
+          {
+            "year": 1997,
+            "title": "Como Vencer um Debate sem Precisar Ter Razão: A \"Dialética Erística\" de Arthur Schopenhauer — Texto e Comentários",
+            "publisher": "Topbooks, Rio de Janeiro",
+            "kind": "edition",
+            "note": "Schopenhauer’s text with his commentary."
+          },
+          {
+            "year": 1997,
+            "title": "O Futuro do Pensamento Brasileiro: Estudos sobre o Nosso Lugar no Mundo",
+            "publisher": "Faculdade da Cidade, Rio de Janeiro",
+            "kind": "book"
+          },
+          {
+            "year": 1998,
+            "title": "A Longa Marcha da Vaca para o Brejo & Os Filhos da PUC: O Imbecil Coletivo II",
+            "publisher": "Topbooks, Rio de Janeiro",
+            "kind": "book",
+            "note": "Split and retitled posthumously as the series O Que Restou do Imbecil (Vide, from 2020)."
+          },
+          {
+            "year": 1998,
+            "title": "O Exército na História do Brasil",
+            "publisher": "Biblioteca do Exército / Fundação Odebrecht",
+            "kind": "edition",
+            "note": "Four volumes, bilingual Portuguese/English. He was the text editor, not the author."
+          }
+        ]
+      },
+      {
+        "label": "The course in print",
+        "span": "2002–2006",
+        "blurb": "The years in which his teaching, rather than his polemic, went to press — and the years he left Brazil.",
+        "items": [
+          {
+            "year": 2002,
+            "title": "Coleção História Essencial da Filosofia",
+            "publisher": "É Realizações, São Paulo",
+            "kind": "course",
+            "note": "Thirty-two volumes issued 2002–2006, from the course of the same name; also published on videotape."
+          },
+          {
+            "year": 2006,
+            "title": "A Dialética Simbólica — Ensaios Reunidos",
+            "publisher": "É Realizações, São Paulo",
+            "kind": "collection",
+            "note": "Second edition, as Estudos Reunidos, Vide 2015."
+          }
+        ]
+      },
+      {
+        "label": "Vide Editorial, and the column collected",
+        "span": "2011–2019",
+        "blurb": "Teaching the online course from Virginia while Vide reissued the older work and collected the newspaper column into Cartas de um Terráqueo ao Planeta Brasil — ten volumes, the longest single run in the bibliography.",
+        "items": [
+          {
+            "year": 2011,
+            "title": "Maquiavel ou A Confusão Demoníaca",
+            "publisher": "Vide Editorial, São Paulo",
+            "kind": "book"
+          },
+          {
+            "year": 2012,
+            "title": "A Filosofia e seu Inverso",
+            "publisher": "Vide Editorial, São Paulo",
+            "kind": "book"
+          },
+          {
+            "year": 2012,
+            "title": "Os EUA e a Nova Ordem Mundial",
+            "publisher": "Vide Editorial, São Paulo",
+            "kind": "debate",
+            "note": "The debate with Aleksandr Dugin, co-authored with him."
+          },
+          {
+            "year": 2013,
+            "title": "Visões de Descartes: Entre o Gênio Mau e o Espírito da Verdade",
+            "publisher": "Vide Editorial, São Paulo",
+            "kind": "book"
+          },
+          {
+            "year": 2013,
+            "title": "O Mínimo que Você Precisa Saber para Não Ser um Idiota",
+            "publisher": "Record, Rio de Janeiro",
+            "kind": "collection",
+            "note": "Edited by Felipe Moura Brasil from 193 articles written between 1997 and 2013; his best-selling book by a wide margin. Special edition, Record, 2017."
+          },
+          {
+            "year": 2013,
+            "title": "Cartas de um Terráqueo ao Planeta Brasil",
+            "publisher": "Vide Editorial, São Paulo",
+            "kind": "series",
+            "note": "Ten volumes, 2013–2019, collecting the newspaper column: Apoteose da Vigarice (2013), O Mundo Como Jamais Funcionou (2014), A Fórmula para Enlouquecer o Mundo (2014), A Inversão Revolucionária em Ação (2015), O Império Mundial da Burla (2016), O Dever de Insultar (2016), Breve Retrato do Brasil (2017), Os Histéricos no Poder (2018), O Progresso da Ignorância (2019) and A Cólera dos Imbecis (2019). His own CV, which stops in 2018, lists through volume VIII.",
+            "years": [
+              2013,
+              2014,
+              2014,
+              2015,
+              2016,
+              2016,
+              2017,
+              2018,
+              2019,
+              2019
+            ]
+          }
+        ]
+      },
+      {
+        "label": "After the CV, and after his death",
+        "span": "2020–2022",
+        "blurb": "Beyond the horizon of his own record. Vide continued to issue course material and to reissue the older polemics in new arrangements; this tier rests on the publisher and on secondary lists rather than on anything he wrote, and is the least settled part of the sequence.",
+        "items": [
+          {
+            "year": 2020,
+            "title": "O Que Restou do Imbecil",
+            "publisher": "Vide Editorial, São Paulo",
+            "kind": "series",
+            "note": "The 1998 Imbecil Coletivo II split and retitled: A Longa Marcha da Vaca para o Brejo (vol. I) and O Imbecil Juvenil (vol. II), with a third volume listed as O Leão e os Ossos.",
+            "years": [
+              2020,
+              2020
+            ]
+          },
+          {
+            "year": 2020,
+            "title": "Mário Ferreira dos Santos: Guia para o Estudo da Sua Obra",
+            "publisher": "Vide Editorial, São Paulo",
+            "kind": "course",
+            "note": "From the course of the same name. He had been preparing the unpublished papers of Mário Ferreira dos Santos at the family’s request since at least the CV’s writing."
+          },
+          {
+            "year": 2022,
+            "title": "O Foro de São Paulo: A Ascensão do Comunismo Latino-Americano",
+            "publisher": "Vide Editorial, São Paulo",
+            "kind": "collection",
+            "note": "Posthumous compilation of his writing on the Foro de São Paulo, published the year he died."
+          }
+        ]
+      }
+    ],
+    "columns": {
+      "note": "Where he wrote, rather than what he wrote. The press work is the larger part of the output and the part no index covers: he entered a newsroom before he was eighteen and was still filing a column in his seventies. Runs are given where a source states them; a list of individual articles would be a selection with nothing to justify it.",
+      "items": [
+        {
+          "what": "Empresa Folha da Manhã",
+          "role": "reporter, copy desk, accredited to the state governor’s palace",
+          "when": "from before he turned eighteen"
+        },
+        {
+          "what": "A Gazeta · Jornal da Tarde · Jornal da Semana · Aqui São Paulo",
+          "role": "sub-editor, secretary, staff writer",
+          "when": "the São Paulo years"
+        },
+        {
+          "what": "Folha de S. Paulo",
+          "role": "contributor, from the Folhetim literary section",
+          "when": "from February 1977"
+        },
+        {
+          "what": "O Globo · Jornal do Brasil · Zero Hora · Tribuna da Imprensa",
+          "role": "columnist",
+          "when": "the Rio years and after"
+        },
+        {
+          "what": "Mídia Sem Máscara",
+          "role": "founder and editor",
+          "when": "2002–2014, later revived"
+        },
+        {
+          "what": "Diário do Comércio",
+          "role": "the Mundo Real column",
+          "when": "through 2016"
+        }
+      ]
+    }
   }
 }

@@ -584,3 +584,33 @@ figure.swimlanes figcaption { font-size: .78rem; color: var(--muted); margin-top
 .ph-readings li { border-left: 3px solid rgba(125,90,26,.45); padding: .1rem 0 .1rem .9rem; margin: 0 0 1rem; }
 .ph-readings p { margin: 0 0 .3rem; }
 .ph-reading-src { font-size: .85rem; opacity: .8; }
+
+/* Bibliography panel (works.js). The year is the anchor of every row, so it is
+   a fixed-width column rather than inline text: a ragged left edge would lose
+   the sequence, which is the whole point of the section. */
+.wk-density { margin: 1.2rem 0 1.6rem; }
+.wk-density svg { width: 100%; height: auto; display: block; }
+.wk-bar { fill: var(--olavo, #7d5a1a); }
+.wk-bar-none { fill: currentColor; opacity: .22; }
+.wk-tick { font-size: 11px; fill: currentColor; opacity: .6; }
+.wk-density figcaption { font-size: .85rem; opacity: .75; margin-top: .35rem; }
+.wk-phase { margin: 1.6rem 0; }
+.wk-phase h3 { margin: 0 0 .25rem; font-size: 1.12rem; }
+.wk-span { font-weight: 400; font-size: .85em; opacity: .7; }
+.wk-blurb { margin: .2rem 0 .8rem; font-size: .95rem; opacity: .9; }
+.wk-list { list-style: none; margin: 0; padding: 0; }
+.wk-item { display: grid; grid-template-columns: 3.4rem 1fr; gap: .1rem .7rem;
+           padding: .45rem 0; border-top: 1px solid rgba(128,128,128,.22); }
+.wk-year { font-variant-numeric: tabular-nums; opacity: .7; font-size: .92rem; padding-top: .1rem; }
+.wk-title { grid-column: 2; font-weight: 600; }
+.wk-kind { grid-column: 2; font-size: .78rem; text-transform: lowercase; opacity: .75;
+           border: 1px solid rgba(128,128,128,.4); border-radius: 999px; padding: 0 .5rem;
+           justify-self: start; margin: .15rem 0; }
+.wk-pub { grid-column: 2; font-size: .88rem; opacity: .8; }
+.wk-note { grid-column: 2; margin: .3rem 0 0; font-size: .88rem; opacity: .85; }
+.wk-runs { list-style: none; margin: .6rem 0 0; padding: 0; }
+.wk-runs li { padding: .35rem 0; border-top: 1px solid rgba(128,128,128,.22); }
+.wk-what { font-weight: 600; }
+.wk-role, .wk-when { font-size: .88rem; opacity: .8; }
+.wk-when { display: block; }
+@media print { .wk-phase { break-inside: avoid; } }
