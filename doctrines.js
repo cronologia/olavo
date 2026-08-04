@@ -207,23 +207,33 @@ ${rows.join('\n')}
  * Deliberately not a chain: a chain ends.
  */
 function renderCycle(names, esc) {
-  const cx = 250, cy = 150, r = 100, n = names.length;
+  const n = names.length, NR = 46;
+  // The ring has to grow with n. At a fixed radius the discs crowd together and
+  // the arrows between them shrink to stubs — six nodes on the three-node ring
+  // left an 8px gap for a 6px arrowhead. Holding adjacent CENTRES ~150 apart
+  // keeps a readable arrow at any length. Three stays at the original 100 so the
+  // two cycles already drawn do not move.
+  const r = n <= 3 ? 100 : 75 / Math.sin(Math.PI / n);
+  const H = n <= 3 ? 300 : Math.round(2 * (r + NR) + 16);
+  const cx = 250, cy = H / 2;
+  // How much arc a disc covers, seen from the centre; the arrow starts just
+  // inside it. Kept literal at three so that geometry is byte-identical.
+  const inset = n <= 3 ? 0.42 : Math.asin(NR / r) * 0.88;
   const nodes = names.map((name, i) => {
     const a = -Math.PI / 2 + (2 * Math.PI * i) / n;
     const x = cx + r * Math.cos(a), y = cy + r * Math.sin(a);
     return `      <g class="dc-cycle-node">
-        <circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="46" />
+        <circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${NR}" />
 ${textBlock(wrapTo(name, 13), x, y, esc, 13)}
       </g>`;
   });
   const arcs = names.map((_, i) => {
-    const a0 = -Math.PI / 2 + (2 * Math.PI * i) / n + 0.42;
-    const a1 = -Math.PI / 2 + (2 * Math.PI * (i + 1)) / n - 0.42;
-    const R = r;
-    const p = (a) => `${(cx + R * Math.cos(a)).toFixed(1)} ${(cy + R * Math.sin(a)).toFixed(1)}`;
-    return `      <path class="dc-cycle-arc" d="M ${p(a0)} A ${R} ${R} 0 0 1 ${p(a1)}" marker-end="url(#dc-arrow)" />`;
+    const a0 = -Math.PI / 2 + (2 * Math.PI * i) / n + inset;
+    const a1 = -Math.PI / 2 + (2 * Math.PI * (i + 1)) / n - inset;
+    const p = (a) => `${(cx + r * Math.cos(a)).toFixed(1)} ${(cy + r * Math.sin(a)).toFixed(1)}`;
+    return `      <path class="dc-cycle-arc" d="M ${p(a0)} A ${r} ${r} 0 0 1 ${p(a1)}" marker-end="url(#dc-arrow)" />`;
   });
-  return `<svg class="dc-cycle" viewBox="0 0 500 300" role="img"
+  return `<svg class="dc-cycle" viewBox="0 0 500 ${H}" role="img"
      aria-label="${esc(names.join(' → ') + ' → ' + names[0])}">
     ${ARROW_DEF}
 ${arcs.join('\n')}
@@ -414,9 +424,15 @@ function renderSet(names, esc) {
     const x = 20 + (i % cols) * (boxW + gap);
     const y = 14 + Math.floor(i / cols) * (boxH + gap);
     const words = name.split(' ');
+    // Wrap to the box, not to a constant. A fixed 30-character budget was tuned
+    // for the two-column layout; in one column the box is twice as wide, and the
+    // same budget stacked a label into three cramped lines with half the box
+    // empty on either side. 7.77px per character reproduces the two-column
+    // rendering exactly and widens with the box.
+    const budget = Math.round(boxW / 7.77);
     const lines = [];
     for (const w of words) {
-      if (lines.length && (lines[lines.length - 1] + ' ' + w).length <= 30) lines[lines.length - 1] += ' ' + w;
+      if (lines.length && (lines[lines.length - 1] + ' ' + w).length <= budget) lines[lines.length - 1] += ' ' + w;
       else lines.push(w);
     }
     const dy = boxH / 2 + 4 - ((lines.length - 1) * 15) / 2;
