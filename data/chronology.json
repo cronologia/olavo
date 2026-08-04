@@ -4368,7 +4368,14 @@
    },
    {
     "id": "quatro-discursos",
-    "claim": "His most widely deployed framework: four kinds of discourse — poetic, rhetorical, dialectical and analytical — graded by the certainty they can carry, which he treats as one scale rather than four separate disciplines. He read the Aristotelian corpus in that order and held that Aristotle's logic becomes unintelligible once it is amputated from his rhetoric.",
+    "claim": "His most widely deployed framework: four kinds of discourse — poetic, rhetorical, dialectical and analytical — graded by the certainty they can carry, which he treats as one scale rather than four separate disciplines. The order is a dependency, not a preference: he calls it the natural sequence of a human education, in which one learns to imagine and express the world before arguing about conduct, and argues about conduct before demonstrating anything. He read the Aristotelian corpus in that order and held that Aristotle's logic becomes unintelligible once it is amputated from his rhetoric.",
+    "structure": [
+     "Poetic",
+     "Rhetorical",
+     "Dialectical",
+     "Analytical"
+    ],
+    "diagram": "chain",
     "credits": [
      "Aristotle",
      "Aquinas"

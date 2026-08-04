@@ -1,7 +1,7 @@
 {
  "_meta": {
   "targetLang": "es",
-  "coverage": "566 strings",
+  "coverage": "570 strings",
   "generatedBy": "hand-authored translations committed with the data (2026-08-02)"
  },
  "strings": {
@@ -477,7 +477,6 @@
   "course lecture 40, on Marx as the worked example": "clase 40 del curso, sobre Marx como ejemplo desarrollado",
   "course lecture 219 — the narrowed definition": "clase 219 del curso — la definición restringida",
   "a course announced under this name, Virginia": "un curso anunciado con este nombre, Virginia",
-  "His most widely deployed framework: four kinds of discourse — poetic, rhetorical, dialectical and analytical — graded by the certainty they can carry, which he treats as one scale rather than four separate disciplines. He read the Aristotelian corpus in that order and held that Aristotle's logic becomes unintelligible once it is amputated from his rhetoric.": "Su marco de mayor uso: cuatro clases de discurso — poético, retórico, dialéctico y analítico — graduadas por la certeza que pueden sostener, y que él trata como una sola escala y no como cuatro disciplinas separadas. Leyó el corpus aristotélico en ese orden y sostuvo que la lógica de Aristóteles se vuelve ininteligible en cuanto se la amputa de su retórica.",
   "course lecture 167": "clase 167 del curso",
   "course lecture 82": "clase 82 del curso",
   "The band of possibilities available to a person or a society at a given moment — what is not actual but could become so without a break in continuity. He uses it to argue that judging either a life or a historical situation requires knowing what was really open to it.": "La franja de posibilidades disponibles para una persona o para una sociedad en un momento dado — lo que no es actual pero podría llegar a serlo sin una ruptura de continuidad. La usa para sostener que juzgar una vida o una situación histórica exige saber qué estaba realmente abierto para ella.",
@@ -570,6 +569,11 @@
   "the channel's own page — primary": "la propia página del canal — fuente primaria",
   "upstream declares CC0 for the transcription work; the lectures remain the estate's": "el proyecto de origen declara CC0 para el trabajo de transcripción; las clases siguen siendo del patrimonio del autor",
   "his own BlogTalkRadio programme, 2006–2011; the playlist mirrors it": "su propio programa en BlogTalkRadio, 2006–2011; la lista de reproducción lo replica",
-  "recorded 2002, videotaped by the publisher É Realizações": "grabado en 2002, filmado por la editorial É Realizações"
+  "recorded 2002, videotaped by the publisher É Realizações": "grabado en 2002, filmado por la editorial É Realizações",
+  "His most widely deployed framework: four kinds of discourse — poetic, rhetorical, dialectical and analytical — graded by the certainty they can carry, which he treats as one scale rather than four separate disciplines. The order is a dependency, not a preference: he calls it the natural sequence of a human education, in which one learns to imagine and express the world before arguing about conduct, and argues about conduct before demonstrating anything. He read the Aristotelian corpus in that order and held that Aristotle's logic becomes unintelligible once it is amputated from his rhetoric.": "Su marco de análisis más empleado: cuatro clases de discurso — poético, retórico, dialéctico y analítico — graduadas por la certeza que pueden sostener, que él trata como una sola escala y no como cuatro disciplinas separadas. El orden es una dependencia y no una preferencia: lo llama la secuencia natural de la educación humana, en la que se aprende a imaginar y expresar el mundo antes de discutir sobre la conducta, y se discute sobre la conducta antes de demostrar nada. Leyó el corpus aristotélico en ese orden y sostenía que la lógica de Aristóteles se vuelve ininteligible en cuanto se la amputa de su retórica.",
+  "Poetic": "Poético",
+  "Rhetorical": "Retórico",
+  "Dialectical": "Dialéctico",
+  "Analytical": "Analítico"
  }
 }

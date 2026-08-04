@@ -125,6 +125,8 @@ const UI = {
     dcRevision: 'He revised it', dcCaveat: 'Caveat', dcCredits: 'He credits',
     dcWhere: 'Where he expounds it',
     dcRingMid: 'twelve layers', dcRingSub: 'simultaneous', dcGround: 'the eternal I — the ground, not a fifth term',
+    dcChainLow: 'least certainty', dcChainHigh: 'most certainty',
+    dcChainAlt: 'Four discourses in a single sequence, each presupposing the one before it, from least to most certainty',
     orgFounded: 'Founded',
     // Reference kinds are a CLOSED vocabulary, so they live here with the rest
     // of the chrome rather than in the hand-authored dictionaries: a new type
@@ -192,6 +194,8 @@ const UI = {
     dcRevision: 'Él lo revisó', dcCaveat: 'Salvedad', dcCredits: 'Él da crédito a',
     dcWhere: 'Dónde lo expone',
     dcRingMid: 'doce capas', dcRingSub: 'simultáneas', dcGround: 'el Yo eterno — el fundamento, no un quinto término',
+    dcChainLow: 'menor certeza', dcChainHigh: 'mayor certeza',
+    dcChainAlt: 'Cuatro discursos en una sola secuencia, cada uno presuponiendo el anterior, de menor a mayor certeza',
     orgFounded: 'Fundada en',
     refTypes: {
       news: 'prensa', academic: 'académico', archive: 'archivo', official: 'oficial',
@@ -255,6 +259,8 @@ const UI = {
     dcRevision: 'Ele a revisou', dcCaveat: 'Ressalva', dcCredits: 'Ele credita a',
     dcWhere: 'Onde a expõe',
     dcRingMid: 'doze camadas', dcRingSub: 'simultâneas', dcGround: 'o Eu eterno — o fundamento, não um quinto termo',
+    dcChainLow: 'menor certeza', dcChainHigh: 'maior certeza',
+    dcChainAlt: 'Quatro discursos numa única sequência, cada um pressupondo o anterior, da menor à maior certeza',
     orgFounded: 'Fundada em',
     refTypes: {
       news: 'imprensa', academic: 'acadêmico', archive: 'arquivo', official: 'oficial',
