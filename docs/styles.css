@@ -570,3 +570,11 @@ figure.swimlanes figcaption { font-size: .78rem; color: var(--muted); margin-top
 .dc-selfloop-top { fill: rgba(125,90,26,.14); stroke: #7d5a1a; stroke-width: 1; }
 .dc-selfloop-baselabel, .dc-selfloop-toplabel { font-size: 12px; font-weight: 600; fill: currentColor; text-anchor: middle; }
 .dc-selfloop-arc { fill: none; stroke: #7d5a1a; stroke-width: 1.5; }
+
+.dc-split { display: block; max-width: 540px; width: 100%; height: auto; margin: 1rem auto; }
+.dc-split-cell rect { fill: rgba(125,90,26,.16); stroke: #7d5a1a; stroke-width: 1; }
+.dc-split-cell text { font-size: 12px; font-weight: 600; fill: currentColor; text-anchor: middle; }
+.dc-split-edge { fill: none; stroke: #7d5a1a; stroke-width: 1.3; }
+/* The unanswered branch: dashed, and it leads nowhere on purpose. */
+.dc-split-open { fill: none; stroke: #7d5a1a; stroke-width: 1.2; stroke-dasharray: 5 4; opacity: .75; }
+.dc-split-openlabel { font-size: 11px; fill: currentColor; text-anchor: middle; opacity: .8; font-style: italic; }

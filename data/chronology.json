@@ -4731,7 +4731,13 @@
    {
     "id": "contraditoria-ambigua",
     "claim": "A test he proposes for statements that are neither plainly true nor plainly false — 'I am here', 'A equals A' — where the answer changes with the sense in which the terms are taken. He treats it as a practical exercise in noticing which sense one is actually using.",
-    "caveat": "The weakest-attested entry in this panel, and the only one without a diagram. It reaches us mainly through a listener who names it among his original contributions and asks whether the exercise can be generalised into a theory; he answers that he has already done so and that the text is lost somewhere in his own handouts. No developed statement has been located in the corpus — so there is no structure to draw, and drawing one would be invention rather than exposition.",
+    "structure": [
+     "A statement like 'A = A', or 'am I here or am I not?'",
+     "Taken in one sense — it holds",
+     "Taken in another — it fails"
+    ],
+    "diagram": "split",
+    "caveat": "The weakest-attested entry in this panel, and the diagram shows its EXAMPLES rather than the doctrine. It reaches us through a listener who names it among his original contributions, says he has run the test on statements of his own, and asks whether the exercise can be generalised — his objection being that it holds so far but nothing guarantees the next case. The reply is that the general exposition exists and is lost in one of his own handouts, and that what circulated was only a summary with a few examples. He does not answer the objection, so the diagram leaves that branch open rather than closing a generalisation the corpus does not contain.",
     "expositions": [
      {
       "where": "True Outspeak, episode 78 — the listener's question and his reply",
