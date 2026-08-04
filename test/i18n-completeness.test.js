@@ -67,21 +67,46 @@ function referenceKeys() {
   return new Set(keys);
 }
 
-/** Every string build.js would route through the dictionaries, in order. */
+/** The narrower allowlist that applies inside `works`, likewise parsed.
+ *
+ * The bibliography needs its own because `title` there is a BOOK title and must
+ * not be translated — the general walk would have demanded Spanish for thirty
+ * Portuguese book names, which is the opposite of correct. Optional: a repo
+ * with no bibliography does not declare it.
+ */
+function worksKeys() {
+  const src = fs.readFileSync(path.join(ROOT, 'build.js'), 'utf8');
+  const parts = src.split('const WORKS_TRANSLATABLE = new Set([');
+  if (parts.length !== 2) return null;
+  const keys = parts[1].split(/\]\);/)[0].match(/'([^']+)'/g).map((s) => s.slice(1, -1));
+  assert.ok(keys.length, 'failed to parse WORKS_TRANSLATABLE out of build.js');
+  return new Set(keys);
+}
+
+/** Every string build.js would route through the dictionaries, in order.
+ *
+ * This MIRRORS localizeData rather than approximating it, allowlists included.
+ * A walk that checked a different set of strings than the compiler translates
+ * would pass while the page was wrong — or, as happened when the bibliography
+ * landed, fail while the page was right, demanding translations for book
+ * titles the compiler correctly leaves alone.
+ */
 function translatableStrings() {
   const KEYS = translatableKeys();
   const REF_KEYS = referenceKeys();
+  const WORKS_KEYS = worksKeys();
   const out = [];
-  const walk = (val, key, inRefs) => {
-    const keys = inRefs ? REF_KEYS : KEYS;
+  const walk = (val, key, inRefs, inWorks) => {
+    const keys = inRefs ? REF_KEYS : (inWorks && WORKS_KEYS) ? WORKS_KEYS : KEYS;
     const refs = inRefs || key === 'references';
-    if (Array.isArray(val)) return val.forEach((v) => walk(v, key, refs));
+    const works = inWorks || key === 'works';
+    if (Array.isArray(val)) return val.forEach((v) => walk(v, key, refs, works));
     if (val && typeof val === 'object') {
-      return Object.keys(val).forEach((k) => walk(val[k], k, refs));
+      return Object.keys(val).forEach((k) => walk(val[k], k, refs, works));
     }
     if (typeof val === 'string' && keys.has(key)) out.push(val);
   };
-  walk(data, null, false);
+  walk(data, null, false, false);
   return [...new Set(out)];
 }
 

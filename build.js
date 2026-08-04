@@ -35,6 +35,8 @@ let phMod = null;
 try { phMod = require('./philosophers.js'); } catch { phMod = null; }
 let dcMod = null;
 try { dcMod = require('./doctrines.js'); } catch { dcMod = null; }
+let wkMod = null;
+try { wkMod = require('./works.js'); } catch { wkMod = null; }
 
 /* ---------------------------------------------------------------------------
  * Multi-language (i18n) + SEO. English is authoritative and hand-written; es/pt
@@ -121,6 +123,18 @@ const UI = {
     mapShowing: (y, shown, total) => `Showing places first recorded up to ${y}: ${shown} of ${total}.`,
     swHeading: 'Parallel storylines', swNav: 'Storylines',
     hDoctrines: 'His own doctrines', doctrines: 'Doctrines',
+    works: 'Works',
+    worksHeading: 'The books, in order',
+    wkColumns: 'The press work',
+    wkDensityAlt: 'Titles published per year',
+    wkDensityCap: 'Titles per year, first publication; a multi-volume series counts once per volume where the volume years are known. Empty years are drawn, not skipped.',
+    wkKindBook: 'book',
+    wkKindNotes: 'course notes',
+    wkKindCollection: 'collection',
+    wkKindEdition: 'edited / annotated',
+    wkKindDebate: 'debate',
+    wkKindSeries: 'series',
+    wkKindCourse: 'from a course',
     dcCount: 'On the count', dcOrigin: 'Where it comes from', dcLineage: 'Lineage',
     dcRevision: 'He revised it', dcCaveat: 'Caveat', dcCredits: 'He credits',
     dcWhere: 'Where he expounds it',
@@ -199,6 +213,18 @@ const UI = {
     mapShowing: (y, shown, total) => `Mostrando lugares registrados por primera vez hasta ${y}: ${shown} de ${total}.`,
     swHeading: 'Relatos paralelos', swNav: 'Relatos',
     hDoctrines: 'Sus propias doctrinas', doctrines: 'Doctrinas',
+    works: 'Obras',
+    worksHeading: 'Los libros, en orden',
+    wkColumns: 'El trabajo de prensa',
+    wkDensityAlt: 'Títulos publicados por año',
+    wkDensityCap: 'Títulos por año, primera edición; una serie de varios volúmenes cuenta una vez por volumen cuando se conocen sus años. Los años vacíos se dibujan, no se omiten.',
+    wkKindBook: 'libro',
+    wkKindNotes: 'apuntes de curso',
+    wkKindCollection: 'recopilación',
+    wkKindEdition: 'edición / anotación',
+    wkKindDebate: 'debate',
+    wkKindSeries: 'serie',
+    wkKindCourse: 'de un curso',
     dcCount: 'Sobre el número', dcOrigin: 'De dónde viene', dcLineage: 'Filiación',
     dcRevision: 'Él lo revisó', dcCaveat: 'Salvedad', dcCredits: 'Él da crédito a',
     dcWhere: 'Dónde lo expone',
@@ -273,6 +299,18 @@ const UI = {
     mapShowing: (y, shown, total) => `A mostrar lugares registados pela primeira vez até ${y}: ${shown} de ${total}.`,
     swHeading: 'Narrativas paralelas', swNav: 'Narrativas',
     hDoctrines: 'Suas próprias doutrinas', doctrines: 'Doutrinas',
+    works: 'Obras',
+    worksHeading: 'Os livros, em ordem',
+    wkColumns: 'O trabalho de imprensa',
+    wkDensityAlt: 'Títulos publicados por ano',
+    wkDensityCap: 'Títulos por ano, primeira edição; uma série de vários volumes conta uma vez por volume quando os anos dos volumes são conhecidos. Os anos vazios são desenhados, não omitidos.',
+    wkKindBook: 'livro',
+    wkKindNotes: 'apostila de curso',
+    wkKindCollection: 'coletânea',
+    wkKindEdition: 'edição / anotação',
+    wkKindDebate: 'debate',
+    wkKindSeries: 'série',
+    wkKindCourse: 'de um curso',
     dcCount: 'Sobre a contagem', dcOrigin: 'De onde vem', dcLineage: 'Filiação',
     dcRevision: 'Ele a revisou', dcCaveat: 'Ressalva', dcCredits: 'Ele credita a',
     dcWhere: 'Onde a expõe',
@@ -355,21 +393,34 @@ function translator(dict) {
  */
 const REFERENCE_TRANSLATABLE = new Set(['publisherNote']);
 
+/* The bibliography needs the same treatment, for the same reason and one more.
+ * `title` is translatable everywhere else on the page and must NOT be here: a
+ * book's title is its name, and "O Jardim das Aflições" is what the book is
+ * called in Spanish too. The general walk would have sent all thirty titles and
+ * every publisher through the dictionaries, and a dictionary that cannot tell a
+ * citation from prose eventually renders one. So the allowlist names the prose
+ * keys and nothing else — including `when`, which reads as a run of years but
+ * is written as a sentence and would otherwise sit in English on both localized
+ * pages, which is the exact silent failure the completeness test exists for.
+ */
+const WORKS_TRANSLATABLE = new Set(['note', 'sourceNote', 'label', 'blurb', 'role', 'when']);
+
 function localizeData(data, dict, lang) {
   const t = translator(dict);
-  const walk = (val, key, inRefs) => {
-    const keys = inRefs ? REFERENCE_TRANSLATABLE : TRANSLATABLE_KEYS;
+  const walk = (val, key, inRefs, inWorks) => {
+    const keys = inRefs ? REFERENCE_TRANSLATABLE : inWorks ? WORKS_TRANSLATABLE : TRANSLATABLE_KEYS;
     const refs = inRefs || key === 'references';
-    if (Array.isArray(val)) return val.map((v) => walk(v, key, refs));
+    const works = inWorks || key === 'works';
+    if (Array.isArray(val)) return val.map((v) => walk(v, key, refs, works));
     if (val && typeof val === 'object') {
       const out = {};
-      for (const k of Object.keys(val)) out[k] = walk(val[k], k, refs);
+      for (const k of Object.keys(val)) out[k] = walk(val[k], k, refs, works);
       return out;
     }
     if (typeof val === 'string' && keys.has(key)) return t(val);
     return val;
   };
-  const copy = walk(data, null, false);
+  const copy = walk(data, null, false, false);
   copy.meta = Object.assign({}, copy.meta, { language: lang });
   // `place` IS translated prose (the chronology's Place column reads in the
   // page's language), but the gazetteer behind the places map is keyed on the
@@ -1816,6 +1867,7 @@ function renderPage(data, archives, opts = {}) {
     ? phMod.renderPhilosophersIndexSection(phLocalized, phReception, ui, { esc })
     : '';
   const doctrinesHtml = dcMod ? dcMod.renderDoctrinesSection(data.doctrines, ui, { esc }) : '';
+  const worksHtml = wkMod ? wkMod.renderWorksSection(data, ui, { esc }) : '';
   const lineageHtml = renderLineageSection(lineage, refNumById);
   const branchTimelineHtml = renderBranchTimeline(branchTimeline, refNumById);
   const numbersChartHtml = renderNumbersChart(numbersChart, refNumById);
@@ -1880,7 +1932,7 @@ ${seoHead(meta, base, route, lang)}
   <nav class="site-nav">
     <div class="wrap">
       <a href="#about">${esc(ui.about)}</a>
-      <a href="#chronology">${esc(ui.chronology)}</a>${philosophersHtml ? `\n      <a href="#philosophers">${esc(ui.philosophers)}</a>` : ''}${doctrinesHtml ? `\n      <a href="#doctrines">${esc(ui.doctrines || 'Doctrines')}</a>` : ''}${chronologySpineHtml ? `\n      <a href="#chronology-spine">${esc((chronologySpine && chronologySpine.navLabel) || ui.spineNav)}</a>` : ''}${swimlanesHtml ? `\n      <a href="#threads">${esc((threads && threads.navLabel) || ui.swNav)}</a>` : ''}${placesMapHtml ? `\n      <a href="#places-map">${esc((placesMap && placesMap.navLabel) || ui.mapNav)}</a>` : ''}${tierMapHtml ? `\n      <a href="#map">${esc((tierMap && tierMap.navLabel) || ui.tierMapHeading)}</a>` : ''}${lineageHtml ? `\n      <a href="#lineage">${esc(lineage.navLabel || 'Genealogy')}</a>` : ''}${branchTimelineHtml ? `\n      <a href="#branch-timeline">${esc(branchTimeline.navLabel || 'Divisions')}</a>` : ''}${numbersChartHtml ? `\n      <a href="#numbers-chart">${esc(numbersChart.navLabel || 'Numbers')}</a>` : ''}
+      <a href="#chronology">${esc(ui.chronology)}</a>${philosophersHtml ? `\n      <a href="#philosophers">${esc(ui.philosophers)}</a>` : ''}${doctrinesHtml ? `\n      <a href="#doctrines">${esc(ui.doctrines || 'Doctrines')}</a>` : ''}${worksHtml ? `\n      <a href="#works">${esc(ui.works || 'Works')}</a>` : ''}${chronologySpineHtml ? `\n      <a href="#chronology-spine">${esc((chronologySpine && chronologySpine.navLabel) || ui.spineNav)}</a>` : ''}${swimlanesHtml ? `\n      <a href="#threads">${esc((threads && threads.navLabel) || ui.swNav)}</a>` : ''}${placesMapHtml ? `\n      <a href="#places-map">${esc((placesMap && placesMap.navLabel) || ui.mapNav)}</a>` : ''}${tierMapHtml ? `\n      <a href="#map">${esc((tierMap && tierMap.navLabel) || ui.tierMapHeading)}</a>` : ''}${lineageHtml ? `\n      <a href="#lineage">${esc(lineage.navLabel || 'Genealogy')}</a>` : ''}${branchTimelineHtml ? `\n      <a href="#branch-timeline">${esc(branchTimeline.navLabel || 'Divisions')}</a>` : ''}${numbersChartHtml ? `\n      <a href="#numbers-chart">${esc(numbersChart.navLabel || 'Numbers')}</a>` : ''}
       <a href="#figures">${esc(ui.figures)}</a>
       <a href="#organizations">${esc(ui.organizations)}</a>
       ${disambigCards ? `<a href="#disambiguation">${esc(ui.disambiguation)}</a>` : ''}
@@ -1912,7 +1964,7 @@ ${eventRows}
       </div>
     </section>
 
-${philosophersHtml}${doctrinesHtml}${swimlanesHtml}${placesMapHtml}${tierMapHtml}${lineageHtml}${branchTimelineHtml}${numbersChartHtml}    <section id="figures">
+${philosophersHtml}${doctrinesHtml}${worksHtml}${swimlanesHtml}${placesMapHtml}${tierMapHtml}${lineageHtml}${branchTimelineHtml}${numbersChartHtml}    <section id="figures">
       <h2>${esc(ui.figuresHeading)}</h2>
       <div class="party-grid">
 ${figures.map((f) => renderFigureCard(f, refNumById)).join('\n')}
