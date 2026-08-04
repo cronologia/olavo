@@ -518,3 +518,55 @@ figure.swimlanes figcaption { font-size: .78rem; color: var(--muted); margin-top
 .dc-set { display: block; max-width: 520px; width: 100%; height: auto; margin: 1rem auto; }
 .dc-set-cell rect { fill: rgba(125,90,26,.18); stroke: #7d5a1a; stroke-width: 1; }
 .dc-set-cell text { font-size: 12px; font-weight: 600; fill: currentColor; text-anchor: middle; }
+
+/* --- the remaining shapes. Common rule: every SVG shape gets an explicit
+   `fill`, because one without it defaults to black — the bug this panel has
+   now shipped twice. -------------------------------------------------------- */
+.dc-strata { display: block; max-width: 520px; width: 100%; height: auto; margin: 1rem auto; }
+.dc-strata-row rect { fill: rgba(125,90,26,.14); stroke: #7d5a1a; stroke-width: 1; }
+.dc-strata-row text { font-size: 12px; font-weight: 600; fill: currentColor; text-anchor: middle; }
+.dc-strata-base rect { fill: rgba(125,90,26,.34); stroke-width: 1.6; }
+
+.dc-cycle { display: block; max-width: 500px; width: 100%; height: auto; margin: 1rem auto; }
+.dc-cycle-node circle { fill: rgba(125,90,26,.18); stroke: #7d5a1a; stroke-width: 1; }
+.dc-cycle-node text { font-size: 11px; font-weight: 600; fill: currentColor; text-anchor: middle; }
+.dc-cycle-arc { fill: none; stroke: #7d5a1a; stroke-width: 1.4; opacity: .75; }
+
+.dc-parallax { display: block; max-width: 540px; width: 100%; height: auto; margin: 1rem auto; }
+.dc-px-axis line { stroke: #7d5a1a; stroke-width: 1.6; fill: none; }
+.dc-px-label { font-size: 12px; font-weight: 600; fill: currentColor; text-anchor: middle; }
+.dc-px-gap { stroke: #7d5a1a; stroke-width: 1; stroke-dasharray: 4 3; opacity: .8; }
+.dc-px-gaplabel { font-size: 11px; fill: currentColor; opacity: .8; font-style: italic; text-anchor: middle; }
+
+.dc-halo { display: block; max-width: 500px; width: 100%; height: auto; margin: 1rem auto; }
+.dc-halo-band { fill: rgba(125,90,26,.10); stroke: #7d5a1a; stroke-width: 1.2; stroke-dasharray: 6 5; }
+.dc-halo-core { fill: rgba(125,90,26,.30); stroke: #7d5a1a; stroke-width: 1; }
+.dc-halo-corelabel { font-size: 12px; font-weight: 600; fill: currentColor; text-anchor: middle; }
+.dc-halo-bandlabel { font-size: 11px; fill: currentColor; text-anchor: middle; opacity: .85; }
+
+.dc-contrast { display: block; max-width: 540px; width: 100%; height: auto; margin: 1rem auto; }
+.dc-contrast-cell rect { fill: rgba(125,90,26,.14); stroke: #7d5a1a; stroke-width: 1; }
+.dc-contrast-cell text { font-size: 12px; font-weight: 600; fill: currentColor; text-anchor: middle; }
+.dc-contrast-no rect { fill: rgba(125,90,26,.07); stroke-dasharray: 4 3; }
+.dc-contrast-no text { opacity: .6; }
+.dc-contrast-strike { stroke: #7d5a1a; stroke-width: 1.4; opacity: .8; }
+.dc-contrast-yes rect { fill: rgba(125,90,26,.26); }
+.dc-contrast-arrow { fill: none; stroke: #7d5a1a; stroke-width: 1.4; }
+
+.dc-inversions { display: block; max-width: 540px; width: 100%; height: auto; margin: 1rem auto; }
+.dc-inv-row text { font-size: 12px; fill: currentColor; }
+.dc-inv-normal { opacity: .55; }
+.dc-inv-strike { stroke: #7d5a1a; stroke-width: 1.2; opacity: .7; }
+.dc-inv-arrow { font-size: 14px; opacity: .8; }
+.dc-inv-flipped { font-weight: 600; }
+
+.dc-steps { display: block; max-width: 540px; width: 100%; height: auto; margin: 1rem auto; }
+.dc-steps-cell rect { fill: rgba(125,90,26,.22); stroke: #7d5a1a; stroke-width: 1; }
+.dc-steps-label { font-size: 12px; font-weight: 600; fill: currentColor; text-anchor: middle; }
+.dc-steps-note { font-size: 11px; fill: currentColor; opacity: .8; font-style: italic; }
+
+.dc-selfloop { display: block; max-width: 460px; width: 100%; height: auto; margin: 1rem auto; }
+.dc-selfloop-base { fill: rgba(125,90,26,.28); stroke: #7d5a1a; stroke-width: 1; }
+.dc-selfloop-top { fill: rgba(125,90,26,.14); stroke: #7d5a1a; stroke-width: 1; }
+.dc-selfloop-baselabel, .dc-selfloop-toplabel { font-size: 12px; font-weight: 600; fill: currentColor; text-anchor: middle; }
+.dc-selfloop-arc { fill: none; stroke: #7d5a1a; stroke-width: 1.5; }

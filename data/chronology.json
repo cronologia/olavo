@@ -4231,7 +4231,7 @@
  },
  "doctrines": {
   "note": "Concepts Olavo de Carvalho named and taught as his own. This section is EXPOSITION, not endorsement: each entry says what he claimed, where he expounded it and when, and whom he credited. The project takes no view on whether any of it is true, exactly as the philosopher pages record his readings without adjudicating them. Summaries are the project's own words; his formulations are paraphrased rather than reproduced, and the few terms of art quoted are his coinages. Where a lecture date is unverified the entry says so, and where he revised a doctrine the revision is shown rather than smoothed into a single version.",
-  "sourceNote": "Drawn from the community transcription corpus of the course (585 lectures) and the video collection. A third of the fullest expositions sit in files the transcription project has not reviewed and that carry no date at all, so some entries below cite an undated lecture — that is a property of the corpus, not an omission here.",
+  "sourceNote": "Drawn from the community transcription corpus of the course (585 lectures) and the video collection. A third of the fullest expositions sit in files the transcription project has not reviewed and that carry no date at all, so some entries below cite an undated lecture — that is a property of the corpus, not an omission here. The panel is a work in progress and is reviewed against the transcripts as new material lands (ADR-0005): an entry's absence is not evidence that he had no such doctrine, and entries already here are corrected when the corpus contradicts them.",
   "items": [
    {
     "id": "doze-camadas",
@@ -4312,6 +4312,13 @@
    {
     "id": "conhecimento-por-presenca",
     "claim": "Beneath perception, memory and theory there is a prior, non-representational cognition that consists in reality simply being present to the knower. He calls it the most exact form of knowledge precisely because it cannot be turned into a thought one possesses. Its work is to explain how anyone ever corrects a framework from inside it: without it, he argues, a powerful philosophy would hypnotise its adherents completely and no school could revise itself.",
+    "structure": [
+     "Theory",
+     "Memory and imagination",
+     "Perception",
+     "Knowledge by presence — what the rest rest on"
+    ],
+    "diagram": "strata",
     "credits": [
      "Lavelle",
      "Suhrawardī (via Corbin)"
@@ -4340,6 +4347,11 @@
    {
     "id": "paralaxe-cognitiva",
     "claim": "A displacement between the axis of a thinker's lived experience and the axis of his theoretical construction — seeing one thing while theorising another. He claims the phenomenon as his own discovery and insists it is a cognitive defect rather than hypocrisy or lying.",
+    "structure": [
+     "The axis of what a thinker lived",
+     "The axis of what he theorised"
+    ],
+    "diagram": "parallax",
     "revision": "He narrowed it by 2013 to strict performative self-refutation — where the act of saying something contradicts what is said — explicitly excluding mere self-contradiction, lying and propaganda, and presenting the narrowing as a correction of how his coinage was being used.",
     "credits": [
      "Marx",
@@ -4404,6 +4416,11 @@
    {
     "id": "circulo-de-latencia",
     "claim": "The band of possibilities available to a person or a society at a given moment — what is not actual but could become so without a break in continuity. He uses it to argue that judging either a life or a historical situation requires knowing what was really open to it.",
+    "structure": [
+     "What is actual",
+     "The circle of latency — what could become so without a break"
+    ],
+    "diagram": "halo",
     "credits": [
      "Aristotle",
      "Aquinas",
@@ -4427,6 +4444,11 @@
    {
     "id": "metodo-da-confissao",
     "claim": "The procedure he called the core of his philosophy: philosophical work begins from an honest account of one's own actual state of knowledge and motive, rather than from a position adopted for argument. He grounds it in the Socratic examination and the Augustinian confession.",
+    "structure": [
+     "A position adopted for the argument",
+     "An honest account of your own actual state"
+    ],
+    "diagram": "contrast",
     "credits": [
      "Socrates"
     ],
@@ -4448,6 +4470,11 @@
    {
     "id": "horizonte-de-consciencia",
     "claim": "The boundary of what a given consciousness can take in at all — which he calls a fundamental concept of his philosophy, and uses to explain why two people can face the same evidence and register different worlds.",
+    "structure": [
+     "What this consciousness can take in",
+     "Beyond the horizon — present, and not registered"
+    ],
+    "diagram": "halo",
     "credits": [],
     "caveat": "Close to Lucien Goldmann's use of the term, a proximity he does not acknowledge.",
     "expositions": [
@@ -4468,6 +4495,12 @@
    {
     "id": "teoria-do-imperio",
     "claim": "Empire is the recurring idea of Western history, and he traces its transmutations from the fall of Rome to the American expansion — each collapse followed by someone assembling the next one. His definition is the load-bearing part: an empire is a supranational organisation that does not federate nations but gathers forces from inside them, which is why it can operate against the interests of the very country that hosts it.",
+    "structure": [
+     "An empire",
+     "Its collapse",
+     "The next one assembled"
+    ],
+    "diagram": "cycle",
     "origin": "Set out in O Jardim das Aflições (1995), of which he says a great part is a history of the transmutations of the idea of empire — a great part, not the whole: the book is subtitled an essay on materialism and civil religion, and the same pages carry the worked example of cognitive parallax. He calls it the one book whose literary structure he was able to compose deliberately, like a piece of music.",
     "caveat": "He notes that his account converges with Antonio Negri's Empire, written from the opposite political direction, and does not treat the convergence as embarrassing. He also says the book's narrative stops at the American empire and that everything after it needed the later work — see the three projects of global domination.",
     "credits": [
@@ -4573,6 +4606,11 @@
    {
     "id": "metacapitalismo",
     "claim": "A name for capital that has outgrown the market it came from: firms large enough to stop accepting the market's verdict and to want the state instead. He uses it to argue that world revolution is now promoted by the very rich rather than against them, and that the economy this produces — a strong state ringed by a handful of associated giants — is the arrangement he calls fascist, whatever the country's professed system.",
+    "structure": [
+     "Capital that accepts the market's verdict",
+     "Capital grown past it, wanting the state instead"
+    ],
+    "diagram": "contrast",
     "caveat": "This is an economic characterisation, not a technical one; he does not present it as a contribution to economics and names no economist he is amending.",
     "expositions": [
      {
@@ -4597,6 +4635,12 @@
    {
     "id": "mentalidade-revolucionaria",
     "claim": "Not a political position but a mental disorder with a structure, which he says has been running for four centuries: a mind that inverts the direction of time, treating a promised future as the cause of the present; inverts the subject-object relation, so the theory tells reality what it must be; and inverts moral responsibility, so the harm done in pursuit of the promise is charged to whoever resisted. He distinguishes it sharply from cognitive parallax, which is a defect of perception rather than a fully formed inversion.",
+    "structure": [
+     "The past|The future",
+     "Reality|The theory",
+     "The doer|The resister"
+    ],
+    "diagram": "inversions",
     "origin": "He traces the investigation to Joseph Gabel's work on false consciousness, read decades before he began, and says Gabel was on the right track without following it through.",
     "credits": [
      "Marx"
@@ -4624,6 +4668,11 @@
    {
     "id": "patamares",
     "claim": "Philosophy advances by landings rather than by schools: certain things, once seen, cannot be unseen, and reasoning below them is not disagreement but regression. Aristotle's distinction between form and matter is his standing example. The claim is normative, not historical — he says nobody has the right to argue beneath a landing, while granting that later work may fundamentally alter what stands on it.",
+    "structure": [
+     "The metaxis",
+     "Form and matter"
+    ],
+    "diagram": "steps",
     "caveat": "Asked in class for the list of landings, he agreed it would be worth having and did not produce one. The corpus records the criterion and the examples, not the inventory.",
     "expositions": [
      {
@@ -4682,7 +4731,7 @@
    {
     "id": "contraditoria-ambigua",
     "claim": "A test he proposes for statements that are neither plainly true nor plainly false — 'I am here', 'A equals A' — where the answer changes with the sense in which the terms are taken. He treats it as a practical exercise in noticing which sense one is actually using.",
-    "caveat": "The weakest-attested entry in this panel. It reaches us mainly through a listener who names it among his original contributions and asks whether the exercise can be generalised into a theory; he answers that he has already done so and that the text is lost somewhere in his own handouts. No developed statement has been located in the corpus.",
+    "caveat": "The weakest-attested entry in this panel, and the only one without a diagram. It reaches us mainly through a listener who names it among his original contributions and asks whether the exercise can be generalised into a theory; he answers that he has already done so and that the text is lost somewhere in his own handouts. No developed statement has been located in the corpus — so there is no structure to draw, and drawing one would be invention rather than exposition.",
     "expositions": [
      {
       "where": "True Outspeak, episode 78 — the listener's question and his reply",
@@ -4696,6 +4745,12 @@
    {
     "id": "imbecil-coletivo",
     "claim": "His most cited coinage, and by his own account not an insult about intelligence. The collective imbecile is not made of imbeciles: it is normal and sometimes very able people who, out of professional solidarity or political convenience, adopt habits of language that stop them thinking, and who make one another stupid by doing it together.",
+    "structure": [
+     "Adopt the group's habits of language",
+     "Stop being able to think",
+     "Confirm it in each other"
+    ],
+    "diagram": "cycle",
     "caveat": "He never calls it a theory, and it is not presented as one here: the book is a collection of examples from Brazilian intellectual life, gathered from the late 1980s onward. It is in this panel because he defines the mechanism explicitly and returns to it as a concept.",
     "expositions": [
      {
@@ -4710,6 +4765,11 @@
    {
     "id": "imbecil-juvenil",
     "claim": "An observation rather than a theory, and one his readers took up as a working category: the adolescent who believes he is rebelling is aiming at the weakest authority available — parents who love him and will do anything for him — while submitting completely to the strongest, the peers who will not. He puts the mechanism underneath it as a neurotic need for affection that produces group dependence, and says the political and moral language such a person uses is decoration over a much cruder motive.",
+    "structure": [
+     "What it looks like: rebellion",
+     "What it is: submission to the peer group"
+    ],
+    "diagram": "contrast",
     "countNote": "It is not an age. He is explicit that juvenile imbeciles are sixty and seventy years old: the essay describes a condition people carry into old age, not a phase they leave.",
     "origin": "A short article — he says he compressed the whole thing into a page and a half — published on his own site and later placed first in O Mínimo que Você Precisa Saber para Não Ser um Idiota (2013). He cites it in class the way one cites a reference, three times across four years, rather than re-explaining it.",
     "lineageNote": "He connects it to the American literature on peer pressure, which he says runs to thousands of books there and nothing at all in Brazil. It is also the illustration he reaches for when defining existential contradiction.",
@@ -4742,6 +4802,11 @@
    {
     "id": "contradicao-existencial",
     "claim": "A contradiction not between two statements but inside a life: someone whose existence rests on an authority he is simultaneously trying to undermine — which, he argues, means the undermining is not fully serious, because the attack presupposes what it attacks. He sets it against merely logical contradiction, which he says any author will commit by inattention and which it is adolescent to go hunting for.",
+    "structure": [
+     "The attack",
+     "The authority the attacker lives on"
+    ],
+    "diagram": "selfloop",
     "lineageNote": "His illustration is the juvenile imbecile: the boy who is brave towards the parents who love him and subservient to the peer group that does not.",
     "expositions": [
      {
@@ -4756,6 +4821,11 @@
    {
     "id": "direito-como-garantia",
     "claim": "His position in philosophy of law: that law is to be understood as guarantee — a limit protecting the person — rather than as a command issued by whoever holds power. He treats it as following from the four discourses, since what a legal text can establish depends on the kind of discourse it is.",
+    "structure": [
+     "Law as a command from whoever holds power",
+     "Law as a guarantee — a limit protecting the person"
+    ],
+    "diagram": "contrast",
     "origin": "Set out in a course handout of his, 'O que é o direito', which he never developed into a book of his own.",
     "lineageNote": "The most externally attested item in this panel, and the only one whose development is somebody else's: Luiz Vergílio Dalla-Rosa built it into a doctoral thesis and a published book, O Direito como garantia: pressupostos de uma teoria constitucional (América Jurídica, 2002). He describes the thesis as departing from his handout and as his own position deepened by another hand.",
     "caveat": "The claim of paternity is his. This project has not read the Dalla-Rosa volume and does not adjudicate how much of it is his; the attribution is recorded as his statement, not as a finding.",
