@@ -2237,6 +2237,14 @@
       "publisher": "Livraria da Travessa",
       "type": "database",
       "publisherNote": "Trade listing: Vide Editorial, 2021, 1st edition, 560pp, ISBN 9786587138404. A second bookseller carries the same ISBN, publisher and pagination."
+    },
+    {
+      "id": "to-146-islam-livro",
+      "title": "True Outspeak #146 — his own account of the Saudi prize",
+      "url": "https://www.youtube.com/watch?v=eVUrUmVV7ps",
+      "publisher": "True Outspeak (BlogTalkRadio)",
+      "type": "recording",
+      "publisherNote": "Dated 2 December 2009 from the title parenthetical only, so the date is unverified. Auto-captioned: legible in substance, unreliable in wording, and nothing here is quoted as his exact words pending audio verification."
     }
   ],
   "philosophers": {
@@ -5874,8 +5882,8 @@
             "title": "O Profeta da Paz: Estudos sobre a Interpretação Simbólica da Vida do Profeta Mohammed",
             "publisher": "—",
             "kind": "book",
-            "note": "Named only in the prizes section of his own CV, not in its list of books. He returns to it in the course, and what he says there settles that it is a book while leaving its publication unresolved. He describes writing a symbolic exegesis of some ahadith of the Islamic prophet, for which he says he was recognised by Al-Azhar University and the Saudi government, and elsewhere calls it a prize from the Saudi government for a study on the origins of Islam. In a later lecture he speaks of 'the book on the Prophet Muhammad' as one of his two earliest studies, no longer representative of his thought, and says it would need much revision — partly because he had used Idries Shah as a source and later judged him a complete charlatan. No publisher, edition or copy has been established, and the descriptions vary enough that their identity with this title is likely rather than certain.",
-            "sourceNote": "His CV for the prize; course lectures 105 and 165 for the recognition, both reviewed transcriptions; an unreviewed later lecture for the disavowal. All of it is his own account of his own work, recorded as such."
+            "note": "Named only in the prizes section of his own CV, not in its list of books. He returns to it repeatedly on air and in the course, and the fullest account is a 2009 broadcast: he is the author of a book on Islam that received a prize from the Saudi government, and — his emphasis — they gave it while saying plainly that it was not an orthodox Islamic book and that they could not approve all of its content. Elsewhere he describes it as a symbolic exegesis of some ahadith of the Prophet, recognised by Al-Azhar and the Saudi government, and as a study of the origins of Islam. Later he disowns it: one of his two earliest studies, no longer representative of his thought, needing much revision because he had used Idries Shah as a source and came to judge him a complete charlatan. No publisher, edition or copy has ever been established, and a jury that declines to approve a book's content is a plausible reason there is none — but he does not say so, and this record does not say it for him.",
+            "sourceNote": "His CV for the prize; True Outspeak #146 (2009) for the jury's reservation; course lectures 105 and 165, both reviewed, for the recognition; an unreviewed later lecture for the disavowal. Every part of it is his own account of his own work."
           },
           {
             "year": 1987,
