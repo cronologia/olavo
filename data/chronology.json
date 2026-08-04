@@ -4647,12 +4647,32 @@
    },
    {
     "id": "sujeito-da-historia",
-    "claim": "History is only ever the history of agents that act, and most of the subjects historians write about cannot act. Brazil, he argues, has no history — it is the stage on which one happens, since a juridical-territorial unit has never done anything. What qualifies is any body able to prolong a line of action across generations while remaining recognisably itself: he names the Church's missions and the communist parties as the clear cases.",
-    "origin": "He says he had to settle the question before he could ask whether historical knowledge explains anything at all about the divisions he was trying to describe.",
+    "claim": "History is only ever the history of agents that act, and most of the subjects historians write about cannot act. Brazil, he argues, has no history — it is the stage on which one happens, since a juridical-territorial unit has never done anything. The condition he says nobody had thought to state is continuity in time: an action exhausted inside one lifetime never enters history at all. What qualifies is a body that can train its successors to carry on a programme begun before they were born.",
+    "structure": [
+     "The great religions",
+     "Initiatic and occultist societies",
+     "Dynasties — noble or plebeian",
+     "Revolutionary organisations"
+    ],
+    "diagram": "set",
+    "origin": "He says he had to settle the question before he could ask whether historical knowledge explains anything at all about the divisions he was trying to describe, and calls the result an entirely new theory of history which he believes correct and irrefutable.",
+    "lineageNote": "Dynasties are the case he develops furthest, and the one that carries the most weight in his political writing: aristocratic or plebeian families conscious of the durability of their own interests, who take children from the cradle and raise them to continue a programme — the Bourbons and the Tudors, and, on his reading, the Rockefellers and the Rothschilds. What makes a dynasty an agent is fidelity to dead mentors. He then treats the Bilderberg circle as a consortium of such dynasties rather than as an organisation, which is how this doctrine does the work his politics asks of it.",
+    "countNote": "The list of kinds shifts between tellings. In 2009 he names the Catholic Church, Freemasonry, the Communist Party and dynastic families; in 2010 the great religions, initiatic societies, dynasties and the Communist Party; in 2011 he replaces the fourth with spiritual entities — God, angels and demons — and states there are no others. The four shown here are the human register, on which every telling agrees.",
+    "caveat": "The fourth kind, in the fullest telling, is not human: he counts God, angels and demons as historical agents on the same criterion, since they too persist and act. Recorded as his claim. He also says himself that the theory has a problem — he never managed to apply it in a book that was entirely about history.",
     "expositions": [
      {
       "where": "course lecture 32 — set out as a section of his own philosophy",
       "date": "2009-11-14",
+      "dateVerified": true
+     },
+     {
+      "where": "course lecture 78 — the four agents, and the continuity criterion",
+      "date": "2010-10-09",
+      "dateVerified": true
+     },
+     {
+      "where": "course lecture 99 — dynasties, and Bilderberg as a consortium of them",
+      "date": "2011-03-26",
       "dateVerified": true
      }
     ],
