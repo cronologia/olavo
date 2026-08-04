@@ -452,6 +452,12 @@
       "timestamp": "20260718014753",
       "checkedAt": "2026-08-04"
     },
+    "https://www.britannica.com/biography/Saint-Thomas-Aquinas": {
+      "refId": "brit-aquinas",
+      "archiveUrl": "https://web.archive.org/web/20260726194355/https://www.britannica.com/biography/Saint-Thomas-Aquinas",
+      "timestamp": "20260726194355",
+      "checkedAt": "2026-08-04"
+    },
     "https://www.britannica.com/biography/Socrates": {
       "refId": "brit-socrates",
       "archiveUrl": "https://web.archive.org/web/20260715084152/https://www.britannica.com/biography/Socrates",
@@ -505,6 +511,12 @@
       "archiveUrl": "https://web.archive.org/web/20240404022503/https://www.correiobraziliense.com.br/brasil/2022/01/4980029-morre-olavo-de-carvalho-aos-74-anos-nos-estados-unidos.html",
       "timestamp": "20240404022503",
       "checkedAt": "2026-08-02"
+    },
+    "https://www.correiobraziliense.com.br/politica/2022/01/4980493-olavo-de-carvalho-e-enterrado-nos-eua-em-funeral-com-allan-dos-santos-e-ernesto-araujo.html": {
+      "refId": "correiobraziliense-enterro",
+      "archiveUrl": "https://web.archive.org/web/20220702022448/https://www.correiobraziliense.com.br/politica/2022/01/4980493-olavo-de-carvalho-e-enterrado-nos-eua-em-funeral-com-allan-dos-santos-e-ernesto-araujo.html",
+      "timestamp": "20220702022448",
+      "checkedAt": "2026-08-04"
     },
     "https://www.curitiba.pr.leg.br/informacao/noticias/camara-homenageia-olavo-de-carvalho": {
       "refId": "curitiba-camara",
@@ -566,6 +578,12 @@
       "timestamp": "20230930183642",
       "checkedAt": "2026-08-02"
     },
+    "https://www.hotnews.ro/stiri-international-25328501-astrolog-filosof-coronasceptic-olavo-carvalho-murit-covid-19-mentorul-presedintelui-jair-bolsonaro-fusese-decorat-ordinul-national-pentru-merit-romaniei-grad-comandor.htm": {
+      "refId": "hotnews-decoratie",
+      "archiveUrl": "https://web.archive.org/web/20220202192933/https://www.hotnews.ro/stiri-international-25328501-astrolog-filosof-coronasceptic-olavo-carvalho-murit-covid-19-mentorul-presedintelui-jair-bolsonaro-fusese-decorat-ordinul-national-pentru-merit-romaniei-grad-comandor.htm",
+      "timestamp": "20220202192933",
+      "checkedAt": "2026-08-04"
+    },
     "https://www.jornaldocomercio.com/_conteudo/politica/2021/04/787642-olavo-de-carvalho-volta-a-ser-internado-com-problemas-respiratorios.html": {
       "refId": "jc-trachea-2021",
       "archiveUrl": "https://web.archive.org/web/20210414171040/https://www.jornaldocomercio.com/_conteudo/politica/2021/04/787642-olavo-de-carvalho-volta-a-ser-internado-com-problemas-respiratorios.html",
@@ -595,6 +613,12 @@
       "archiveUrl": "https://web.archive.org/web/20240225053522/https://www.metropoles.com/mundo/olavo-de-carvalho-sera-enterrado-em-petersburg-pequena-cidade-dos-eua",
       "timestamp": "20240225053522",
       "checkedAt": "2026-08-03"
+    },
+    "https://www.midiasemmascara.net/": {
+      "refId": "msm-net",
+      "archiveUrl": "https://web.archive.org/web/20260111025024/https://midiasemmascara.net/",
+      "timestamp": "20260111025024",
+      "checkedAt": "2026-08-04"
     },
     "https://www.migalhas.com.br/depeso/210801/redescobrindo-o-filosofo-brasileiro-mario-ferreira-dos-santos--uma-pontual-abordagem-criminologico-cultural": {
       "refId": "migalhas-mario",
@@ -716,16 +740,34 @@
       "timestamp": "20211109012902",
       "checkedAt": "2026-08-04"
     },
+    "https://www.youtube.com/playlist?list=PLeDYbSG3ee95BaJB-caH9btRz6tcv2sne": {
+      "refId": "olavo-true-outspeak",
+      "archiveUrl": "https://web.archive.org/web/20260804163257/https://www.youtube.com/playlist?list=PLeDYbSG3ee95BaJB-caH9btRz6tcv2sne",
+      "timestamp": "20260804163257",
+      "checkedAt": "2026-08-04"
+    },
     "https://www.youtube.com/watch?v=BsZXOGDwMb0": {
       "refId": "olavo-video-fdl-2005",
       "archiveUrl": "https://web.archive.org/web/20230422052832/https://www.youtube.com/watch?v=BsZXOGDwMb0",
       "timestamp": "20230422052832",
       "checkedAt": "2026-08-04"
     },
+    "https://www.youtube.com/watch?v=L6AB7jZ-hiY": {
+      "refId": "olavo-video-fdl-2004",
+      "archiveUrl": "https://web.archive.org/web/20241209054836/https://www.youtube.com/watch?v=L6AB7jZ-hiY",
+      "timestamp": "20241209054836",
+      "checkedAt": "2026-08-04"
+    },
     "https://www.youtube.com/watch?v=ic49hbeYG5o": {
       "refId": "olavo-video-fdl-2000",
       "archiveUrl": "https://web.archive.org/web/20240124111246/https://www.youtube.com/watch?v=ic49hbeYG5o",
       "timestamp": "20240124111246",
+      "checkedAt": "2026-08-04"
+    },
+    "https://www.youtube.com/watch?v=p1vP7q1w1JQ": {
+      "refId": "olavo-video-cof-europa-2016",
+      "archiveUrl": "https://web.archive.org/web/20220805033343/https://www.youtube.com/watch?v=p1vP7q1w1JQ",
+      "timestamp": "20220805033343",
       "checkedAt": "2026-08-04"
     },
     "https://www.youtube.com/watch?v=x0D0ZZrQnsY": {
