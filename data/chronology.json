@@ -1819,7 +1819,8 @@
   "_meta": {
    "what": "Wave-1 philosopher pages (olavo#2): each philosopher's life-and-works timeline from standard public references, rendered together with the COF reception index (data/cof-reception.json). English is authoritative; pt/es come from the i18n caches.",
    "selection": "The twenty most engaged philosophers in the COF corpus by the corrected word-boundary measurement; shipped in two waves (olavo#2).",
-   "disciplineNote": "Timeline entries assert the philosopher's own public record; the reception layer asserts what Olavo said and when — never what the philosopher 'really' meant (AGENTS.md rule 6). Scholarly date estimates carry approx: true and render with a flag."
+   "disciplineNote": "Timeline entries assert the philosopher's own public record; the reception layer asserts what Olavo said and when — never what the philosopher 'really' meant (AGENTS.md rule 6). Scholarly date estimates carry approx: true and render with a flag.",
+   "readings": "Qualitative reception (olavo#11 wave 2), drawn from the Curso História Essencial da Filosofia — eight recorded sessions of 2002, seven years before the Curso Online de Filosofia the counts above measure. Each entry records how HE characterises the philosopher, attributed and dated to the course; the project does not adjudicate who is right. The recordings are machine-transcribed and unchecked against audio, so everything here is paraphrase and nothing is quoted."
   },
   "intro": "The twenty philosophers most engaged by the Curso Online de Filosofia, by measured presence in the 585-lecture corpus. Each page carries the thinker's own life and works, and the record of which lectures engage him.",
   "philosophers": [
@@ -1830,6 +1831,32 @@
     "dates": "384–322 BC",
     "place": "Stagira, Chalcidice (northern Greece)",
     "summary": "Greek philosopher, disciple of Plato and tutor of Alexander of Macedon, founder of the Lyceum in Athens. His surviving treatises cover logic, physics, biology, metaphysics, ethics, politics, rhetoric and poetics, and shaped much of ancient, medieval and modern philosophy.",
+    "readings": [
+     {
+      "claim": "The whole session insists on the order of the corpus: Aristotle begins as a teacher of rhetoric inside the Academy, and rhetoric already had centuries of tradition behind it from the sophists — whose real discovery, he says, was that two people arguing form a single piece of reasoning between them.",
+      "where": "Curso História Essencial da Filosofia, session 04 — Aristotle",
+      "date": "2002",
+      "dateVerified": false
+     },
+     {
+      "claim": "A reception history in one line: Aristotle only began to be understood in the twentieth century, with two or three exceptions. Aquinas's readings are brilliant, but he is not always talking about Aristotle — sometimes he is inventing another philosophy of his own.",
+      "where": "Curso História Essencial da Filosofia, session 04 — Aristotle",
+      "date": "2002",
+      "dateVerified": false
+     },
+     {
+      "claim": "On Werner Jaeger's intellectual biography — a brilliant book whose thesis is wrong. Jaeger has Aristotle moving from strict Platonism to modern empiricism; a century of argument concluded no such transition happened. But both poles really are in the corpus, so a reader has to live with the metaphysician and the empiricist at once rather than dissolving the problem.",
+      "where": "Curso História Essencial da Filosofia, session 04 — Aristotle",
+      "date": "2002",
+      "dateVerified": false
+     },
+     {
+      "claim": "He mentions an earlier course of his own in Rio, Pensamento e Atualidade de Aristóteles, of which some twelve lectures were nothing but the history of misreadings of Aristotle.",
+      "where": "Curso História Essencial da Filosofia, session 04 — Aristotle",
+      "date": "2002",
+      "dateVerified": false
+     }
+    ],
     "timeline": [
      {
       "when": "384 BC",
@@ -2016,6 +2043,26 @@
     "dates": "c. 428/427–348/347 BC",
     "place": "Athens, Greece",
     "summary": "Athenian philosopher, disciple of Socrates and teacher of Aristotle, founder of the Academy. His dialogues, which put into circulation themes such as the theory of Forms, the immortality of the soul and the just city, are among the founding texts of Western philosophy.",
+    "readings": [
+     {
+      "claim": "He says outright that he is not a great admirer of Plato, and calls the philosopher-king a monumental error: beyond knowing the universal law a ruler needs authority, and he asks how Plato failed to notice he had none — where Moses and Muhammad had it and were obeyed for millennia.",
+      "where": "Curso História Essencial da Filosofia, session 02 — the Socratic project",
+      "date": "2002",
+      "dateVerified": false
+     },
+     {
+      "claim": "He reads the Sicilian debacle as a caricature of Socrates' fate: Plato tries to steer a coup in a neighbouring state, it fails, the conspirators are killed or imprisoned and Plato is sold as a slave and bought back by a student. Socrates, on his reading, is the philosopher who knows he cannot be king.",
+      "where": "Curso História Essencial da Filosofia, session 03 — Socrates and Plato",
+      "date": "2002",
+      "dateVerified": false
+     },
+     {
+      "claim": "On the three worlds: the world of forms is not a superior world above the one man inhabits — it is that world. Man stands wholly in neither temporality nor the sensible, which is why the Plato-Aristotle dispute over whether the forms exist in themselves cannot be settled: on his reading neither the forms nor the sensible world exist in themselves, only within eternity.",
+      "where": "Curso História Essencial da Filosofia, session 03 — Socrates and Plato",
+      "date": "2002",
+      "dateVerified": false
+     }
+    ],
     "timeline": [
      {
       "when": "c. 428/427 BC",
@@ -2208,6 +2255,14 @@
     "dates": "c. 1224/25–1274",
     "place": "Roccasecca, near Aquino (Kingdom of Sicily, present-day Italy)",
     "summary": "Dominican friar, theologian and philosopher, the leading figure of thirteenth-century scholasticism. His synthesis of Aristotelian philosophy and Christian doctrine, set out above all in the Summa theologiae and the Summa contra gentiles, became a central reference of the Catholic tradition.",
+    "readings": [
+     {
+      "claim": "Named with Hugh of St Victor as the point where allegorical interpretation reaches full mastery: his biblical commentaries are edifices to take one's hat off to, and there the science of symbolic interpretation finally earns the name of science — systematic, organised and rational.",
+      "where": "Curso História Essencial da Filosofia, session 08 — the advent of Christianity",
+      "date": "2002",
+      "dateVerified": false
+     }
+    ],
     "timeline": [
      {
       "when": "c. 1224/25",
@@ -2406,6 +2461,20 @@
     "dates": "469–399 BC",
     "place": "Athens, Greece (deme of Alopece)",
     "summary": "Athenian philosopher who wrote nothing, known through the testimonies of Plato, Xenophon and Aristophanes. His practice of interrogating fellow citizens about the virtues, and his condemnation to death for impiety, made him a founding figure of Western philosophical ethics.",
+    "readings": [
+     {
+      "claim": "The session turns on a distinction between three figures the tradition confuses: the philosopher as martyr, the philosopher as leader and ruler, and the philosopher as his community's teacher and guide but not its chief. Socrates is the first and the third; the second is the error he lays at Plato's door.",
+      "where": "Curso História Essencial da Filosofia, session 02 — the Socratic project",
+      "date": "2002",
+      "dateVerified": false
+     },
+     {
+      "claim": "Philosophical authority is real but powerless, and he argues it has to be. A philosopher claiming power equal to his cognitive authority would have to be an absolute tyrant — and that is incompatible with how wisdom is acquired, which needs trial, error and an interior freedom a philosopher-king could not allow.",
+      "where": "Curso História Essencial da Filosofia, session 03 — Socrates and Plato",
+      "date": "2002",
+      "dateVerified": false
+     }
+    ],
     "timeline": [
      {
       "when": "469 BC",
@@ -2614,6 +2683,20 @@
     "dates": "1770–1831",
     "place": "Stuttgart, Württemberg (Germany)",
     "summary": "German philosopher, the leading exponent of post-Kantian German idealism. He elaborated a system spanning logic, philosophy of nature and philosophy of spirit, with lasting influence on philosophy, political theory and the historiography of the nineteenth and twentieth centuries.",
+    "readings": [
+     {
+      "claim": "Hegel's Lectures on the History of Philosophy are his prototype of the reflective model: philosophy's content IS its history, an internal dialectic in which spirit comes to consciousness of itself, with individual philosophers — his image — as ventriloquist's dummies in the hands of reason, links in a chain they need not be aware of.",
+      "where": "Curso História Essencial da Filosofia, session 01 — history of the histories of philosophy",
+      "date": "2002",
+      "dateVerified": false
+     },
+     {
+      "claim": "His counter-claim, and the thesis of his own course: the history of philosophy is not a linear continuity to be forced into unity, but a human drama, in which the unforeseen and the discontinuous enter as they do in anyone's life.",
+      "where": "Curso História Essencial da Filosofia, session 01 — history of the histories of philosophy",
+      "date": "2002",
+      "dateVerified": false
+     }
+    ],
     "timeline": [
      {
       "when": "27 August 1770",
@@ -2706,6 +2789,14 @@
     "dates": "1883–1951",
     "place": "Saint-Martin-de-Villeréal, Lot-et-Garonne, France",
     "summary": "French philosopher, one of the principal French metaphysicians of the twentieth century and a representative of the 'philosophie de l'esprit' current. Professor at the Sorbonne and the Collège de France, he developed an ontology of participation in being, articulated in the tetralogy La dialectique de l'éternel présent.",
+    "readings": [
+     {
+      "claim": "The finding the mention-count missed. Asked about method, he names the twentieth-century philosophy that counts: Lavelle first, then Husserl, then a trio of which the machine transcription yields Zubiri and Lonergan and loses the third. The rest, he says, is decoration. This is the earliest statement located of the position the Curso Online de Filosofia would later rest on.",
+      "where": "Curso História Essencial da Filosofia, session 04 — Aristotle",
+      "date": "2002",
+      "dateVerified": false
+     }
+    ],
     "timeline": [
      {
       "when": "15 July 1883",
@@ -3303,6 +3394,14 @@
     "dates": "1859–1938",
     "place": "Proßnitz, Moravia (present-day Prostějov, Czechia)",
     "summary": "A mathematician by training and the founder of phenomenology, the movement that marked all of twentieth-century continental philosophy. He made his career at Halle, Göttingen and Freiburg, where Heidegger succeeded him. Of Jewish origin, he spent his last years excluded from German university life under the Nazi regime.",
+    "readings": [
+     {
+      "claim": "Named second in his twentieth-century canon, after Lavelle: what Husserl gave humanity, he says, cannot yet be measured, and everything of his he studies still holds seeds for centuries to come. The machine transcription writes the name 'Russel' throughout — one of the three documented traps in this corpus.",
+      "where": "Curso História Essencial da Filosofia, session 04 — Aristotle",
+      "date": "2002",
+      "dateVerified": false
+     }
+    ],
     "timeline": [
      {
       "when": "8 April 1859",

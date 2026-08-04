@@ -578,3 +578,9 @@ figure.swimlanes figcaption { font-size: .78rem; color: var(--muted); margin-top
 /* The unanswered branch: dashed, and it leads nowhere on purpose. */
 .dc-split-open { fill: none; stroke: #7d5a1a; stroke-width: 1.2; stroke-dasharray: 5 4; opacity: .75; }
 .dc-split-openlabel { font-size: 11px; fill: currentColor; text-anchor: middle; opacity: .8; font-style: italic; }
+
+/* Qualitative reception on a philosopher page (olavo#11 wave 2). */
+.ph-readings { list-style: none; margin: 1rem 0 0; padding: 0; }
+.ph-readings li { border-left: 3px solid rgba(125,90,26,.45); padding: .1rem 0 .1rem .9rem; margin: 0 0 1rem; }
+.ph-readings p { margin: 0 0 .3rem; }
+.ph-reading-src { font-size: .85rem; opacity: .8; }
