@@ -1676,11 +1676,18 @@ function renderEventRow(ev, refNumById, ui) {
     ? ` <span class="flag" title="${esc((ui || UI.en).flagTitle)}">?</span>`
     : '';
   const text = ev.text ? ` <span class="muted">— ${renderText(ev.text)}</span>` : '';
+  // `dateNote` is prose ABOUT the dating — why a day is trusted, what is still
+  // resting on a single self-report. It was carried in the data and rendered
+  // nowhere, which is the worst of both: the caveat was written, translated,
+  // and invisible to every reader. It now renders beneath the event.
+  const dateNote = ev.dateNote
+    ? `<span class="date-note">${renderText(ev.dateNote)}</span>`
+    : '';
   return `        <tr>
           <td class="year">${esc(ev.year)}</td>
           <td>${esc(ev.date || '')}${flag}</td>
           <td>${esc(ev.place || '')}</td>
-          <td><strong>${esc(ev.title)}</strong>${text}${renderCites(ev.sources, refNumById)}</td>
+          <td><strong>${esc(ev.title)}</strong>${text}${renderCites(ev.sources, refNumById)}${dateNote}</td>
         </tr>`;
 }
 

@@ -81,6 +81,10 @@ tr.decade-row th { background: var(--accent-soft); color: var(--accent-dark); fo
 td.year { font-weight: 700; white-space: nowrap; }
 .muted { color: var(--muted); }
 .flag { color: var(--accent); font-weight: 700; cursor: help; }
+/* Prose about the dating of an event (events[].dateNote): what the day rests
+   on, and what is still unconfirmed. Set apart from the event's own text so a
+   reader can tell a caveat about the date from the account of what happened. */
+.date-note { display: block; margin-top: .4rem; padding-left: .6rem; border-left: 2px solid var(--line); font-size: .85rem; font-style: italic; color: var(--muted); }
 
 /* Card grids (figures, organizations, disambiguation) */
 .party-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem; }

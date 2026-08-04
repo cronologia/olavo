@@ -5,7 +5,7 @@
     "description": "An open, source-referenced chronology of Olavo de Carvalho — self-taught philosopher and polemicist, teacher of the Curso Online de Filosofia and the central intellectual reference of the Brazilian New Right; earlier a journalist, and briefly a professional astrologer.",
     "language": "en",
     "siteUrl": "https://cronologia.github.io/olavo/",
-    "lastUpdated": "2026-08-02",
+    "lastUpdated": "2026-08-04",
     "dataQualityNote": "Work-in-progress dataset compiled from public sources (see references). Contested claims — above all his influence on the Bolsonaro government, the cause of his death, and the episodes of his early trajectory — are attributed to their authors, never asserted in this site's voice. Dates not verified against a primary source are flagged. Corrections against primary sources are welcome.",
     "vizChips": [
       {
@@ -136,9 +136,11 @@
     },
     {
       "label": "Decorations",
-      "value": "Medalha do Pacificador (Brazilian Army, 1999); Medalha Mérito Santos Dumont (Brazilian Air Force, 2001); Grã-Cruz of the Ordem de Rio Branco (2019 — contested, see chronology)",
+      "value": "Medalha do Pacificador (Brazilian Army, 25 August 1999); Comendador of Romania's Ordinul naţional Pentru Merit (by decree of President Emil Constantinescu, 5 December 2000); Medalha Mérito Santos Dumont (Brazilian Air Force, 20 July 2001); Grã-Cruz of the Ordem de Rio Branco (2019 — contested, see chronology). The two Brazilian days and months are his own CV's; the Romanian date is the decree's.",
       "sources": [
         "agenciabrasil-obit",
+        "olavo-cv-pdf",
+        "lege5-decret-581-2000",
         "gazetadopovo-riobranco",
         "camara-riobranco"
       ]
@@ -285,6 +287,21 @@
       ]
     },
     {
+      "year": 1987,
+      "date": "1987-03",
+      "dateVerified": false,
+      "place": "Rio de Janeiro, Brazil",
+      "title": "The course his CV calls the seminar's beginning",
+      "text": "His curriculum vitae lists a course called “Introdução à Vida Intelectual”, taught from March 1987 to March 1989 at the Instituto Sto. André in Rio de Janeiro, and adds that under the name Seminário Permanente de Filosofia e Humanidades it “continues to this day” in São Paulo. That is his own claim of an unbroken teaching line, and it is the only dated origin the seminar has: no independent record of a founding has been found, and the organization entry keeps the date unverified. It sits beside rather than against the “teaching since 1989” he gives in the online course — the Rio course ends in March 1989 and the renamed seminar takes over from there, so the two self-datings mark different starting points. The sentence carrying the claim is undated, like the rest of the document: the CV's sections were revised at different times, so “to this day” dates from whenever that paragraph was last touched. Its list of internal course handouts — forty-two fascicles under the Seminário Permanente name — is the only other trace of the course in it.",
+      "sources": [
+        "olavo-cv-pdf",
+        "cof-transcriptions"
+      ],
+      "threads": [
+        "philosophy-teaching"
+      ]
+    },
+    {
       "year": 1994,
       "date": "1994",
       "dateVerified": true,
@@ -348,17 +365,20 @@
     },
     {
       "year": 1999,
-      "date": "1999",
-      "dateVerified": true,
+      "date": "1999-08-25",
+      "dateVerified": false,
       "place": "Brazil",
       "title": "Receives the Medalha do Pacificador (Brazilian Army)",
-      "text": "Reported in Agência Brasil's obituary career summary.",
+      "text": "His curriculum vitae dates the medal to 25 August 1999 and names the Brazilian Army Command as the conferring authority. Maria Cristina Fernandes, writing in Valor Econômico in April 2019, puts it in the same year as a lecture he gave to a military audience and attributes it to the then army minister, General Gleuber Vieira, who she reports had also written to him praising his work as “intelligent, prudent, balanced and full of good sense”. She does not name the lecture; the only military one his CV dates to 1999 is “Reparando uma injustiça pessoal” at the Clube Militar in Rio de Janeiro on 31 March. Agência Brasil's obituary career summary records the medal without a date.",
       "sources": [
-        "agenciabrasil-obit"
+        "agenciabrasil-obit",
+        "olavo-cv-pdf",
+        "valor-ggn-militares"
       ],
       "threads": [
         "politics-influence"
-      ]
+      ],
+      "dateNote": "The year is in Agência Brasil's obituary and the circumstances are in Valor Econômico; the exact day, 25 August 1999, comes from his own CV and has not been checked against an Army bulletin."
     },
     {
       "year": 2000,
@@ -377,18 +397,36 @@
       ]
     },
     {
-      "year": 2001,
-      "date": "2001",
+      "year": 2000,
+      "date": "2000-12-05",
       "dateVerified": true,
-      "place": "Brazil",
-      "title": "Receives the Medalha Mérito Santos Dumont (Brazilian Air Force)",
-      "text": "Reported in Agência Brasil's obituary career summary.",
+      "place": "Romania",
+      "title": "Made a Commander of Romania's Ordinul naţional Pentru Merit",
+      "text": "Decree 581 of 5 December 2000, signed by President Emil Constantinescu and countersigned by Prime Minister Mugur Isărescu, confers the Ordinul naţional Pentru Merit on a list of Brazilian and Romanian recipients “in recognition of the contribution made to the development of Romanian-Brazilian relations”. In the rank of Comandor, between an art collector and an honorary consul, stands “domnului Olavo de Carvalho, profesor universitar” — a description the decree supplies and that appears nowhere in his own curriculum vitae. The decree was published in Monitorul Oficial I no. 648 of 12 December 2000, and Romanian press coverage of his death cited it again in January 2022. His CV records the same decoration and the same date, and documents the Romanian connection behind it: a paper at the Latinité et Nouvel Ordre Mondial congress in Cluj-Napoca in July 1998, Bucharest radio and press interviews in late 1998, and a lecture on twentieth-century Brazilian philosophers at the Casa de América Latina in Bucharest on 8 September 1999.",
       "sources": [
-        "agenciabrasil-obit"
+        "lege5-decret-581-2000",
+        "hotnews-decoratie",
+        "olavo-cv-pdf"
       ],
       "threads": [
         "politics-influence"
       ]
+    },
+    {
+      "year": 2001,
+      "date": "2001-07-20",
+      "dateVerified": false,
+      "place": "Brazil",
+      "title": "Receives the Medalha Mérito Santos Dumont (Brazilian Air Force)",
+      "text": "Recorded without a date in Agência Brasil's obituary career summary. His own curriculum vitae dates it to 20 July 2001 and names the Comando da Aeronáutica as the conferring authority.",
+      "sources": [
+        "agenciabrasil-obit",
+        "olavo-cv-pdf"
+      ],
+      "threads": [
+        "politics-influence"
+      ],
+      "dateNote": "The year is in Agência Brasil's obituary; the exact day, 20 July 2001, comes from his own CV and is not independently confirmed."
     },
     {
       "year": 2002,
@@ -489,6 +527,53 @@
       ]
     },
     {
+      "year": 2005,
+      "date": "2005-09-15",
+      "dateVerified": false,
+      "place": "Arlington, VA, USA",
+      "title": "First dated lecture to a Washington audience, at the Atlas Foundation",
+      "text": "Four months after he settled in Virginia, his curriculum vitae records a talk titled “Brazilian left: from victory to defeat to victory again” at the Atlas Foundation for Economic Studies in Arlington, Virginia. His English-language résumé gives the same date to a talk at the “Atlas Economic Research Foundation” in Washington D.C., and adds a second talk eight days later at Georgetown University's Center for Latin American Studies on 23 September 2005 that the Portuguese CV omits altogether. Both documents are his own; no programme, report or recording of either occasion has been found.",
+      "sources": [
+        "olavo-cv-pdf",
+        "olavo-resume-en"
+      ],
+      "threads": [
+        "politics-influence"
+      ]
+    },
+    {
+      "year": 2006,
+      "date": "2006-02-19",
+      "dateVerified": false,
+      "dateNote": "The conference is externally dated and located; his appearance on its programme rests on his own CV, whose English counterpart dates the same talk a year later.",
+      "place": "Arlington, VA, USA",
+      "title": "The São Paulo Forum thesis, delivered to the Intelligence Summit",
+      "text": "His curriculum vitae records a talk titled “Neocommunist rise: The São Paulo Forum and the Strategical Unity of the Latin-American Left” at the Intelligence Summit 2006 in Arlington, Virginia, on 19 February 2006 — the earliest dated presentation of his São Paulo Forum thesis to a United States audience that any of his own documents record. The occasion itself is independently documented: ABC News, reporting on 14 February 2006 that a set of Saddam Hussein recordings would be released there, described “a nongovernmental meeting — called Intelligence Summit 2006 — this weekend in Arlington, Va.”, which puts the conference on the weekend of 17–19 February. What is not documented anywhere outside his own paperwork is that he was on the programme. His English-language résumé dates the same talk to 19 February 2007 in Washington D.C. — one more reminder that a curriculum vitae cannot settle a question about itself.",
+      "sources": [
+        "olavo-cv-pdf",
+        "abc-saddam-tapes",
+        "olavo-resume-en"
+      ],
+      "threads": [
+        "politics-influence"
+      ]
+    },
+    {
+      "year": 2006,
+      "date": "2006-09-12",
+      "dateVerified": false,
+      "place": "Washington, DC, USA",
+      "title": "“Towards a diagnosis of the Latin American political situation”, at the America's Future Foundation",
+      "text": "The last of the three United States talks his curriculum vitae dates, and the one his two self-written curricula agree on: both place it at the America's Future Foundation in Washington D.C. on 12 September 2006. With the Atlas talk of September 2005 and the Intelligence Summit paper of February 2006 it marks the other half of the emigration — the Brazilian polemicist becoming a speaker to American audiences about Latin America — a few months before True Outspeak began broadcasting. Nothing beyond his own documents attests any of the three.",
+      "sources": [
+        "olavo-cv-pdf",
+        "olavo-resume-en"
+      ],
+      "threads": [
+        "politics-influence"
+      ]
+    },
+    {
       "year": 2006,
       "date": "2006-12-04",
       "dateVerified": true,
@@ -509,7 +594,7 @@
       "year": 2007,
       "date": "2007",
       "dateVerified": false,
-      "dateNote": "placed by what the account describes — the Jornal do Brasil column and the weekly web radio programme with listener questions — not by any date given in it",
+      "dateNote": "The year is placed by what the account describes — the Jornal do Brasil column and the weekly web radio programme with listener questions — not by any date given in it.",
       "place": "Richmond area, Virginia, USA",
       "title": "A student lives in the house, and describes the working week",
       "text": "Ítalo Marsili's account, told years later on a podcast: he arrived in his early twenties with a one-way ticket and no money, having gone bankrupt, and gave the wrong flight time — Carvalho went to the airport eight hours early, waited, went home, worked out the real arrival and came back for him. On the lot stood a large outbuilding holding the office and the library, shelved as literature, theology and philosophy. The household lived on roughly 200 dollars from the Jornal do Brasil column; Marsili says he barely ate and began smoking to fill the gap. The week had a shape: talk ran until seven in the morning and the house slept through the day; on Wednesdays Carvalho read that week's newspaper article aloud to everyone in the office and they argued about it; on Mondays Marsili sorted the listeners' questions into a file for the radio programme. Testimony, and one person's, given long after the fact — the working week it describes is corroborated by the broadcasts, the poverty is not corroborated anywhere else.",
@@ -1236,7 +1321,7 @@
       "name": "Seminário de Filosofia / Curso Online de Filosofia (COF)",
       "founded": "2008 (site); 2009 (COF)",
       "place": "Online (from Virginia, USA)",
-      "relation": "Two things under one banner, and the order matters: the Seminário de Filosofia is the in-person course, running in Brazil by 2002 and reaching São Paulo by videoconference from 2007; seminariodefilosofia.org opened in August 2008 to publish twenty years of back catalogue; the Curso Online de Filosofia is the weekly online course that began on 14 March 2009 and ran to 585 lectures. The community transcription corpus of the COF is public and is cited here by lecture number and date only. The Seminário's own founding date is not verified",
+      "relation": "Two things under one banner, and the order matters: the Seminário de Filosofia is the in-person course, running in Brazil by 2002 and reaching São Paulo by videoconference from 2007; seminariodefilosofia.org opened in August 2008 to publish twenty years of back catalogue; the Curso Online de Filosofia is the weekly online course that began on 14 March 2009 and ran to 585 lectures. The community transcription corpus of the COF is public and is cited here by lecture number and date only. The Seminário's own founding date is not verified: the earliest origin claimed for it is his own, a Rio course of March 1987 – March 1989 that his CV says continued under the seminar's name (see the chronology, 1987).",
       "sources": [
         "rafaelalmeida-cof",
         "cof-transcriptions",
@@ -1821,7 +1906,7 @@
       "title": "Olavo de Carvalho — Currículo (his own CV, PDF)",
       "url": "https://olavodecarvalho.org/wp-content/uploads/2018/07/Olavo-de-Carvalho-Curr%C3%ADculo.pdf",
       "publisher": "olavodecarvalho.org legacy uploads",
-      "publisherNote": "the author's own document; the domain root is now squatted but this file still serves — primary",
+      "publisherNote": "The author's own document, still served from his site's legacy uploads though the domain root is now squatted — primary, and layered. Its sections were revised at different times and never reconciled: the career section still describes him as a current columnist for papers he had left years before, so a present-tense sentence in it dates from whenever that paragraph was last touched, not from the file's date. Its numbering skips, it omits his first book, and it omits a prize-winning book its own prizes section names. Cite it for what he said about himself; it can never settle a question about itself.",
       "type": "official"
     },
     {
@@ -2053,6 +2138,46 @@
       "publisher": "YouTube",
       "publisherNote": "testimony — the only account in the collection from someone who lived in the household; undated, and told years afterwards",
       "type": "video"
+    },
+    {
+      "id": "lege5-decret-581-2000",
+      "title": "Decretul nr. 581/2000 privind conferirea Ordinului naţional Pentru Merit",
+      "url": "https://lege5.ro/gratuit/gi3dknbr/decretul-nr-581-2000-privind-conferirea-ordinului-national-pentru-merit",
+      "publisher": "Lege5 (Indaco), reproducing Monitorul Oficial al României, Partea I, nr. 648, 12.12.2000",
+      "publisherNote": "Romanian legal database reproducing the decree as published in the official gazette — primary text of record, naming every recipient and rank. The Chamber of Deputies' own repository carries the same decree but blocks automated access.",
+      "type": "official"
+    },
+    {
+      "id": "hotnews-decoratie",
+      "title": "Astrolog, filosof, coronasceptic: Olavo de Carvalho ar fi murit de COVID-19 / „Gurul” lui Jair Bolsonaro a fost decorat cu Ordinul Naţional Pentru Merit al României în grad de Comandor",
+      "url": "https://www.hotnews.ro/stiri-international-25328501-astrolog-filosof-coronasceptic-olavo-carvalho-murit-covid-19-mentorul-presedintelui-jair-bolsonaro-fusese-decorat-ordinul-national-pentru-merit-romaniei-grad-comandor.htm",
+      "publisher": "HotNews.ro",
+      "publisherNote": "Romanian news site, 26 January 2022 — obituary coverage that cites the decree by number and date; independent of his own documents.",
+      "type": "news"
+    },
+    {
+      "id": "valor-ggn-militares",
+      "title": "Olavo de Carvalho e Militares, de parceiros ideológicos a rivais",
+      "url": "https://jornalggn.com.br/politica/olavo-de-carvalho-e-militares-de-parceiros-ideologicos-a-rivais-por-maria-cristina-fernandes/",
+      "publisher": "Maria Cristina Fernandes, Valor Econômico (25 April 2019), republished by Jornal GGN",
+      "publisherNote": "Business-daily column republished by a left-leaning aggregator — critical perspective; the source for the minister who conferred the Medalha do Pacificador and for the letter behind it.",
+      "type": "news"
+    },
+    {
+      "id": "abc-saddam-tapes",
+      "title": "EXCLUSIVE: Saddam's Secret Tapes",
+      "url": "https://abcnews.com/Nightline/Investigation/story?id=1616996",
+      "publisher": "Brian Ross and Rhonda Schwartz, ABC News",
+      "publisherNote": "US network news, 14 February 2006 — cited here only because it dates and locates Intelligence Summit 2006 ('this weekend in Arlington, Va.'); it says nothing about Carvalho.",
+      "type": "news"
+    },
+    {
+      "id": "olavo-resume-en",
+      "title": "Olavo L. P. de Carvalho — Résumé (English, undated)",
+      "url": "https://docslib.org/doc/4932555/olavo-lp-de-carvalho",
+      "publisher": "docslib.org (document-sharing site)",
+      "publisherNote": "A second self-written curriculum, in English and in the first person ('I have delivered lectures and conducted courses…'), prepared for a US readership and circulating on a document-sharing site with no stated author, date or provenance; its content stops around 2006. Treated as another layer of his own paperwork — it disagrees with the Portuguese CV about where and when some talks happened — never as corroboration of it.",
+      "type": "official"
     }
   ],
   "philosophers": {
