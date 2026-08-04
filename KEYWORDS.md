@@ -155,3 +155,25 @@ such rather than re-running the query.
 - "Fórum Social Mundial" — 1 file in the whole COF corpus; the World Social
   Forum is essentially absent from the lectures despite the FSP's presence
   (89 files).
+
+## ASR manglings found by the corpus index (added 2026-08-04)
+
+Found while searching for the story of `O Profeta da Paz`, which returns **zero**
+across all 1,006 vaulted transcripts under its own title — the passages call it
+only "um livro sobre o Islam" or "um livro sobre a história das origens
+islâmicas". The lesson is the one already in this file, in its sharpest form yet:
+**search the claim, not the name.**
+
+| Actual | Appears in captions as | Where |
+|---|---|---|
+| **Al-Azhar** (the Cairo university) | `Universidade de Lázaro` | True Outspeak #49. Reads as a plausible Portuguese institution name, so nothing looks wrong. The correct spelling appears once in the whole COF corpus and nowhere in the video captures. |
+| **Bertrand de Jouvenel** | `Juvenel`, `Bertão de Juvenel`, `Bertão da Juvenel`, `do jogo né` | COF (unreviewed files) and the conference captions. The forename becomes a Portuguese augmentative. |
+| **Ibn Khaldun** | `Eben Khaldun`, `Ibun Kaldun`, `Weven Caldono` | COF unreviewed files; one file spells it both correctly and as `Weven Caldono`. |
+| **Idries Shah** | `Higde Schach` | The lecture where he disowns the Muhammad book for having used Shah as a source. |
+| **Maomé** (in the book's title) | `Profeta Malmé` | The same lecture. |
+| **Michel Veber** | (correct) | Not a mangling — recorded because he credits "the sense of eternity" to Veber, and a reader who assumes the term is his own will mis-attribute the doctrine. |
+
+`tools/corpus-index.py` in the archive expands queries using this table
+automatically. It is lexical, so it closes the *variant* half of the problem and
+not the *paraphrase* half: no expansion turns "O Profeta da Paz" into "um livro
+sobre o Islam".
