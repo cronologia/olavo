@@ -77,11 +77,14 @@ const TRANSLATABLE_KEYS = new Set([
   // Lane bases are prose and RENDER on the page (renderSwimlanes publishes each
   // lane's grounding), so they are translated like any other visible prose.
   'basis', 'intro',
-  // Doctrine-panel prose (doctrines.js). NOTE the deliberate omissions: the
-  // doctrine names and the layer names in `structure` are Portuguese terms of
-  // art and stay Portuguese in every locale, exactly as proper names do.
+  // Doctrine-panel prose (doctrines.js). `structure` holds the layer and self
+  // names, and they translate like any other prose: a page reads in ONE
+  // language or it reads badly. The Portuguese term of art survives in
+  // `originalTerm`, which is deliberately NOT in this set — it is glossed once
+  // beside the translated title, the way a foreign coinage is, rather than
+  // being scattered untranslated through English and Spanish sentences.
   'claim', 'origin', 'revision', 'countNote', 'lineageNote', 'caveat',
-  'sourceNote', 'where',
+  'sourceNote', 'where', 'structure', 'dateNote',
 ]);
 
 // Interface strings the compiler emits itself (everything not sourced from data).
@@ -121,6 +124,7 @@ const UI = {
     dcCount: 'On the count', dcOrigin: 'Where it comes from', dcLineage: 'Lineage',
     dcRevision: 'He revised it', dcCaveat: 'Caveat', dcCredits: 'He credits',
     dcWhere: 'Where he expounds it',
+    dcRingMid: 'twelve layers', dcRingSub: 'simultaneous', dcGround: 'the eternal I — the ground, not a fifth term',
     swIntro: 'The chronology read as parallel storylines: one row per lane, one column per decade, each cell the number of that lane’s events in that decade. An event that belongs to several storylines is counted in each, so the rows sum to more than the number of events. Select a number to jump to that decade in the chronology.',
     swLaneHeader: 'Storyline', swTotalHeader: 'Events',
     swBasesHeading: 'What each lane is grounded in',
@@ -177,6 +181,7 @@ const UI = {
     dcCount: 'Sobre el número', dcOrigin: 'De dónde viene', dcLineage: 'Filiación',
     dcRevision: 'Él lo revisó', dcCaveat: 'Salvedad', dcCredits: 'Él da crédito a',
     dcWhere: 'Dónde lo expone',
+    dcRingMid: 'doce capas', dcRingSub: 'simultáneas', dcGround: 'el Yo eterno — el fundamento, no un quinto término',
     swIntro: 'La cronología leída como relatos paralelos: una fila por franja, una columna por década, y en cada celda el número de acontecimientos de esa franja en esa década. Un acontecimiento que pertenece a varios relatos se cuenta en cada uno, de modo que las filas suman más que el total de acontecimientos. Seleccione un número para ir a esa década en la cronología.',
     swLaneHeader: 'Relato', swTotalHeader: 'Acontecimientos',
     swBasesHeading: 'En qué se funda cada franja',
@@ -233,6 +238,7 @@ const UI = {
     dcCount: 'Sobre a contagem', dcOrigin: 'De onde vem', dcLineage: 'Filiação',
     dcRevision: 'Ele a revisou', dcCaveat: 'Ressalva', dcCredits: 'Ele credita a',
     dcWhere: 'Onde a expõe',
+    dcRingMid: 'doze camadas', dcRingSub: 'simultâneas', dcGround: 'o Eu eterno — o fundamento, não um quinto termo',
     swIntro: 'A cronologia lida como narrativas paralelas: uma linha por faixa, uma coluna por década, e em cada célula o número de acontecimentos dessa faixa nessa década. Um acontecimento que pertence a várias narrativas é contado em cada uma, pelo que as linhas somam mais do que o total de acontecimentos. Selecione um número para ir a essa década na cronologia.',
     swLaneHeader: 'Narrativa', swTotalHeader: 'Acontecimentos',
     swBasesHeading: 'Em que se fundamenta cada faixa',
