@@ -488,6 +488,20 @@
    ]
   },
   {
+   "year": 2008,
+   "date": "2008-08-04",
+   "dateVerified": false,
+   "place": "Online (from Virginia, USA)",
+   "title": "seminariodefilosofia.org goes live — as an archive, not a course",
+   "text": "He opens the site on air, in the middle of the broadcast, describing it as a division of his own site. What it is for is the back catalogue: for years people had been asking for recordings and handouts of his old courses, and he says the material runs to more than twenty years of classes — some filmed, some on audio, some transcribed into apostilas, most of them never corrected by him and therefore provisional. Subscribers pay a monthly fee, five or six items are added a month, and the previous month's material moves to an archive that stays downloadable on an undertaking not to redistribute. The live course would follow seven months later. Self-testimony from a machine-transcribed broadcast, paraphrased.",
+   "sources": [
+    "olavo-true-outspeak"
+   ],
+   "threads": [
+    "philosophy-teaching"
+   ]
+  },
+  {
    "year": 2009,
    "date": "2009",
    "dateVerified": true,
@@ -1125,10 +1139,10 @@
  ],
  "organizations": [
   {
-   "name": "Curso Online de Filosofia (COF) / Seminário de Filosofia",
-   "founded": "2009",
+   "name": "Seminário de Filosofia / Curso Online de Filosofia (COF)",
+   "founded": "2008 (site); 2009 (COF)",
    "place": "Online (from Virginia, USA)",
-   "relation": "His weekly online philosophy course (585 lectures, 2009–2022) and the platform that continues his courses. The community transcription corpus of the lectures is public and is cited here by lecture number and date only; the founding date of the earlier in-person Seminário de Filosofia course is not verified",
+   "relation": "Two things under one banner, and the order matters: the Seminário de Filosofia is the in-person course, running in Brazil by 2002 and reaching São Paulo by videoconference from 2007; seminariodefilosofia.org opened in August 2008 to publish twenty years of back catalogue; the Curso Online de Filosofia is the weekly online course that began on 14 March 2009 and ran to 585 lectures. The community transcription corpus of the COF is public and is cited here by lecture number and date only. The Seminário's own founding date is not verified",
    "sources": [
     "rafaelalmeida-cof",
     "cof-transcriptions",
@@ -1276,6 +1290,15 @@
     "sources": [
      "cof-transcriptions",
      "cof-audio"
+    ]
+   },
+   {
+    "title": "The 2009 course is not where the teaching began",
+    "text": "The Curso Online de Filosofia is routinely treated as the start of his teaching, and the two names are often used for one thing. The record separates them. He was teaching courses in Brazil for more than twenty years before 2008, by his own count; the Seminário de Filosofia was meeting in person in 2002, in the same room as the recorded history-of-philosophy course and on the following day; after the 2005 emigration it reached São Paulo by videoconference from the United States, and in April 2007 he announced a session for the 18th of that month. seminariodefilosofia.org opened in August 2008 to publish the back catalogue, and the COF's first class followed on 14 March 2009 after a five-month slip. In August 2009 he still lists the Seminário and the COF as separate calls on his week. So 2009 is when the teaching was industrialised, not when it started — and the Seminário's own founding date remains unverified.",
+    "sources": [
+     "olavo-true-outspeak",
+     "olavo-video-hef",
+     "rafaelalmeida-cof"
     ]
    }
   ]
