@@ -167,9 +167,46 @@ function writeArchives(archives) {
   fs.writeFileSync(ARCHIVES_FILE, JSON.stringify(out, null, 2) + '\n');
 }
 
+/**
+ * Every reference array in the dataset, flattened.
+ *
+ * This used to read `data.references` and nothing else, which was right while
+ * a dataset had one flat citation list. `olavo` broke that: its philosopher
+ * pages carry their own `philosophers.references[]`, so 70 of its 160
+ * references were invisible here — and the run still printed "Done: 90
+ * references, N with a snapshot", which reads as full coverage of a set it had
+ * silently defined as the subset it could see. A preservation tool that
+ * under-reports its own scope is worse than one that fails loudly.
+ *
+ * A repo with extra arrays names them in the ADOPT block below.
+ */
+function collectReferences(data) {
+  const arrays = [data.references];
+  // >>> ADOPT: extra-reference-arrays
+  // The philosopher pages carry their own citation list -- 70 of this repo's
+  // 160 references. Without this line the run preserved the chronology's
+  // sources and reported "Done: 90 references" as though that were all of them.
+  arrays.push(data.philosophers && data.philosophers.references);
+  // <<< ADOPT
+  const seen = new Set();
+  const out = [];
+  for (const arr of arrays) {
+    if (!Array.isArray(arr)) continue;
+    for (const ref of arr) {
+      // Dedupe by URL: the same source may legitimately be cited from two
+      // arrays, and saving it twice wastes a Save Page Now slot against the
+      // per-run cap.
+      if (!ref || !ref.url || seen.has(ref.url)) continue;
+      seen.add(ref.url);
+      out.push(ref);
+    }
+  }
+  return out;
+}
+
 async function main() {
   const data = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
-  const references = Array.isArray(data.references) ? data.references : [];
+  const references = collectReferences(data);
   const archives = loadArchives();
 
   let saves = 0;

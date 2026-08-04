@@ -5342,16 +5342,29 @@
       },
       {
         "id": "patamares",
-        "claim": "Philosophy advances by landings rather than by schools: certain things, once seen, cannot be unseen, and reasoning below them is not disagreement but regression. Aristotle's distinction between form and matter is his standing example. The claim is normative, not historical — he says nobody has the right to argue beneath a landing, while granting that later work may fundamentally alter what stands on it.",
+        "claim": "Philosophy advances by landings rather than by schools: certain things, once seen, cannot be unseen, and reasoning below them is not disagreement but regression. Aristotle's distinction between form and matter is his standing example. The claim is normative, not historical — nobody has the right to argue beneath a landing. And a landing that is superseded is not thereby cancelled: climbing to a higher one, he says, in no way denies the value or the present importance of those below it, which he maintains even for a model whose founding premise he has just called plainly false.",
         "structure": [
           "The metaxis",
-          "Form and matter"
+          "Form and matter",
+          "Expository histories of philosophy",
+          "The Hegelian model",
+          "'Scientific' histories of philosophy"
         ],
         "diagram": "steps",
-        "caveat": "Asked in class for the list of landings, he agreed it would be worth having and did not produce one. The corpus records the criterion and the examples, not the inventory.",
+        "caveat": "Asked in class for the list of landings, he agreed it would be worth having and did not produce one. No general inventory exists — but for one field it does: in the opening session of the 2002 course he names the three models of the history of philosophy, rejects each, and then enumerates what each nonetheless makes it impermissible to ignore. That is the doctrine applied to a whole domain rather than asserted, and it is the only such application in the corpus.",
         "expositions": [
           {
-            "where": "Curso História Essencial da Filosofia, session 3 — 'my famous theory of landings'",
+            "where": "Curso História Essencial da Filosofia, session 5 — the general statement, with named landings: Anaximander's apeiron, the argument of the Meno, and the distinction between speaking and knowing",
+            "date": "2002",
+            "dateVerified": false
+          },
+          {
+            "where": "Curso História Essencial da Filosofia, session 3 — 'my famous theory of landings', where he names it as his own",
+            "date": "2002",
+            "dateVerified": false
+          },
+          {
+            "where": "Curso História Essencial da Filosofia, session 1 — the doctrine applied to the historiography of philosophy itself",
             "date": "2002",
             "dateVerified": false
           },
@@ -5551,7 +5564,7 @@
         ],
         "diagram": "triad",
         "origin": "He credits each constant to someone else and claims only the assembly: the first to Malthus, the second to the geographer Ellsworth Huntington in The Mainsprings of Civilization, the third to Bertrand de Jouvenel in Du Pouvoir. He is emphatic that the Huntington in question is not Samuel Huntington of the clash of civilisations, whom he takes to be a descendant.",
-        "lineageNote": "Jouvenel is the one he keeps returning to, and he treats Du Pouvoir as the standing answer to Benedetto Croce's history as the history of liberty: over the last four or five centuries state authority always comes out strengthened and the citizen below always weakened, and always on the pretext of democratising. Every levelling, on this reading, produces a worse hierarchy, because whoever distributes power is by that fact above everyone it is distributed to.",
+        "lineageNote": "Jouvenel is the one he keeps returning to, and he treats Du Pouvoir as the standing answer to Benedetto Croce's history as the history of liberty: over the last four or five centuries state authority always comes out strengthened and the citizen below always weakened, and always on the pretext of democratising. Every levelling, on this reading, produces a worse hierarchy, because whoever distributes power is by that fact above everyone it is distributed to. The third constant is also where a second doctrine starts rather than ends: the growth of power is the premise from which he builds the difference of power as constitutive of the species, which is its own entry here. The credit for the growth of power belongs to this one.",
         "caveat": "He is elsewhere severe about exactly this kind of search. Civilisation, he says, is a figure of speech and not a scientific concept, so quantifying over civilisations is measurement applied to metaphor; and he states flatly that he believes no total interpretation of the historical process is possible. The constants are therefore offered as observed regularities of the human record, not as a law that explains it — a distinction he keeps, and one that the entry keeps with him.",
         "expositions": [
           {
@@ -5631,6 +5644,108 @@
             "dateVerified": true
           }
         ]
+      },
+      {
+        "id": "filosofia-como-projeto",
+        "title": "Philosophy as a project",
+        "originalTerm": "A filosofia como projeto",
+        "claim": "Philosophy was not born finished — and he argues that everything else follows from saying so. What is not born finished cannot have appeared as a completed structure, only as a project or an ambition to be realised; and its founders must have known it was one, or philosophical discussion could never have taken the form it does, validating and invalidating doctrines piecemeal where a religion would call the same move heresy. From which he draws a single conclusion about method: there is only one scientifically valid way to tell the history of philosophy, as the succession of stages in realising an original project — and of the attempts to alter, impugn or replace it. He presents the three principles as apodictic rather than empirical, established before opening any history of philosophy rather than inferred from one.",
+        "structure": [
+          "Philosophy was not born finished",
+          "Therefore it appeared as a project",
+          "Its founders knew it was one",
+          "No project transmits itself automatically",
+          "Heirs are not bound to keep it intact",
+          "Even faithful heirs may be forced off course"
+        ],
+        "caveat": "He claims the method satisfies the Hegelian demand for unity of movement without Hegel's error of imposing unity on events that have none — because where the facts yield only the unity of a problem, of a confusion or of an enigma, that is what gets recorded. Whether it escapes the objection is not something this project adjudicates.",
+        "expositions": [
+          {
+            "where": "Curso História Essencial da Filosofia, session 1 — the three principles, the consequence for method, and the three conditions of any human project",
+            "date": "2002",
+            "dateVerified": false
+          }
+        ]
+      },
+      {
+        "id": "anti-historicismo",
+        "title": "Against 'a man of his time'",
+        "originalTerm": "O senso da eternidade",
+        "claim": "Calling someone a man of his time he judges a very great piece of nonsense — and says the person who says it believes he is doing history while doing the exact opposite of history. Nobody can be exclusively of his own time; if everyone were, there would be no history at all. His case is Brentano, a nineteenth-century philosopher whose own century must be inferred from indirect signs while Aristotle is everywhere in him: an influence two thousand years old outweighing a contemporary one. What makes history possible is instead a capacity he calls the sense of eternity, or of simultaneity — being able to put one's head outside one's own time and judge it whole, the same faculty by which a person judges his own life and says he took a wrong turn. Without it we are a drop of water in a river, unable to see where it is going.",
+        "structure": [
+          "No one is only of his own time",
+          "Absolute historicism annuls history",
+          "The sense of eternity",
+          "Dangerous phrases work like viruses"
+        ],
+        "caveat": "He notes that the phrase is never used of Stalin or Hitler, because calling them men of their time would mean conceding that we produced them, and nobody wants that responsibility. The entry records the observation as his.",
+        "expositions": [
+          {
+            "where": "Curso História Essencial da Filosofia, session 1 — including the request that his future biographers never write it of him, and the reductio that if only history exists then history does not",
+            "date": "2002",
+            "dateVerified": false
+          }
+        ]
+      },
+      {
+        "id": "teratologia-intelectual",
+        "title": "Intellectual teratology",
+        "originalTerm": "A teratologia intelectual",
+        "claim": "His own coinage, and he introduces it as one: the study of failed alterations to the philosophical project — failed not through accident or incompetence, but because the statement of the alteration already announced something impossible to do, and whoever made it did not notice. His worked example is the historicism he has just dissected: a doctrine that saws through the branch it is sitting on, or cuts off its own feet to walk better.",
+        "structure": [
+          "An alteration to the project",
+          "Impossible in its own statement",
+          "Unnoticed by whoever made it"
+        ],
+        "expositions": [
+          {
+            "where": "Curso História Essencial da Filosofia, session 1 — the term introduced, with self-refuting historicism as the case",
+            "date": "2002",
+            "dateVerified": false
+          }
+        ]
+      },
+      {
+        "id": "fenomenologia-do-poder",
+        "title": "The difference of power",
+        "originalTerm": "A fenomenologia do poder / a diferença de poder",
+        "claim": "That the immeasurable difference of power between members of the species is not a political arrangement but a constitutive element of the species itself. He reaches it by joining two authors: Jouvenel's finding in Du Pouvoir that power always grows, and Ibn Khaldun on prophetic authority, which he says three times is what put him on the line of enquiry. He then reports going to look for the same thing in animals, and concludes from the contrast that the maximum of violence one human being does to another is always statal — no criminal, gang or murderer kills as many as a government — so that the juridical ordering of society tracks the increase in killing, modern democracies included.",
+        "structure": [
+          "Power always grows (Jouvenel)",
+          "Prophetic authority (Ibn Khaldun)",
+          "The difference of power is constitutive of the species",
+          "The maximum of violence is always statal"
+        ],
+        "diagram": "chain",
+        "origin": "He tells it as a moment of discovery, and calls it o estalo — the click. Reading Jouvenel on the growth of power alongside Ibn Khaldun on prophetic authority, the two struck together and gave him the constitutive claim. He arrives at the same conclusion by a second and independent route elsewhere, through Raskolnikov rather than through Jouvenel, and there names it as his own: one of the themes of his political philosophy, the theme of the difference of power.",
+        "credits": [
+          "Bertrand de Jouvenel, Du Pouvoir",
+          "Ibn Khaldun"
+        ],
+        "caveat": "Two things this entry records as his and does not adjudicate. The first is a factual claim about animals: that zoologists know of only some twelve hundred species in which a member kills another of the same species, that gorillas settle by display and wolves by the position of the tail, and that homo homini lupus therefore libels the wolf. The second is a qualification he attaches to the conclusion and which is easy to drop: the difference between democracy and dictatorship on this measure he calls very relative and quantitative — real, but not deep enough to mark a difference of essence.",
+        "expositions": [
+          {
+            "where": "course lecture 70 — the discovery narrative end to end: Jouvenel, Ibn Khaldun, the click, the zoology, and the statal conclusion",
+            "date": "2010-08-14",
+            "dateVerified": true
+          },
+          {
+            "where": "course lecture 111 — the difference of power as a structural and permanent component of human life",
+            "date": "2011-06-25",
+            "dateVerified": true
+          },
+          {
+            "where": "course lecture 79 — the most systematic statement: power as capacity for action, and two arguments that the difference is unabolishable",
+            "date": "2010-10-16",
+            "dateVerified": false
+          },
+          {
+            "where": "course lecture 115 — names it as one of the themes of his own political philosophy, reached through Raskolnikov",
+            "date": "2011-06-23",
+            "dateVerified": false
+          }
+        ],
+        "countNote": "Lectures 79 and 115 both carry unresolved date disagreements in the corpus — 79's header reads 2012 against an index, filenames and a surrounding sequence that all support 2010 — so both are entered unverified. The chain runs end to end only in lecture 70; the zoology, the licence to kill and the statal conclusion appear in no other file."
       }
     ]
   },
