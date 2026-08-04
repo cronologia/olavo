@@ -4254,6 +4254,154 @@
           "sep-dante",
           "brit-dante"
         ]
+      },
+      {
+        "slug": "filon-de-alexandria",
+        "name": "Fílon de Alexandria",
+        "fullName": "Fílon de Alexandria (Philo Judaeus)",
+        "dates": "c. 25–10 BCE – c. 45–50 CE",
+        "place": "Alexandria, Roman Egypt",
+        "summary": "Hellenistic Jewish philosopher of Alexandria, who read the Pentateuch allegorically and in Greek philosophical terms, and whose Logos became a load-bearing idea for later Christian theology. Almost nothing in his life is securely dated: one embassy anchors the whole biography, and the standard references disagree about his birth by thirty years.",
+        "timeline": [
+          {
+            "when": "c. 25–10 BCE",
+            "approx": true,
+            "label": "Born in Alexandria. No source claims precision and the most recent decline to give a year at all: the Catholic Encyclopedia says c. 25 BCE, the Internet Encyclopedia of Philosophy c. 20, Britannica 15–10, and the Stanford Encyclopedia states that it is impossible to date and that the consensus is only that he lived between the end of the first century BCE and the middle of the first century CE. Every one of those figures is back-calculated from a single detail — that he describes himself as an old man at the time of the embassy.",
+            "sources": [
+              "sep-philo",
+              "brit-philo",
+              "iep-philo",
+              "cathen-philo"
+            ]
+          },
+          {
+            "when": "—",
+            "label": "Born into the wealthiest Jewish family in Alexandria. His brother Alexander held the office of alabarch, a senior fiscal post carrying citizenship privileges most Alexandrian Jews were denied. His nephew Tiberius Julius Alexander left Judaism, became prefect of Egypt and served as Titus's second-in-command at the siege of Jerusalem in 70 CE.",
+            "sources": [
+              "sep-philo",
+              "brit-philo"
+            ]
+          },
+          {
+            "when": "38 CE",
+            "label": "Riots against the Jews of Alexandria, which the Stanford Encyclopedia calls the first major pogrom in Jewish history: imperial images installed in the synagogues, the Jewish population confined to the Delta district, members of the council scourged. Philo's own account is In Flaccum. The reconstruction is contested — Gambetti argues the trigger was the enforcement of residential decrees rather than religious hostility, which her reviewer disputes on the ground that the Delta district is never named in Philo's text.",
+            "sources": [
+              "sep-philo",
+              "bmcr-gambetti-riots"
+            ]
+          },
+          {
+            "when": "38/39–40 CE",
+            "label": "THE ONE SECURELY DATED EVENT OF HIS LIFE. He goes to Rome at the head of the Alexandrian Jewish embassy to Gaius (Caligula), and is prevented from putting his case. Britannica states it plainly as the single identifiable event; Josephus independently attests his leading of the delegation, and Eusebius calls him the chief of the embassy. Everything else in this timeline — his birth, his death, the order in which he wrote — is positioned relative to it.",
+            "sources": [
+              "brit-philo",
+              "sep-philo",
+              "eusebius-he-philo"
+            ]
+          },
+          {
+            "when": "24 January 41 CE",
+            "label": "Gaius is assassinated. The embassy was one book of a five-book work, of which only In Flaccum and the Legatio ad Gaium survive; the lost 'palinode' told of Gaius's fall and so must have been written after this date.",
+            "sources": [
+              "sep-philo",
+              "eusebius-he-philo"
+            ]
+          },
+          {
+            "when": "c. 45–50 CE",
+            "approx": true,
+            "label": "Death, undated. Britannica gives 45–50; the Internet Encyclopedia of Philosophy gives c. 40, which cannot be right if he wrote about the fall of Gaius; the Stanford Encyclopedia gives only the middle of the first century.",
+            "sources": [
+              "brit-philo",
+              "iep-philo",
+              "sep-philo"
+            ]
+          },
+          {
+            "when": "—",
+            "label": "The corpus is conventionally divided into five groups — the Allegorical Commentary (39 treatises), the Exposition of the Law (12), the Questions and Answers on Genesis and Exodus (6 surviving of an original 12), four historical and apologetic works, and five philosophical ones. The division is Massebiau's and Cohn's, of 1889 and 1899, not Philo's own.",
+            "sources": [
+              "sep-philo"
+            ]
+          },
+          {
+            "when": "—",
+            "label": "No agreed chronology of the works existed until 2018. Niehoff then moved De opificio mundi from the head of the corpus to the late work and split the writing at the Roman embassy: an early Alexandrian and Platonic phase in the Allegorical Commentary, a later Stoic and Roman one in the Exposition. Her reviewer calls the evidence very strong while suggesting the phases may be less cleanly separable than the argument needs.",
+            "sources": [
+              "sep-philo",
+              "bmcr-niehoff-philo"
+            ]
+          },
+          {
+            "when": "233 CE",
+            "label": "The corpus reaches Caesarea, the city from which it was transmitted. Its survival is the paradox the Stanford Encyclopedia states outright: his work was ignored by Jews and saved by Christians, some of whom believed he had been one. Eusebius reports the legend that he met Peter in Rome and reads his account of the Therapeutae as a description of Christian ascetics. Runia's account of transmission through Origen's Caesarean volumes is standard; his reviewer thinks the route was probably less exclusive than that.",
+            "sources": [
+              "sep-philo",
+              "eusebius-he-philo",
+              "bmcr-runia-philo"
+            ]
+          }
+        ],
+        "readings": [
+          {
+            "claim": "He puts Philo at the head of allegorical interpretation and says a good part of the technique was already there before Christianity — Philo working only from the Old Testament and the Greek material, with no contact with Christianity that his writings show. Against the charge that the readings are artificial, a contrivance to make two things fit, his answer is that the first person to do anything never does it properly: the technique had to be deepened, criticised and elaborated, and full mastery of it appears only with Hugh of St Victor and Aquinas.",
+            "where": "Curso História Essencial da Filosofia, session 08 — the advent of Christianity",
+            "date": "2002",
+            "dateVerified": false
+          },
+          {
+            "claim": "He dates Philo to roughly forty years before Christ and forty after — which is earlier than any of the standard references, whose range for the birth runs from 25 to 10 BCE. Recorded as his figure, not corrected in his mouth.",
+            "where": "Curso História Essencial da Filosofia, session 08",
+            "date": "2002",
+            "dateVerified": false
+          },
+          {
+            "claim": "Historians with good philosophical training but no command of symbolic language, he says, see contradictions in Philo that are not there — for instance the charge that he confuses the angelic hierarchies with the hierarchy of ideas. On his reading these are not rival theories: the eternal ideas are the content of the divine intelligence, the plan of creation, while the angelic hierarchies are the mode in which divine action operates. The plan and the method of building are different things.",
+            "where": "Curso História Essencial da Filosofia, session 08",
+            "date": "2002",
+            "dateVerified": false
+          },
+          {
+            "claim": "He credits Philo with explicitly identifying Plato's supreme good with Aristotle's unmoved first mover — not two antagonistic principles but one, described in moral language and in metaphysical language. He treats this as a real philosophical achievement rather than a syncretism.",
+            "where": "Curso História Essencial da Filosofia, session 08",
+            "date": "2002",
+            "dateVerified": false
+          },
+          {
+            "claim": "Why a great philosopher appears in a period he regards as one of philosophical decadence: Philo belonged to another community and so was spared the collective disorientation that followed the fall of the polis — he had the Law of Moses under his arm — while holding a problem that could actually be posed and worked, the relation between Jewish and Greek wisdom.",
+            "where": "Curso História Essencial da Filosofia, session 08",
+            "date": "2002",
+            "dateVerified": false
+          },
+          {
+            "claim": "On Philo's claim that the Jewish tradition came first, he splits the question. Read historically it is simply wrong — there is no evidence any disciple of Moses taught in Greece, and he says so flatly. Read as ontological priority it is not absurd: the knowledge of God is prior to the knowledge of sensible reality, so a tradition concentrated on God holds the rest implicitly, compacted in mythopoetic language.",
+            "where": "Curso História Essencial da Filosofia, session 08",
+            "date": "2002",
+            "dateVerified": false
+          },
+          {
+            "claim": "The criticism is as sharp as the praise, and this entry keeps both. Philo did not read Hebrew and knew the Mosaic doctrine only through the Septuagint, so the Judaism he defends is, in his phrase, somewhat doubtful — a philosopher defending what was left of Judaism in his own head rather than an authorised spokesman for its orthodoxy. His grasp of the Greek philosophers he judges deficient too: Philo mixes Stoics with Platonists and attributes to one what belongs to the other.",
+            "where": "Curso História Essencial da Filosofia, session 08",
+            "date": "2002",
+            "dateVerified": false
+          },
+          {
+            "claim": "He makes Philo the model for a problem that recurs inside Christianity: Clement of Alexandria saw between Greek philosophy and the new revelation the same link of continuity Philo had seen between the old Jewish revelation and Greek philosophy — philosophy as the tutor that leads to Christ. He adds that for a situation like Philo's to arise within Christianity, a great deal of time had to pass first, since the doctrine was still rudimentary and the Greco-Roman legacy not yet sufficiently known.",
+            "where": "Curso História Essencial da Filosofia, session 08",
+            "date": "2002",
+            "dateVerified": false
+          }
+        ],
+        "sources": [
+          "sep-philo",
+          "brit-philo",
+          "iep-philo",
+          "cathen-philo",
+          "eusebius-he-philo",
+          "bmcr-niehoff-philo",
+          "bmcr-gambetti-riots",
+          "bmcr-runia-philo"
+        ]
       }
     ],
     "references": [
@@ -4690,6 +4838,62 @@
         "url": "https://www.britannica.com/biography/Dante-Alighieri",
         "publisher": "Encyclopaedia Britannica",
         "type": "encyclopedia"
+      },
+      {
+        "id": "sep-philo",
+        "title": "Philo of Alexandria",
+        "url": "https://plato.stanford.edu/entries/philo/",
+        "publisher": "Stanford Encyclopedia of Philosophy",
+        "type": "encyclopedia"
+      },
+      {
+        "id": "iep-philo",
+        "title": "Philo of Alexandria (c. 20 B.C.E.—40 C.E.)",
+        "url": "https://iep.utm.edu/philo/",
+        "publisher": "Internet Encyclopedia of Philosophy",
+        "type": "encyclopedia"
+      },
+      {
+        "id": "brit-philo",
+        "title": "Philo Judaeus",
+        "url": "https://www.britannica.com/biography/Philo-Judaeus",
+        "publisher": "Encyclopædia Britannica",
+        "type": "encyclopedia"
+      },
+      {
+        "id": "cathen-philo",
+        "title": "Émile Bréhier, 'Philo Judaeus'",
+        "url": "https://www.newadvent.org/cathen/12023a.htm",
+        "publisher": "The Catholic Encyclopedia, vol. 12 (1911)",
+        "type": "encyclopedia"
+      },
+      {
+        "id": "bmcr-niehoff-philo",
+        "title": "Gretchen Reydams-Schils, review of Maren R. Niehoff, Philo of Alexandria: An Intellectual Biography (Yale, 2018)",
+        "url": "https://bmcr.brynmawr.edu/2018/2018.05.36/",
+        "publisher": "Bryn Mawr Classical Review 2018.05.36",
+        "type": "academic"
+      },
+      {
+        "id": "bmcr-gambetti-riots",
+        "title": "Torrey Seland, review of Sandra Gambetti, The Alexandrian Riots of 38 C.E. (Brill, 2009)",
+        "url": "https://bmcr.brynmawr.edu/2010/2010.12.63/",
+        "publisher": "Bryn Mawr Classical Review 2010.12.63",
+        "type": "academic"
+      },
+      {
+        "id": "bmcr-runia-philo",
+        "title": "Allen Kerkeslager, review of David T. Runia, Philo in Early Christian Literature: A Survey (Van Gorcum/Fortress, 1993)",
+        "url": "https://bmcr.brynmawr.edu/1995/1995.03.16/",
+        "publisher": "Bryn Mawr Classical Review 1995.03.16",
+        "type": "academic"
+      },
+      {
+        "id": "eusebius-he-philo",
+        "title": "Eusebius, Historia ecclesiastica II.4, 5, 17, 18",
+        "url": "https://www.newadvent.org/fathers/250102.htm",
+        "publisher": "Nicene and Post-Nicene Fathers, ser. 2 vol. 1 (trans. A. C. McGiffert)",
+        "type": "primary"
       }
     ]
   },

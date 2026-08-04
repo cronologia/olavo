@@ -441,4 +441,25 @@
     <xhtml:link rel="alternate" hreflang="pt" href="https://cronologia.github.io/olavo/pt/philosophers/dante.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cronologia.github.io/olavo/en/philosophers/dante.html"/>
   </url>
+  <url>
+    <loc>https://cronologia.github.io/olavo/en/philosophers/filon-de-alexandria.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cronologia.github.io/olavo/en/philosophers/filon-de-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cronologia.github.io/olavo/es/philosophers/filon-de-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cronologia.github.io/olavo/pt/philosophers/filon-de-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cronologia.github.io/olavo/en/philosophers/filon-de-alexandria.html"/>
+  </url>
+  <url>
+    <loc>https://cronologia.github.io/olavo/es/philosophers/filon-de-alexandria.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cronologia.github.io/olavo/en/philosophers/filon-de-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cronologia.github.io/olavo/es/philosophers/filon-de-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cronologia.github.io/olavo/pt/philosophers/filon-de-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cronologia.github.io/olavo/en/philosophers/filon-de-alexandria.html"/>
+  </url>
+  <url>
+    <loc>https://cronologia.github.io/olavo/pt/philosophers/filon-de-alexandria.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cronologia.github.io/olavo/en/philosophers/filon-de-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cronologia.github.io/olavo/es/philosophers/filon-de-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cronologia.github.io/olavo/pt/philosophers/filon-de-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cronologia.github.io/olavo/en/philosophers/filon-de-alexandria.html"/>
+  </url>
 </urlset>
