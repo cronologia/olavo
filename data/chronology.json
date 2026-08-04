@@ -4675,28 +4675,92 @@
    },
    {
     "id": "imbecil-coletivo",
-    "claim": "His most cited coinage, and by his own account not an insult about intelligence. The collective imbecile is not made of imbeciles: it is normal and sometimes very able people who, out of professional solidarity or political convenience, adopt habits of language that stop them thinking, and who make one another stupid by doing it together. The juvenile imbecile is the same mechanism in its adolescent form — the herd spirit, the need to be accepted by the group, brave towards parents who love them and submissive towards peers who do not.",
-    "countNote": "The juvenile imbecile is not an age. He is explicit that they are sixty and seventy years old, and that the essay describes a condition people carry into adulthood rather than a phase they leave.",
-    "caveat": "He never calls either a theory, and neither is presented as one here: the collective imbecile is a book of collected examples of Brazilian intellectual life, and the juvenile imbecile is the opening essay of a later collection. They are in this panel because he defines the mechanism explicitly and returns to it as a concept, not because he classed them with his philosophical work.",
+    "claim": "His most cited coinage, and by his own account not an insult about intelligence. The collective imbecile is not made of imbeciles: it is normal and sometimes very able people who, out of professional solidarity or political convenience, adopt habits of language that stop them thinking, and who make one another stupid by doing it together.",
+    "caveat": "He never calls it a theory, and it is not presented as one here: the book is a collection of examples from Brazilian intellectual life, gathered from the late 1980s onward. It is in this panel because he defines the mechanism explicitly and returns to it as a concept.",
     "expositions": [
      {
       "where": "course lecture 10 — the mechanism defined",
       "date": "2009-06-13",
       "dateVerified": true
-     },
+     }
+    ],
+    "title": "The collective imbecile",
+    "originalTerm": "O imbecil coletivo"
+   },
+   {
+    "id": "imbecil-juvenil",
+    "claim": "An observation rather than a theory, and one his readers took up as a working category: the adolescent who believes he is rebelling is aiming at the weakest authority available — parents who love him and will do anything for him — while submitting completely to the strongest, the peers who will not. He puts the mechanism underneath it as a neurotic need for affection that produces group dependence, and says the political and moral language such a person uses is decoration over a much cruder motive.",
+    "countNote": "It is not an age. He is explicit that juvenile imbeciles are sixty and seventy years old: the essay describes a condition people carry into old age, not a phase they leave.",
+    "origin": "A short article — he says he compressed the whole thing into a page and a half — published on his own site and later placed first in O Mínimo que Você Precisa Saber para Não Ser um Idiota (2013). He cites it in class the way one cites a reference, three times across four years, rather than re-explaining it.",
+    "lineageNote": "He connects it to the American literature on peer pressure, which he says runs to thousands of books there and nothing at all in Brazil. It is also the illustration he reaches for when defining existential contradiction.",
+    "caveat": "He never calls it a theory, and it is not one here. It earns its place as a described observation with an unusually clear trace of uptake: students bring it back to him unprompted across the whole run of the course — a parent asking how to keep small children from becoming juvenile imbeciles, a student connecting it to his exchange with the theologian Carlos Josaphat — using the phrase as a category rather than as a title.",
+    "expositions": [
      {
-      "where": "course lecture 224 — the launch conference, on the juvenile imbecile",
-      "date": "2013-10-19",
+      "where": "course lecture 4 — peer pressure, citing his own article",
+      "date": "2009-04-18",
       "dateVerified": true
      },
      {
-      "where": "course lecture 229 — linking it to what he calls existential contradiction",
+      "where": "course lecture 80 — a student connects it to the Josaphat dialogue",
+      "date": "2010-10-23",
+      "dateVerified": true
+     },
+     {
+      "where": "course lecture 221 — a parent asks how to prevent it",
+      "date": "2013-09-21",
+      "dateVerified": true
+     },
+     {
+      "where": "course lecture 224 — the launch conference, on the neurotic need for affection",
+      "date": "2013-10-19",
+      "dateVerified": true
+     }
+    ],
+    "title": "The juvenile imbecile",
+    "originalTerm": "O imbecil juvenil"
+   },
+   {
+    "id": "contradicao-existencial",
+    "claim": "A contradiction not between two statements but inside a life: someone whose existence rests on an authority he is simultaneously trying to undermine — which, he argues, means the undermining is not fully serious, because the attack presupposes what it attacks. He sets it against merely logical contradiction, which he says any author will commit by inattention and which it is adolescent to go hunting for.",
+    "lineageNote": "His illustration is the juvenile imbecile: the boy who is brave towards the parents who love him and subservient to the peer group that does not.",
+    "expositions": [
+     {
+      "where": "course lecture 229 — the definition, against logical contradiction",
       "date": "2013-11-30",
       "dateVerified": true
      }
     ],
-    "title": "The collective imbecile, and the juvenile imbecile",
-    "originalTerm": "O imbecil coletivo / o imbecil juvenil"
+    "title": "Existential contradiction",
+    "originalTerm": "A contradição existencial"
+   },
+   {
+    "id": "direito-como-garantia",
+    "claim": "His position in philosophy of law: that law is to be understood as guarantee — a limit protecting the person — rather than as a command issued by whoever holds power. He treats it as following from the four discourses, since what a legal text can establish depends on the kind of discourse it is.",
+    "origin": "Set out in a course handout of his, 'O que é o direito', which he never developed into a book of his own.",
+    "lineageNote": "The most externally attested item in this panel, and the only one whose development is somebody else's: Luiz Vergílio Dalla-Rosa built it into a doctoral thesis and a published book, O Direito como garantia: pressupostos de uma teoria constitucional (América Jurídica, 2002). He describes the thesis as departing from his handout and as his own position deepened by another hand.",
+    "caveat": "The claim of paternity is his. This project has not read the Dalla-Rosa volume and does not adjudicate how much of it is his; the attribution is recorded as his statement, not as a finding.",
+    "credits": [
+     "Aristotle"
+    ],
+    "expositions": [
+     {
+      "where": "True Outspeak, episode 99 — naming the thesis and its publisher",
+      "date": "2008-12-08",
+      "dateVerified": false
+     },
+     {
+      "where": "course lecture 186 — correcting which of Dalla-Rosa's books it is",
+      "date": "2013-01-05",
+      "dateVerified": true
+     },
+     {
+      "where": "course lecture 452 — 'a thesis of mine that he deepened'",
+      "dateNote": "undated in the corpus",
+      "dateVerified": false
+     }
+    ],
+    "title": "Law as guarantee",
+    "originalTerm": "O direito como garantia"
    }
   ]
  }
