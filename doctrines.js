@@ -139,6 +139,68 @@ ${nodes.join('\n')}
   </svg>`;
 }
 
+/** Three nodes on a triangle, mutually joined — no first, no last.
+ *
+ * Two doctrines need this shape and would be misrepresented by any other. The
+ * three projects of global domination are RIVALS of comparable weight that he
+ * says sometimes ally and sometimes fight; ordering or stacking them would
+ * assert a hierarchy, and a winner, that he explicitly says nobody can call.
+ * The triple intuition is the opposite case — not three things at all, but one
+ * act with three inseparable aspects — so when a hub label is supplied the
+ * centre carries it and the edges read as internal rather than as rivalry.
+ *
+ * Undirected edges in both readings: mutual, not sequential. Sequence lives in
+ * the chain, and giving it to either of these would be the same category error
+ * a staircase would be for the twelve layers.
+ */
+function renderTriad(names, esc, t, hubLabel) {
+  const cx = 230, cy = 148, r = 92;
+  const pos = names.map((_, i) => {
+    const a = -Math.PI / 2 + (2 * Math.PI * i) / names.length;
+    return { x: cx + r * Math.cos(a), y: cy + r * Math.sin(a) };
+  });
+  const edges = [];
+  for (let i = 0; i < pos.length; i++) {
+    for (let j = i + 1; j < pos.length; j++) {
+      edges.push(`      <line class="dc-triad-edge" x1="${pos[i].x.toFixed(1)}" y1="${pos[i].y.toFixed(1)}" x2="${pos[j].x.toFixed(1)}" y2="${pos[j].y.toFixed(1)}" />`);
+    }
+  }
+  const R = 50;
+  const nodes = names.map((name, i) => {
+    const { x, y } = pos[i];
+    // Greedy wrap to a character budget rather than splitting the word list in
+    // half: "The conditions of the act" halves into "The conditions" / "of the
+    // act", and the first line runs straight out of the disc. Three lines are
+    // allowed, and the type drops a step when a label needs them.
+    const lines = [];
+    for (const w of name.split(' ')) {
+      if (lines.length && (lines[lines.length - 1] + ' ' + w).length <= 12) lines[lines.length - 1] += ' ' + w;
+      else lines.push(w);
+    }
+    const lead = lines.length > 2 ? 12 : 13;
+    const dy = 4 - ((lines.length - 1) * lead) / 2;
+    const cls = lines.length > 2 ? ' dc-triad-tight' : '';
+    return `      <g class="dc-triad-node${cls}">
+        <circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${R}" />
+${lines.map((l, k) => `        <text x="${x.toFixed(1)}" y="${(y + dy + k * lead).toFixed(1)}">${esc(l)}</text>`).join('\n')}
+      </g>`;
+  });
+  // The hub sits on the centroid, which is also where the three edges cross —
+  // so it needs a disc behind it or an edge runs through the words.
+  const hub = hubLabel
+    ? `      <circle class="dc-triad-hubdot" cx="${cx}" cy="${cy}" r="30" />
+      <text class="dc-triad-hub" x="${cx}" y="${cy + 4}">${esc(hubLabel)}</text>`
+    : '';
+  const alt = hubLabel
+    ? `${t('dcTriadOneAlt', 'One act with three inseparable aspects')}: ${names.join('; ')}`
+    : `${t('dcTriadAlt', 'Three rivals of comparable weight, mutually engaged, in no order')}: ${names.join('; ')}`;
+  return `<svg class="dc-triad" viewBox="0 0 460 296" role="img" aria-label="${esc(alt)}">
+${edges.join('\n')}
+${hub}
+${nodes.join('\n')}
+  </svg>`;
+}
+
 /** Nested frames: three functions around a substantial self, on a ground. */
 function renderNest(names, esc, groundLabel) {
   const rows = names.map((name, i) => {
@@ -195,6 +257,8 @@ function renderDoctrinesSection(doctrines, ui, helpers) {
       const kind = it.diagram || (it.structure.length === 12 ? 'ring' : 'nest');
       if (kind === 'ring') bits.push(renderRing(it.structure, esc, t));
       else if (kind === 'chain') bits.push(renderChain(it.structure, esc, t));
+      else if (kind === 'triad') bits.push(renderTriad(it.structure, esc, t, null));
+      else if (kind === 'triad-one') bits.push(renderTriad(it.structure, esc, t, t('dcTriadOne', 'one act')));
       else bits.push(renderNest(it.structure, esc, t('dcGround', 'the eternal I — the ground, not a fifth term')));
     }
     if (it.countNote) {
@@ -239,4 +303,4 @@ ${bits.join('\n')}
 </section>`;
 }
 
-module.exports = { getDoctrines, renderDoctrinesSection, renderRing, renderNest, renderChain };
+module.exports = { getDoctrines, renderDoctrinesSection, renderRing, renderNest, renderChain, renderTriad };
