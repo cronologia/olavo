@@ -49,9 +49,13 @@
  *   contrast  "not this, but that" — two readings, one struck through
  *   inversions  pairs flipped end for end
  *   selfloop  something resting on what it is trying to destroy
+ *   split     one statement, two readings, opposite verdicts — and an open branch
  *
- * One doctrine deliberately has NO diagram. See `contraditoria-ambigua`: no
- * developed statement of it survives, so any shape would be invention.
+ * `split` is the one shape that draws a doctrine's EXAMPLES rather than the
+ * doctrine: the general statement of the ambiguous contradictory is lost, so
+ * the diagram shows the worked cases and leaves the generalisation as a dashed
+ * branch going nowhere. Where even that is not available, a doctrine gets no
+ * diagram; the entry then has to say why.
  */
 
 /** The dataset's optional key; null when absent. */
@@ -361,6 +365,38 @@ ${textBlock(wrapTo(top, 26), 230, 50, esc, 14, 'dc-selfloop-toplabel')}
   </svg>`;
 }
 
+/** One statement, two readings, opposite verdicts — and an open branch.
+ *
+ * The test of the ambiguous contradictory. This shape depicts the EXAMPLES he
+ * and his listener actually work through ("A = A"; "am I here or am I not?"),
+ * not the general theory: he says the general exposition exists and is lost in
+ * one of his own handouts, and the listener's objection — the test holds so far,
+ * but nothing guarantees the next case — is left standing because he does not
+ * answer it. So the third branch is dashed and empty. Drawing a closed
+ * structure here would assert a generalisation the corpus does not contain.
+ */
+function renderSplit(names, esc, t) {
+  const W = 540, cx = W / 2;
+  const head = names[0] || '', a = names[1] || '', b = names[2] || '';
+  const box = (label, x, y, w, cls) => `      <g class="dc-split-cell${cls}">
+        <rect x="${x}" y="${y}" width="${w}" height="56" rx="8" />
+${textBlock(wrapTo(label, 30), x + w / 2, y + 28, esc, 14)}
+      </g>`;
+  return `<svg class="dc-split" viewBox="0 0 ${W} 250" role="img"
+     aria-label="${esc([head, a, b].filter(Boolean).join(' — ') + ' — ' + t('dcSplitOpen', 'and the next case is not settled'))}">
+    ${ARROW_DEF}
+${box(head, 120, 12, 300, '')}
+      <path class="dc-split-edge" d="M ${cx} 68 L ${cx} 88" />
+      <path class="dc-split-edge" d="M 120 88 L 420 88" />
+      <path class="dc-split-edge" d="M 120 88 L 120 106" marker-end="url(#dc-arrow)" />
+      <path class="dc-split-edge" d="M 420 88 L 420 106" marker-end="url(#dc-arrow)" />
+${box(a, 20, 112, 200, '')}
+${box(b, 320, 112, 200, '')}
+      <path class="dc-split-open" d="M ${cx} 168 L ${cx} 204" marker-end="url(#dc-arrow)" />
+      <text class="dc-split-openlabel" x="${cx}" y="${226}">${esc(t('dcSplitOpen', 'and the next case is not settled'))}</text>
+  </svg>`;
+}
+
 /** A grid of coordinate members — a SET, with no order and no connections.
  *
  * The subject-of-history taxonomy is a closed list of kinds of agent: there is
@@ -523,6 +559,7 @@ function renderDoctrinesSection(doctrines, ui, helpers) {
       else if (kind === 'inversions') bits.push(renderInversions(it.structure, esc, t));
       else if (kind === 'steps') bits.push(renderSteps(it.structure, esc, t));
       else if (kind === 'selfloop') bits.push(renderSelfloop(it.structure, esc));
+      else if (kind === 'split') bits.push(renderSplit(it.structure, esc, t));
       else if (kind === 'triad') bits.push(renderTriad(it.structure, esc, t, null));
       else if (kind === 'triad-one') bits.push(renderTriad(it.structure, esc, t, t('dcTriadOne', 'one act')));
       else bits.push(renderNest(it.structure, esc, t('dcGround', 'the eternal I — the ground, not a fifth term')));
@@ -570,4 +607,4 @@ ${bits.join('\n')}
 }
 
 module.exports = { getDoctrines, renderDoctrinesSection, renderRing, renderNest, renderChain, renderTriad, renderSet, renderStrata, renderCycle,
-  renderParallax, renderHalo, renderContrast, renderInversions, renderSteps, renderSelfloop };
+  renderParallax, renderHalo, renderContrast, renderInversions, renderSteps, renderSelfloop, renderSplit };
