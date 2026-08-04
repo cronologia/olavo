@@ -397,36 +397,40 @@ function translator(dict) {
  * an allowlist rather than a boolean: a new key inside a reference stays
  * untranslated by default, which is the safe direction for citation data.
  */
-const REFERENCE_TRANSLATABLE = new Set(['publisherNote']);
-
-/* The bibliography needs the same treatment, for the same reason and one more.
- * `title` is translatable everywhere else on the page and must NOT be here: a
- * book's title is its name, and "O Jardim das Aflições" is what the book is
- * called in Spanish too. The general walk would have sent all thirty titles and
- * every publisher through the dictionaries, and a dictionary that cannot tell a
- * citation from prose eventually renders one. So the allowlist names the prose
- * keys and nothing else — including `when`, which reads as a run of years but
- * is written as a sentence and would otherwise sit in English on both localized
- * pages, which is the exact silent failure the completeness test exists for.
- */
-const WORKS_TRANSLATABLE = new Set(['note', 'sourceNote', 'label', 'blurb', 'role', 'when']);
+const SUBTREE_TRANSLATABLE = {
+  references: new Set(['publisherNote']),
+  // >>> ADOPT: subtree-allowlists  (subtrees of this repo's dataset that are not prose)
+  // The bibliography. `title` is deliberately ABSENT: a book's title is its
+  // name, and "O Jardim das Aflições" is what the book is called in Spanish
+  // too. The general walk would have sent all thirty titles and every publisher
+  // through the dictionaries, and a dictionary that cannot tell a citation from
+  // prose eventually renders one. `when` is deliberately PRESENT: it reads as a
+  // run of years but is written as a sentence, so it would otherwise sit in
+  // English on both localized pages.
+  works: new Set(['note', 'sourceNote', 'label', 'blurb', 'role', 'when']),
+  // <<< ADOPT
+};
 
 function localizeData(data, dict, lang) {
   const t = translator(dict);
-  const walk = (val, key, inRefs, inWorks) => {
-    const keys = inRefs ? REFERENCE_TRANSLATABLE : inWorks ? WORKS_TRANSLATABLE : TRANSLATABLE_KEYS;
-    const refs = inRefs || key === 'references';
-    const works = inWorks || key === 'works';
-    if (Array.isArray(val)) return val.map((v) => walk(v, key, refs, works));
+  // `subtree` is the special subtree this value sits inside, resolved as the
+  // walk descends: the nearest enclosing one wins, and it is sticky, so every
+  // descendant of `references` is bibliographic until a deeper entry says
+  // otherwise. `hasOwnProperty` rather than a plain lookup because a dataset
+  // key called "constructor" would otherwise resolve to Object's.
+  const walk = (val, key, subtree) => {
+    const here = Object.prototype.hasOwnProperty.call(SUBTREE_TRANSLATABLE, key) ? key : subtree;
+    const keys = SUBTREE_TRANSLATABLE[here] || TRANSLATABLE_KEYS;
+    if (Array.isArray(val)) return val.map((v) => walk(v, key, here));
     if (val && typeof val === 'object') {
       const out = {};
-      for (const k of Object.keys(val)) out[k] = walk(val[k], k, refs, works);
+      for (const k of Object.keys(val)) out[k] = walk(val[k], k, here);
       return out;
     }
     if (typeof val === 'string' && keys.has(key)) return t(val);
     return val;
   };
-  const copy = walk(data, null, false, false);
+  const copy = walk(data, null, null);
   copy.meta = Object.assign({}, copy.meta, { language: lang });
   // `place` IS translated prose (the chronology's Place column reads in the
   // page's language), but the gazetteer behind the places map is keyed on the

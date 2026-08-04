@@ -41,72 +41,79 @@ const ROOT = path.join(__dirname, '..');
 const data = require(path.join(ROOT, 'data', 'chronology.json'));
 const LANGS = ['es', 'pt'];
 
-/** TRANSLATABLE_KEYS, read from build.js so the two cannot drift apart.
+/** Parse a `new Set([...])` literal out of build.js.
  *
- * Parsed rather than exported because build.js runs the whole build on
- * require. Comments are stripped first: an apostrophe inside one ("the lane's
+ * Read out of the source rather than imported so that the audit fails LOUDLY on
+ * a rename or a deletion, naming the declaration it could not find, instead of
+ * quietly walking with an empty set and reporting a fully translated site.
+ * Comments are stripped FIRST: an apostrophe inside one ("the lane's
  * grounding") desynchronizes quote pairing and silently drops every key after
- * it — which is exactly how an earlier version of this audit reported 8
- * missing strings where there were 25.
+ * it — which is exactly how an early version of this audit reported 8 missing
+ * strings where there were 25. The count assertion makes that failure loud.
  */
-function translatableKeys() {
+function parseSet(name, min) {
   const src = fs.readFileSync(path.join(ROOT, 'build.js'), 'utf8');
-  const block = src.split('const TRANSLATABLE_KEYS = new Set([')[1].split(/\]\);/)[0];
+  const parts = src.split(`const ${name} = new Set([`);
+  assert.strictEqual(parts.length, 2, `build.js does not declare ${name}`);
+  const block = parts[1].split(/\]\);/)[0];
   const code = block.split('\n').filter((l) => !l.trim().startsWith('//')).join('\n');
-  const keys = code.match(/'([^']+)'/g).map((s) => s.slice(1, -1));
-  assert.ok(keys.length > 20, 'failed to parse TRANSLATABLE_KEYS out of build.js');
+  const keys = (code.match(/'([^']+)'/g) || []).map((s) => s.slice(1, -1));
+  assert.ok(keys.length >= min, `failed to parse ${name} out of build.js (got ${keys.length})`);
   return new Set(keys);
 }
 
-/** The narrower allowlist that applies inside `references`, likewise parsed. */
-function referenceKeys() {
-  const src = fs.readFileSync(path.join(ROOT, 'build.js'), 'utf8');
-  const block = src.split('const REFERENCE_TRANSLATABLE = new Set([')[1].split(/\]\);/)[0];
-  const keys = block.match(/'([^']+)'/g).map((s) => s.slice(1, -1));
-  assert.ok(keys.length, 'failed to parse REFERENCE_TRANSLATABLE out of build.js');
-  return new Set(keys);
-}
-
-/** The narrower allowlist that applies inside `works`, likewise parsed.
+/** The per-subtree allowlists, parsed out of build.js's SUBTREE_TRANSLATABLE.
  *
- * The bibliography needs its own because `title` there is a BOOK title and must
- * not be translated — the general walk would have demanded Spanish for thirty
- * Portuguese book names, which is the opposite of correct. Optional: a repo
- * with no bibliography does not declare it.
+ * A map from a subtree's key to the keys that are prose INSIDE it, because the
+ * exceptions multiply: `references` first, then a bibliography where `title` is
+ * a book's name and must not be translated. As booleans threaded through the
+ * walk each new exception touched every call site; as entries in a map they
+ * cost one line and this parser stays the same.
+ *
+ * Every entry beyond `references` is OPTIONAL by construction — a repo with no
+ * bibliography declares no `works` allowlist, the walk never narrows there, and
+ * a dataset with no such key builds byte-identically (core adr/0001).
+ *
+ * Comments are stripped BEFORE parsing: the ADOPT block inside the map carries
+ * a commented example entry, and an example a repo has not adopted must not be
+ * read as one it has.
  */
-function worksKeys() {
+function parseSubtreeSets() {
   const src = fs.readFileSync(path.join(ROOT, 'build.js'), 'utf8');
-  const parts = src.split('const WORKS_TRANSLATABLE = new Set([');
-  if (parts.length !== 2) return null;
-  const keys = parts[1].split(/\]\);/)[0].match(/'([^']+)'/g).map((s) => s.slice(1, -1));
-  assert.ok(keys.length, 'failed to parse WORKS_TRANSLATABLE out of build.js');
-  return new Set(keys);
+  const parts = src.split('const SUBTREE_TRANSLATABLE = {');
+  assert.strictEqual(parts.length, 2, 'build.js does not declare SUBTREE_TRANSLATABLE');
+  const body = parts[1].split(/^};/m)[0];
+  const code = body.replace(/\/\*[\s\S]*?\*\//g, '')
+    .split('\n').filter((l) => !l.trim().startsWith('//')).join('\n');
+  const map = {};
+  for (const m of code.matchAll(/([A-Za-z_$][\w$]*)\s*:\s*new Set\(\[([^\]]*)\]\)/g)) {
+    map[m[1]] = new Set((m[2].match(/'([^']+)'/g) || []).map((s) => s.slice(1, -1)));
+  }
+  assert.ok(
+    map.references && map.references.size,
+    'failed to parse SUBTREE_TRANSLATABLE out of build.js');
+  return map;
 }
 
-/** Every string build.js would route through the dictionaries, in order.
+/** Every string build.js would route through the dictionaries.
  *
- * This MIRRORS localizeData rather than approximating it, allowlists included.
- * A walk that checked a different set of strings than the compiler translates
- * would pass while the page was wrong — or, as happened when the bibliography
- * landed, fail while the page was right, demanding translations for book
- * titles the compiler correctly leaves alone.
+ * Line for line the walk in `localizeData`, including the rule that resolves
+ * the allowlist: the nearest enclosing declared subtree wins and is sticky.
  */
 function translatableStrings() {
-  const KEYS = translatableKeys();
-  const REF_KEYS = referenceKeys();
-  const WORKS_KEYS = worksKeys();
+  const KEYS = parseSet('TRANSLATABLE_KEYS', 10);
+  const SUBTREES = parseSubtreeSets();
   const out = [];
-  const walk = (val, key, inRefs, inWorks) => {
-    const keys = inRefs ? REF_KEYS : (inWorks && WORKS_KEYS) ? WORKS_KEYS : KEYS;
-    const refs = inRefs || key === 'references';
-    const works = inWorks || key === 'works';
-    if (Array.isArray(val)) return val.forEach((v) => walk(v, key, refs, works));
+  const walk = (val, key, subtree) => {
+    const here = Object.prototype.hasOwnProperty.call(SUBTREES, key) ? key : subtree;
+    const keys = SUBTREES[here] || KEYS;
+    if (Array.isArray(val)) return val.forEach((v) => walk(v, key, here));
     if (val && typeof val === 'object') {
-      return Object.keys(val).forEach((k) => walk(val[k], k, refs, works));
+      return Object.keys(val).forEach((k) => walk(val[k], k, here));
     }
     if (typeof val === 'string' && keys.has(key)) out.push(val);
   };
-  walk(data, null, false, false);
+  walk(data, null, null);
   return [...new Set(out)];
 }
 
