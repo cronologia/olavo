@@ -27,7 +27,7 @@
  *                   its live counterpart is almost certainly untranslated.
  *
  * The walk deliberately mirrors build.js's `localizeData` rather than
- * approximating it: same TRANSLATABLE_KEYS, same `references` skip, same
+ * approximating it: same TRANSLATABLE_KEYS, same references allowlist, same
  * array-inherits-the-parent-key rule. A test that checked a different set of
  * strings than the compiler translates would pass while the page was wrong.
  */
@@ -58,17 +58,30 @@ function translatableKeys() {
   return new Set(keys);
 }
 
+/** The narrower allowlist that applies inside `references`, likewise parsed. */
+function referenceKeys() {
+  const src = fs.readFileSync(path.join(ROOT, 'build.js'), 'utf8');
+  const block = src.split('const REFERENCE_TRANSLATABLE = new Set([')[1].split(/\]\);/)[0];
+  const keys = block.match(/'([^']+)'/g).map((s) => s.slice(1, -1));
+  assert.ok(keys.length, 'failed to parse REFERENCE_TRANSLATABLE out of build.js');
+  return new Set(keys);
+}
+
 /** Every string build.js would route through the dictionaries, in order. */
 function translatableStrings() {
   const KEYS = translatableKeys();
+  const REF_KEYS = referenceKeys();
   const out = [];
-  const walk = (val, key) => {
-    if (key === 'references') return;
-    if (Array.isArray(val)) return val.forEach((v) => walk(v, key));
-    if (val && typeof val === 'object') return Object.keys(val).forEach((k) => walk(val[k], k));
-    if (typeof val === 'string' && KEYS.has(key)) out.push(val);
+  const walk = (val, key, inRefs) => {
+    const keys = inRefs ? REF_KEYS : KEYS;
+    const refs = inRefs || key === 'references';
+    if (Array.isArray(val)) return val.forEach((v) => walk(v, key, refs));
+    if (val && typeof val === 'object') {
+      return Object.keys(val).forEach((k) => walk(val[k], k, refs));
+    }
+    if (typeof val === 'string' && keys.has(key)) out.push(val);
   };
-  walk(data, null);
+  walk(data, null, false);
   return [...new Set(out)];
 }
 
