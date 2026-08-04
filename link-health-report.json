@@ -1,0 +1,3019 @@
+{
+  "generatedBy": "scripts/check-links.js",
+  "project": "Olavo de Carvalho — Cronologia",
+  "checkedAt": "2026-08-04T16:52:53.698Z",
+  "userAgent": "cronologia-check-links/1.0 (Olavo de Carvalho - Cronologia; +https://github.com/cronologia)",
+  "summary": {
+    "total": 158,
+    "ok": 149,
+    "dead": 2,
+    "suspect": 0,
+    "inconclusive": 7,
+    "priorityArchive": 1,
+    "flagged": 9
+  },
+  "results": [
+    {
+      "id": "agenciabrasil-obit",
+      "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2022-01/olavo-de-carvalho-morre-aos-74-anos-nos-estados-unidos",
+      "title": "Olavo de Carvalho morre, aos 74 anos, nos Estados Unidos",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/geral/noticia/2022-01/olavo-de-carvalho-morre-aos-74-anos-nos-estados-unidos",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260514034147/https://agenciabrasil.ebc.com.br/geral/noticia/2022-01/olavo-de-carvalho-morre-aos-74-anos-nos-estados-unidos",
+        "timestamp": "20260514034147"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "poder360-obit",
+      "url": "https://www.poder360.com.br/brasil/olavo-de-carvalho-morre-aos-74-anos/",
+      "title": "Olavo de Carvalho morre aos 74 anos",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.poder360.com.br/brasil/olavo-de-carvalho-morre-aos-74-anos/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20251115095236/https://www.poder360.com.br/brasil/olavo-de-carvalho-morre-aos-74-anos/",
+        "timestamp": "20251115095236"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "poder360-luto",
+      "url": "https://www.poder360.com.br/governo/bolsonaro-decreta-luto-no-brasil-por-morte-de-olavo-de-carvalho/",
+      "title": "Bolsonaro decreta luto oficial por morte de Olavo de Carvalho",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.poder360.com.br/governo/bolsonaro-decreta-luto-no-brasil-por-morte-de-olavo-de-carvalho/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20230410094252/https://www.poder360.com.br/governo/bolsonaro-decreta-luto-no-brasil-por-morte-de-olavo-de-carvalho/",
+        "timestamp": "20230410094252"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "metropoles-obit",
+      "url": "https://www.metropoles.com/brasil/olavo-de-carvalho-guru-do-bolsonarismo-morre-aos-74-anos",
+      "title": "Olavo de Carvalho, guru do bolsonarismo, morre aos 74 anos",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.metropoles.com/brasil/olavo-de-carvalho-guru-do-bolsonarismo-morre-aos-74-anos",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20251210220208/https://www.metropoles.com/brasil/olavo-de-carvalho-guru-do-bolsonarismo-morre-aos-74-anos",
+        "timestamp": "20251210220208"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "correiobraziliense-obit",
+      "url": "https://www.correiobraziliense.com.br/brasil/2022/01/4980029-morre-olavo-de-carvalho-aos-74-anos-nos-estados-unidos.html",
+      "title": "Morre Olavo de Carvalho, aos 74 anos, nos Estados Unidos",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.correiobraziliense.com.br/brasil/2022/01/4980029-morre-olavo-de-carvalho-aos-74-anos-nos-estados-unidos.html",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20240404022503/https://www.correiobraziliense.com.br/brasil/2022/01/4980029-morre-olavo-de-carvalho-aos-74-anos-nos-estados-unidos.html",
+        "timestamp": "20240404022503"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "cnnbrasil-luto",
+      "url": "https://www.cnnbrasil.com.br/nacional/presidente-bolsonaro-declara-luto-oficial-apos-morte-de-olavo-de-carvalho/",
+      "title": "Presidente Bolsonaro declara luto oficial após morte de Olavo de Carvalho",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.cnnbrasil.com.br/nacional/presidente-bolsonaro-declara-luto-oficial-apos-morte-de-olavo-de-carvalho/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20250121103408/https://www.cnnbrasil.com.br/nacional/presidente-bolsonaro-declara-luto-oficial-apos-morte-de-olavo-de-carvalho/",
+        "timestamp": "20250121103408"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "exame-luto",
+      "url": "https://exame.com/brasil/bolsonaro-decreta-luto-de-um-dia-por-morte-de-olavo-de-carvalho/",
+      "title": "Bolsonaro decreta luto de um dia por morte de Olavo de Carvalho",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://exame.com/brasil/bolsonaro-decreta-luto-de-um-dia-por-morte-de-olavo-de-carvalho/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260607145658/https://exame.com/brasil/bolsonaro-decreta-luto-de-um-dia-por-morte-de-olavo-de-carvalho/",
+        "timestamp": "20260607145658"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "nyt-obit",
+      "url": "https://www.nytimes.com/2022/01/26/world/americas/olavo-de-carvalho-dead.html",
+      "title": "Olavo de Carvalho, Bolsonaro's Far-Right Guru, Dies at 74",
+      "method": "GET",
+      "status": 403,
+      "finalUrl": "https://www.nytimes.com/2022/01/26/world/americas/olavo-de-carvalho-dead.html",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "inconclusive",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20250424010222/https://www.nytimes.com/2022/01/26/world/americas/olavo-de-carvalho-dead.html/",
+        "timestamp": "20250424010222"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "gazetadopovo-obit",
+      "url": "https://www.gazetadopovo.com.br/ideias/olavo-de-carvalho-morre-aos-74-anos-nos-estados-unidos/",
+      "title": "Olavo de Carvalho morre aos 74 anos nos Estados Unidos",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.gazetadopovo.com.br/ideias/olavo-de-carvalho-morre-aos-74-anos-nos-estados-unidos/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20250326043152/https://www.gazetadopovo.com.br/ideias/olavo-de-carvalho-morre-aos-74-anos-nos-estados-unidos/",
+        "timestamp": "20250326043152"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "gazetadopovo-riobranco",
+      "url": "https://www.gazetadopovo.com.br/republica/bolsonaro-concede-ordem-de-rio-branco-a-olavo-de-carvalho-e-dois-dos-filhos/",
+      "title": "Bolsonaro concede Ordem de Rio Branco ao escritor Olavo de Carvalho",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.gazetadopovo.com.br/republica/bolsonaro-concede-ordem-de-rio-branco-a-olavo-de-carvalho-e-dois-dos-filhos/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20250806094421/https://www.gazetadopovo.com.br/republica/bolsonaro-concede-ordem-de-rio-branco-a-olavo-de-carvalho-e-dois-dos-filhos/",
+        "timestamp": "20250806094421"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "gazetadopovo-frascolla",
+      "url": "https://www.gazetadopovo.com.br/vozes/bruna-frascolla/o-debate-olavo-dugin-dez-anos-depois/",
+      "title": "O debate Olavo–Dugin dez anos depois (Bruna Frascolla)",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.gazetadopovo.com.br/vozes/bruna-frascolla/o-debate-olavo-dugin-dez-anos-depois/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20230930183642/https://www.gazetadopovo.com.br/vozes/bruna-frascolla/o-debate-olavo-dugin-dez-anos-depois/",
+        "timestamp": "20230930183642"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "revistaoeste-medico",
+      "url": "https://revistaoeste.com/brasil/olavo-de-carvalho-nao-morreu-de-covid-19-afirma-medico-particular-do-escritor/",
+      "title": "Olavo de Carvalho não morreu de covid-19, afirma médico particular do escritor",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://revistaoeste.com/brasil/olavo-de-carvalho-nao-morreu-de-covid-19-afirma-medico-particular-do-escritor/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20250923094703/https://revistaoeste.com/brasil/olavo-de-carvalho-nao-morreu-de-covid-19-afirma-medico-particular-do-escritor/",
+        "timestamp": "20250923094703"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "poder360-brasil-respiratorio",
+      "url": "https://www.poder360.com.br/brasil/olavo-de-carvalho-esta-no-brasil-para-tratar-problemas-respiratorios/",
+      "title": "Olavo de Carvalho está no Brasil para tratar problemas respiratórios",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.poder360.com.br/brasil/olavo-de-carvalho-esta-no-brasil-para-tratar-problemas-respiratorios/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20250621210407/https://www.poder360.com.br/brasil/olavo-de-carvalho-esta-no-brasil-para-tratar-problemas-respiratorios/",
+        "timestamp": "20250621210407"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "diariodonordeste-medico",
+      "url": "https://diariodonordeste.verdesmares.com.br/ultima-hora/pais/morte-de-olavo-de-carvalho-nao-teve-relacao-com-a-covid-alega-seu-medico-particular-1.3184656",
+      "title": "Morte de Olavo de Carvalho não teve relação com a Covid, alega seu médico particular",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://diariodonordeste.verdesmares.com.br/ultima-hora/pais/morte-de-olavo-de-carvalho-nao-teve-relacao-com-a-covid-alega-seu-medico-particular-1.3184656",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20220525055855/https://diariodonordeste.verdesmares.com.br/ultima-hora/pais/morte-de-olavo-de-carvalho-nao-teve-relacao-com-a-covid-alega-seu-medico-particular-1.3184656",
+        "timestamp": "20220525055855"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "folhape-heloisa",
+      "url": "https://www.folhape.com.br/politica/quem-e-heloisa-filha-excluida-do-testamento-de-olavo-de-carvalho/337362/",
+      "title": "Quem é Heloísa, filha excluída do testamento de Olavo de Carvalho",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.folhape.com.br/politica/quem-e-heloisa-filha-excluida-do-testamento-de-olavo-de-carvalho/337362/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20251011065103/https://www.folhape.com.br/politica/quem-e-heloisa-filha-excluida-do-testamento-de-olavo-de-carvalho/337362/",
+        "timestamp": "20251011065103"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "cnnbrasil-heloisa-morte",
+      "url": "https://www.cnnbrasil.com.br/politica/morre-heloisa-filha-de-olavo-de-carvalho/",
+      "title": "Morre Heloísa, filha de Olavo de Carvalho",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.cnnbrasil.com.br/politica/morre-heloisa-filha-de-olavo-de-carvalho/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260113190442/https://www.cnnbrasil.com.br/politica/morre-heloisa-filha-de-olavo-de-carvalho/",
+        "timestamp": "20260113190442"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "padrepauloricardo-minimo",
+      "url": "https://padrepauloricardo.org/episodios/o-minimo-que-voce-precisa-saber-para-nao-ser-um-idiota",
+      "title": "O Mínimo que Você Precisa Saber para Não Ser um Idiota (book presentation)",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://padrepauloricardo.org/episodios/o-minimo-que-voce-precisa-saber-para-nao-ser-um-idiota",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260607112740/https://padrepauloricardo.org/episodios/o-minimo-que-voce-precisa-saber-para-nao-ser-um-idiota",
+        "timestamp": "20260607112740"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "sensoincomum-ufpe",
+      "url": "https://sensoincomum.org/2017/10/27/filme-jardim-aflicoes-olavo-carvalho-ufpe/",
+      "title": "Exibição de 'O Jardim das Aflições' é violentamente reprimida na UFPE",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://sensoincomum.org/2017/10/27/filme-jardim-aflicoes-olavo-carvalho-ufpe/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20250708210625/https://sensoincomum.org/2017/10/27/filme-jardim-aflicoes-olavo-carvalho-ufpe/",
+        "timestamp": "20250708210625"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "brasildefato-obit",
+      "url": "https://www.brasildefato.com.br/2022/01/25/morre-olavo-de-carvalho-astrologo-estava-com-covid-causa-da-morte-nao-foi-divulgada/",
+      "title": "Morre Olavo de Carvalho: astrólogo estava com covid; causa da morte não foi divulgada",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.brasildefato.com.br/2022/01/25/morre-olavo-de-carvalho-astrologo-estava-com-covid-causa-da-morte-nao-foi-divulgada/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20250624075355/https://www.brasildefato.com.br/2022/01/25/morre-olavo-de-carvalho-astrologo-estava-com-covid-causa-da-morte-nao-foi-divulgada/",
+        "timestamp": "20250624075355"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "pragmatismo-riobranco",
+      "url": "https://www.pragmatismopolitico.com.br/2019/05/bolsonaro-condecora-olavo-ordem-de-rio-branco.html",
+      "title": "Bolsonaro condecora Olavo com a Grã-Cruz da Ordem de Rio Branco",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.pragmatismopolitico.com.br/2019/05/bolsonaro-condecora-olavo-ordem-de-rio-branco.html",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260313172228/https://www.pragmatismopolitico.com.br/2019/05/bolsonaro-condecora-olavo-ordem-de-rio-branco.html",
+        "timestamp": "20260313172228"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "cartacapital-herdeiras",
+      "url": "https://www.cartacapital.com.br/justica/justica-notifica-herdeiras-de-olavo-por-divida-de-29-milhoes-a-caetano-veloso/",
+      "title": "Justiça notifica herdeiras de Olavo por dívida de R$ 2,9 milhões a Caetano Veloso",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.cartacapital.com.br/justica/justica-notifica-herdeiras-de-olavo-por-divida-de-29-milhoes-a-caetano-veloso/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20241222164939/https://www.cartacapital.com.br/justica/justica-notifica-herdeiras-de-olavo-por-divida-de-29-milhoes-a-caetano-veloso/",
+        "timestamp": "20241222164939"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "conjur-caetano",
+      "url": "https://www.conjur.com.br/2020-nov-11/negado-recurso-sustar-29-mi-olavo-pagar-caetano/",
+      "title": "Negado recurso para sustar R$ 2,9 mi que Olavo deve pagar a Caetano",
+      "method": "HEAD",
+      "status": 206,
+      "finalUrl": "https://conjur.com.br/2020-nov-11/negado-recurso-sustar-29-mi-olavo-pagar-caetano/",
+      "redirected": true,
+      "pageTitle": "Negado recurso para sustar R$ 2,9 mi que Olavo deve pagar a Caetano - Consultor Jurídico",
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20250512190124/https://www.conjur.com.br/2020-nov-11/negado-recurso-sustar-29-mi-olavo-pagar-caetano/",
+        "timestamp": "20250512190124"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "camara-riobranco",
+      "url": "https://www.camara.leg.br/noticias/669762-projeto-anula-decreto-que-concedeu-ordem-de-rio-branco-a-olavo-de-carvalho",
+      "title": "Projeto anula decreto que concedeu Ordem de Rio Branco a Olavo de Carvalho",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.camara.leg.br/noticias/669762-projeto-anula-decreto-que-concedeu-ordem-de-rio-branco-a-olavo-de-carvalho",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20250724113257/https://www.camara.leg.br/noticias/669762-projeto-anula-decreto-que-concedeu-ordem-de-rio-branco-a-olavo-de-carvalho/",
+        "timestamp": "20250724113257"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "foxnews-araujo",
+      "url": "https://www.foxnews.com/world/pro-trump-diplomat-to-become-brazils-foreign-minister",
+      "title": "Pro-Trump diplomat to become Brazil's foreign minister",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.foxnews.com/world/pro-trump-diplomat-to-become-brazils-foreign-minister",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20250121123225/https://www.foxnews.com/world/pro-trump-diplomat-to-become-brazils-foreign-minister",
+        "timestamp": "20250121123225"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "nexo-livros",
+      "url": "https://nexojornal.com.br/expresso/2018/11/09/Como-Bolsonaro-usa-livros-para-refor%C3%A7ar-seu-discurso",
+      "title": "Como Bolsonaro usa livros para reforçar seu discurso",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://nexojornal.com.br/expresso/2018/11/09/Como-Bolsonaro-usa-livros-para-refor%C3%A7ar-seu-discurso",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20250818105133/https://www.nexojornal.com.br/expresso/2018/11/09/Como-Bolsonaro-usa-livros-para-refor%C3%A7ar-seu-discurso",
+        "timestamp": "20250818105133"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "observador-discursos",
+      "url": "https://observador.pt/especiais/deus-constituicao-e-flirts-os-discursos-de-bolsonaro-nas-entrelinhas/",
+      "title": "Deus, Constituição e flirts. Os discursos de Bolsonaro nas entrelinhas",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://observador.pt/especiais/deus-constituicao-e-flirts-os-discursos-de-bolsonaro-nas-entrelinhas/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20210514051037/https://observador.pt/especiais/deus-constituicao-e-flirts-os-discursos-de-bolsonaro-nas-entrelinhas/",
+        "timestamp": "20210514051037"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "noticiasaominuto-filha",
+      "url": "https://www.noticiasaominuto.com.br/politica/1879160/3-olavo-de-carvalho-morreu-de-covid-diz-filha-do-guru-do-bolsonarismo",
+      "title": "Olavo de Carvalho morreu de Covid, diz filha do guru do bolsonarismo",
+      "method": "HEAD",
+      "status": 500,
+      "finalUrl": "https://www.noticiasaominuto.com.br/politica/1879160/3-olavo-de-carvalho-morreu-de-covid-diz-filha-do-guru-do-bolsonarismo",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "inconclusive",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20220523175208/https://www.noticiasaominuto.com.br/politica/1879160/3-olavo-de-carvalho-morreu-de-covid-diz-filha-do-guru-do-bolsonarismo",
+        "timestamp": "20220523175208"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "aventurasnahistoria-filha",
+      "url": "https://aventurasnahistoria.com.br/noticias/historia-hoje/olavo-de-carvalho-morreu-de-covid-19-diz-filha.phtml",
+      "title": "Olavo de Carvalho morreu de Covid-19, diz filha",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://aventurasnahistoria.com.br/noticias/historia-hoje/olavo-de-carvalho-morreu-de-covid-19-diz-filha.phtml",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": false,
+        "archiveUrl": null,
+        "timestamp": null
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "calil-argumentum",
+      "url": "https://www.redalyc.org/journal/4755/475571195007/",
+      "title": "Olavo de Carvalho e a ascensão da extrema-direita (Gilberto Calil), Argumentum v. 13 n. 2, pp. 64–81",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.redalyc.org/journal/4755/475571195007/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260803100506/https://www.redalyc.org/journal/4755/475571195007/",
+        "timestamp": "20260803100506"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "sedgwick-blog",
+      "url": "https://traditionalistblog.blogspot.com/2022/01/Olavodeath.html",
+      "title": "Brazil's most prominent post-Traditionalist dies (Mark Sedgwick)",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://traditionalistblog.blogspot.com/2022/01/Olavodeath.html",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20251207023853/https://traditionalistblog.blogspot.com/2022/01/Olavodeath.html",
+        "timestamp": "20251207023853"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "castrorocha-review",
+      "url": "https://periodicos.ufrn.br/interlegere/article/download/25175/14977/89867",
+      "title": "Review of João Cezar de Castro Rocha, Guerra cultural e retórica do ódio (Caminhos, 2021)",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://periodicos.ufrn.br/interlegere/article/download/25175/14977/89867",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20241125080742/https://periodicos.ufrn.br/interlegere/article/download/25175/14977/89867",
+        "timestamp": "20241125080742"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "revistarosa-olavismo",
+      "url": "https://revistarosa.com/1/olavismo-e-bolsonarismo",
+      "title": "Olavismo e bolsonarismo",
+      "method": "HEAD",
+      "status": 404,
+      "finalUrl": "https://revistarosa.com/1/olavismo-e-bolsonarismo",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "dead",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20240514193150/https://revistarosa.com/1/olavismo-e-bolsonarismo",
+        "timestamp": "20240514193150"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "academia-dugin-review",
+      "url": "https://www.academia.edu/97714282/CARVALHO_Olavo_de_DUGIN_Alexandre_Os_EUA_e_a_Nova_Ordem_Mundial_Tradu%C3%A7%C3%A3o_de_Giuliano_Moraes_Campinas_SP_VIDE_Editorial_2012",
+      "title": "Review: CARVALHO, Olavo de; DUGIN, Alexandre. Os EUA e a Nova Ordem Mundial (VIDE Editorial, 2012)",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.academia.edu/97714282/CARVALHO_Olavo_de_DUGIN_Alexandre_Os_EUA_e_a_Nova_Ordem_Mundial_Tradu%C3%A7%C3%A3o_de_Giuliano_Moraes_Campinas_SP_VIDE_Editorial_2012",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": false,
+        "archiveUrl": null,
+        "timestamp": null
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "olavodecarvalho-org-wayback",
+      "url": "http://web.archive.org/web/20211215180559/https://olavodecarvalho.org/",
+      "title": "Olavo de Carvalho — official website (archived 15 December 2021)",
+      "method": "GET",
+      "status": 403,
+      "finalUrl": "http://web.archive.org/web/20211215180559/https://olavodecarvalho.org/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "inconclusive",
+      "soft404": false,
+      "snapshot": {
+        "exists": false,
+        "archiveUrl": null,
+        "timestamp": null
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "livraria-seminario-dugin",
+      "url": "https://livraria.seminariodefilosofia.org/os-eua-e-a-nom",
+      "title": "Os EUA e a Nova Ordem Mundial — product page",
+      "method": "GET",
+      "status": 403,
+      "finalUrl": "https://livraria.seminariodefilosofia.org/os-eua-e-a-nom",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "inconclusive",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20220125204238/https://livraria.seminariodefilosofia.org/os-eua-e-a-nom",
+        "timestamp": "20220125204238"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "rafaelalmeida-cof",
+      "url": "https://www.rafaelalmeida.com/cof.html",
+      "title": "Índice de aulas do Curso Online de Filosofia (COF)",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.rafaelalmeida.com/cof.html",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260726041908/https://www.rafaelalmeida.com/cof.html",
+        "timestamp": "20260726041908"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "cof-transcriptions",
+      "url": "https://github.com/alissonryan/cof-olavo",
+      "title": "COF — community transcriptions of the Curso Online de Filosofia (585 lectures)",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://github.com/alissonryan/cof-olavo",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260803100651/https://github.com/alissonryan/cof-olavo",
+        "timestamp": "20260803100651"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "cof-audio",
+      "url": "https://archive.org/details/COFemAudio",
+      "title": "COF em Áudio — lecture audio collection",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://archive.org/details/COFemAudio",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": false,
+        "archiveUrl": null,
+        "timestamp": null
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "findagrave-memorial",
+      "url": "https://www.findagrave.com/memorial/236247781/olavo_luiz_pimentel_de-carvalho",
+      "title": "Olavo Luiz Pimentel de Carvalho (1947–2022) — Find a Grave Memorial 236247781",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.findagrave.com/memorial/236247781/olavo_luiz_pimentel_de-carvalho",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20251231162354/https://www.findagrave.com/memorial/236247781/olavo_luiz_pimentel_de-carvalho",
+        "timestamp": "20251231162354"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "wikipedia-en",
+      "url": "https://en.wikipedia.org/wiki/Olavo_de_Carvalho",
+      "title": "Olavo de Carvalho",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Olavo_de_Carvalho",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260803040850/https://en.wikipedia.org/wiki/Olavo_de_Carvalho",
+        "timestamp": "20260803040850"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "wikipedia-pt",
+      "url": "https://pt.wikipedia.org/wiki/Olavo_de_Carvalho",
+      "title": "Olavo de Carvalho",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://pt.wikipedia.org/wiki/Olavo_de_Carvalho",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260618203000/https://pt.wikipedia.org/wiki/Olavo_de_Carvalho",
+        "timestamp": "20260618203000"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "wikipedia-pt-film",
+      "url": "https://pt.wikipedia.org/wiki/O_Jardim_das_Afli%C3%A7%C3%B5es_(filme)",
+      "title": "O Jardim das Aflições (filme)",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://pt.wikipedia.org/wiki/O_Jardim_das_Afli%C3%A7%C3%B5es_(filme)",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260708215339/https://pt.wikipedia.org/wiki/O_Jardim_das_Afli%C3%A7%C3%B5es_(filme)",
+        "timestamp": "20260708215339"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "ia-trueoutspeak",
+      "url": "https://archive.org/details/trueoutspeak_olavo",
+      "title": "True Outspeak — programa de rádio de Olavo de Carvalho (episode collection, from 4 Dec 2006)",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://archive.org/details/trueoutspeak_olavo",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": false,
+        "archiveUrl": null,
+        "timestamp": null
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "propublica-iai",
+      "url": "https://projects.propublica.org/nonprofits/organizations/271394713",
+      "title": "Inter-American Institute for Philosophy, Government, and Social Thought — IRS nonprofit record (EIN 27-1394713)",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://projects.propublica.org/nonprofits/organizations/271394713",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": false,
+        "archiveUrl": null,
+        "timestamp": null
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "catracalivre-iai",
+      "url": "https://catracalivre.com.br/cidadania/o-fim-misterioso-da-entidade-da-olavo-de-carvalho-nos-eua/",
+      "title": "O fim misterioso da entidade de Olavo de Carvalho nos EUA",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://catracalivre.com.br/cidadania/o-fim-misterioso-da-entidade-da-olavo-de-carvalho-nos-eua/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20250919093623/https://catracalivre.com.br/cidadania/o-fim-misterioso-da-entidade-da-olavo-de-carvalho-nos-eua/",
+        "timestamp": "20250919093623"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "olavofb-iai",
+      "url": "https://olavodecarvalhofb.wordpress.com/2018/11/29/",
+      "title": "'Fechei o Interamerican...' — Olavo's closure statement, 29 November 2018 (fan mirror)",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://olavodecarvalhofb.wordpress.com/2018/11/29/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": false,
+        "archiveUrl": null,
+        "timestamp": null
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "metropoles-bsm",
+      "url": "https://www.metropoles.com/chapelaria/olavo-de-carvalho-lanca-brasil-sem-medo-um-jornal-conservador",
+      "title": "Olavo de Carvalho lança Brasil Sem Medo, um jornal conservador",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.metropoles.com/chapelaria/olavo-de-carvalho-lanca-brasil-sem-medo-um-jornal-conservador",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20250919101545/https://www.metropoles.com/chapelaria/olavo-de-carvalho-lanca-brasil-sem-medo-um-jornal-conservador",
+        "timestamp": "20250919101545"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "gazetadopovo-bsm",
+      "url": "https://www.gazetadopovo.com.br/republica/breves/olavo-de-carvalho-jornal-online-brasil-sem-medo/",
+      "title": "Olavo de Carvalho anuncia jornal online Brasil Sem Medo",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.gazetadopovo.com.br/republica/breves/olavo-de-carvalho-jornal-online-brasil-sem-medo/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20250524112242/https://www.gazetadopovo.com.br/republica/breves/olavo-de-carvalho-jornal-online-brasil-sem-medo/",
+        "timestamp": "20250524112242"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "metropoles-enterro",
+      "url": "https://www.metropoles.com/mundo/olavo-de-carvalho-sera-enterrado-em-petersburg-pequena-cidade-dos-eua",
+      "title": "Olavo de Carvalho será enterrado em Petersburg, pequena cidade dos EUA",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.metropoles.com/mundo/olavo-de-carvalho-sera-enterrado-em-petersburg-pequena-cidade-dos-eua",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20240225053522/https://www.metropoles.com/mundo/olavo-de-carvalho-sera-enterrado-em-petersburg-pequena-cidade-dos-eua",
+        "timestamp": "20240225053522"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "correiobraziliense-enterro",
+      "url": "https://www.correiobraziliense.com.br/politica/2022/01/4980493-olavo-de-carvalho-e-enterrado-nos-eua-em-funeral.html",
+      "title": "Olavo de Carvalho é enterrado nos EUA em funeral",
+      "method": "HEAD",
+      "status": 404,
+      "finalUrl": "https://www.correiobraziliense.com.br/politica/2022/01/4980493-olavo-de-carvalho-e-enterrado-nos-eua-em-funeral.html",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "dead",
+      "soft404": false,
+      "snapshot": {
+        "exists": false,
+        "archiveUrl": null,
+        "timestamp": null
+      },
+      "priorityArchive": true,
+      "note": ""
+    },
+    {
+      "id": "adorocinema-estreia",
+      "url": "https://www.adorocinema.com/noticias/filmes/noticia-131258/",
+      "title": "O Jardim das Aflições: estreia em circuito limitado (31 May 2017 news item)",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.adorocinema.com/noticias/filmes/noticia-131258/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20250713203950/https://www.adorocinema.com/noticias/filmes/noticia-131258/",
+        "timestamp": "20250713203950"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "youtube-channel",
+      "url": "https://www.youtube.com/olavodeca/about",
+      "title": "Olavo de Carvalho — YouTube channel About page ('Joined Jul 7, 2007')",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/olavodeca/about",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": false,
+        "archiveUrl": null,
+        "timestamp": null
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "nsctotal-herdeiras",
+      "url": "https://www.nsctotal.com.br/noticias/justica-de-sc-notifica-herdeiras-de-olavo-carvalho-por-divida-milionaria-com-caetano-veloso",
+      "title": "Justiça de SC notifica herdeiras de Olavo de Carvalho por dívida milionária",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.nsctotal.com.br/cotidiano/justica-de-sc-notifica-herdeiras-de-olavo-carvalho-por-divida-milionaria-com-caetano-veloso",
+      "redirected": true,
+      "pageTitle": "Justiça de SC notifica herdeiras de Olavo de Carvalho por dívida milionária com Caetano Veloso - NSC Total",
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260109033901/https://www.nsctotal.com.br/noticias/justica-de-sc-notifica-herdeiras-de-olavo-carvalho-por-divida-milionaria-com-caetano-veloso",
+        "timestamp": "20260109033901"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "bahianoticias-herdeiras",
+      "url": "https://www.bahianoticias.com.br/holofote/noticia/71000-caetano-veloso-notifica-herdeiras-de-olavo-de-carvalho",
+      "title": "Caetano Veloso notifica herdeiras de Olavo de Carvalho",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.bahianoticias.com.br/holofote/noticia/71000-caetano-veloso-notifica-herdeiras-de-olavo-de-carvalho",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260803101055/https://www.bahianoticias.com.br/holofote/noticia/71000-caetano-veloso-notifica-herdeiras-de-olavo-de-carvalho",
+        "timestamp": "20260803101055"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "olavo-cv-pdf",
+      "url": "https://olavodecarvalho.org/wp-content/uploads/2018/07/Olavo-de-Carvalho-Curr%C3%ADculo.pdf",
+      "title": "Olavo de Carvalho — Currículo (his own CV, PDF)",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://olavodecarvalho.org/wp-content/uploads/2018/07/Olavo-de-Carvalho-Curr%C3%ADculo.pdf",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20251119115301/https://olavodecarvalho.org/wp-content/uploads/2018/07/Olavo-de-Carvalho-Curr%C3%ADculo.pdf",
+        "timestamp": "20251119115301"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "ihu-bbc",
+      "url": "https://ihu.unisinos.br/185-noticias/noticias-2016/563424-olavo-de-carvalho-o-parteiro-da-nova-direita-que-diz",
+      "title": "Olavo de Carvalho, o 'parteiro' da nova direita (João Fellet, BBC Brasil, Dec 2016 — mirror)",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://ihu.unisinos.br/185-noticias/noticias-2016/563424-olavo-de-carvalho-o-parteiro-da-nova-direita-que-diz",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260803101205/https://ihu.unisinos.br/185-noticias/noticias-2016/563424-olavo-de-carvalho-o-parteiro-da-nova-direita-que-diz",
+        "timestamp": "20260803101205"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "comuniquese-dc",
+      "url": "https://portal.comunique-se.com.br/antes-de-ser-guru-bolsonarista-olavo-de-carvalho-teve-palco-na-imprensa/",
+      "title": "Antes de ser guru bolsonarista, Olavo de Carvalho teve palco na imprensa",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://portal.comunique-se.com.br/antes-de-ser-guru-bolsonarista-olavo-de-carvalho-teve-palco-na-imprensa/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260803101258/https://portal.comunique-se.com.br/antes-de-ser-guru-bolsonarista-olavo-de-carvalho-teve-palco-na-imprensa/",
+        "timestamp": "20260803101258"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "opovo-sacramentos",
+      "url": "https://blogs.opovo.com.br/ancoradouro/2022/01/25/olavo-de-carvalho-recebe-os-sacramentos-antes-de-sua-morte/",
+      "title": "Olavo de Carvalho recebe os sacramentos antes de sua morte",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://blogs.opovo.com.br/ancoradouro/2022/01/25/olavo-de-carvalho-recebe-os-sacramentos-antes-de-sua-morte/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": false,
+        "archiveUrl": null,
+        "timestamp": null
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "hdp-medalha",
+      "url": "https://horadopovo.com.br/intelectuais-recusam-medalha-da-biblioteca-nacional-e-criticam-homenagem-a-bolsonaristas-golpistas/",
+      "title": "Intelectuais recusam medalha da Biblioteca Nacional e criticam homenagem a bolsonaristas",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://horadopovo.com.br/intelectuais-recusam-medalha-da-biblioteca-nacional-e-criticam-homenagem-a-bolsonaristas-golpistas/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20240423054128/https://horadopovo.com.br/intelectuais-recusam-medalha-da-biblioteca-nacional-e-criticam-homenagem-a-bolsonaristas-golpistas/",
+        "timestamp": "20240423054128"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "olavofb-medalha",
+      "url": "https://olavodecarvalhofb.wordpress.com/2022/07/02/41846/",
+      "title": "Medalha Biblioteca Nacional — Roxane recebe a homenagem póstuma (2 July 2022)",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://olavodecarvalhofb.wordpress.com/2022/07/02/41846/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20250903151551/https://olavodecarvalhofb.wordpress.com/2022/07/02/41846/",
+        "timestamp": "20250903151551"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "curitiba-camara",
+      "url": "https://www.curitiba.pr.leg.br/informacao/noticias/camara-homenageia-olavo-de-carvalho",
+      "title": "Câmara homenageia Olavo de Carvalho",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.curitiba.pr.leg.br/informacao/noticias/camara-homenageia-olavo-de-carvalho",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20250620035817/https://www.curitiba.pr.leg.br/informacao/noticias/camara-homenageia-olavo-de-carvalho",
+        "timestamp": "20250620035817"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "olavofb-trachea",
+      "url": "https://olavodecarvalhofb.wordpress.com/2021/04/14/14-4-2021/",
+      "title": "14-4-2021 — his own account of the tracheal tumor and the 2018 operation (fan mirror)",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://olavodecarvalhofb.wordpress.com/2021/04/14/14-4-2021/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20221015032820/https://olavodecarvalhofb.wordpress.com/2021/04/14/14-4-2021/",
+        "timestamp": "20221015032820"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "olavofb-bladder",
+      "url": "https://olavodecarvalhofb.wordpress.com/2021/05/18/18-5-2021/",
+      "title": "18-5-2021 — his own account of the US bladder surgery, two tumors, incomplete (fan mirror)",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://olavodecarvalhofb.wordpress.com/2021/05/18/18-5-2021/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": false,
+        "archiveUrl": null,
+        "timestamp": null
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "boletim-cirurgia-2018",
+      "url": "https://www.boletimdaliberdade.com.br/2018/03/27/olavo-de-carvalho-fara-cirurgia-para-retirar-cisto-mas-passa-bem/",
+      "title": "Olavo de Carvalho fará cirurgia para retirar cisto, mas passa bem",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.boletimdaliberdade.com.br/2018/03/27/olavo-de-carvalho-fara-cirurgia-para-retirar-cisto-mas-passa-bem/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260212130702/https://www.boletimdaliberdade.com.br/2018/03/27/olavo-de-carvalho-fara-cirurgia-para-retirar-cisto-mas-passa-bem/",
+        "timestamp": "20260212130702"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "jc-trachea-2021",
+      "url": "https://www.jornaldocomercio.com/_conteudo/politica/2021/04/787642-olavo-de-carvalho-volta-a-ser-internado-com-problemas-respiratorios.html",
+      "title": "Olavo de Carvalho volta a ser internado com problemas respiratórios",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.jornaldocomercio.com/_conteudo/politica/2021/04/787642-olavo-de-carvalho-volta-a-ser-internado-com-problemas-respiratorios.html",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20210414171040/https://www.jornaldocomercio.com/_conteudo/politica/2021/04/787642-olavo-de-carvalho-volta-a-ser-internado-com-problemas-respiratorios.html",
+        "timestamp": "20210414171040"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "istoe-alta-2020",
+      "url": "https://istoe.com.br/apos-dois-dias-internado-olavo-de-carvalho-recebe-alta-do-hospital/",
+      "title": "Após dois dias internado, Olavo de Carvalho recebe alta do hospital",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://istoe.com.br/apos-dois-dias-internado-olavo-de-carvalho-recebe-alta-do-hospital",
+      "redirected": true,
+      "pageTitle": "Após dois dias internado, Olavo de Carvalho recebe alta do hospital - ISTOÉ Independente",
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20200320033345/https://istoe.com.br/apos-dois-dias-internado-olavo-de-carvalho-recebe-alta-do-hospital/",
+        "timestamp": "20200320033345"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "metropoles-bexiga",
+      "url": "https://www.metropoles.com/brasil/politica-brasil/olavo-de-carvalho-diz-ter-sido-operado-de-dois-tumores-na-bexiga",
+      "title": "Olavo de Carvalho diz ter sido operado de dois tumores na bexiga",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.metropoles.com/brasil/politica-brasil/olavo-de-carvalho-diz-ter-sido-operado-de-dois-tumores-na-bexiga",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20230109001917/https://www.metropoles.com/brasil/politica-brasil/olavo-de-carvalho-diz-ter-sido-operado-de-dois-tumores-na-bexiga",
+        "timestamp": "20230109001917"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "poder360-medicina",
+      "url": "https://www.poder360.com.br/brasil/medicina-brasileira-e-melhor-diz-olavo-sobre-tratamento-no-pais/",
+      "title": "'Medicina brasileira é melhor', diz Olavo sobre tratamento no país",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.poder360.com.br/brasil/medicina-brasileira-e-melhor-diz-olavo-sobre-tratamento-no-pais/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20251018230314/https://www.poder360.com.br/brasil/medicina-brasileira-e-melhor-diz-olavo-sobre-tratamento-no-pais/",
+        "timestamp": "20251018230314"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "poder360-incor-alta",
+      "url": "https://www.poder360.com.br/brasil/olavo-de-carvalho-recebe-alta-e-deixa-o-hospital/",
+      "title": "Olavo de Carvalho recebe alta e deixa o hospital (InCor bulletin: admitted 8 July, surgery 13 July)",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.poder360.com.br/brasil/olavo-de-carvalho-recebe-alta-e-deixa-o-hospital/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20251019112204/https://www.poder360.com.br/brasil/olavo-de-carvalho-recebe-alta-e-deixa-o-hospital/",
+        "timestamp": "20251019112204"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "poder360-sepse",
+      "url": "https://www.poder360.com.br/brasil/internado-olavo-de-carvalho-tem-infeccao-urinaria-e-na-corrente-sanguinea/",
+      "title": "Internado, Olavo de Carvalho tem infecção urinária e na corrente sanguínea",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.poder360.com.br/brasil/internado-olavo-de-carvalho-tem-infeccao-urinaria-e-na-corrente-sanguinea/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20251019023947/https://www.poder360.com.br/brasil/internado-olavo-de-carvalho-tem-infeccao-urinaria-e-na-corrente-sanguinea/",
+        "timestamp": "20251019023947"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "folhape-retorno",
+      "url": "https://www.folhape.com.br/politica/olavo-de-carvalho-volta-aos-eua-apos-quatro-meses-internado-no-brasil/206079/",
+      "title": "Olavo de Carvalho volta aos EUA após quatro meses internado no Brasil",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.folhape.com.br/politica/olavo-de-carvalho-volta-aos-eua-apos-quatro-meses-internado-no-brasil/206079/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20211117173753/https://www.folhape.com.br/politica/olavo-de-carvalho-volta-aos-eua-apos-quatro-meses-internado-no-brasil/206079/",
+        "timestamp": "20211117173753"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "correio-guru-2020",
+      "url": "https://www.correiobraziliense.com.br/app/noticia/politica/2020/04/24/interna_politica,848026/olavo-de-carvalho-se-eu-fosse-guru-do-governo-essa-m-nao-acontec.shtml",
+      "title": "Olavo de Carvalho: 'Se eu fosse guru do governo, essa m* não aconteceria'",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.correiobraziliense.com.br/app/noticia/politica/2020/04/24/interna_politica,848026/olavo-de-carvalho-se-eu-fosse-guru-do-governo-essa-m-nao-acontec.shtml",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20200517173831/https://www.correiobraziliense.com.br/app/noticia/politica/2020/04/24/interna_politica,848026/olavo-de-carvalho-se-eu-fosse-guru-do-governo-essa-m-nao-acontec.shtml",
+        "timestamp": "20200517173831"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "poder360-falta-2021",
+      "url": "https://www.poder360.com.br/brasil/voto-em-bolsonaro-por-falta-de-alternativas-afirma-olavo/",
+      "title": "Voto em Bolsonaro 'por falta de alternativas', afirma Olavo",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.poder360.com.br/brasil/voto-em-bolsonaro-por-falta-de-alternativas-afirma-olavo/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260413084114/https://www.poder360.com.br/brasil/voto-em-bolsonaro-por-falta-de-alternativas-afirma-olavo/",
+        "timestamp": "20260413084114"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "em-briga-2021",
+      "url": "https://www.em.com.br/app/noticia/politica/2021/12/21/interna_politica,1332882/olavo-de-carvalho-sobre-chances-de-reeleicao-de-bolsonaro-briga-perdida.shtml",
+      "title": "Olavo de Carvalho sobre chances de reeleição de Bolsonaro: 'briga perdida'",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.em.com.br/app/noticia/politica/2021/12/21/interna_politica,1332882/olavo-de-carvalho-sobre-chances-de-reeleicao-de-bolsonaro-briga-perdida.shtml",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260416110403/https://www.em.com.br/app/noticia/politica/2021/12/21/interna_politica,1332882/olavo-de-carvalho-sobre-chances-de-reeleicao-de-bolsonaro-briga-perdida.shtml",
+        "timestamp": "20260416110403"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "sedgwick-aries-2021",
+      "url": "https://brill.com/view/journals/arie/21/2/article-p159_1.xml",
+      "title": "Traditionalism in Brazil: Sufism, T'ai Chi, and Olavo de Carvalho",
+      "method": "GET",
+      "status": 405,
+      "finalUrl": "https://brill.com/view/journals/arie/21/2/article-p159_1.xml",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "inconclusive",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260223141256/https://brill.com/view/journals/arie/21/2/article-p159_1.xml",
+        "timestamp": "20260223141256"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "olavo-true-outspeak",
+      "url": "https://www.youtube.com/playlist?list=PLeDYbSG3ee95BaJB-caH9btRz6tcv2sne",
+      "title": "True Outspeak (weekly programme, 2006–2011)",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/playlist?list=PLeDYbSG3ee95BaJB-caH9btRz6tcv2sne",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260804163257/https://www.youtube.com/playlist?list=PLeDYbSG3ee95BaJB-caH9btRz6tcv2sne",
+        "timestamp": "20260804163257"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "olavo-video-hef",
+      "url": "https://www.youtube.com/playlist?list=PL52ZkoPcWL64AIbTB1UCCdwlW1oMeDJvN",
+      "title": "Curso História Essencial da Filosofia (eight recorded sessions)",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/playlist?list=PL52ZkoPcWL64AIbTB1UCCdwlW1oMeDJvN",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": false,
+        "archiveUrl": null,
+        "timestamp": null
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "fdl-edicoes-wiki",
+      "url": "https://pt.wikipedia.org/wiki/F%C3%B3rum_da_Liberdade",
+      "title": "Fórum da Liberdade — list of editions and themes",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://pt.wikipedia.org/wiki/F%C3%B3rum_da_Liberdade",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20251104094152/https://pt.wikipedia.org/wiki/F%C3%B3rum_da_Liberdade",
+        "timestamp": "20251104094152"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "fdl-contexto-internacional",
+      "url": "https://www.scielo.br/j/cint/a/M53bML6CVgc73SLTTNFyPMh/?lang=en",
+      "title": "Camila Feix Vidal, Jahde de Almeida Lopez and Luan Corrêa Brum, 'The Power of Ideas: The Fórum da Liberdade, 1988–2018'",
+      "method": "GET",
+      "status": 403,
+      "finalUrl": "https://www.scielo.br/j/cint/a/M53bML6CVgc73SLTTNFyPMh/?lang=en",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "inconclusive",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260215234153/https://www.scielo.br/j/cint/a/M53bML6CVgc73SLTTNFyPMh/?lang=en",
+        "timestamp": "20260215234153"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "olavo-video-fdl-2000",
+      "url": "https://www.youtube.com/watch?v=ic49hbeYG5o",
+      "title": "Olavo de Carvalho at the Fórum da Liberdade, 2000 (recording)",
+      "method": "HEAD",
+      "status": 204,
+      "finalUrl": "https://www.youtube.com/watch?v=ic49hbeYG5o",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20240124111246/https://www.youtube.com/watch?v=ic49hbeYG5o",
+        "timestamp": "20240124111246"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "olavo-video-fdl-2002",
+      "url": "https://www.youtube.com/watch?v=x8LohxZhieo",
+      "title": "Olavo de Carvalho at the Fórum da Liberdade, 2002 (recording)",
+      "method": "HEAD",
+      "status": 204,
+      "finalUrl": "https://www.youtube.com/watch?v=x8LohxZhieo",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20230225200323/https://www.youtube.com/watch?v=x8LohxZhieo",
+        "timestamp": "20230225200323"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "olavo-video-fdl-2004",
+      "url": "https://www.youtube.com/watch?v=L6AB7jZ-hiY",
+      "title": "Cultura e desenvolvimento — Olavo de Carvalho and Eduardo Bueno, Fórum da Liberdade 2004 (recording)",
+      "method": "HEAD",
+      "status": 204,
+      "finalUrl": "https://www.youtube.com/watch?v=L6AB7jZ-hiY",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20241209054836/https://www.youtube.com/watch?v=L6AB7jZ-hiY",
+        "timestamp": "20241209054836"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "olavo-video-fdl-2005",
+      "url": "https://www.youtube.com/watch?v=BsZXOGDwMb0",
+      "title": "Fórum da Liberdade 2005 — Suri Ratnapala, Oded Grajew and Olavo de Carvalho (recording)",
+      "method": "HEAD",
+      "status": 204,
+      "finalUrl": "https://www.youtube.com/watch?v=BsZXOGDwMb0",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20230422052832/https://www.youtube.com/watch?v=BsZXOGDwMb0",
+        "timestamp": "20230422052832"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "olavo-video-cof-europa-2016",
+      "url": "https://www.youtube.com/watch?v=p1vP7q1w1JQ",
+      "title": "1st European Meeting of the COF (2016) — hangout with Olavo de Carvalho",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=p1vP7q1w1JQ",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20220805033343/https://www.youtube.com/watch?v=p1vP7q1w1JQ",
+        "timestamp": "20220805033343"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "marsili-anima-household",
+      "url": "https://www.youtube.com/watch?v=x0D0ZZrQnsY",
+      "title": "Ítalo Marsili on living in Olavo de Carvalho's house (Anima Podcast clip, 7 min)",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=x0D0ZZrQnsY",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20240124122811/https://www.youtube.com/watch?v=x0D0ZZrQnsY",
+        "timestamp": "20240124122811"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "lege5-decret-581-2000",
+      "url": "https://lege5.ro/gratuit/gi3dknbr/decretul-nr-581-2000-privind-conferirea-ordinului-national-pentru-merit",
+      "title": "Decretul nr. 581/2000 privind conferirea Ordinului naţional Pentru Merit",
+      "method": "HEAD",
+      "status": 503,
+      "finalUrl": "https://lege5.ro/gratuit/gi3dknbr/decretul-nr-581-2000-privind-conferirea-ordinului-national-pentru-merit",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "inconclusive",
+      "soft404": false,
+      "snapshot": {
+        "exists": false,
+        "archiveUrl": null,
+        "timestamp": null
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "hotnews-decoratie",
+      "url": "https://www.hotnews.ro/stiri-international-25328501-astrolog-filosof-coronasceptic-olavo-carvalho-murit-covid-19-mentorul-presedintelui-jair-bolsonaro-fusese-decorat-ordinul-national-pentru-merit-romaniei-grad-comandor.htm",
+      "title": "Astrolog, filosof, coronasceptic: Olavo de Carvalho ar fi murit de COVID-19 / „Gurul” lui Jair Bolsonaro a fost decorat cu Ordinul Naţional Pentru Merit al României în grad de Comandor",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://hotnews.ro/astrolog-filosof-coronasceptic-olavo-de-carvalho-ar-fi-murit-de-covid-19-gurul-lui-jair-bolsonaro-a-fost-decorat-cu-ordinul-national-pentru-merit-al-romniei-n-grad-de-148961",
+      "redirected": true,
+      "pageTitle": "Astrolog, filosof, coronasceptic: Olavo de Carvalho ar fi murit de COVID-19 / &bdquo;Gurul&rdquo; lui Jair Bolsonaro a fost decorat cu Ordinul Naţional Pentru Merit al Rom&acirc;niei &icirc;n grad de Comandor - HotNews.ro",
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20220202192933/https://www.hotnews.ro/stiri-international-25328501-astrolog-filosof-coronasceptic-olavo-carvalho-murit-covid-19-mentorul-presedintelui-jair-bolsonaro-fusese-decorat-ordinul-national-pentru-merit-romaniei-grad-comandor.htm",
+        "timestamp": "20220202192933"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "valor-ggn-militares",
+      "url": "https://jornalggn.com.br/politica/olavo-de-carvalho-e-militares-de-parceiros-ideologicos-a-rivais-por-maria-cristina-fernandes/",
+      "title": "Olavo de Carvalho e Militares, de parceiros ideológicos a rivais",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://jornalggn.com.br/politica/olavo-de-carvalho-e-militares-de-parceiros-ideologicos-a-rivais-por-maria-cristina-fernandes/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20190426100620/https://jornalggn.com.br/politica/olavo-de-carvalho-e-militares-de-parceiros-ideologicos-a-rivais-por-maria-cristina-fernandes/",
+        "timestamp": "20190426100620"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "abc-saddam-tapes",
+      "url": "https://abcnews.com/Nightline/Investigation/story?id=1616996",
+      "title": "EXCLUSIVE: Saddam's Secret Tapes",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://abcnews.com/Nightline/Investigation/story?id=1616996",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": false,
+        "archiveUrl": null,
+        "timestamp": null
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "olavo-resume-en",
+      "url": "https://docslib.org/doc/4932555/olavo-lp-de-carvalho",
+      "title": "Olavo L. P. de Carvalho — Résumé (English, undated)",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://docslib.org/doc/4932555/olavo-lp-de-carvalho",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": false,
+        "archiveUrl": null,
+        "timestamp": null
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "sep-aristotle",
+      "url": "https://plato.stanford.edu/entries/aristotle/",
+      "title": "Aristotle",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://plato.stanford.edu/entries/aristotle/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": false,
+        "archiveUrl": null,
+        "timestamp": null
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "iep-aristotle",
+      "url": "https://iep.utm.edu/aristotle/",
+      "title": "Aristotle (384 B.C.E.—322 B.C.E.)",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://iep.utm.edu/aristotle/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260730160337/https://iep.utm.edu/aristotle/",
+        "timestamp": "20260730160337"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "brit-aristotle",
+      "url": "https://www.britannica.com/biography/Aristotle",
+      "title": "Aristotle",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.britannica.com/biography/Aristotle",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260731075721/https://www.britannica.com/biography/Aristotle",
+        "timestamp": "20260731075721"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "sep-plato",
+      "url": "https://plato.stanford.edu/entries/plato/",
+      "title": "Plato",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://plato.stanford.edu/entries/plato/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": false,
+        "archiveUrl": null,
+        "timestamp": null
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "iep-plato",
+      "url": "https://iep.utm.edu/plato/",
+      "title": "Plato (427—347 B.C.E.)",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://iep.utm.edu/plato/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260803061150/https://iep.utm.edu/plato/",
+        "timestamp": "20260803061150"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "brit-plato",
+      "url": "https://www.britannica.com/biography/Plato",
+      "title": "Plato",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.britannica.com/biography/Plato",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260726035952/https://www.britannica.com/biography/Plato",
+        "timestamp": "20260726035952"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "sep-socrates",
+      "url": "https://plato.stanford.edu/entries/socrates/",
+      "title": "Socrates",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://plato.stanford.edu/entries/socrates/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": false,
+        "archiveUrl": null,
+        "timestamp": null
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "iep-socrates",
+      "url": "https://iep.utm.edu/socrates/",
+      "title": "Socrates (469—399 B.C.E.)",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://iep.utm.edu/socrates/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260803093428/https://iep.utm.edu/socrates/",
+        "timestamp": "20260803093428"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "brit-socrates",
+      "url": "https://www.britannica.com/biography/Socrates",
+      "title": "Socrates",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.britannica.com/biography/Socrates",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260715084152/https://www.britannica.com/biography/Socrates",
+        "timestamp": "20260715084152"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "sep-descartes",
+      "url": "https://plato.stanford.edu/entries/descartes/",
+      "title": "René Descartes",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://plato.stanford.edu/entries/descartes/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": false,
+        "archiveUrl": null,
+        "timestamp": null
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "sep-descartes-works",
+      "url": "https://plato.stanford.edu/entries/descartes-works/",
+      "title": "Descartes' Life and Works",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://plato.stanford.edu/entries/descartes-works/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": false,
+        "archiveUrl": null,
+        "timestamp": null
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "iep-descartes",
+      "url": "https://iep.utm.edu/rene-descartes/",
+      "title": "René Descartes (1596—1650)",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://iep.utm.edu/rene-descartes/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260731093734/https://iep.utm.edu/rene-descartes/",
+        "timestamp": "20260731093734"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "brit-descartes",
+      "url": "https://www.britannica.com/biography/Rene-Descartes",
+      "title": "René Descartes",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.britannica.com/biography/Rene-Descartes",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260716124854/https://www.britannica.com/biography/Rene-Descartes",
+        "timestamp": "20260716124854"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "sep-marx",
+      "url": "https://plato.stanford.edu/entries/marx/",
+      "title": "Karl Marx",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://plato.stanford.edu/entries/marx/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": false,
+        "archiveUrl": null,
+        "timestamp": null
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "brit-marx",
+      "url": "https://www.britannica.com/biography/Karl-Marx",
+      "title": "Karl Marx",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.britannica.com/biography/Karl-Marx",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": false,
+        "archiveUrl": null,
+        "timestamp": null
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "brit-marx-london",
+      "url": "https://www.britannica.com/biography/Karl-Marx/Early-years-in-London",
+      "title": "Karl Marx — Early years in London",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.britannica.com/biography/Karl-Marx/Early-years-in-London",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20251206203119/https://www.britannica.com/biography/Karl-Marx/Early-years-in-London",
+        "timestamp": "20251206203119"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "brit-marx-first-international",
+      "url": "https://www.britannica.com/biography/Karl-Marx/Role-in-the-First-International",
+      "title": "Karl Marx — Role in the First International",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.britannica.com/biography/Karl-Marx/Role-in-the-First-International",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20251214064138/https://www.britannica.com/biography/Karl-Marx/Role-in-the-First-International",
+        "timestamp": "20251214064138"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "brit-das-kapital",
+      "url": "https://www.britannica.com/topic/Das-Kapital",
+      "title": "Das Kapital (work by Marx)",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.britannica.com/topic/Das-Kapital",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260730075955/https://www.britannica.com/topic/Das-Kapital",
+        "timestamp": "20260730075955"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "sep-aquinas",
+      "url": "https://plato.stanford.edu/entries/aquinas/",
+      "title": "Thomas Aquinas",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://plato.stanford.edu/entries/aquinas/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": false,
+        "archiveUrl": null,
+        "timestamp": null
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "iep-aquinas",
+      "url": "https://iep.utm.edu/thomas-aquinas/",
+      "title": "Thomas Aquinas (1224/6—1274)",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://iep.utm.edu/thomas-aquinas/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": false,
+        "archiveUrl": null,
+        "timestamp": null
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "brit-aquinas",
+      "url": "https://www.britannica.com/biography/Saint-Thomas-Aquinas",
+      "title": "St. Thomas Aquinas",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.britannica.com/biography/Saint-Thomas-Aquinas",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260726194355/https://www.britannica.com/biography/Saint-Thomas-Aquinas",
+        "timestamp": "20260726194355"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "sep-kant",
+      "url": "https://plato.stanford.edu/entries/kant/",
+      "title": "Immanuel Kant",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://plato.stanford.edu/entries/kant/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": false,
+        "archiveUrl": null,
+        "timestamp": null
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "iep-kant",
+      "url": "https://iep.utm.edu/kantview/",
+      "title": "Immanuel Kant: Metaphysics (topical entry with a biographical section)",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://iep.utm.edu/kantview/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260724183933/https://iep.utm.edu/kantview/",
+        "timestamp": "20260724183933"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "brit-kant",
+      "url": "https://www.britannica.com/biography/Immanuel-Kant",
+      "title": "Immanuel Kant",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.britannica.com/biography/Immanuel-Kant",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260609190112/https://www.britannica.com/biography/Immanuel-Kant",
+        "timestamp": "20260609190112"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "sep-hegel",
+      "url": "https://plato.stanford.edu/entries/hegel/",
+      "title": "Georg Wilhelm Friedrich Hegel",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://plato.stanford.edu/entries/hegel/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": false,
+        "archiveUrl": null,
+        "timestamp": null
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "iep-hegel",
+      "url": "https://iep.utm.edu/hegelsoc/",
+      "title": "Hegel: Social and Political Thought (topical entry with a biographical section)",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://iep.utm.edu/hegelsoc/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260721115811/https://iep.utm.edu/hegelsoc/",
+        "timestamp": "20260721115811"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "brit-hegel",
+      "url": "https://www.britannica.com/biography/Georg-Wilhelm-Friedrich-Hegel",
+      "title": "Georg Wilhelm Friedrich Hegel",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.britannica.com/biography/Georg-Wilhelm-Friedrich-Hegel",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260728152757/https://www.britannica.com/biography/Georg-Wilhelm-Friedrich-Hegel",
+        "timestamp": "20260728152757"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "matheson-guenon",
+      "url": "https://www.themathesontrust.org/papers/biographies/Rene%20Gu%C3%A9non%20H%20OLdmeadow.pdf",
+      "title": "René Guénon (biographical essay by Harry Oldmeadow, PDF)",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.themathesontrust.org/papers/biographies/Rene%20Gu%C3%A9non%20H%20OLdmeadow.pdf",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260116085247/https://www.themathesontrust.org/papers/biographies/Rene%20Gu%C3%A9non%20H%20OLdmeadow.pdf",
+        "timestamp": "20260116085247"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "worldwisdom-guenon",
+      "url": "https://worldwisdom.com/author/rene-guenon/",
+      "title": "René Guénon — author biography",
+      "method": "HEAD",
+      "status": 202,
+      "finalUrl": "https://worldwisdom.com/author/rene-guenon/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": false,
+        "archiveUrl": null,
+        "timestamp": null
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "universalis-guenon",
+      "url": "https://www.universalis.fr/encyclopedie/rene-guenon/",
+      "title": "GUÉNON RENÉ (1886-1951)",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.universalis.fr/index/rene-guenon/",
+      "redirected": true,
+      "pageTitle": "GUÉNON RENÉ (1886-1951) - Index - Encyclopédie Universalis",
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20211109012902/https://www.universalis.fr/encyclopedie/rene-guenon/",
+        "timestamp": "20211109012902"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "brit-lavelle",
+      "url": "https://www.britannica.com/biography/Louis-Lavelle",
+      "title": "Louis Lavelle",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.britannica.com/biography/Louis-Lavelle",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20250805055508/https://www.britannica.com/biography/Louis-Lavelle",
+        "timestamp": "20250805055508"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "uqam-lavelle",
+      "url": "https://classiques.uqam.ca/classiques/lavelle_louis/lavelle_louis.html",
+      "title": "Louis Lavelle (1883-1951) — digitized works",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://classiques.uqam.ca/classiques/lavelle_louis/lavelle_louis.html",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": false,
+        "archiveUrl": null,
+        "timestamp": null
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "universalis-lavelle",
+      "url": "https://www.universalis.fr/encyclopedie/louis-lavelle/",
+      "title": "LOUIS LAVELLE (1883-1951)",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.universalis.fr/encyclopedie/louis-lavelle/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20241127035142/https://www.universalis.fr/encyclopedie/louis-lavelle/",
+        "timestamp": "20241127035142"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "sep-nietzsche",
+      "url": "https://plato.stanford.edu/entries/nietzsche/",
+      "title": "Friedrich Nietzsche",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://plato.stanford.edu/entries/nietzsche/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": false,
+        "archiveUrl": null,
+        "timestamp": null
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "brit-nietzsche",
+      "url": "https://www.britannica.com/biography/Friedrich-Nietzsche",
+      "title": "Friedrich Nietzsche",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.britannica.com/biography/Friedrich-Nietzsche",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260718112253/https://www.britannica.com/biography/Friedrich-Nietzsche",
+        "timestamp": "20260718112253"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "iep-nietzsche",
+      "url": "https://iep.utm.edu/nietzsche/",
+      "title": "Friedrich Nietzsche",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://iep.utm.edu/nietzsche-philosophical-psychology/",
+      "redirected": true,
+      "pageTitle": "Nietzsche: Philosophical Psychology | Internet Encyclopedia of Philosophy",
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": false,
+        "archiveUrl": null,
+        "timestamp": null
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "sep-leibniz",
+      "url": "https://plato.stanford.edu/entries/leibniz/",
+      "title": "Gottfried Wilhelm Leibniz",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://plato.stanford.edu/entries/leibniz/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": false,
+        "archiveUrl": null,
+        "timestamp": null
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "brit-leibniz",
+      "url": "https://www.britannica.com/biography/Gottfried-Wilhelm-Leibniz",
+      "title": "Gottfried Wilhelm Leibniz",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.britannica.com/biography/Gottfried-Wilhelm-Leibniz",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260722203409/https://www.britannica.com/biography/Gottfried-Wilhelm-Leibniz",
+        "timestamp": "20260722203409"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "iep-leibniz-met",
+      "url": "https://iep.utm.edu/leib-met/",
+      "title": "Gottfried Leibniz: Metaphysics",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://iep.utm.edu/leib-met/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260801112732/https://iep.utm.edu/leib-met/",
+        "timestamp": "20260801112732"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "luizberto-mario",
+      "url": "https://luizberto.com/os-brasileiros-mario-ferreira-dos-santos/",
+      "title": "Os Brasileiros: Mário Ferreira dos Santos",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://luizberto.com/os-brasileiros-mario-ferreira-dos-santos/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20251206151830/https://luizberto.com/os-brasileiros-mario-ferreira-dos-santos/",
+        "timestamp": "20251206151830"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "faje-mario",
+      "url": "https://faculdadejesuita.edu.br/wp-content/uploads/2024/07/2019-MIRIAN-DORNAS-GOMES-PEREIRA.pdf",
+      "title": "O ponto arquimédico da Filosofia Concreta segundo a concepção de Mário Ferreira dos Santos (Miriam Dornas Gomes Pereira, monografia, 2019)",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://faculdadejesuita.edu.br/wp-content/uploads/2024/07/2019-MIRIAN-DORNAS-GOMES-PEREIRA.pdf",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20250807005047/https://faculdadejesuita.edu.br/wp-content/uploads/2024/07/2019-MIRIAN-DORNAS-GOMES-PEREIRA.pdf",
+        "timestamp": "20250807005047"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "migalhas-mario",
+      "url": "https://www.migalhas.com.br/depeso/210801/redescobrindo-o-filosofo-brasileiro-mario-ferreira-dos-santos--uma-pontual-abordagem-criminologico-cultural",
+      "title": "Redescobrindo o filósofo brasileiro Mário Ferreira dos Santos (Eduardo Luiz Santos Cabette, 2014)",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.migalhas.com.br/depeso/210801/redescobrindo-o-filosofo-brasileiro-mario-ferreira-dos-santos--uma-pontual-abordagem-criminologico-cultural",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20220127111805/https://www.migalhas.com.br/depeso/210801/redescobrindo-o-filosofo-brasileiro-mario-ferreira-dos-santos--uma-pontual-abordagem-criminologico-cultural",
+        "timestamp": "20220127111805"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "sep-agostinho",
+      "url": "https://plato.stanford.edu/entries/augustine/",
+      "title": "Augustine of Hippo",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://plato.stanford.edu/entries/augustine/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": false,
+        "archiveUrl": null,
+        "timestamp": null
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "brit-agostinho",
+      "url": "https://www.britannica.com/biography/Saint-Augustine",
+      "title": "St. Augustine",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.britannica.com/biography/Saint-Augustine",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260718014753/https://www.britannica.com/biography/Saint-Augustine",
+        "timestamp": "20260718014753"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "iep-agostinho",
+      "url": "https://iep.utm.edu/augustin/",
+      "title": "Augustine of Hippo (354—430 C.E.)",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://iep.utm.edu/augustine-political-and-social-philosophy/",
+      "redirected": true,
+      "pageTitle": "Augustine: Political and Social Philosophy | Internet Encyclopedia of Philosophy",
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20220119073455/https://iep.utm.edu/augustin/",
+        "timestamp": "20220119073455"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "brit-voegelin",
+      "url": "https://www.britannica.com/biography/Eric-Herman-Wilhelm-Voegelin",
+      "title": "Eric Voegelin",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.britannica.com/biography/Eric-Herman-Wilhelm-Voegelin",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260104143143/https://www.britannica.com/biography/Eric-Herman-Wilhelm-Voegelin",
+        "timestamp": "20260104143143"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "voegelinview-bio",
+      "url": "https://voegelinview.com/biographical-sketch/",
+      "title": "Eric Voegelin Biographical Sketch",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://voegelinview.com/biographical-sketch/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260629224823/https://voegelinview.com/biographical-sketch/",
+        "timestamp": "20260629224823"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "sep-husserl",
+      "url": "https://plato.stanford.edu/entries/husserl/",
+      "title": "Edmund Husserl",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://plato.stanford.edu/entries/husserl/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": false,
+        "archiveUrl": null,
+        "timestamp": null
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "brit-husserl",
+      "url": "https://www.britannica.com/biography/Edmund-Husserl",
+      "title": "Edmund Husserl",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.britannica.com/biography/Edmund-Husserl",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260624115744/https://www.britannica.com/biography/Edmund-Husserl",
+        "timestamp": "20260624115744"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "iep-husserl",
+      "url": "https://iep.utm.edu/husserl/",
+      "title": "Edmund Husserl",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://iep.utm.edu/husserl/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260725144121/https://iep.utm.edu/husserl/",
+        "timestamp": "20260725144121"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "sep-heidegger",
+      "url": "https://plato.stanford.edu/entries/heidegger/",
+      "title": "Martin Heidegger",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://plato.stanford.edu/entries/heidegger/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": false,
+        "archiveUrl": null,
+        "timestamp": null
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "brit-heidegger",
+      "url": "https://www.britannica.com/biography/Martin-Heidegger-German-philosopher",
+      "title": "Martin Heidegger",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.britannica.com/biography/Martin-Heidegger-German-philosopher",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260731203531/https://www.britannica.com/biography/Martin-Heidegger-German-philosopher",
+        "timestamp": "20260731203531"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "iep-heidegger",
+      "url": "https://iep.utm.edu/heidegge/",
+      "title": "Martin Heidegger",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://iep.utm.edu/heidegge/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260801000835/https://iep.utm.edu/heidegge/",
+        "timestamp": "20260801000835"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "fschuon-bio",
+      "url": "https://en.fschuon.info/?page_id=209",
+      "title": "Frithjof Schuon — Biography",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://en.fschuon.info/?page_id=209",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20241126235034/https://en.fschuon.info/?page_id=209",
+        "timestamp": "20241126235034"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "sedgwick-blog-schuon",
+      "url": "https://traditionalistblog.blogspot.com/2020/10/new-website-and-new-videos-about-schuon.html",
+      "title": "Traditionalists: New website and new videos about Schuon (12 Oct 2020)",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://traditionalistblog.blogspot.com/2020/10/new-website-and-new-videos-about-schuon.html",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20231123223234/https://traditionalistblog.blogspot.com/2020/10/new-website-and-new-videos-about-schuon.html",
+        "timestamp": "20231123223234"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "sedgwick-oup",
+      "url": "https://global.oup.com/academic/product/against-the-modern-world-9780195396010",
+      "title": "Against the Modern World: Traditionalism and the Secret Intellectual History of the Twentieth Century (Mark Sedgwick, OUP, 2004)",
+      "method": "HEAD",
+      "status": 202,
+      "finalUrl": "https://global.oup.com/academic/product/against-the-modern-world-9780195396010?cc=us&lang=en&",
+      "redirected": true,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": false,
+        "archiveUrl": null,
+        "timestamp": null
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "sep-gasset",
+      "url": "https://plato.stanford.edu/entries/gasset/",
+      "title": "José Ortega y Gasset",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://plato.stanford.edu/entries/gasset/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": false,
+        "archiveUrl": null,
+        "timestamp": null
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "brit-ortega",
+      "url": "https://www.britannica.com/biography/Jose-Ortega-y-Gasset",
+      "title": "José Ortega y Gasset",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.britannica.com/biography/Jose-Ortega-y-Gasset",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260213122213/https://www.britannica.com/biography/Jose-Ortega-y-Gasset",
+        "timestamp": "20260213122213"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "sep-dante",
+      "url": "https://plato.stanford.edu/entries/dante/",
+      "title": "Dante Alighieri",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://plato.stanford.edu/entries/dante/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": false,
+        "archiveUrl": null,
+        "timestamp": null
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "brit-dante",
+      "url": "https://www.britannica.com/biography/Dante-Alighieri",
+      "title": "Dante | Italian Poet",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.britannica.com/biography/Dante-Alighieri",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260730053341/https://www.britannica.com/biography/Dante-Alighieri",
+        "timestamp": "20260730053341"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "sep-philo",
+      "url": "https://plato.stanford.edu/entries/philo/",
+      "title": "Philo of Alexandria",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://plato.stanford.edu/entries/philo/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": false,
+        "archiveUrl": null,
+        "timestamp": null
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "iep-philo",
+      "url": "https://iep.utm.edu/philo/",
+      "title": "Philo of Alexandria (c. 20 B.C.E.—40 C.E.)",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://iep.utm.edu/philo/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260801101124/https://iep.utm.edu/philo/",
+        "timestamp": "20260801101124"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "brit-philo",
+      "url": "https://www.britannica.com/biography/Philo-Judaeus",
+      "title": "Philo Judaeus",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.britannica.com/biography/Philo-Judaeus",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260801101123/https://www.britannica.com/biography/Philo-Judaeus",
+        "timestamp": "20260801101123"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "cathen-philo",
+      "url": "https://www.newadvent.org/cathen/12023a.htm",
+      "title": "Émile Bréhier, 'Philo Judaeus'",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.newadvent.org/cathen/12023a.htm",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260608190618/https://www.newadvent.org/cathen/12023a.htm",
+        "timestamp": "20260608190618"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "bmcr-niehoff-philo",
+      "url": "https://bmcr.brynmawr.edu/2018/2018.05.36/",
+      "title": "Gretchen Reydams-Schils, review of Maren R. Niehoff, Philo of Alexandria: An Intellectual Biography (Yale, 2018)",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://bmcr.brynmawr.edu/2018/2018.05.36/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260417150218/https://bmcr.brynmawr.edu/2018/2018.05.36",
+        "timestamp": "20260417150218"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "bmcr-gambetti-riots",
+      "url": "https://bmcr.brynmawr.edu/2010/2010.12.63/",
+      "title": "Torrey Seland, review of Sandra Gambetti, The Alexandrian Riots of 38 C.E. (Brill, 2009)",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://bmcr.brynmawr.edu/2010/2010.12.63/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20250619094142/https://bmcr.brynmawr.edu/2010/2010.12.63/",
+        "timestamp": "20250619094142"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "bmcr-runia-philo",
+      "url": "https://bmcr.brynmawr.edu/1995/1995.03.16/",
+      "title": "Allen Kerkeslager, review of David T. Runia, Philo in Early Christian Literature: A Survey (Van Gorcum/Fortress, 1993)",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://bmcr.brynmawr.edu/1995/1995.03.16/",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20240808005152/https://bmcr.brynmawr.edu/1995/1995.03.16/",
+        "timestamp": "20240808005152"
+      },
+      "priorityArchive": false,
+      "note": ""
+    },
+    {
+      "id": "eusebius-he-philo",
+      "url": "https://www.newadvent.org/fathers/250102.htm",
+      "title": "Eusebius, Historia ecclesiastica II.4, 5, 17, 18",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.newadvent.org/fathers/250102.htm",
+      "redirected": false,
+      "pageTitle": null,
+      "verdict": "ok",
+      "soft404": false,
+      "snapshot": {
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260801101146/https://www.newadvent.org/fathers/250102.htm",
+        "timestamp": "20260801101146"
+      },
+      "priorityArchive": false,
+      "note": ""
+    }
+  ]
+}

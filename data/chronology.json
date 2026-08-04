@@ -438,12 +438,14 @@
       "sources": [
         "calil-argumentum",
         "wikipedia-en",
-        "wikipedia-pt"
+        "wikipedia-pt",
+        "rdap-msm-org"
       ],
       "threads": [
         "politics-influence",
         "formation-press"
-      ]
+      ],
+      "dateNote": "The .org domain was registered 24 July 2002 and the site was serving content by 11 August, which is an independent bound on the founding year rather than a restatement of it."
     },
     {
       "year": 2002,
@@ -661,7 +663,8 @@
       "sources": [
         "propublica-iai",
         "catracalivre-iai",
-        "olavofb-iai"
+        "olavofb-iai",
+        "rdap-iai"
       ],
       "threads": [
         "philosophy-teaching",
@@ -836,7 +839,8 @@
       "threads": [
         "politics-influence",
         "formation-press"
-      ]
+      ],
+      "dateNote": "Calil gives 2002–2017. The site was still serving on 3 January and 4 September 2018, so his end date is early by at least a year; the shutdown falls between September 2018 and 2021. Both positions are recorded rather than reconciled."
     },
     {
       "year": 2017,
@@ -939,7 +943,7 @@
     {
       "year": 2019,
       "date": "2019-12-19",
-      "dateVerified": true,
+      "dateVerified": false,
       "place": "Online",
       "title": "Launch of the online newspaper Brasil Sem Medo",
       "text": "Announced on 6 December 2019 and live from 19 December 2019, with Olavo as figurehead — reported independently by Metrópoles and Gazeta do Povo; the site is in the Wayback record by 26 December 2019.",
@@ -951,7 +955,8 @@
       "threads": [
         "formation-press",
         "politics-influence"
-      ]
+      ],
+      "dateNote": "The 19 December date is the launch announced on 6 December, not an attested go-live. Three newsrooms reported the plan independently that day — Metrópoles, Gazeta do Povo and Poder360, none carrying an agency credit — and all three state the 19th prospectively. The domain was registered 25 November 2019 and something was serving on it by 6 December, which a snapshot cannot distinguish from a teaser. What is firmly attested is the announcement."
     },
     {
       "year": 2020,
@@ -1081,7 +1086,7 @@
       "dateVerified": true,
       "place": "Petersburg, VA, USA",
       "title": "Burial at St. Joseph's Cemetery, Petersburg, Virginia",
-      "text": "Buried on 26 January 2022 at St. Joseph's Cemetery, Petersburg, Virginia — the ceremony reported same-day by Metrópoles and by Correio Braziliense/Folhapress.",
+      "text": "Buried on 26 January 2022 at St. Joseph's Cemetery, Petersburg, Virginia, after a closed-casket wake; the graveside service was conducted by Father Gino Rossi, pastor of St Joseph Catholic Church in Petersburg. Reported from the cemetery the same day by Mariana Sanches for BBC News Brasil, and prospectively by Folha de S. Paulo, which had the hour from the funeral home. The two accounts give 16h and 15h and are read here as sequence — the wake at three, the interment at four — rather than as a conflict.",
       "sources": [
         "metropoles-enterro",
         "correiobraziliense-enterro",
@@ -1332,10 +1337,11 @@
       "name": "Mídia Sem Máscara",
       "founded": "2002",
       "place": "Brazil (online)",
-      "relation": "Founder (2002); his main ideological web platform. Calil dates its going offline to 2017 (taken down by a former collaborator), though the Wayback record still shows live captures into September 2018 — the end may mark activity rather than the site itself; kept flagged",
+      "relation": "Founder (2002); his main ideological web platform. The .org domain was registered 24 July 2002 and the site was serving by that August, which matches the founding year given for it. Calil dates its going offline to 2017, taken down by a former collaborator, though the Wayback record still shows live captures into September 2018 — the end may mark activity rather than the site itself; kept flagged. It later returned on a different domain: midiasemmascara.net is live, presents itself as Mídia Sem Máscara and dates itself from August 2002, with material published as late as November 2024. The original .org now serves a parked page.",
       "sources": [
         "calil-argumentum",
-        "wikipedia-en"
+        "wikipedia-en",
+        "msm-net"
       ]
     },
     {
@@ -1390,7 +1396,7 @@
       "name": "Brasil Sem Medo",
       "founded": "2019",
       "place": "Online",
-      "relation": "Online newspaper launched 2019 with Olavo as figurehead, per Poder360",
+      "relation": "Online newspaper announced 6 December 2019 with Olavo as president of the editorial board, Paulo Briguet as editor-in-chief and Silvio Grimaldo as executive director; he called it the largest conservative newspaper on the Brazilian internet. Three newsrooms reported the announcement independently that day, none carrying an agency credit.",
       "sources": [
         "poder360-obit"
       ]
@@ -1823,7 +1829,7 @@
       "title": "Inter-American Institute for Philosophy, Government, and Social Thought — IRS nonprofit record (EIN 27-1394713)",
       "url": "https://projects.propublica.org/nonprofits/organizations/271394713",
       "publisher": "ProPublica Nonprofit Explorer",
-      "publisherNote": "IRS records",
+      "publisherNote": "IRS records — and they do not carry a 2009 date. The ruling date is April 2017 and the organization has no Form 990 filings, being a 990-N filer under the threshold. The EIN prefix is consistent with a 2009-era assignment, but April 2017 is the only date the record states, whether as a late determination or a reinstatement. It cannot support the founding year.",
       "type": "database"
     },
     {
@@ -1862,14 +1868,16 @@
       "title": "Olavo de Carvalho será enterrado em Petersburg, pequena cidade dos EUA",
       "url": "https://www.metropoles.com/mundo/olavo-de-carvalho-sera-enterrado-em-petersburg-pequena-cidade-dos-eua",
       "publisher": "Metrópoles",
-      "type": "news"
+      "type": "news",
+      "publisherNote": "Credits Folha de S. Paulo. A reprint, not an independent source; the Folha original is the citable one for the funeral's scheduled hour."
     },
     {
       "id": "correiobraziliense-enterro",
-      "title": "Olavo de Carvalho é enterrado nos EUA em funeral",
-      "url": "https://www.correiobraziliense.com.br/politica/2022/01/4980493-olavo-de-carvalho-e-enterrado-nos-eua-em-funeral.html",
-      "publisher": "Correio Braziliense / Folhapress",
-      "type": "news"
+      "title": "Mariana Sanches, 'Olavo de Carvalho é enterrado nos EUA em funeral com Allan dos Santos e Ernesto Araújo'",
+      "url": "https://www.correiobraziliense.com.br/politica/2022/01/4980493-olavo-de-carvalho-e-enterrado-nos-eua-em-funeral-com-allan-dos-santos-e-ernesto-araujo.html",
+      "publisher": "BBC News Brasil, republished by Correio Braziliense",
+      "type": "news",
+      "publisherNote": "Reporting is the BBC's, by a correspondent sent to Petersburg; this is a verbatim republication. Cited as a reprint and not as a second source. The URL recorded here was truncated until 2026-08-04 — the slug lost its final clause — and the short form 404s, which is why a link report and an archiving run both read a live article as dead. The full URL resolves."
     },
     {
       "id": "adorocinema-estreia",
@@ -1899,7 +1907,8 @@
       "title": "Caetano Veloso notifica herdeiras de Olavo de Carvalho",
       "url": "https://www.bahianoticias.com.br/holofote/noticia/71000-caetano-veloso-notifica-herdeiras-de-olavo-de-carvalho",
       "publisher": "Bahia Notícias",
-      "type": "news"
+      "type": "news",
+      "publisherNote": "Unbylined and uncredited, and downstream of the O Globo blog item that broke the story. Not an independent second source; NSC Total's report, which interviews Caetano Veloso's lawyer directly, is."
     },
     {
       "id": "olavo-cv-pdf",
@@ -2178,6 +2187,30 @@
       "publisher": "docslib.org (document-sharing site)",
       "publisherNote": "A second self-written curriculum, in English and in the first person ('I have delivered lectures and conducted courses…'), prepared for a US readership and circulating on a document-sharing site with no stated author, date or provenance; its content stops around 2006. Treated as another layer of his own paperwork — it disagrees with the Portuguese CV about where and when some talks happened — never as corroboration of it.",
       "type": "official"
+    },
+    {
+      "id": "msm-net",
+      "title": "Mídia Sem Máscara (midiasemmascara.net)",
+      "url": "https://www.midiasemmascara.net/",
+      "publisher": "Mídia Sem Máscara",
+      "type": "official",
+      "publisherNote": "The site's own successor domain, verified live 2026-08-04. It presents itself as continuous with the 2002 original; that continuity is its own claim, recorded as such."
+    },
+    {
+      "id": "rdap-msm-org",
+      "title": "midiasemmascara.org — registry record (registration 2002-07-24)",
+      "url": "https://rdap.publicinterestregistry.org/rdap/domain/midiasemmascara.org",
+      "publisher": "Public Interest Registry (RDAP)",
+      "type": "database",
+      "publisherNote": "Primary and reproducible. A registration date bounds a web presence — it establishes that the domain existed from that day, not that the thing it served was founded then."
+    },
+    {
+      "id": "rdap-iai",
+      "title": "theinteramerican.org — registry record (registration 2009-12-10)",
+      "url": "https://rdap.publicinterestregistry.org/rdap/domain/theinteramerican.org",
+      "publisher": "Public Interest Registry (RDAP)",
+      "type": "database",
+      "publisherNote": "Bounds a web presence from 10 December 2009. The institute's founding year rests on this and on secondary summaries, not on the IRS record, whose only date is April 2017."
     }
   ],
   "philosophers": {
