@@ -1818,7 +1818,7 @@
  "philosophers": {
   "_meta": {
    "what": "Wave-1 philosopher pages (olavo#2): each philosopher's life-and-works timeline from standard public references, rendered together with the COF reception index (data/cof-reception.json). English is authoritative; pt/es come from the i18n caches.",
-   "selection": "The twenty most engaged philosophers in the COF corpus by the corrected word-boundary measurement (cronologia/archive#44 and its correction comment); shipped in two waves (olavo#2).",
+   "selection": "The twenty most engaged philosophers in the COF corpus by the corrected word-boundary measurement; shipped in two waves (olavo#2).",
    "disciplineNote": "Timeline entries assert the philosopher's own public record; the reception layer asserts what Olavo said and when — never what the philosopher 'really' meant (AGENTS.md rule 6). Scholarly date estimates carry approx: true and render with a flag."
   },
   "intro": "The twenty philosophers most engaged by the Curso Online de Filosofia, by measured presence in the 585-lecture corpus. Each page carries the thinker's own life and works, and the record of which lectures engage him.",
