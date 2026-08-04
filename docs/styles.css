@@ -511,3 +511,10 @@ figure.swimlanes figcaption { font-size: .78rem; color: var(--muted); margin-top
    than leaving the words floating in the middle of the triangle. */
 .dc-triad-hubdot { fill: var(--bg, #fbf8f1); stroke: #7d5a1a; stroke-width: 1; stroke-dasharray: 3 3; opacity: .9; }
 .dc-triad-hub { font-size: 11px; fill: currentColor; text-anchor: middle; font-style: italic; opacity: .8; }
+
+/* Set — a closed list of coordinate kinds. Deliberately no connectors and no
+   axis: the shape must not assert an order or a relation the doctrine does not
+   claim. Equal wash for the same reason. */
+.dc-set { display: block; max-width: 520px; width: 100%; height: auto; margin: 1rem auto; }
+.dc-set-cell rect { fill: rgba(125,90,26,.18); stroke: #7d5a1a; stroke-width: 1; }
+.dc-set-cell text { font-size: 12px; font-weight: 600; fill: currentColor; text-anchor: middle; }

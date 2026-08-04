@@ -139,6 +139,41 @@ ${nodes.join('\n')}
   </svg>`;
 }
 
+/** A grid of coordinate members — a SET, with no order and no connections.
+ *
+ * The subject-of-history taxonomy is a closed list of kinds of agent: there is
+ * no first, no ranking, and crucially no relation asserted between them. A row
+ * would read as a sequence even without arrows, and joining them as the triad
+ * does would claim an engagement he never describes. A grid with nothing
+ * between the cells says only what he says — these are the kinds, and there
+ * are no others.
+ */
+function renderSet(names, esc) {
+  const cols = names.length > 3 ? 2 : 1;
+  const W = 520, gap = 14, boxW = (W - 40 - gap * (cols - 1)) / cols, boxH = 62;
+  const rows = Math.ceil(names.length / cols);
+  const cells = names.map((name, i) => {
+    const x = 20 + (i % cols) * (boxW + gap);
+    const y = 14 + Math.floor(i / cols) * (boxH + gap);
+    const words = name.split(' ');
+    const lines = [];
+    for (const w of words) {
+      if (lines.length && (lines[lines.length - 1] + ' ' + w).length <= 30) lines[lines.length - 1] += ' ' + w;
+      else lines.push(w);
+    }
+    const dy = boxH / 2 + 4 - ((lines.length - 1) * 15) / 2;
+    return `      <g class="dc-set-cell">
+        <rect x="${x.toFixed(1)}" y="${y}" width="${boxW.toFixed(1)}" height="${boxH}" rx="8" />
+${lines.map((l, k) => `        <text x="${(x + boxW / 2).toFixed(1)}" y="${(y + dy + k * 15).toFixed(1)}">${esc(l)}</text>`).join('\n')}
+      </g>`;
+  });
+  const H = 14 + rows * (boxH + gap);
+  return `<svg class="dc-set" viewBox="0 0 ${W} ${H}" role="img"
+     aria-label="${esc(names.join('; '))}">
+${cells.join('\n')}
+  </svg>`;
+}
+
 /** Three nodes on a triangle, mutually joined — no first, no last.
  *
  * Two doctrines need this shape and would be misrepresented by any other. The
@@ -257,6 +292,7 @@ function renderDoctrinesSection(doctrines, ui, helpers) {
       const kind = it.diagram || (it.structure.length === 12 ? 'ring' : 'nest');
       if (kind === 'ring') bits.push(renderRing(it.structure, esc, t));
       else if (kind === 'chain') bits.push(renderChain(it.structure, esc, t));
+      else if (kind === 'set') bits.push(renderSet(it.structure, esc));
       else if (kind === 'triad') bits.push(renderTriad(it.structure, esc, t, null));
       else if (kind === 'triad-one') bits.push(renderTriad(it.structure, esc, t, t('dcTriadOne', 'one act')));
       else bits.push(renderNest(it.structure, esc, t('dcGround', 'the eternal I — the ground, not a fifth term')));
@@ -303,4 +339,4 @@ ${bits.join('\n')}
 </section>`;
 }
 
-module.exports = { getDoctrines, renderDoctrinesSection, renderRing, renderNest, renderChain, renderTriad };
+module.exports = { getDoctrines, renderDoctrinesSection, renderRing, renderNest, renderChain, renderTriad, renderSet };
