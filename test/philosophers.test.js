@@ -121,8 +121,22 @@ test('shipped data, when present, is internally consistent', () => {
       assert.ok(Array.isArray(t.sources) && t.sources.length > 0, `${p.slug}: uncited timeline entry "${t.label}"`);
       for (const s of t.sources) assert.ok(refIds.has(s), `${p.slug}: unknown ref id "${s}"`);
     }
+    // Reception has TWO sources: the 585-lecture COF corpus (2009-2022), which
+    // yields the frequency table, and the 2002 História Essencial da Filosofia
+    // course, which yields the qualitative `readings`. A page needs at least
+    // one — a philosopher with neither has no reception to record and no
+    // business on a site about whom he engaged.
+    //
+    // This used to demand the COF table, which was right while the corpus was
+    // the only source. Fílon de Alexandria is the case that broke it: extended
+    // treatment across one 2002 session, and in the whole COF corpus a single
+    // mention that turns out to sit inside a passage he is quoting from another
+    // author rather than his own engagement.
     const key = p.receptionKey || p.slug;
-    assert.ok(reception && reception.philosophers[key], `${p.slug}: no reception data under key "${key}"`);
+    const inCof = !!(reception && reception.philosophers[key]);
+    const hasReadings = Array.isArray(p.readings) && p.readings.length > 0;
+    assert.ok(inCof || hasReadings,
+      `${p.slug}: no reception at all — neither COF data under key "${key}" nor readings`);
   }
   // The reception corpus refs must exist so the reception section can cite them.
   assert.ok(refIds.has('cof-transcriptions') && refIds.has('cof-audio'));

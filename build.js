@@ -79,6 +79,12 @@ const TRANSLATABLE_KEYS = new Set([
   // Lane bases are prose and RENDER on the page (renderSwimlanes publishes each
   // lane's grounding), so they are translated like any other visible prose.
   'basis', 'intro',
+  // A philosopher timeline's date column. It looks like data and is prose: "5
+  // May 1818", "June 1909", "c. 25-10 BCE". Left untranslated it put English
+  // month names and BCE/CE in the Year column of every localized philosopher
+  // page -- 55 cells per locale -- directly beside body text that had them
+  // right. Bare years pass through the dictionaries unchanged.
+  'when',
   // Doctrine-panel prose (doctrines.js). `structure` holds the layer and self
   // names, and they translate like any other prose: a page reads in ONE
   // language or it reads badly. The Portuguese term of art survives in
