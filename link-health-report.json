@@ -1,16 +1,16 @@
 {
   "generatedBy": "scripts/check-links.js",
   "project": "Olavo de Carvalho — Cronologia",
-  "checkedAt": "2026-08-04T16:52:53.698Z",
+  "checkedAt": "2026-08-04T16:59:41.138Z",
   "userAgent": "cronologia-check-links/1.0 (Olavo de Carvalho - Cronologia; +https://github.com/cronologia)",
   "summary": {
     "total": 158,
-    "ok": 149,
-    "dead": 2,
+    "ok": 151,
+    "dead": 0,
     "suspect": 0,
     "inconclusive": 7,
-    "priorityArchive": 1,
-    "flagged": 9
+    "priorityArchive": 0,
+    "flagged": 7
   },
   "results": [
     {
@@ -538,9 +538,9 @@
       "verdict": "ok",
       "soft404": false,
       "snapshot": {
-        "exists": false,
-        "archiveUrl": null,
-        "timestamp": null
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20250707222826/https://aventurasnahistoria.com.br/noticias/historia-hoje/olavo-de-carvalho-morreu-de-covid-19-diz-filha.phtml",
+        "timestamp": "20250707222826"
       },
       "priorityArchive": false,
       "note": ""
@@ -606,12 +606,12 @@
       "id": "revistarosa-olavismo",
       "url": "https://revistarosa.com/1/olavismo-e-bolsonarismo",
       "title": "Olavismo e bolsonarismo",
-      "method": "HEAD",
-      "status": 404,
+      "method": "GET",
+      "status": 200,
       "finalUrl": "https://revistarosa.com/1/olavismo-e-bolsonarismo",
       "redirected": false,
-      "pageTitle": null,
-      "verdict": "dead",
+      "pageTitle": "Olavismo e bolsonarismo | Revista Rosa 1",
+      "verdict": "ok",
       "soft404": false,
       "snapshot": {
         "exists": true,
@@ -842,9 +842,9 @@
       "verdict": "ok",
       "soft404": false,
       "snapshot": {
-        "exists": false,
-        "archiveUrl": null,
-        "timestamp": null
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260803100759/https://projects.propublica.org/nonprofits/organizations/271394713",
+        "timestamp": "20260803100759"
       },
       "priorityArchive": false,
       "note": ""
@@ -899,9 +899,9 @@
       "verdict": "ok",
       "soft404": false,
       "snapshot": {
-        "exists": true,
-        "archiveUrl": "https://web.archive.org/web/20250919101545/https://www.metropoles.com/chapelaria/olavo-de-carvalho-lanca-brasil-sem-medo-um-jornal-conservador",
-        "timestamp": "20250919101545"
+        "exists": false,
+        "archiveUrl": null,
+        "timestamp": null
       },
       "priorityArchive": false,
       "note": ""
@@ -946,21 +946,21 @@
     },
     {
       "id": "correiobraziliense-enterro",
-      "url": "https://www.correiobraziliense.com.br/politica/2022/01/4980493-olavo-de-carvalho-e-enterrado-nos-eua-em-funeral.html",
-      "title": "Olavo de Carvalho é enterrado nos EUA em funeral",
+      "url": "https://www.correiobraziliense.com.br/politica/2022/01/4980493-olavo-de-carvalho-e-enterrado-nos-eua-em-funeral-com-allan-dos-santos-e-ernesto-araujo.html",
+      "title": "Mariana Sanches, 'Olavo de Carvalho é enterrado nos EUA em funeral com Allan dos Santos e Ernesto Araújo'",
       "method": "HEAD",
-      "status": 404,
-      "finalUrl": "https://www.correiobraziliense.com.br/politica/2022/01/4980493-olavo-de-carvalho-e-enterrado-nos-eua-em-funeral.html",
+      "status": 200,
+      "finalUrl": "https://www.correiobraziliense.com.br/politica/2022/01/4980493-olavo-de-carvalho-e-enterrado-nos-eua-em-funeral-com-allan-dos-santos-e-ernesto-araujo.html",
       "redirected": false,
       "pageTitle": null,
-      "verdict": "dead",
+      "verdict": "ok",
       "soft404": false,
       "snapshot": {
-        "exists": false,
-        "archiveUrl": null,
-        "timestamp": null
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20220702022448/https://www.correiobraziliense.com.br/politica/2022/01/4980493-olavo-de-carvalho-e-enterrado-nos-eua-em-funeral-com-allan-dos-santos-e-ernesto-araujo.html",
+        "timestamp": "20220702022448"
       },
-      "priorityArchive": true,
+      "priorityArchive": false,
       "note": ""
     },
     {
@@ -1032,9 +1032,9 @@
       "verdict": "ok",
       "soft404": false,
       "snapshot": {
-        "exists": true,
-        "archiveUrl": "https://web.archive.org/web/20260803101055/https://www.bahianoticias.com.br/holofote/noticia/71000-caetano-veloso-notifica-herdeiras-de-olavo-de-carvalho",
-        "timestamp": "20260803101055"
+        "exists": false,
+        "archiveUrl": null,
+        "timestamp": null
       },
       "priorityArchive": false,
       "note": ""
@@ -1108,9 +1108,9 @@
       "verdict": "ok",
       "soft404": false,
       "snapshot": {
-        "exists": false,
-        "archiveUrl": null,
-        "timestamp": null
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260307180440/https://blogs.opovo.com.br/ancoradouro/2022/01/25/olavo-de-carvalho-recebe-os-sacramentos-antes-de-sua-morte/",
+        "timestamp": "20260307180440"
       },
       "priorityArchive": false,
       "note": ""
@@ -1203,9 +1203,9 @@
       "verdict": "ok",
       "soft404": false,
       "snapshot": {
-        "exists": false,
-        "archiveUrl": null,
-        "timestamp": null
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20221015032812/https://olavodecarvalhofb.wordpress.com/2021/05/18/18-5-2021/",
+        "timestamp": "20221015032812"
       },
       "priorityArchive": false,
       "note": ""
@@ -1519,7 +1519,7 @@
       "url": "https://www.youtube.com/watch?v=ic49hbeYG5o",
       "title": "Olavo de Carvalho at the Fórum da Liberdade, 2000 (recording)",
       "method": "HEAD",
-      "status": 204,
+      "status": 200,
       "finalUrl": "https://www.youtube.com/watch?v=ic49hbeYG5o",
       "redirected": false,
       "pageTitle": null,
@@ -1538,16 +1538,16 @@
       "url": "https://www.youtube.com/watch?v=x8LohxZhieo",
       "title": "Olavo de Carvalho at the Fórum da Liberdade, 2002 (recording)",
       "method": "HEAD",
-      "status": 204,
+      "status": 200,
       "finalUrl": "https://www.youtube.com/watch?v=x8LohxZhieo",
       "redirected": false,
       "pageTitle": null,
       "verdict": "ok",
       "soft404": false,
       "snapshot": {
-        "exists": true,
-        "archiveUrl": "https://web.archive.org/web/20230225200323/https://www.youtube.com/watch?v=x8LohxZhieo",
-        "timestamp": "20230225200323"
+        "exists": false,
+        "archiveUrl": null,
+        "timestamp": null
       },
       "priorityArchive": false,
       "note": ""
@@ -1557,7 +1557,7 @@
       "url": "https://www.youtube.com/watch?v=L6AB7jZ-hiY",
       "title": "Cultura e desenvolvimento — Olavo de Carvalho and Eduardo Bueno, Fórum da Liberdade 2004 (recording)",
       "method": "HEAD",
-      "status": 204,
+      "status": 200,
       "finalUrl": "https://www.youtube.com/watch?v=L6AB7jZ-hiY",
       "redirected": false,
       "pageTitle": null,
@@ -1576,7 +1576,7 @@
       "url": "https://www.youtube.com/watch?v=BsZXOGDwMb0",
       "title": "Fórum da Liberdade 2005 — Suri Ratnapala, Oded Grajew and Olavo de Carvalho (recording)",
       "method": "HEAD",
-      "status": 204,
+      "status": 200,
       "finalUrl": "https://www.youtube.com/watch?v=BsZXOGDwMb0",
       "redirected": false,
       "pageTitle": null,
@@ -1811,9 +1811,9 @@
       "verdict": "ok",
       "soft404": false,
       "snapshot": {
-        "exists": true,
-        "archiveUrl": "https://web.archive.org/web/20260803061150/https://iep.utm.edu/plato/",
-        "timestamp": "20260803061150"
+        "exists": false,
+        "archiveUrl": null,
+        "timestamp": null
       },
       "priorityArchive": false,
       "note": ""
@@ -2001,9 +2001,9 @@
       "verdict": "ok",
       "soft404": false,
       "snapshot": {
-        "exists": false,
-        "archiveUrl": null,
-        "timestamp": null
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260802191940/https://www.britannica.com/biography/Karl-Marx",
+        "timestamp": "20260802191940"
       },
       "priorityArchive": false,
       "note": ""
@@ -2096,9 +2096,9 @@
       "verdict": "ok",
       "soft404": false,
       "snapshot": {
-        "exists": false,
-        "archiveUrl": null,
-        "timestamp": null
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260714080938/https://iep.utm.edu/thomas-aquinas/",
+        "timestamp": "20260714080938"
       },
       "priorityArchive": false,
       "note": ""
@@ -2248,9 +2248,9 @@
       "verdict": "ok",
       "soft404": false,
       "snapshot": {
-        "exists": true,
-        "archiveUrl": "https://web.archive.org/web/20260116085247/https://www.themathesontrust.org/papers/biographies/Rene%20Gu%C3%A9non%20H%20OLdmeadow.pdf",
-        "timestamp": "20260116085247"
+        "exists": false,
+        "archiveUrl": null,
+        "timestamp": null
       },
       "priorityArchive": false,
       "note": ""
@@ -2324,9 +2324,9 @@
       "verdict": "ok",
       "soft404": false,
       "snapshot": {
-        "exists": false,
-        "archiveUrl": null,
-        "timestamp": null
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20260211122457/https://classiques.uqam.ca/classiques/lavelle_louis/lavelle_louis.html",
+        "timestamp": "20260211122457"
       },
       "priorityArchive": false,
       "note": ""
@@ -2774,15 +2774,15 @@
       "title": "Against the Modern World: Traditionalism and the Secret Intellectual History of the Twentieth Century (Mark Sedgwick, OUP, 2004)",
       "method": "HEAD",
       "status": 202,
-      "finalUrl": "https://global.oup.com/academic/product/against-the-modern-world-9780195396010?cc=us&lang=en&",
-      "redirected": true,
+      "finalUrl": "https://global.oup.com/academic/product/against-the-modern-world-9780195396010",
+      "redirected": false,
       "pageTitle": null,
       "verdict": "ok",
       "soft404": false,
       "snapshot": {
-        "exists": false,
-        "archiveUrl": null,
-        "timestamp": null
+        "exists": true,
+        "archiveUrl": "https://web.archive.org/web/20251027063108/https://global.oup.com/academic/product/against-the-modern-world-9780195396010",
+        "timestamp": "20251027063108"
       },
       "priorityArchive": false,
       "note": ""
@@ -2951,9 +2951,9 @@
       "verdict": "ok",
       "soft404": false,
       "snapshot": {
-        "exists": true,
-        "archiveUrl": "https://web.archive.org/web/20260417150218/https://bmcr.brynmawr.edu/2018/2018.05.36",
-        "timestamp": "20260417150218"
+        "exists": false,
+        "archiveUrl": null,
+        "timestamp": null
       },
       "priorityArchive": false,
       "note": ""

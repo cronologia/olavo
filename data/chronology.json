@@ -1147,12 +1147,14 @@
   "figures": [
     {
       "name": "Roxane Andrade de Souza",
-      "role": "Widow; received his posthumous Biblioteca Nacional medal (July 2022)",
+      "role": "Widow; received his posthumous Biblioteca Nacional medal (July 2022). When their union began is contested and this project does not resolve it: the English Wikipedia infobox gives a 1986 marriage, citing Benjamin Teitelbaum's War for Eternity, while the 2024 reporting on the estate describes a união estável of 'quase 20 anos', which places its start around 2004–2005. Nineteen years separate the two, and no source consulted here reconciles them. The Teitelbaum passage has not been read by anyone working on this dataset, so what that book actually says — and whether it attaches a year to this union at all — remains unchecked.",
       "country": "USA",
       "sources": [
         "agenciabrasil-obit",
         "olavofb-medalha",
-        "hdp-medalha"
+        "hdp-medalha",
+        "metropoles-herdeiros",
+        "wikipedia-en"
       ]
     },
     {
@@ -2211,6 +2213,14 @@
       "publisher": "Public Interest Registry (RDAP)",
       "type": "database",
       "publisherNote": "Bounds a web presence from 10 December 2009. The institute's founding year rests on this and on secondary summaries, not on the IRS record, whose only date is April 2017."
+    },
+    {
+      "id": "metropoles-herdeiros",
+      "title": "Madu Toledo, 'Saiba quem são os herdeiros de Olavo de Carvalho'",
+      "url": "https://www.metropoles.com/brasil/herdeiros-de-olavo-de-carvalho",
+      "publisher": "Metrópoles",
+      "type": "news",
+      "publisherNote": "Reporting on the estate, 23 May 2024. Its dating of the union with Roxane — 'união estável há quase 20 anos' — is the position that conflicts with the 1986 year carried elsewhere."
     }
   ],
   "philosophers": {
