@@ -433,6 +433,10 @@
     "agenciabrasil-obit",
     "gazetadopovo-riobranco",
     "wikipedia-en"
+   ],
+   "threads": [
+    "philosophy-teaching",
+    "formation-press"
    ]
   },
   {
@@ -473,7 +477,7 @@
    "dateVerified": true,
    "place": "Online (from Virginia, USA)",
    "title": "First lecture of the Curso Online de Filosofia (COF)",
-   "text": "The paid weekly online philosophy course he taught until his death — 585 lectures over thirteen years. A student index and English Wikipedia date the first class to 14 March 2009. The community transcription corpus of the course is public (see references); this project cites it by aula and date only. His own broadcasts bracket the launch closely: on 9 March 2009 he announced the first class for 'next Saturday, the 14th', and a week later reported that they had expected about a hundred people and more than four hundred arrived, collapsing the streaming provider and forcing the bandwidth to be widened. The start had slipped for five months — promised 'next month' in December 2008, then 'February, March at the latest' in January, then 'a week, ten days at most' in late February — and the delivered format was a members-only stream with an open Brazilian phone line rather than the Skype arrangement he had described in October 2008. It began fortnightly and was weekly by that August.",
+   "text": "The paid weekly online philosophy course he taught until his death — 585 lectures over thirteen years. A student index and English Wikipedia date the first class to 14 March 2009. The community transcription corpus of the course is public (see references); this project cites it by lecture number and date only. His own broadcasts bracket the launch closely: on 9 March 2009 he announced the first class for 'next Saturday, the 14th', and a week later reported that they had expected about a hundred people and more than four hundred arrived, collapsing the streaming provider and forcing the bandwidth to be widened. The start had slipped for five months — promised 'next month' in December 2008, then 'February, March at the latest' in January, then 'a week, ten days at most' in late February — and the delivered format was a members-only stream with an open Brazilian phone line rather than the Skype arrangement he had described in October 2008. It began fortnightly and was weekly by that August.",
    "sources": [
     "rafaelalmeida-cof",
     "wikipedia-en",
@@ -722,6 +726,9 @@
    "sources": [
     "conjur-caetano",
     "cartacapital-herdeiras"
+   ],
+   "threads": [
+    "politics-influence"
    ]
   },
   {
@@ -874,6 +881,9 @@
     "nsctotal-herdeiras",
     "bahianoticias-herdeiras",
     "cartacapital-herdeiras"
+   ],
+   "threads": [
+    "politics-influence"
    ]
   }
  ],
@@ -1059,7 +1069,7 @@
    "name": "Curso Online de Filosofia (COF) / Seminário de Filosofia",
    "founded": "2009",
    "place": "Online (from Virginia, USA)",
-   "relation": "His weekly online philosophy course (585 lectures, 2009–2022) and the platform that continues his courses. The community transcription corpus of the lectures is public and is cited here by aula and date only; the founding date of the earlier in-person Seminário de Filosofia course is not verified",
+   "relation": "His weekly online philosophy course (585 lectures, 2009–2022) and the platform that continues his courses. The community transcription corpus of the lectures is public and is cited here by lecture number and date only; the founding date of the earlier in-person Seminário de Filosofia course is not verified",
    "sources": [
     "rafaelalmeida-cof",
     "cof-transcriptions",
@@ -4172,24 +4182,23 @@
   "items": [
    {
     "id": "doze-camadas",
-    "name": "As doze camadas da personalidade",
     "claim": "A scheme of twelve demands that structure a human life, from taking possession of one's own body to standing before eternity. Each layer is a distinct kind of interest that can organise a person's whole existence, and he holds that most adults halt at the eighth, the crisis of maturity.",
     "structure": [
-     "O corpo",
-     "O círculo dos instintos",
-     "As relações sociais e a linguagem",
-     "Os sentimentos historicamente consolidados",
-     "A auto-afirmação",
-     "A vida prática",
-     "A cidadania",
-     "A crise da maturidade",
-     "A personalidade intelectual",
-     "Força social plasmante",
-     "A consciência histórica",
-     "O destino final"
+     "The body",
+     "The circle of the instincts",
+     "Social relations and language",
+     "Historically consolidated feelings",
+     "Self-assertion",
+     "Practical life",
+     "Citizenship",
+     "The crisis of maturity",
+     "The intellectual personality",
+     "Shaping social force",
+     "Historical consciousness",
+     "The final destiny"
     ],
     "origin": "Built in his Astrocaracterologia course (1990–92) from the twelve houses of the zodiac, taken as an ideal developmental circuit and grafted onto Szondi's drive psychology — which he said lacked any biographical dimension. He states three times that the scheme does not depend on astrology: he devised it to isolate precisely what a horoscope cannot describe.",
-    "revision": "Presented as an evolutionary sequence in 2010 and 2014, then corrected in a later lecture: it is not an ideal development but the real structure of human existence, with all twelve demands pressing at once. He then distinguished the camada a person occupies from the etapa weighing on them. The diagram below shows twelve simultaneous demands for that reason.",
+    "revision": "Presented as an evolutionary sequence in 2010 and 2014, then corrected in a later lecture: it is not an ideal development but the real structure of human existence, with all twelve demands pressing at once. He then distinguished the layer a person occupies from the stage that weighs on them. The diagram shows twelve simultaneous demands for that reason.",
     "credits": [
      "Guénon",
      "Hegel",
@@ -4208,20 +4217,21 @@
      },
      {
       "where": "a 133-minute class devoted to the scheme",
-      "date": "between Nov 2010 and Apr 2011",
+      "dateNote": "between Nov 2010 and Apr 2011",
       "dateVerified": false
      }
-    ]
+    ],
+    "title": "The twelve layers of personality",
+    "originalTerm": "As doze camadas da personalidade"
    },
    {
     "id": "os-eus",
-    "name": "Os eus — e a imortalidade da alma",
     "claim": "A distinction between the self that senses and acts now, the self others know, the self assembled from remembered life, and a permanent substantial self underneath — which he identifies flatly with the immortal soul, calling the other three merely its functions. The argument for immortality runs through that fourth term.",
     "structure": [
-     "Eu presencial (executivo)",
-     "Eu social",
-     "Eu histórico (autobiográfico)",
-     "Eu substancial — the immortal soul"
+     "The present self (executive)",
+     "The social self",
+     "The historical self (autobiographical)",
+     "The substantial self — the immortal soul"
     ],
     "countNote": "Often circulated as 'os cinco eus'. He says FOUR: searches for 'cinco eus', '5 eus' and 'quinto eu' return nothing across the whole corpus, while 'eu substancial' returns over a hundred occurrences, so the absence is real rather than a search artefact. A fifth term appears only if one counts the eternal 'Eu Sou', which he introduces as the ground constituting the fourth by concession — not as another item in the series.",
     "credits": [
@@ -4234,7 +4244,7 @@
     "expositions": [
      {
       "where": "course lecture 86",
-      "date": "header reads Dec 2010 — contested",
+      "dateNote": "header reads Dec 2010 — contested",
       "dateVerified": false
      },
      {
@@ -4242,11 +4252,12 @@
       "date": "2011",
       "dateVerified": false
      }
-    ]
+    ],
+    "title": "The selves, and the immortality of the soul",
+    "originalTerm": "Os eus e a imortalidade da alma"
    },
    {
     "id": "conhecimento-por-presenca",
-    "name": "Conhecimento por presença",
     "claim": "Beneath perception, memory and theory there is a prior, non-representational cognition that consists in reality simply being present to the knower. He calls it the most exact form of knowledge precisely because it cannot be turned into a thought one possesses. Its work is to explain how anyone ever corrects a framework from inside it: without it, he argues, a powerful philosophy would hypnotise its adherents completely and no school could revise itself.",
     "credits": [
      "Lavelle",
@@ -4269,11 +4280,12 @@
       "date": "2009-05-23",
       "dateVerified": true
      }
-    ]
+    ],
+    "title": "Knowledge by presence",
+    "originalTerm": "Conhecimento por presença"
    },
    {
     "id": "paralaxe-cognitiva",
-    "name": "Paralaxe cognitiva",
     "claim": "A displacement between the axis of a thinker's lived experience and the axis of his theoretical construction — seeing one thing while theorising another. He claims the phenomenon as his own discovery and insists it is a cognitive defect rather than hypocrisy or lying.",
     "revision": "He narrowed it by 2013 to strict performative self-refutation — where the act of saying something contradicts what is said — explicitly excluding mere self-contradiction, lying and propaganda, and presenting the narrowing as a correction of how his coinage was being used.",
     "credits": [
@@ -4294,14 +4306,15 @@
      },
      {
       "where": "a course announced under this name, Virginia",
-      "date": "announced Jun 2007 for Sept 2007",
+      "dateNote": "announced Jun 2007 for Sept 2007",
       "dateVerified": false
      }
-    ]
+    ],
+    "title": "Cognitive parallax",
+    "originalTerm": "Paralaxe cognitiva"
    },
    {
     "id": "quatro-discursos",
-    "name": "A teoria dos quatro discursos",
     "claim": "His most widely deployed framework: four kinds of discourse — poetic, rhetorical, dialectical and analytical — graded by the certainty they can carry, which he treats as one scale rather than four separate disciplines. He read the Aristotelian corpus in that order and held that Aristotle's logic becomes unintelligible once it is amputated from his rhetoric.",
     "credits": [
      "Aristotle",
@@ -4318,11 +4331,12 @@
       "date": "2010-11-06",
       "dateVerified": true
      }
-    ]
+    ],
+    "title": "The theory of the four discourses",
+    "originalTerm": "A teoria dos quatro discursos"
    },
    {
     "id": "circulo-de-latencia",
-    "name": "O círculo de latência",
     "claim": "The band of possibilities available to a person or a society at a given moment — what is not actual but could become so without a break in continuity. He uses it to argue that judging either a life or a historical situation requires knowing what was really open to it.",
     "credits": [
      "Aristotle",
@@ -4337,14 +4351,15 @@
      },
      {
       "where": "a course lecture titled after the concept",
-      "date": "undated in the corpus",
+      "dateNote": "undated in the corpus",
       "dateVerified": false
      }
-    ]
+    ],
+    "title": "The circle of latency",
+    "originalTerm": "O círculo de latência"
    },
    {
     "id": "metodo-da-confissao",
-    "name": "O método da confissão",
     "claim": "The procedure he called the core of his philosophy: philosophical work begins from an honest account of one's own actual state of knowledge and motive, rather than from a position adopted for argument. He grounds it in the Socratic examination and the Augustinian confession.",
     "credits": [
      "Socrates"
@@ -4360,11 +4375,12 @@
       "date": "2011-03-12",
       "dateVerified": true
      }
-    ]
+    ],
+    "title": "The method of confession",
+    "originalTerm": "O método da confissão"
    },
    {
     "id": "horizonte-de-consciencia",
-    "name": "O horizonte de consciência",
     "claim": "The boundary of what a given consciousness can take in at all — which he calls a fundamental concept of his philosophy, and uses to explain why two people can face the same evidence and register different worlds.",
     "credits": [],
     "caveat": "Close to Lucien Goldmann's use of the term, a proximity he does not acknowledge.",
@@ -4379,7 +4395,9 @@
       "date": "2013",
       "dateVerified": false
      }
-    ]
+    ],
+    "title": "The horizon of consciousness",
+    "originalTerm": "O horizonte de consciência"
    }
   ]
  }

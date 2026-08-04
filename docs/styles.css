@@ -482,3 +482,4 @@ figure.swimlanes figcaption { font-size: .78rem; color: var(--muted); margin-top
 .dc-nest-ground { font-size: 11px; text-anchor: middle; fill: currentColor; opacity: .8; font-style: italic; }
 @media (prefers-color-scheme: dark) { .dc-num { color: #f0e6d2; } }
 @media print { .dc-card { break-inside: avoid; } }
+.dc-orig { font-weight: 400; font-size: .85em; opacity: .7; font-style: italic; }

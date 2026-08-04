@@ -47,7 +47,7 @@ function getDoctrines(data) {
  * collide in the hub; a numbered ring plus an ordered list stays readable at
  * any width and keeps the names selectable as text.
  */
-function renderRing(names, esc) {
+function renderRing(names, esc, t) {
   const n = names.length;
   const cx = 170, cy = 170, rOuter = 150, rInner = 66;
   const seg = (2 * Math.PI) / n;
@@ -71,8 +71,8 @@ function renderRing(names, esc) {
     <svg class="dc-ring" viewBox="0 0 340 340" role="img"
        aria-label="The twelve layers as twelve segments of a single ring, pressing simultaneously: ${esc(names.map((x, i) => `${i + 1} ${x}`).join('; '))}">
 ${parts.join('\n')}
-      <text class="dc-ring-mid" x="${cx}" y="${cy - 4}">doze camadas</text>
-      <text class="dc-ring-sub" x="${cx}" y="${cy + 14}">simultâneas</text>
+      <text class="dc-ring-mid" x="${cx}" y="${cy - 4}">${esc(t('dcRingMid', 'twelve layers'))}</text>
+      <text class="dc-ring-sub" x="${cx}" y="${cy + 14}">${esc(t('dcRingSub', 'simultaneous'))}</text>
     </svg>
     <ol class="dc-legend">
 ${legend}
@@ -98,13 +98,20 @@ ${rows.join('\n')}
   </svg>`;
 }
 
+/** `date` is machine-readable and language-neutral (ISO, or a bare year), so it
+ * is NOT translated. Where the dating is prose rather than a date — "undated in
+ * the corpus", "header reads Dec 2010 — contested" — it belongs in `dateNote`,
+ * which IS translated. Keeping the two in one field put English sentences in
+ * the middle of the Spanish and Portuguese pages.
+ */
 function renderExpositions(list, esc) {
   if (!Array.isArray(list) || !list.length) return '';
   const rows = list.map((e) => {
     const flag = e.dateVerified
       ? '<span class="dc-ok" title="date verified against the corpus index">✓</span>'
       : '<span class="flag" title="date not verified">?</span>';
-    return `<li>${esc(e.where)} — <span class="dc-date">${esc(e.date)}</span> ${flag}</li>`;
+    const when = e.dateNote || e.date || '';
+    return `<li>${esc(e.where)} — <span class="dc-date">${esc(when)}</span> ${flag}</li>`;
   });
   return `<ul class="dc-exp">${rows.join('')}</ul>`;
 }
@@ -121,9 +128,9 @@ function renderDoctrinesSection(doctrines, ui, helpers) {
     bits.push(`<p class="dc-claim">${esc(it.claim)}</p>`);
 
     if (Array.isArray(it.structure) && it.structure.length === 12) {
-      bits.push(renderRing(it.structure, esc));
+      bits.push(renderRing(it.structure, esc, t));
     } else if (Array.isArray(it.structure) && it.structure.length) {
-      bits.push(renderNest(it.structure, esc, 'o Eu eterno — o fundamento, não um quinto termo'));
+      bits.push(renderNest(it.structure, esc, t('dcGround', 'the eternal I — the ground, not a fifth term')));
     }
     if (it.countNote) {
       bits.push(`<p class="dc-note dc-correction"><strong>${esc(t('dcCount', 'On the count'))}:</strong> ${esc(it.countNote)}</p>`);
@@ -146,8 +153,14 @@ function renderDoctrinesSection(doctrines, ui, helpers) {
     bits.push(`<p class="dc-exp-h">${esc(t('dcWhere', 'Where he expounds it'))}</p>`);
     bits.push(renderExpositions(it.expositions, esc));
 
+    // The Portuguese term is GLOSSED, not repeated: on the pt page the
+    // translated title IS the original, and printing both gives "As doze
+    // camadas da personalidade As doze camadas da personalidade".
+    const gloss = it.originalTerm && it.originalTerm !== it.title
+      ? ` <span class="dc-orig">${esc(it.originalTerm)}</span>` : '';
+
     return `<article class="dc-card" id="${esc(it.id)}">
-    <h3>${esc(it.name)}</h3>
+    <h3>${esc(it.title)}${gloss}</h3>
 ${bits.join('\n')}
   </article>`;
   });
