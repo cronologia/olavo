@@ -1,10 +1,11 @@
 # Cronologia — Olavo de Carvalho
 
 An open, source-referenced chronology of **Olavo de Carvalho (1947–2022)**:
-journalist, astrologer, self-taught philosopher, teacher of the Curso Online
-de Filosofia (COF, 2009–2022), and the central intellectual reference of the
-Brazilian New Right — plus a reception layer mapping the philosophers he
-referenced to the dated lectures that engage them.
+self-taught philosopher and polemicist, teacher of the Curso Online de
+Filosofia (COF, 2009–2022) and the central intellectual reference of the
+Brazilian New Right; earlier a journalist, and briefly a professional
+astrologer — plus a reception layer mapping the philosophers he referenced to
+the dated lectures that engage them.
 
 **Site:** <https://cronologia.github.io/olavo/> · part of the
 [Cronologia](https://cronologia.github.io/) project family.

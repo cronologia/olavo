@@ -8,8 +8,9 @@ dossier-research); the architecture rationale in `cronologia/fsp` → `docs/adrs
 ## What this project is
 
 A compiled static website documenting the chronology of **Olavo de Carvalho
-(1947–2022)** — journalist, astrologer, self-taught philosopher and the central
-intellectual reference of the Brazilian New Right — his life and works, and
+(1947–2022)** — self-taught philosopher, polemicist and the central
+intellectual reference of the Brazilian New Right, earlier a journalist and
+briefly a professional astrologer — his life and works, and
 (as a second layer) the philosophers he referenced, each with a reception
 record keyed to his 585-lecture Curso Online de Filosofia (COF, 2009–2022).
 A single JSON file is the source of truth; a zero-dependency Node script

@@ -4,9 +4,12 @@ Read `AGENTS.md` first (operating rules); this file is orientation.
 
 ## The subject
 
-**Olavo Luiz Pimentel de Carvalho** (1947–2022): Brazilian journalist,
-professional astrologer in the 1980s, self-taught philosopher, and from the
-mid-1990s the most influential intellectual polemicist of the Brazilian right.
+**Olavo Luiz Pimentel de Carvalho** (1947–2022): Brazilian self-taught
+philosopher and, from the mid-1990s, the most influential intellectual
+polemicist of the Brazilian right. He came to it through journalism, and
+worked professionally as an astrologer for about two years around 1979–1982
+before abandoning and disavowing it — both are part of the record, and neither
+is what he is here for.
 He wrote for major Brazilian papers, moved to the United States in 2005, and
 from 2009 to 2022 taught the **Curso Online de Filosofia (COF)** — 585 weekly
 online lectures that formed a generation of students and are the corpus this
