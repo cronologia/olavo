@@ -2221,6 +2221,22 @@
       "publisher": "Metrópoles",
       "type": "news",
       "publisherNote": "Reporting on the estate, 23 May 2024. Its dating of the union with Roxane — 'união estável há quase 20 anos' — is the position that conflicts with the 1986 year carried elsewhere."
+    },
+    {
+      "id": "olavofb-cronologia",
+      "title": "'Ordem Cronológica das Obras e trabalhos'",
+      "url": "https://olavodecarvalhofb.wordpress.com/2021/05/23/ordem-cronologica-das-obras-e-trabalhos/",
+      "publisher": "olavodecarvalhofb (unofficial)",
+      "type": "list",
+      "publisherNote": "A reader-maintained chronological list, May 2021. Secondary and unofficial, useful mainly where it agrees with his CV or supplies a publisher the CV omits — and useful in one place precisely because of its date: it marks O Leão e os Ossos as still forthcoming, which brackets that book's publication."
+    },
+    {
+      "id": "travessa-leao",
+      "title": "O leão e os ossos: o que restou do imbecil, vol. III — bookseller record",
+      "url": "https://www.travessa.com.br/o-leao-e-os-ossos-o-que-restou-do-imbecil-vol-iii/artigo/369f04fc-ff4e-45c6-b94e-e9397c13ce6c",
+      "publisher": "Livraria da Travessa",
+      "type": "database",
+      "publisherNote": "Trade listing: Vide Editorial, 2021, 1st edition, 560pp, ISBN 9786587138404. A second bookseller carries the same ISBN, publisher and pagination."
     }
   ],
   "philosophers": {
@@ -5714,21 +5730,42 @@
         "id": "anti-historicismo",
         "title": "Against 'a man of his time'",
         "originalTerm": "O senso da eternidade",
-        "claim": "Calling someone a man of his time he judges a very great piece of nonsense — and says the person who says it believes he is doing history while doing the exact opposite of history. Nobody can be exclusively of his own time; if everyone were, there would be no history at all. His case is Brentano, a nineteenth-century philosopher whose own century must be inferred from indirect signs while Aristotle is everywhere in him: an influence two thousand years old outweighing a contemporary one. What makes history possible is instead a capacity he calls the sense of eternity, or of simultaneity — being able to put one's head outside one's own time and judge it whole, the same faculty by which a person judges his own life and says he took a wrong turn. Without it we are a drop of water in a river, unable to see where it is going.",
+        "claim": "Calling someone a man of his time he judges a very great piece of nonsense — and says the person who says it believes he is doing history while doing the exact opposite of history. Nobody can be exclusively of his own time; if everyone were, there would be no history at all. His case is Brentano, a nineteenth-century philosopher whose own century must be inferred from indirect signs while Aristotle is everywhere in him: an influence two thousand years old outweighing a contemporary one. What makes history possible is instead a capacity he calls the sense of eternity — being able to put one's head outside one's own time and judge it whole, the same faculty by which a person judges his own life and says he took a wrong turn. Without it we are a drop of water in a river, unable to see where it is going.",
         "structure": [
           "No one is only of his own time",
           "Absolute historicism annuls history",
           "The sense of eternity",
+          "But you must know where and when you live",
           "Dangerous phrases work like viruses"
         ],
-        "caveat": "He notes that the phrase is never used of Stalin or Hitler, because calling them men of their time would mean conceding that we produced them, and nobody wants that responsibility. The entry records the observation as his.",
+        "caveat": "Two things keep this from being a simple rejection of historical situatedness, and both are his. He notes that the phrase is never used of Stalin or Hitler, because calling them men of their time would mean conceding that we produced them, and nobody wants that responsibility. And he demands the opposite of indifference to one's own moment: your whole intellectual and personal life, he says, has to unfold inside an alert consciousness of the real situation you are living in — you have to know where and when you are living. What he rejects is not situatedness but its counterfeit, being the man of the day, the week or the month with a view of the world bounded by whatever is being talked about.",
         "expositions": [
           {
             "where": "Curso História Essencial da Filosofia, session 1 — including the request that his future biographers never write it of him, and the reductio that if only history exists then history does not",
             "date": "2002",
             "dateVerified": false
+          },
+          {
+            "where": "course lecture 31 — you do not need to be a man of your time, but you do need to know where and when you are living",
+            "date": "2009-11-07",
+            "dateVerified": true
+          },
+          {
+            "where": "course lecture 33 — the sense of eternity credited to Michel Veber on the Taoist hierarchy, alongside Hugh of St Victor",
+            "date": "2009-11-21",
+            "dateVerified": true
+          },
+          {
+            "where": "course lecture 273 — 'homem do seu tempo' and 'filho do seu tempo' taken up together",
+            "date": "2014-12-06",
+            "dateVerified": true
+          },
+          {
+            "where": "an undated later lecture — the sense of eternity as his final message in the documentary, illustrated by O Jardim das Aflições",
+            "dateNote": "Undated in the corpus: the file is one of the 332 awaiting review and carries no header date. It is placed after the documentary, which it discusses."
           }
-        ]
+        ],
+        "lineageNote": "The term is older than the 2002 course and he credits it elsewhere: reading Hugh of St Victor in lecture 33, he takes 'the sense of eternity' from Michel Veber's commentary on the second degree of the lower Taoist hierarchy, and calls it the first degree a person has to reach — what lets the intelligence enter a real relation with the structure of reality, outside which there are only passing impressions and cultural constructions still more evanescent than those. In an undated later lecture he calls it his final message in the documentary made about him, and says O Jardim das Aflições illustrates it structurally. It recurs across the corpus rather than sitting in one session."
       },
       {
         "id": "teratologia-intelectual",
@@ -5837,14 +5874,14 @@
             "title": "O Profeta da Paz: Estudos sobre a Interpretação Simbólica da Vida do Profeta Mohammed",
             "publisher": "—",
             "kind": "book",
-            "note": "Named only in the prizes section of his own CV, not in its list of books: it won first prize in an essay competition on Islamic history run by the Saudi embassy. Publisher and print status not established here."
+            "note": "Named only in the prizes section of his own CV, not in its list of books: it won first prize in an essay competition on Islamic history run by the Saudi embassy. A reader-maintained chronology describes it the same way — a book that took the prize — and likewise gives no publisher. Whether it was ever published as a book remains unestablished."
           },
           {
             "year": 1987,
             "title": "Fronteiras da Tradição",
             "publisher": "Nova Stella, São Paulo",
             "kind": "book",
-            "note": "His CV dates it 1987; some catalogues and this chronology previously said 1986. The CV is followed here as the author’s own record, and the disagreement is left visible rather than resolved."
+            "note": "His CV dates it 1987; some catalogues and this chronology previously said 1986. A second source now agrees with the CV and adds the publisher — Nova Stella, São Paulo, 1987 — so 1987 is followed here with the disagreement still on the record rather than erased."
           }
         ]
       },
@@ -5951,7 +5988,7 @@
             "title": "Coleção História Essencial da Filosofia",
             "publisher": "É Realizações, São Paulo",
             "kind": "course",
-            "note": "Thirty-two volumes issued 2002–2006, from the course of the same name; also published on videotape."
+            "note": "Thirty-two volumes issued 2002–2006 by É Realizações, from the course of the same name; also published on videotape. No per-volume year list has been found, so the strip counts the series once at 2002 and understates 2003–2006 — the same distortion the Terráqueo series carried until its volume years were supplied."
           },
           {
             "year": 2006,
@@ -6030,11 +6067,13 @@
             "title": "O Que Restou do Imbecil",
             "publisher": "Vide Editorial, São Paulo",
             "kind": "series",
-            "note": "The 1998 Imbecil Coletivo II split and retitled: A Longa Marcha da Vaca para o Brejo (vol. I) and O Imbecil Juvenil (vol. II), with a third volume listed as O Leão e os Ossos.",
+            "note": "The 1998 Imbecil Coletivo II split and retitled: A Longa Marcha da Vaca para o Brejo (vol. I) and O Imbecil Juvenil (vol. II), both 2020, with O Leão e os Ossos following as vol. III in 2021 — 560 pages, collecting articles from 2000. His own chronological list still marked that third volume as forthcoming in May 2021, which brackets it to the second half of that year, months before his death.",
             "years": [
               2020,
-              2020
-            ]
+              2020,
+              2021
+            ],
+            "sourceNote": "Volume III's year and publisher from two independent trade listings carrying the same ISBN."
           },
           {
             "year": 2020,
