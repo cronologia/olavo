@@ -126,6 +126,9 @@ const UI = {
     dcWhere: 'Where he expounds it',
     dcRingMid: 'twelve layers', dcRingSub: 'simultaneous', dcGround: 'the eternal I — the ground, not a fifth term',
     dcChainLow: 'least certainty', dcChainHigh: 'most certainty',
+    dcTriadOne: 'one act',
+    dcTriadAlt: 'Three rivals of comparable weight, mutually engaged, in no order',
+    dcTriadOneAlt: 'One act with three inseparable aspects',
     dcChainAlt: 'Four discourses in a single sequence, each presupposing the one before it, from least to most certainty',
     orgFounded: 'Founded',
     // Reference kinds are a CLOSED vocabulary, so they live here with the rest
@@ -195,6 +198,9 @@ const UI = {
     dcWhere: 'Dónde lo expone',
     dcRingMid: 'doce capas', dcRingSub: 'simultáneas', dcGround: 'el Yo eterno — el fundamento, no un quinto término',
     dcChainLow: 'menor certeza', dcChainHigh: 'mayor certeza',
+    dcTriadOne: 'un solo acto',
+    dcTriadAlt: 'Tres rivales de peso comparable, mutuamente enfrentados, sin orden entre ellos',
+    dcTriadOneAlt: 'Un solo acto con tres aspectos inseparables',
     dcChainAlt: 'Cuatro discursos en una sola secuencia, cada uno presuponiendo el anterior, de menor a mayor certeza',
     orgFounded: 'Fundada en',
     refTypes: {
@@ -260,6 +266,9 @@ const UI = {
     dcWhere: 'Onde a expõe',
     dcRingMid: 'doze camadas', dcRingSub: 'simultâneas', dcGround: 'o Eu eterno — o fundamento, não um quinto termo',
     dcChainLow: 'menor certeza', dcChainHigh: 'maior certeza',
+    dcTriadOne: 'um único ato',
+    dcTriadAlt: 'Três rivais de peso comparável, mutuamente enfrentados, sem ordem entre si',
+    dcTriadOneAlt: 'Um único ato com três aspectos inseparáveis',
     dcChainAlt: 'Quatro discursos numa única sequência, cada um pressupondo o anterior, da menor à maior certeza',
     orgFounded: 'Fundada em',
     refTypes: {

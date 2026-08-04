@@ -497,3 +497,17 @@ figure.swimlanes figcaption { font-size: .78rem; color: var(--muted); margin-top
 .dc-chain-axis-label { font-size: 10px; fill: currentColor; opacity: .75; }
 .dc-chain-axis-end { text-anchor: end; }
 #dc-arrow path { fill: #7d5a1a; }
+
+/* Triad — three mutually engaged nodes, no order. Used for the three global
+   projects (rivals) and, with a hub label, the triple intuition (one act).
+   Circles get an explicit fill: an SVG shape without one defaults to black. */
+.dc-triad { display: block; max-width: 460px; width: 100%; height: auto; margin: 1rem auto; }
+.dc-triad-edge { stroke: #7d5a1a; stroke-width: 1.2; opacity: .5; }
+.dc-triad-node circle { fill: rgba(125,90,26,.18); stroke: #7d5a1a; stroke-width: 1; }
+.dc-triad-node text { font-size: 12px; font-weight: 600; fill: currentColor; text-anchor: middle; }
+.dc-triad-node.dc-triad-tight text { font-size: 11px; }
+/* The hub disc masks the three crossing edges so the label stays readable,
+   and its dashed outline says the centre IS something — one act — rather
+   than leaving the words floating in the middle of the triangle. */
+.dc-triad-hubdot { fill: var(--bg, #fbf8f1); stroke: #7d5a1a; stroke-width: 1; stroke-dasharray: 3 3; opacity: .9; }
+.dc-triad-hub { font-size: 11px; fill: currentColor; text-anchor: middle; font-style: italic; opacity: .8; }

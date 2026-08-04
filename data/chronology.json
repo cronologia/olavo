@@ -4361,10 +4361,16 @@
       "where": "a course announced under this name, Virginia",
       "dateNote": "announced Jun 2007 for Sept 2007",
       "dateVerified": false
+     },
+     {
+      "where": "course lecture 51 — on the example already being in the 1995 book",
+      "date": "2010-03-27",
+      "dateVerified": true
      }
     ],
     "title": "Cognitive parallax",
-    "originalTerm": "Paralaxe cognitiva"
+    "originalTerm": "Paralaxe cognitiva",
+    "origin": "The worked case is older than the term's exposition in the course: he points out that he had already given it in O Jardim das Aflições (1995) — Marx announcing a materialist philosophy and delivering one whose real substance is human action, with nature entering only as raw material. He generalises from it that a philosophy built on a parallax is not so much false as unrealisable, so its author ends up doing a third thing neither he nor his readers can name."
    },
    {
     "id": "quatro-discursos",
@@ -4458,6 +4464,239 @@
     ],
     "title": "The horizon of consciousness",
     "originalTerm": "O horizonte de consciência"
+   },
+   {
+    "id": "teoria-do-imperio",
+    "claim": "Empire is the recurring idea of Western history, and he traces its transmutations from the fall of Rome to the American expansion — each collapse followed by someone assembling the next one. His definition is the load-bearing part: an empire is a supranational organisation that does not federate nations but gathers forces from inside them, which is why it can operate against the interests of the very country that hosts it.",
+    "origin": "Set out in O Jardim das Aflições (1995), of which he says a great part is a history of the transmutations of the idea of empire — a great part, not the whole: the book is subtitled an essay on materialism and civil religion, and the same pages carry the worked example of cognitive parallax. He calls it the one book whose literary structure he was able to compose deliberately, like a piece of music.",
+    "caveat": "He notes that his account converges with Antonio Negri's Empire, written from the opposite political direction, and does not treat the convergence as embarrassing. He also says the book's narrative stops at the American empire and that everything after it needed the later work — see the three projects of global domination.",
+    "credits": [
+     "Aristotle"
+    ],
+    "expositions": [
+     {
+      "where": "course lecture 82 — the survey of his own philosophy",
+      "date": "2010-11-06",
+      "dateVerified": true
+     },
+     {
+      "where": "course lecture 32 — on the unity of his own body of work",
+      "date": "2009-11-14",
+      "dateVerified": true
+     },
+     {
+      "where": "course lecture 427 — empire as a supranational organisation",
+      "dateNote": "undated in the corpus",
+      "dateVerified": false
+     },
+     {
+      "where": "course lecture 482 — the theory's use in cultural conflict",
+      "dateNote": "undated in the corpus",
+      "dateVerified": false
+     }
+    ],
+    "title": "The theory of Empire",
+    "originalTerm": "A teoria do Império"
+   },
+   {
+    "id": "tres-projetos-globais",
+    "claim": "The sequel to the Empire thesis, and the framework he is best known for outside philosophy: the forces now contesting world power are not one conspiracy but three separate projects of global domination — which he names provisionally the Russo-Chinese, the Western, and the Islamic — of comparable weight, sometimes allied and sometimes at each other's throats. He insists nobody can say which will prevail, including the people running them.",
+    "structure": [
+     "Russo-Chinese",
+     "Western",
+     "Islamic"
+    ],
+    "diagram": "triad",
+    "origin": "He presents it as the continuation of O Jardim das Aflições, whose narrative stops at the American empire: the 2011 debate with Aleksandr Dugin is, in his words, the book's proper complement, carrying the analysis forward to the present.",
+    "caveat": "He rejects the 'masters of the universe' reading his own audience often draws from this — the point of a three-way contest is that no one is in control. He also insists 'Anglo-American' is the wrong name for the Western project.",
+    "revision": "The naming shifts across the corpus. In 2009 he lists the communist project first and calls the third simply globalist; by 2013 the same three are 'the three globalisms'; and around 2020 he adds an observation rather than a correction, that the Western project is dismantling itself and the other two are collecting the winnings.",
+    "expositions": [
+     {
+      "where": "course lecture 36 — the three-project enumeration",
+      "date": "2009-12-12",
+      "dateVerified": true
+     },
+     {
+      "where": "the debate with Aleksandr Dugin, section 'Três projetos de poder em disputa'",
+      "date": "2011-03-07",
+      "dateVerified": false
+     },
+     {
+      "where": "course lecture 218 — on the debate as the book's complement",
+      "date": "2013-08-31",
+      "dateVerified": true
+     },
+     {
+      "where": "course lecture 212 — on not knowing which will win",
+      "date": "2013-07-20",
+      "dateVerified": true
+     }
+    ],
+    "title": "The three projects of global domination",
+    "originalTerm": "Os três projetos de dominação global"
+   },
+   {
+    "id": "tripla-intuicao",
+    "claim": "In any act of knowing, three things are grasped at once and cannot be separated: the act itself, the thing known, and the conditions that make the act possible. His model is sight — you never see an object without also seeing the light, and the light that shows the object is the same light that reaches the eye. He argues this connection is what the whole edifice of logic rests on, since a certainty available only in words could never underwrite a proof.",
+    "structure": [
+     "The act",
+     "The thing known",
+     "The conditions of the act"
+    ],
+    "diagram": "triad-one",
+    "origin": "He dates the idea to an argument with the position that there is no reality outside human language, and calls it, in the same breath, one of his great discoveries and one of the worst written things he ever produced — a draft that circulated as a course handout and was never made into a book.",
+    "lineageNote": "He built it to ground what he calls his radical intuitionism, and treats the near-universal symbolism of light and the sun as knowledge as evidence that the structure is not his invention but a description.",
+    "credits": [
+     "Aristotle",
+     "Aquinas"
+    ],
+    "expositions": [
+     {
+      "where": "course lecture 82 — the survey of his own philosophy",
+      "date": "2010-11-06",
+      "dateVerified": true
+     },
+     {
+      "where": "course lecture 159 — on grounding radical intuitionism",
+      "date": "2012-06-16",
+      "dateVerified": true
+     },
+     {
+      "where": "course lecture 219 — the fullest statement",
+      "date": "2013-09-07",
+      "dateVerified": true
+     }
+    ],
+    "title": "The triple intuition",
+    "originalTerm": "A tripla intuição"
+   },
+   {
+    "id": "metacapitalismo",
+    "claim": "A name for capital that has outgrown the market it came from: firms large enough to stop accepting the market's verdict and to want the state instead. He uses it to argue that world revolution is now promoted by the very rich rather than against them, and that the economy this produces — a strong state ringed by a handful of associated giants — is the arrangement he calls fascist, whatever the country's professed system.",
+    "caveat": "This is an economic characterisation, not a technical one; he does not present it as a contribution to economics and names no economist he is amending.",
+    "expositions": [
+     {
+      "where": "True Outspeak, episode 1 — he calls it his famous theory",
+      "date": "2006-12-04",
+      "dateVerified": false
+     },
+     {
+      "where": "course lecture 490 — on who now promotes world revolution",
+      "dateNote": "undated in the corpus",
+      "dateVerified": false
+     },
+     {
+      "where": "course lecture 397 — on who funds the movement",
+      "dateNote": "undated in the corpus",
+      "dateVerified": false
+     }
+    ],
+    "title": "Metacapitalism",
+    "originalTerm": "O metacapitalismo"
+   },
+   {
+    "id": "mentalidade-revolucionaria",
+    "claim": "Not a political position but a mental disorder with a structure, which he says has been running for four centuries: a mind that inverts the direction of time, treating a promised future as the cause of the present; inverts the subject-object relation, so the theory tells reality what it must be; and inverts moral responsibility, so the harm done in pursuit of the promise is charged to whoever resisted. He distinguishes it sharply from cognitive parallax, which is a defect of perception rather than a fully formed inversion.",
+    "origin": "He traces the investigation to Joseph Gabel's work on false consciousness, read decades before he began, and says Gabel was on the right track without following it through.",
+    "credits": [
+     "Marx"
+    ],
+    "expositions": [
+     {
+      "where": "course lecture 40 — the three inversions, with Marx as the worked case",
+      "date": "2010-01-09",
+      "dateVerified": true
+     },
+     {
+      "where": "course lecture 16 — on Gabel and the origin of the investigation",
+      "date": "2009-07-25",
+      "dateVerified": true
+     },
+     {
+      "where": "True Outspeak, episode 123 — noting a Lisbon thesis on it",
+      "date": "2009-06-08",
+      "dateVerified": false
+     }
+    ],
+    "title": "The revolutionary mentality",
+    "originalTerm": "A mentalidade revolucionária"
+   },
+   {
+    "id": "patamares",
+    "claim": "Philosophy advances by landings rather than by schools: certain things, once seen, cannot be unseen, and reasoning below them is not disagreement but regression. Aristotle's distinction between form and matter is his standing example. The claim is normative, not historical — he says nobody has the right to argue beneath a landing, while granting that later work may fundamentally alter what stands on it.",
+    "caveat": "Asked in class for the list of landings, he agreed it would be worth having and did not produce one. The corpus records the criterion and the examples, not the inventory.",
+    "expositions": [
+     {
+      "where": "Curso História Essencial da Filosofia, session 3 — 'my famous theory of landings'",
+      "date": "2002",
+      "dateVerified": false
+     },
+     {
+      "where": "course lecture 31 — the definition and the Aristotle example",
+      "date": "2009-11-07",
+      "dateVerified": true
+     },
+     {
+      "where": "course lecture 182 — asked for the list, and declines to give one",
+      "date": "2012-12-01",
+      "dateVerified": true
+     }
+    ],
+    "title": "The landings of philosophy",
+    "originalTerm": "A teoria dos patamares"
+   },
+   {
+    "id": "sujeito-da-historia",
+    "claim": "History is only ever the history of agents that act, and most of the subjects historians write about cannot act. Brazil, he argues, has no history — it is the stage on which one happens, since a juridical-territorial unit has never done anything. What qualifies is any body able to prolong a line of action across generations while remaining recognisably itself: he names the Church's missions and the communist parties as the clear cases.",
+    "origin": "He says he had to settle the question before he could ask whether historical knowledge explains anything at all about the divisions he was trying to describe.",
+    "expositions": [
+     {
+      "where": "course lecture 32 — set out as a section of his own philosophy",
+      "date": "2009-11-14",
+      "dateVerified": true
+     }
+    ],
+    "title": "The subject of history",
+    "originalTerm": "A teoria do sujeito da história"
+   },
+   {
+    "id": "contraditoria-ambigua",
+    "claim": "A test he proposes for statements that are neither plainly true nor plainly false — 'I am here', 'A equals A' — where the answer changes with the sense in which the terms are taken. He treats it as a practical exercise in noticing which sense one is actually using.",
+    "caveat": "The weakest-attested entry in this panel. It reaches us mainly through a listener who names it among his original contributions and asks whether the exercise can be generalised into a theory; he answers that he has already done so and that the text is lost somewhere in his own handouts. No developed statement has been located in the corpus.",
+    "expositions": [
+     {
+      "where": "True Outspeak, episode 78 — the listener's question and his reply",
+      "date": "2008-06-30",
+      "dateVerified": false
+     }
+    ],
+    "title": "The test of the ambiguous contradictory",
+    "originalTerm": "O teste da contraditória ambígua"
+   },
+   {
+    "id": "imbecil-coletivo",
+    "claim": "His most cited coinage, and by his own account not an insult about intelligence. The collective imbecile is not made of imbeciles: it is normal and sometimes very able people who, out of professional solidarity or political convenience, adopt habits of language that stop them thinking, and who make one another stupid by doing it together. The juvenile imbecile is the same mechanism in its adolescent form — the herd spirit, the need to be accepted by the group, brave towards parents who love them and submissive towards peers who do not.",
+    "countNote": "The juvenile imbecile is not an age. He is explicit that they are sixty and seventy years old, and that the essay describes a condition people carry into adulthood rather than a phase they leave.",
+    "caveat": "He never calls either a theory, and neither is presented as one here: the collective imbecile is a book of collected examples of Brazilian intellectual life, and the juvenile imbecile is the opening essay of a later collection. They are in this panel because he defines the mechanism explicitly and returns to it as a concept, not because he classed them with his philosophical work.",
+    "expositions": [
+     {
+      "where": "course lecture 10 — the mechanism defined",
+      "date": "2009-06-13",
+      "dateVerified": true
+     },
+     {
+      "where": "course lecture 224 — the launch conference, on the juvenile imbecile",
+      "date": "2013-10-19",
+      "dateVerified": true
+     },
+     {
+      "where": "course lecture 229 — linking it to what he calls existential contradiction",
+      "date": "2013-11-30",
+      "dateVerified": true
+     }
+    ],
+    "title": "The collective imbecile, and the juvenile imbecile",
+    "originalTerm": "O imbecil coletivo / o imbecil juvenil"
    }
   ]
  }
