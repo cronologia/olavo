@@ -85,6 +85,30 @@ function renderPhilosopherPage(opts) {
     description: entry.summary,
   };
 
+  // The qualitative half of the reception layer (olavo#11 wave 2). The table
+  // below says WHICH lectures engage a philosopher and how often; this says
+  // what he actually claimed about him, and comes from a different and earlier
+  // corpus — the 2002 course, seven years before the one the counts measure.
+  // Rendered above the table because a reader wants the claim before the
+  // frequency, and gated on the optional `readings` key so a philosopher
+  // without one is unchanged.
+  const readings = Array.isArray(entry.readings) ? entry.readings : [];
+  const readingsHtml = readings.length ? `
+    <section id="readings">
+      <h2>${esc(ui.phReadingsHeading)}</h2>
+      <p class="notice notice-attribution">${esc(ui.phReadingsNote)}</p>
+      <ul class="ph-readings">
+${readings.map((r) => `        <li>
+          <p>${esc(r.claim)}</p>
+          <p class="ph-reading-src">${esc(r.where)} — <span class="dc-date">${esc(r.date)}</span> ${
+            r.dateVerified
+              ? '<span class="dc-ok" title="date verified">✓</span>'
+              : '<span class="flag" title="date not verified">?</span>'}</p>
+        </li>`).join('\n')}
+      </ul>
+    </section>
+` : '';
+
   const receptionHtml = reception ? `
     <section id="reception">
       <h2>${esc(ui.phReceptionHeading)}</h2>
@@ -126,7 +150,7 @@ ${seoHead(pageMeta, base, route, lang)}
 
   <nav class="site-nav">
     <div class="wrap">
-      <a href="#timeline">${esc(ui.phTimelineHeading)}</a>${reception ? `\n      <a href="#reception">${esc(ui.phReceptionHeading)}</a>` : ''}
+      <a href="#timeline">${esc(ui.phTimelineHeading)}</a>${readings.length ? `\n      <a href="#readings">${esc(ui.phReadingsHeading)}</a>` : ''}${reception ? `\n      <a href="#reception">${esc(ui.phReceptionHeading)}</a>` : ''}
       <a href="#references">${esc(ui.references)}</a>
     </div>
   </nav>
@@ -143,7 +167,7 @@ ${renderTimelineRows(entry, refNum, esc, renderCites, ui)}
       </table>
       </div>
     </section>
-${receptionHtml}
+${readingsHtml}${receptionHtml}
     <section id="references">
       <h2>${esc(ui.referencesHeading)}</h2>
       <ol class="references">
