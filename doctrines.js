@@ -24,13 +24,34 @@
  *
  * The diagrams
  * ------------
- * Two doctrines are structural and therefore drawable. Both are inline SVG,
- * theme-aware through currentColor, and carry no dependencies.
+ * Inline SVG, theme-aware through currentColor, no dependencies. The dataset
+ * NAMES the shape (`diagram`) rather than the code inferring it, because in
+ * this panel a shape is an argument and not a layout choice.
  *
- * The twelve layers render as a RING of equal segments rather than a ladder,
- * because he explicitly repudiated the developmental reading: all twelve press
- * simultaneously. A rising staircase would encode the interpretation he
- * corrected.
+ * The pair that makes the rule concrete: the twelve layers are a RING, because
+ * he explicitly repudiated the developmental reading and said all twelve press
+ * at once — a staircase would encode the interpretation he corrected. The
+ * landings of philosophy are a STAIRCASE, because there the whole claim is
+ * that you may not reason below one. Same file, opposite shapes, and getting
+ * them the wrong way round would misstate both.
+ *
+ *   ring      N equal segments, simultaneous, no order
+ *   chain     ordered, each stage presupposing the last, on a rising axis
+ *   steps     ordered and irreversible — no going below a landing
+ *   triad     three coordinate rivals, mutually engaged, unordered
+ *   triad-one three inseparable aspects of ONE act (hub label)
+ *   set       a closed list of kinds, no order, NO relation between them
+ *   nest      containment: outer functions around an inner substance
+ *   strata    layers over a foundation the others rest on
+ *   cycle     a closed loop that repeats — the shape says "again"
+ *   parallax  two axes that should coincide and do not; the gap is the point
+ *   halo      a core and the band of what surrounds it
+ *   contrast  "not this, but that" — two readings, one struck through
+ *   inversions  pairs flipped end for end
+ *   selfloop  something resting on what it is trying to destroy
+ *
+ * One doctrine deliberately has NO diagram. See `contraditoria-ambigua`: no
+ * developed statement of it survives, so any shape would be invention.
  */
 
 /** The dataset's optional key; null when absent. */
@@ -127,15 +148,216 @@ ${arrow}`;
   const hi = t('dcChainHigh', 'most certainty');
   return `<svg class="dc-chain" viewBox="0 0 ${W} 130" role="img"
      aria-label="${esc(t('dcChainAlt', 'Four discourses in a single sequence, each presupposing the one before it, from least to most certainty'))}: ${esc(names.map((x, i) => `${i + 1} ${x}`).join('; '))}">
-    <defs>
-      <marker id="dc-arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto">
-        <path d="M 0 0 L 8 4 L 0 8 z" />
-      </marker>
-    </defs>
+    ${ARROW_DEF}
 ${nodes.join('\n')}
     <line class="dc-chain-axis" x1="20" y1="108" x2="${W - 20}" y2="108" marker-end="url(#dc-arrow)" />
     <text class="dc-chain-axis-label" x="20" y="124">${esc(lo)}</text>
     <text class="dc-chain-axis-label dc-chain-axis-end" x="${W - 20}" y="124">${esc(hi)}</text>
+  </svg>`;
+}
+
+/** One arrow marker, shared by every shape that needs one. Defining it inside
+ * each SVG is fine — ids are document-scoped and duplicates would collide, so
+ * the LAST definition would silently win for all of them. */
+const ARROW_DEF = `<defs><marker id="dc-arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 8 4 L 0 8 z" /></marker></defs>`;
+
+/** Helpers shared by the shape renderers below. */
+const wrapTo = (name, budget) => {
+  const lines = [];
+  for (const w of String(name).split(' ')) {
+    if (lines.length && (lines[lines.length - 1] + ' ' + w).length <= budget) lines[lines.length - 1] += ' ' + w;
+    else lines.push(w);
+  }
+  return lines;
+};
+const textBlock = (lines, x, yMid, esc, lead = 14, cls = '') =>
+  lines.map((l, k) => `        <text${cls ? ` class="${cls}"` : ''} x="${x.toFixed(1)}" y="${(yMid + 4 - ((lines.length - 1) * lead) / 2 + k * lead).toFixed(1)}">${esc(l)}</text>`).join('\n');
+
+/** Stacked layers over a foundation — the last entry is what the rest rest on.
+ *
+ * Knowledge by presence is the case: perception, memory and theory are laid
+ * over something PRIOR to all of them. Order matters here and the base is not
+ * merely the bottom item, so it is drawn wider and set apart.
+ */
+function renderStrata(names, esc) {
+  const W = 520, h = 46, gap = 8;
+  const rows = names.map((name, i) => {
+    const base = i === names.length - 1;
+    const inset = base ? 10 : 34;
+    const y = 12 + i * (h + gap);
+    return `      <g class="dc-strata-row${base ? ' dc-strata-base' : ''}">
+        <rect x="${inset}" y="${y}" width="${W - inset * 2}" height="${h}" rx="7" />
+${textBlock(wrapTo(name, 46), W / 2, y + h / 2, esc)}
+      </g>`;
+  });
+  return `<svg class="dc-strata" viewBox="0 0 ${W} ${12 + names.length * (h + gap)}" role="img"
+     aria-label="${esc(names.join('; then, beneath all of them: ').replace(/; then, beneath all of them: (?=[^;]*$)/, '; and beneath all of them: '))}">
+${rows.join('\n')}
+  </svg>`;
+}
+
+/** A closed loop: the shape says "and then it happens again".
+ *
+ * Empire — one falls, someone builds the next — and the collective imbecile,
+ * where each party makes the others stupider and is made stupider in turn.
+ * Deliberately not a chain: a chain ends.
+ */
+function renderCycle(names, esc) {
+  const cx = 250, cy = 150, r = 100, n = names.length;
+  const nodes = names.map((name, i) => {
+    const a = -Math.PI / 2 + (2 * Math.PI * i) / n;
+    const x = cx + r * Math.cos(a), y = cy + r * Math.sin(a);
+    return `      <g class="dc-cycle-node">
+        <circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="46" />
+${textBlock(wrapTo(name, 13), x, y, esc, 13)}
+      </g>`;
+  });
+  const arcs = names.map((_, i) => {
+    const a0 = -Math.PI / 2 + (2 * Math.PI * i) / n + 0.42;
+    const a1 = -Math.PI / 2 + (2 * Math.PI * (i + 1)) / n - 0.42;
+    const R = r;
+    const p = (a) => `${(cx + R * Math.cos(a)).toFixed(1)} ${(cy + R * Math.sin(a)).toFixed(1)}`;
+    return `      <path class="dc-cycle-arc" d="M ${p(a0)} A ${R} ${R} 0 0 1 ${p(a1)}" marker-end="url(#dc-arrow)" />`;
+  });
+  return `<svg class="dc-cycle" viewBox="0 0 500 300" role="img"
+     aria-label="${esc(names.join(' → ') + ' → ' + names[0])}">
+    ${ARROW_DEF}
+${arcs.join('\n')}
+${nodes.join('\n')}
+  </svg>`;
+}
+
+/** Two axes that ought to coincide and do not. The GAP is the doctrine.
+ *
+ * Cognitive parallax: the line a thinker's life actually runs along, and the
+ * line his theory draws. Drawing them as a list of two would lose the only
+ * thing the concept asserts, which is the displacement between them.
+ */
+function renderParallax(names, esc, t) {
+  const W = 540, H = 170;
+  const ax = [{ y: 44, x0: 26, x1: 372 }, { y: 104, x0: 96, x1: 442 }];
+  const rows = names.slice(0, 2).map((name, i) => `      <g class="dc-px-axis">
+        <line x1="${ax[i].x0}" y1="${ax[i].y}" x2="${ax[i].x1}" y2="${ax[i].y}" marker-end="url(#dc-arrow)" />
+${textBlock(wrapTo(name, 44), (ax[i].x0 + ax[i].x1) / 2, ax[i].y - 16, esc, 13, 'dc-px-label')}
+      </g>`);
+  const gap = t('dcPxGap', 'displaced, and the gap is the defect');
+  return `<svg class="dc-parallax" viewBox="0 0 ${W} ${H}" role="img"
+     aria-label="${esc(names.join(' / ') + ' — ' + gap)}">
+    ${ARROW_DEF}
+${rows.join('\n')}
+      <line class="dc-px-gap" x1="${ax[0].x1}" y1="${ax[0].y}" x2="${ax[1].x1}" y2="${ax[1].y}" />
+      <text class="dc-px-gaplabel" x="${(ax[0].x1 + ax[1].x1) / 2}" y="${H - 16}">${esc(gap)}</text>
+  </svg>`;
+}
+
+/** A core and the band around it — what is actual, and what surrounds it.
+ *
+ * The circle of latency (what is not actual but could become so) and the
+ * horizon of consciousness (what falls inside what a mind can take in). The
+ * band is dashed because in both doctrines the boundary is real but not a
+ * wall: it moves, and it is the thing under discussion.
+ */
+function renderHalo(names, esc) {
+  const cx = 250, cy = 146, H = 320;
+  const core = names[0], band = names[1] || '';
+  return `<svg class="dc-halo" viewBox="0 0 500 ${H}" role="img"
+     aria-label="${esc(core + (band ? ` — ${band}` : ''))}">
+      <circle class="dc-halo-band" cx="${cx}" cy="${cy}" r="122" />
+      <circle class="dc-halo-core" cx="${cx}" cy="${cy}" r="62" />
+${textBlock(wrapTo(core, 14), cx, cy, esc, 14, 'dc-halo-corelabel')}
+${band ? textBlock(wrapTo(band, 44), cx, H - 26, esc, 14, 'dc-halo-bandlabel') : ''}
+  </svg>`;
+}
+
+/** "Not this, but that." Two readings, the rejected one struck through.
+ *
+ * Several doctrines are stated as corrections of a default: law is guarantee
+ * and NOT command; philosophy begins from an honest account of your own state
+ * and NOT from a position adopted for argument. A neutral pair of boxes would
+ * drop the negation, which is the whole assertion.
+ */
+function renderContrast(names, esc) {
+  const W = 540, boxW = 232, h = 76;
+  const cells = names.slice(0, 2).map((name, i) => {
+    const x = i === 0 ? 20 : W - 20 - boxW;
+    const cls = i === 0 ? ' dc-contrast-no' : ' dc-contrast-yes';
+    return `      <g class="dc-contrast-cell${cls}">
+        <rect x="${x}" y="16" width="${boxW}" height="${h}" rx="8" />
+${textBlock(wrapTo(name, 26), x + boxW / 2, 16 + h / 2, esc, 15)}
+${i === 0 ? `        <line class="dc-contrast-strike" x1="${x + 14}" y1="${16 + h / 2}" x2="${x + boxW - 14}" y2="${16 + h / 2}" />` : ''}
+      </g>`;
+  });
+  return `<svg class="dc-contrast" viewBox="0 0 ${W} ${16 + h + 16}" role="img"
+     aria-label="${esc(`not ${names[0]}, but ${names[1] || ''}`)}">
+${cells.join('\n')}
+      <path class="dc-contrast-arrow" d="M ${20 + boxW + 12} ${16 + h / 2} L ${W - 20 - boxW - 12} ${16 + h / 2}" marker-end="url(#dc-arrow)" />
+    ${ARROW_DEF}
+  </svg>`;
+}
+
+/** Pairs flipped end for end. The doctrine IS the reversal.
+ *
+ * The revolutionary mentality's three inversions: time, the subject-object
+ * relation, moral responsibility. Each `structure` entry is "A|B", drawn as
+ * A → B struck out above B → A.
+ */
+function renderInversions(names, esc, t) {
+  const W = 540, rowH = 62;
+  const rows = names.map((pair, i) => {
+    const [a, b] = String(pair).split('|');
+    const y = 24 + i * rowH;
+    return `      <g class="dc-inv-row">
+        <text class="dc-inv-normal" x="24" y="${y}">${esc(a || '')} → ${esc(b || '')}</text>
+        <line class="dc-inv-strike" x1="20" y1="${y - 5}" x2="${W / 2 - 30}" y2="${y - 5}" />
+        <text class="dc-inv-arrow" x="${W / 2 - 10}" y="${y}">⇒</text>
+        <text class="dc-inv-flipped" x="${W / 2 + 16}" y="${y}">${esc(b || '')} → ${esc(a || '')}</text>
+      </g>`;
+  });
+  return `<svg class="dc-inversions" viewBox="0 0 ${W} ${24 + names.length * rowH}" role="img"
+     aria-label="${esc(t('dcInvAlt', 'Three inversions, each reversing a relation'))}">
+${rows.join('\n')}
+  </svg>`;
+}
+
+/** A rising staircase — and here, unlike the twelve layers, that IS the claim.
+ *
+ * A landing is something that, once seen, may not be reasoned below. The
+ * irreversibility is the doctrine, so the steps rise and a barred arrow marks
+ * the descent he says nobody has the right to make.
+ */
+function renderSteps(names, esc, t) {
+  const W = 540, n = names.length, stepW = (W - 60) / n, stepH = 34;
+  const H = 40 + n * stepH;
+  const cells = names.map((name, i) => {
+    const x = 30 + i * stepW;
+    const y = H - 24 - (i + 1) * stepH;
+    return `      <g class="dc-steps-cell">
+        <rect x="${x.toFixed(1)}" y="${y}" width="${stepW.toFixed(1)}" height="${stepH}" />
+${textBlock(wrapTo(name, 18), x + stepW / 2, y + stepH / 2, esc, 12, 'dc-steps-label')}
+      </g>`;
+  });
+  return `<svg class="dc-steps" viewBox="0 0 ${W} ${H}" role="img"
+     aria-label="${esc(names.join(' · ') + ' — ' + t('dcStepsNote', 'no reasoning below a landing once reached'))}">
+${cells.join('\n')}
+      <text class="dc-steps-note" x="30" y="${H - 6}">${esc(t('dcStepsNote', 'no reasoning below a landing once reached'))}</text>
+  </svg>`;
+}
+
+/** Something standing on the very thing it is trying to pull down.
+ *
+ * Existential contradiction. A base, a figure on it, and an arrow from the
+ * figure curving back into the base — the attack that presupposes its target.
+ */
+function renderSelfloop(names, esc) {
+  const W = 460;
+  const top = names[0] || '', base = names[1] || '';
+  return `<svg class="dc-selfloop" viewBox="0 0 ${W} 200" role="img" aria-label="${esc(`${top} — ${base}`)}">
+    ${ARROW_DEF}
+      <rect class="dc-selfloop-base" x="70" y="128" width="320" height="48" rx="8" />
+${textBlock(wrapTo(base, 40), 230, 152, esc, 14, 'dc-selfloop-baselabel')}
+      <rect class="dc-selfloop-top" x="130" y="24" width="200" height="52" rx="8" />
+${textBlock(wrapTo(top, 26), 230, 50, esc, 14, 'dc-selfloop-toplabel')}
+      <path class="dc-selfloop-arc" d="M 330 50 C 420 50 424 150 352 150" marker-end="url(#dc-arrow)" />
   </svg>`;
 }
 
@@ -293,6 +515,14 @@ function renderDoctrinesSection(doctrines, ui, helpers) {
       if (kind === 'ring') bits.push(renderRing(it.structure, esc, t));
       else if (kind === 'chain') bits.push(renderChain(it.structure, esc, t));
       else if (kind === 'set') bits.push(renderSet(it.structure, esc));
+      else if (kind === 'strata') bits.push(renderStrata(it.structure, esc));
+      else if (kind === 'cycle') bits.push(renderCycle(it.structure, esc));
+      else if (kind === 'parallax') bits.push(renderParallax(it.structure, esc, t));
+      else if (kind === 'halo') bits.push(renderHalo(it.structure, esc));
+      else if (kind === 'contrast') bits.push(renderContrast(it.structure, esc));
+      else if (kind === 'inversions') bits.push(renderInversions(it.structure, esc, t));
+      else if (kind === 'steps') bits.push(renderSteps(it.structure, esc, t));
+      else if (kind === 'selfloop') bits.push(renderSelfloop(it.structure, esc));
       else if (kind === 'triad') bits.push(renderTriad(it.structure, esc, t, null));
       else if (kind === 'triad-one') bits.push(renderTriad(it.structure, esc, t, t('dcTriadOne', 'one act')));
       else bits.push(renderNest(it.structure, esc, t('dcGround', 'the eternal I — the ground, not a fifth term')));
@@ -339,4 +569,5 @@ ${bits.join('\n')}
 </section>`;
 }
 
-module.exports = { getDoctrines, renderDoctrinesSection, renderRing, renderNest, renderChain, renderTriad, renderSet };
+module.exports = { getDoctrines, renderDoctrinesSection, renderRing, renderNest, renderChain, renderTriad, renderSet, renderStrata, renderCycle,
+  renderParallax, renderHalo, renderContrast, renderInversions, renderSteps, renderSelfloop };
