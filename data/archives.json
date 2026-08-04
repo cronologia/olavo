@@ -1,6 +1,6 @@
 {
   "generatedBy": "scripts/archive-refs.js",
-  "updatedAt": "2026-08-03",
+  "updatedAt": "2026-08-04",
   "snapshots": {
     "http://web.archive.org/web/20211215180559/https://olavodecarvalho.org/": {
       "refId": "olavodecarvalho-org-wayback",
@@ -26,6 +26,24 @@
       "timestamp": "20260307180440",
       "checkedAt": "2026-08-03"
     },
+    "https://bmcr.brynmawr.edu/1995/1995.03.16/": {
+      "refId": "bmcr-runia-philo",
+      "archiveUrl": "https://web.archive.org/web/20240808005152/https://bmcr.brynmawr.edu/1995/1995.03.16/",
+      "timestamp": "20240808005152",
+      "checkedAt": "2026-08-04"
+    },
+    "https://bmcr.brynmawr.edu/2010/2010.12.63/": {
+      "refId": "bmcr-gambetti-riots",
+      "archiveUrl": "https://web.archive.org/web/20250619094142/https://bmcr.brynmawr.edu/2010/2010.12.63/",
+      "timestamp": "20250619094142",
+      "checkedAt": "2026-08-04"
+    },
+    "https://bmcr.brynmawr.edu/2018/2018.05.36/": {
+      "refId": "bmcr-niehoff-philo",
+      "archiveUrl": "https://web.archive.org/web/20260417150218/https://bmcr.brynmawr.edu/2018/2018.05.36",
+      "timestamp": "20260417150218",
+      "checkedAt": "2026-08-04"
+    },
     "https://brill.com/view/journals/arie/21/2/article-p159_1.xml": {
       "refId": "sedgwick-aries-2021",
       "archiveUrl": "https://web.archive.org/web/20260223141256/https://brill.com/view/journals/arie/21/2/article-p159_1.xml",
@@ -38,11 +56,23 @@
       "timestamp": "20250919093623",
       "checkedAt": "2026-08-03"
     },
+    "https://classiques.uqam.ca/classiques/lavelle_louis/lavelle_louis.html": {
+      "refId": "uqam-lavelle",
+      "archiveUrl": "https://web.archive.org/web/20260211122457/https://classiques.uqam.ca/classiques/lavelle_louis/lavelle_louis.html",
+      "timestamp": "20260211122457",
+      "checkedAt": "2026-08-04"
+    },
     "https://diariodonordeste.verdesmares.com.br/ultima-hora/pais/morte-de-olavo-de-carvalho-nao-teve-relacao-com-a-covid-alega-seu-medico-particular-1.3184656": {
       "refId": "diariodonordeste-medico",
       "archiveUrl": "https://web.archive.org/web/20220525055855/https://diariodonordeste.verdesmares.com.br/ultima-hora/pais/morte-de-olavo-de-carvalho-nao-teve-relacao-com-a-covid-alega-seu-medico-particular-1.3184656",
       "timestamp": "20220525055855",
       "checkedAt": "2026-08-03"
+    },
+    "https://en.fschuon.info/?page_id=209": {
+      "refId": "fschuon-bio",
+      "archiveUrl": "https://web.archive.org/web/20241126235034/https://en.fschuon.info/?page_id=209",
+      "timestamp": "20241126235034",
+      "checkedAt": "2026-08-04"
     },
     "https://en.wikipedia.org/wiki/Olavo_de_Carvalho": {
       "refId": "wikipedia-en",
@@ -62,11 +92,89 @@
       "timestamp": "20260803100651",
       "checkedAt": "2026-08-03"
     },
+    "https://global.oup.com/academic/product/against-the-modern-world-9780195396010": {
+      "refId": "sedgwick-oup",
+      "archiveUrl": "https://web.archive.org/web/20251027063108/https://global.oup.com/academic/product/against-the-modern-world-9780195396010",
+      "timestamp": "20251027063108",
+      "checkedAt": "2026-08-04"
+    },
     "https://horadopovo.com.br/intelectuais-recusam-medalha-da-biblioteca-nacional-e-criticam-homenagem-a-bolsonaristas-golpistas/": {
       "refId": "hdp-medalha",
       "archiveUrl": "https://web.archive.org/web/20240423054128/https://horadopovo.com.br/intelectuais-recusam-medalha-da-biblioteca-nacional-e-criticam-homenagem-a-bolsonaristas-golpistas/",
       "timestamp": "20240423054128",
       "checkedAt": "2026-08-03"
+    },
+    "https://iep.utm.edu/aristotle/": {
+      "refId": "iep-aristotle",
+      "archiveUrl": "https://web.archive.org/web/20260730160337/https://iep.utm.edu/aristotle/",
+      "timestamp": "20260730160337",
+      "checkedAt": "2026-08-04"
+    },
+    "https://iep.utm.edu/augustin/": {
+      "refId": "iep-agostinho",
+      "archiveUrl": "https://web.archive.org/web/20220119073455/https://iep.utm.edu/augustin/",
+      "timestamp": "20220119073455",
+      "checkedAt": "2026-08-04"
+    },
+    "https://iep.utm.edu/hegelsoc/": {
+      "refId": "iep-hegel",
+      "archiveUrl": "https://web.archive.org/web/20260721115811/https://iep.utm.edu/hegelsoc/",
+      "timestamp": "20260721115811",
+      "checkedAt": "2026-08-04"
+    },
+    "https://iep.utm.edu/heidegge/": {
+      "refId": "iep-heidegger",
+      "archiveUrl": "https://web.archive.org/web/20260801000835/https://iep.utm.edu/heidegge/",
+      "timestamp": "20260801000835",
+      "checkedAt": "2026-08-04"
+    },
+    "https://iep.utm.edu/husserl/": {
+      "refId": "iep-husserl",
+      "archiveUrl": "https://web.archive.org/web/20260725144121/https://iep.utm.edu/husserl/",
+      "timestamp": "20260725144121",
+      "checkedAt": "2026-08-04"
+    },
+    "https://iep.utm.edu/kantview/": {
+      "refId": "iep-kant",
+      "archiveUrl": "https://web.archive.org/web/20260724183933/https://iep.utm.edu/kantview/",
+      "timestamp": "20260724183933",
+      "checkedAt": "2026-08-04"
+    },
+    "https://iep.utm.edu/leib-met/": {
+      "refId": "iep-leibniz-met",
+      "archiveUrl": "https://web.archive.org/web/20260801112732/https://iep.utm.edu/leib-met/",
+      "timestamp": "20260801112732",
+      "checkedAt": "2026-08-04"
+    },
+    "https://iep.utm.edu/philo/": {
+      "refId": "iep-philo",
+      "archiveUrl": "https://web.archive.org/web/20260801101124/https://iep.utm.edu/philo/",
+      "timestamp": "20260801101124",
+      "checkedAt": "2026-08-04"
+    },
+    "https://iep.utm.edu/plato/": {
+      "refId": "iep-plato",
+      "archiveUrl": "https://web.archive.org/web/20260803061150/https://iep.utm.edu/plato/",
+      "timestamp": "20260803061150",
+      "checkedAt": "2026-08-04"
+    },
+    "https://iep.utm.edu/rene-descartes/": {
+      "refId": "iep-descartes",
+      "archiveUrl": "https://web.archive.org/web/20260731093734/https://iep.utm.edu/rene-descartes/",
+      "timestamp": "20260731093734",
+      "checkedAt": "2026-08-04"
+    },
+    "https://iep.utm.edu/socrates/": {
+      "refId": "iep-socrates",
+      "archiveUrl": "https://web.archive.org/web/20260803093428/https://iep.utm.edu/socrates/",
+      "timestamp": "20260803093428",
+      "checkedAt": "2026-08-04"
+    },
+    "https://iep.utm.edu/thomas-aquinas/": {
+      "refId": "iep-aquinas",
+      "archiveUrl": "https://web.archive.org/web/20260714080938/https://iep.utm.edu/thomas-aquinas/",
+      "timestamp": "20260714080938",
+      "checkedAt": "2026-08-04"
     },
     "https://ihu.unisinos.br/185-noticias/noticias-2016/563424-olavo-de-carvalho-o-parteiro-da-nova-direita-que-diz": {
       "refId": "ihu-bbc",
@@ -80,11 +188,23 @@
       "timestamp": "20200320033345",
       "checkedAt": "2026-08-03"
     },
+    "https://jornalggn.com.br/politica/olavo-de-carvalho-e-militares-de-parceiros-ideologicos-a-rivais-por-maria-cristina-fernandes/": {
+      "refId": "valor-ggn-militares",
+      "archiveUrl": "https://web.archive.org/web/20190426100620/https://jornalggn.com.br/politica/olavo-de-carvalho-e-militares-de-parceiros-ideologicos-a-rivais-por-maria-cristina-fernandes/",
+      "timestamp": "20190426100620",
+      "checkedAt": "2026-08-04"
+    },
     "https://livraria.seminariodefilosofia.org/os-eua-e-a-nom": {
       "refId": "livraria-seminario-dugin",
       "archiveUrl": "https://web.archive.org/web/20220125204238/https://livraria.seminariodefilosofia.org/os-eua-e-a-nom",
       "timestamp": "20220125204238",
       "checkedAt": "2026-08-02"
+    },
+    "https://luizberto.com/os-brasileiros-mario-ferreira-dos-santos/": {
+      "refId": "luizberto-mario",
+      "archiveUrl": "https://web.archive.org/web/20251206151830/https://luizberto.com/os-brasileiros-mario-ferreira-dos-santos/",
+      "timestamp": "20251206151830",
+      "checkedAt": "2026-08-04"
     },
     "https://nexojornal.com.br/expresso/2018/11/09/Como-Bolsonaro-usa-livros-para-refor%C3%A7ar-seu-discurso": {
       "refId": "nexo-livros",
@@ -140,6 +260,18 @@
       "timestamp": "20260803101258",
       "checkedAt": "2026-08-03"
     },
+    "https://projects.propublica.org/nonprofits/organizations/271394713": {
+      "refId": "propublica-iai",
+      "archiveUrl": "https://web.archive.org/web/20260803100759/https://projects.propublica.org/nonprofits/organizations/271394713",
+      "timestamp": "20260803100759",
+      "checkedAt": "2026-08-04"
+    },
+    "https://pt.wikipedia.org/wiki/F%C3%B3rum_da_Liberdade": {
+      "refId": "fdl-edicoes-wiki",
+      "archiveUrl": "https://web.archive.org/web/20251104094152/https://pt.wikipedia.org/wiki/F%C3%B3rum_da_Liberdade",
+      "timestamp": "20251104094152",
+      "checkedAt": "2026-08-04"
+    },
     "https://pt.wikipedia.org/wiki/O_Jardim_das_Afli%C3%A7%C3%B5es_(filme)": {
       "refId": "wikipedia-pt-film",
       "archiveUrl": "https://web.archive.org/web/20260708215339/https://pt.wikipedia.org/wiki/O_Jardim_das_Afli%C3%A7%C3%B5es_(filme)",
@@ -170,11 +302,29 @@
       "timestamp": "20250708210625",
       "checkedAt": "2026-08-02"
     },
+    "https://traditionalistblog.blogspot.com/2020/10/new-website-and-new-videos-about-schuon.html": {
+      "refId": "sedgwick-blog-schuon",
+      "archiveUrl": "https://web.archive.org/web/20231123223234/https://traditionalistblog.blogspot.com/2020/10/new-website-and-new-videos-about-schuon.html",
+      "timestamp": "20231123223234",
+      "checkedAt": "2026-08-04"
+    },
     "https://traditionalistblog.blogspot.com/2022/01/Olavodeath.html": {
       "refId": "sedgwick-blog",
       "archiveUrl": "https://web.archive.org/web/20251207023853/https://traditionalistblog.blogspot.com/2022/01/Olavodeath.html",
       "timestamp": "20251207023853",
       "checkedAt": "2026-08-03"
+    },
+    "https://voegelinview.com/biographical-sketch/": {
+      "refId": "voegelinview-bio",
+      "archiveUrl": "https://web.archive.org/web/20260629224823/https://voegelinview.com/biographical-sketch/",
+      "timestamp": "20260629224823",
+      "checkedAt": "2026-08-04"
+    },
+    "https://www.adorocinema.com/noticias/filmes/noticia-131258/": {
+      "refId": "adorocinema-estreia",
+      "archiveUrl": "https://web.archive.org/web/20250713203950/https://www.adorocinema.com/noticias/filmes/noticia-131258/",
+      "timestamp": "20250713203950",
+      "checkedAt": "2026-08-04"
     },
     "https://www.bahianoticias.com.br/holofote/noticia/71000-caetano-veloso-notifica-herdeiras-de-olavo-de-carvalho": {
       "refId": "bahianoticias-herdeiras",
@@ -193,6 +343,126 @@
       "archiveUrl": "https://web.archive.org/web/20250624075355/https://www.brasildefato.com.br/2022/01/25/morre-olavo-de-carvalho-astrologo-estava-com-covid-causa-da-morte-nao-foi-divulgada/",
       "timestamp": "20250624075355",
       "checkedAt": "2026-08-02"
+    },
+    "https://www.britannica.com/biography/Aristotle": {
+      "refId": "brit-aristotle",
+      "archiveUrl": "https://web.archive.org/web/20260731075721/https://www.britannica.com/biography/Aristotle",
+      "timestamp": "20260731075721",
+      "checkedAt": "2026-08-04"
+    },
+    "https://www.britannica.com/biography/Dante-Alighieri": {
+      "refId": "brit-dante",
+      "archiveUrl": "https://web.archive.org/web/20260730053341/https://www.britannica.com/biography/Dante-Alighieri",
+      "timestamp": "20260730053341",
+      "checkedAt": "2026-08-04"
+    },
+    "https://www.britannica.com/biography/Edmund-Husserl": {
+      "refId": "brit-husserl",
+      "archiveUrl": "https://web.archive.org/web/20260624115744/https://www.britannica.com/biography/Edmund-Husserl",
+      "timestamp": "20260624115744",
+      "checkedAt": "2026-08-04"
+    },
+    "https://www.britannica.com/biography/Eric-Herman-Wilhelm-Voegelin": {
+      "refId": "brit-voegelin",
+      "archiveUrl": "https://web.archive.org/web/20260104143143/https://www.britannica.com/biography/Eric-Herman-Wilhelm-Voegelin",
+      "timestamp": "20260104143143",
+      "checkedAt": "2026-08-04"
+    },
+    "https://www.britannica.com/biography/Friedrich-Nietzsche": {
+      "refId": "brit-nietzsche",
+      "archiveUrl": "https://web.archive.org/web/20260718112253/https://www.britannica.com/biography/Friedrich-Nietzsche",
+      "timestamp": "20260718112253",
+      "checkedAt": "2026-08-04"
+    },
+    "https://www.britannica.com/biography/Georg-Wilhelm-Friedrich-Hegel": {
+      "refId": "brit-hegel",
+      "archiveUrl": "https://web.archive.org/web/20260728152757/https://www.britannica.com/biography/Georg-Wilhelm-Friedrich-Hegel",
+      "timestamp": "20260728152757",
+      "checkedAt": "2026-08-04"
+    },
+    "https://www.britannica.com/biography/Gottfried-Wilhelm-Leibniz": {
+      "refId": "brit-leibniz",
+      "archiveUrl": "https://web.archive.org/web/20260722203409/https://www.britannica.com/biography/Gottfried-Wilhelm-Leibniz",
+      "timestamp": "20260722203409",
+      "checkedAt": "2026-08-04"
+    },
+    "https://www.britannica.com/biography/Immanuel-Kant": {
+      "refId": "brit-kant",
+      "archiveUrl": "https://web.archive.org/web/20260609190112/https://www.britannica.com/biography/Immanuel-Kant",
+      "timestamp": "20260609190112",
+      "checkedAt": "2026-08-04"
+    },
+    "https://www.britannica.com/biography/Jose-Ortega-y-Gasset": {
+      "refId": "brit-ortega",
+      "archiveUrl": "https://web.archive.org/web/20260213122213/https://www.britannica.com/biography/Jose-Ortega-y-Gasset",
+      "timestamp": "20260213122213",
+      "checkedAt": "2026-08-04"
+    },
+    "https://www.britannica.com/biography/Karl-Marx": {
+      "refId": "brit-marx",
+      "archiveUrl": "https://web.archive.org/web/20260802191940/https://www.britannica.com/biography/Karl-Marx",
+      "timestamp": "20260802191940",
+      "checkedAt": "2026-08-04"
+    },
+    "https://www.britannica.com/biography/Karl-Marx/Early-years-in-London": {
+      "refId": "brit-marx-london",
+      "archiveUrl": "https://web.archive.org/web/20251206203119/https://www.britannica.com/biography/Karl-Marx/Early-years-in-London",
+      "timestamp": "20251206203119",
+      "checkedAt": "2026-08-04"
+    },
+    "https://www.britannica.com/biography/Karl-Marx/Role-in-the-First-International": {
+      "refId": "brit-marx-first-international",
+      "archiveUrl": "https://web.archive.org/web/20251214064138/https://www.britannica.com/biography/Karl-Marx/Role-in-the-First-International",
+      "timestamp": "20251214064138",
+      "checkedAt": "2026-08-04"
+    },
+    "https://www.britannica.com/biography/Louis-Lavelle": {
+      "refId": "brit-lavelle",
+      "archiveUrl": "https://web.archive.org/web/20250805055508/https://www.britannica.com/biography/Louis-Lavelle",
+      "timestamp": "20250805055508",
+      "checkedAt": "2026-08-04"
+    },
+    "https://www.britannica.com/biography/Martin-Heidegger-German-philosopher": {
+      "refId": "brit-heidegger",
+      "archiveUrl": "https://web.archive.org/web/20260731203531/https://www.britannica.com/biography/Martin-Heidegger-German-philosopher",
+      "timestamp": "20260731203531",
+      "checkedAt": "2026-08-04"
+    },
+    "https://www.britannica.com/biography/Philo-Judaeus": {
+      "refId": "brit-philo",
+      "archiveUrl": "https://web.archive.org/web/20260801101123/https://www.britannica.com/biography/Philo-Judaeus",
+      "timestamp": "20260801101123",
+      "checkedAt": "2026-08-04"
+    },
+    "https://www.britannica.com/biography/Plato": {
+      "refId": "brit-plato",
+      "archiveUrl": "https://web.archive.org/web/20260726035952/https://www.britannica.com/biography/Plato",
+      "timestamp": "20260726035952",
+      "checkedAt": "2026-08-04"
+    },
+    "https://www.britannica.com/biography/Rene-Descartes": {
+      "refId": "brit-descartes",
+      "archiveUrl": "https://web.archive.org/web/20260716124854/https://www.britannica.com/biography/Rene-Descartes",
+      "timestamp": "20260716124854",
+      "checkedAt": "2026-08-04"
+    },
+    "https://www.britannica.com/biography/Saint-Augustine": {
+      "refId": "brit-agostinho",
+      "archiveUrl": "https://web.archive.org/web/20260718014753/https://www.britannica.com/biography/Saint-Augustine",
+      "timestamp": "20260718014753",
+      "checkedAt": "2026-08-04"
+    },
+    "https://www.britannica.com/biography/Socrates": {
+      "refId": "brit-socrates",
+      "archiveUrl": "https://web.archive.org/web/20260715084152/https://www.britannica.com/biography/Socrates",
+      "timestamp": "20260715084152",
+      "checkedAt": "2026-08-04"
+    },
+    "https://www.britannica.com/topic/Das-Kapital": {
+      "refId": "brit-das-kapital",
+      "archiveUrl": "https://web.archive.org/web/20260730075955/https://www.britannica.com/topic/Das-Kapital",
+      "timestamp": "20260730075955",
+      "checkedAt": "2026-08-04"
     },
     "https://www.camara.leg.br/noticias/669762-projeto-anula-decreto-que-concedeu-ordem-de-rio-branco-a-olavo-de-carvalho": {
       "refId": "camara-riobranco",
@@ -296,6 +566,12 @@
       "timestamp": "20230930183642",
       "checkedAt": "2026-08-02"
     },
+    "https://www.jornaldocomercio.com/_conteudo/politica/2021/04/787642-olavo-de-carvalho-volta-a-ser-internado-com-problemas-respiratorios.html": {
+      "refId": "jc-trachea-2021",
+      "archiveUrl": "https://web.archive.org/web/20210414171040/https://www.jornaldocomercio.com/_conteudo/politica/2021/04/787642-olavo-de-carvalho-volta-a-ser-internado-com-problemas-respiratorios.html",
+      "timestamp": "20210414171040",
+      "checkedAt": "2026-08-04"
+    },
     "https://www.metropoles.com/brasil/olavo-de-carvalho-guru-do-bolsonarismo-morre-aos-74-anos": {
       "refId": "metropoles-obit",
       "archiveUrl": "https://web.archive.org/web/20251210220208/https://www.metropoles.com/brasil/olavo-de-carvalho-guru-do-bolsonarismo-morre-aos-74-anos",
@@ -319,6 +595,24 @@
       "archiveUrl": "https://web.archive.org/web/20240225053522/https://www.metropoles.com/mundo/olavo-de-carvalho-sera-enterrado-em-petersburg-pequena-cidade-dos-eua",
       "timestamp": "20240225053522",
       "checkedAt": "2026-08-03"
+    },
+    "https://www.migalhas.com.br/depeso/210801/redescobrindo-o-filosofo-brasileiro-mario-ferreira-dos-santos--uma-pontual-abordagem-criminologico-cultural": {
+      "refId": "migalhas-mario",
+      "archiveUrl": "https://web.archive.org/web/20220127111805/https://www.migalhas.com.br/depeso/210801/redescobrindo-o-filosofo-brasileiro-mario-ferreira-dos-santos--uma-pontual-abordagem-criminologico-cultural",
+      "timestamp": "20220127111805",
+      "checkedAt": "2026-08-04"
+    },
+    "https://www.newadvent.org/cathen/12023a.htm": {
+      "refId": "cathen-philo",
+      "archiveUrl": "https://web.archive.org/web/20260608190618/https://www.newadvent.org/cathen/12023a.htm",
+      "timestamp": "20260608190618",
+      "checkedAt": "2026-08-04"
+    },
+    "https://www.newadvent.org/fathers/250102.htm": {
+      "refId": "eusebius-he-philo",
+      "archiveUrl": "https://web.archive.org/web/20260801101146/https://www.newadvent.org/fathers/250102.htm",
+      "timestamp": "20260801101146",
+      "checkedAt": "2026-08-04"
     },
     "https://www.noticiasaominuto.com.br/politica/1879160/3-olavo-de-carvalho-morreu-de-covid-diz-filha-do-guru-do-bolsonarismo": {
       "refId": "noticiasaominuto-filha",
@@ -397,6 +691,54 @@
       "archiveUrl": "https://web.archive.org/web/20260803100506/https://www.redalyc.org/journal/4755/475571195007/",
       "timestamp": "20260803100506",
       "checkedAt": "2026-08-03"
+    },
+    "https://www.scielo.br/j/cint/a/M53bML6CVgc73SLTTNFyPMh/?lang=en": {
+      "refId": "fdl-contexto-internacional",
+      "archiveUrl": "https://web.archive.org/web/20260215234153/https://www.scielo.br/j/cint/a/M53bML6CVgc73SLTTNFyPMh/?lang=en",
+      "timestamp": "20260215234153",
+      "checkedAt": "2026-08-04"
+    },
+    "https://www.themathesontrust.org/papers/biographies/Rene%20Gu%C3%A9non%20H%20OLdmeadow.pdf": {
+      "refId": "matheson-guenon",
+      "archiveUrl": "https://web.archive.org/web/20260116085247/https://www.themathesontrust.org/papers/biographies/Rene%20Gu%C3%A9non%20H%20OLdmeadow.pdf",
+      "timestamp": "20260116085247",
+      "checkedAt": "2026-08-04"
+    },
+    "https://www.universalis.fr/encyclopedie/louis-lavelle/": {
+      "refId": "universalis-lavelle",
+      "archiveUrl": "https://web.archive.org/web/20241127035142/https://www.universalis.fr/encyclopedie/louis-lavelle/",
+      "timestamp": "20241127035142",
+      "checkedAt": "2026-08-04"
+    },
+    "https://www.universalis.fr/encyclopedie/rene-guenon/": {
+      "refId": "universalis-guenon",
+      "archiveUrl": "https://web.archive.org/web/20211109012902/https://www.universalis.fr/encyclopedie/rene-guenon/",
+      "timestamp": "20211109012902",
+      "checkedAt": "2026-08-04"
+    },
+    "https://www.youtube.com/watch?v=BsZXOGDwMb0": {
+      "refId": "olavo-video-fdl-2005",
+      "archiveUrl": "https://web.archive.org/web/20230422052832/https://www.youtube.com/watch?v=BsZXOGDwMb0",
+      "timestamp": "20230422052832",
+      "checkedAt": "2026-08-04"
+    },
+    "https://www.youtube.com/watch?v=ic49hbeYG5o": {
+      "refId": "olavo-video-fdl-2000",
+      "archiveUrl": "https://web.archive.org/web/20240124111246/https://www.youtube.com/watch?v=ic49hbeYG5o",
+      "timestamp": "20240124111246",
+      "checkedAt": "2026-08-04"
+    },
+    "https://www.youtube.com/watch?v=x0D0ZZrQnsY": {
+      "refId": "marsili-anima-household",
+      "archiveUrl": "https://web.archive.org/web/20240124122811/https://www.youtube.com/watch?v=x0D0ZZrQnsY",
+      "timestamp": "20240124122811",
+      "checkedAt": "2026-08-04"
+    },
+    "https://www.youtube.com/watch?v=x8LohxZhieo": {
+      "refId": "olavo-video-fdl-2002",
+      "archiveUrl": "https://web.archive.org/web/20230225200323/https://www.youtube.com/watch?v=x8LohxZhieo",
+      "timestamp": "20230225200323",
+      "checkedAt": "2026-08-04"
     }
   }
 }
