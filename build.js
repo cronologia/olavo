@@ -125,6 +125,16 @@ const UI = {
     dcRevision: 'He revised it', dcCaveat: 'Caveat', dcCredits: 'He credits',
     dcWhere: 'Where he expounds it',
     dcRingMid: 'twelve layers', dcRingSub: 'simultaneous', dcGround: 'the eternal I — the ground, not a fifth term',
+    orgFounded: 'Founded',
+    // Reference kinds are a CLOSED vocabulary, so they live here with the rest
+    // of the chrome rather than in the hand-authored dictionaries: a new type
+    // is a code change that shows up as a missing label, not a silent English
+    // word on a Portuguese page.
+    refTypes: {
+      news: 'news', academic: 'academic', archive: 'archive', official: 'official',
+      encyclopedia: 'encyclopedia', web: 'web', corpus: 'corpus', database: 'database',
+      video: 'video', index: 'index',
+    },
     swIntro: 'The chronology read as parallel storylines: one row per lane, one column per decade, each cell the number of that lane’s events in that decade. An event that belongs to several storylines is counted in each, so the rows sum to more than the number of events. Select a number to jump to that decade in the chronology.',
     swLaneHeader: 'Storyline', swTotalHeader: 'Events',
     swBasesHeading: 'What each lane is grounded in',
@@ -182,6 +192,12 @@ const UI = {
     dcRevision: 'Él lo revisó', dcCaveat: 'Salvedad', dcCredits: 'Él da crédito a',
     dcWhere: 'Dónde lo expone',
     dcRingMid: 'doce capas', dcRingSub: 'simultáneas', dcGround: 'el Yo eterno — el fundamento, no un quinto término',
+    orgFounded: 'Fundada en',
+    refTypes: {
+      news: 'prensa', academic: 'académico', archive: 'archivo', official: 'oficial',
+      encyclopedia: 'enciclopedia', web: 'web', corpus: 'corpus', database: 'base de datos',
+      video: 'video', index: 'índice',
+    },
     swIntro: 'La cronología leída como relatos paralelos: una fila por franja, una columna por década, y en cada celda el número de acontecimientos de esa franja en esa década. Un acontecimiento que pertenece a varios relatos se cuenta en cada uno, de modo que las filas suman más que el total de acontecimientos. Seleccione un número para ir a esa década en la cronología.',
     swLaneHeader: 'Relato', swTotalHeader: 'Acontecimientos',
     swBasesHeading: 'En qué se funda cada franja',
@@ -239,6 +255,12 @@ const UI = {
     dcRevision: 'Ele a revisou', dcCaveat: 'Ressalva', dcCredits: 'Ele credita a',
     dcWhere: 'Onde a expõe',
     dcRingMid: 'doze camadas', dcRingSub: 'simultâneas', dcGround: 'o Eu eterno — o fundamento, não um quinto termo',
+    orgFounded: 'Fundada em',
+    refTypes: {
+      news: 'imprensa', academic: 'acadêmico', archive: 'arquivo', official: 'oficial',
+      encyclopedia: 'enciclopédia', web: 'web', corpus: 'corpus', database: 'base de dados',
+      video: 'vídeo', index: 'índice',
+    },
     swIntro: 'A cronologia lida como narrativas paralelas: uma linha por faixa, uma coluna por década, e em cada célula o número de acontecimentos dessa faixa nessa década. Um acontecimento que pertence a várias narrativas é contado em cada uma, pelo que as linhas somam mais do que o total de acontecimentos. Selecione um número para ir a essa década na cronologia.',
     swLaneHeader: 'Narrativa', swTotalHeader: 'Acontecimentos',
     swBasesHeading: 'Em que se fundamenta cada faixa',
@@ -286,25 +308,35 @@ function translator(dict) {
 
 /**
  * Deep-copy `data` with every translatable prose field replaced by its
- * translation (fallback: English), and meta.language set to `lang`. The whole
- * `references` array is passed through verbatim (bibliographic data). With an
+ * translation (fallback: English), and meta.language set to `lang`. With an
  * empty dictionary (English) the values are unchanged, so the render stays
  * byte-identical to a pre-i18n build.
+ *
+ * `references` is bibliographic and passes through verbatim — EXCEPT for
+ * `publisherNote`. That wholesale skip was right about titles, publishers,
+ * URLs and dates and wrong about one field: the parenthetical stance note
+ * ("left-wing outlet — critical perspective") is the project's own prose, and
+ * skipping the whole array left it in English on both localized pages. Hence
+ * an allowlist rather than a boolean: a new key inside a reference stays
+ * untranslated by default, which is the safe direction for citation data.
  */
+const REFERENCE_TRANSLATABLE = new Set(['publisherNote']);
+
 function localizeData(data, dict, lang) {
   const t = translator(dict);
-  const walk = (val, key) => {
-    if (key === 'references') return val; // never translate bibliographic entries
-    if (Array.isArray(val)) return val.map((v) => walk(v, key));
+  const walk = (val, key, inRefs) => {
+    const keys = inRefs ? REFERENCE_TRANSLATABLE : TRANSLATABLE_KEYS;
+    const refs = inRefs || key === 'references';
+    if (Array.isArray(val)) return val.map((v) => walk(v, key, refs));
     if (val && typeof val === 'object') {
       const out = {};
-      for (const k of Object.keys(val)) out[k] = walk(val[k], k);
+      for (const k of Object.keys(val)) out[k] = walk(val[k], k, refs);
       return out;
     }
-    if (typeof val === 'string' && TRANSLATABLE_KEYS.has(key)) return t(val);
+    if (typeof val === 'string' && keys.has(key)) return t(val);
     return val;
   };
-  const copy = walk(data, null);
+  const copy = walk(data, null, false);
   copy.meta = Object.assign({}, copy.meta, { language: lang });
   // `place` IS translated prose (the chronology's Place column reads in the
   // page's language), but the gazetteer behind the places map is keyed on the
@@ -1578,8 +1610,11 @@ function renderFigureCard(fig, refNumById) {
       </div>`;
 }
 
-function renderOrgCard(org, refNumById) {
-  const meta = [org.founded ? `Founded ${org.founded}` : null, org.place].filter(Boolean).map(esc).join(' · ');
+function renderOrgCard(org, refNumById, ui) {
+  // 'Founded' is chrome, and it was hardcoded English — so it rendered in
+  // English on the es and pt pages beside a translated place.
+  const foundedLabel = (ui && ui.orgFounded) || 'Founded';
+  const meta = [org.founded ? `${foundedLabel} ${org.founded}` : null, org.place].filter(Boolean).map(esc).join(' · ');
   return `      <div class="related-card">
         <h3>${esc(org.name)}</h3>
         ${meta ? `<p class="related-meta">${meta}</p>` : ''}
@@ -1589,14 +1624,30 @@ function renderOrgCard(org, refNumById) {
       </div>`;
 }
 
-function renderReference(r, n, archives) {
+/** A reference line: citation, then the project's own note about the source.
+ *
+ * `publisher` NAMES the source and is bibliographic — verbatim in every
+ * locale. `publisherNote` CHARACTERISES it ("left-wing outlet — critical
+ * perspective", "live URL bot-blocked, verified via Wayback availability") and
+ * is the project's own prose, so it translates. The two were one string until
+ * the split, which meant the sourcing-discipline half of every reference —
+ * the half that makes "sources span the spectrum" legible — rendered in
+ * English on the Spanish and Portuguese pages.
+ *
+ * They render reassembled, so the English page is unchanged.
+ */
+function renderReference(r, n, archives, ui) {
   const snap = archives[r.url];
   const archived = snap && snap.archiveUrl
     ? ` · <a class="archive-link" href="${esc(snap.archiveUrl)}" rel="noopener noreferrer" target="_blank">🗄 archived${snap.timestamp ? ` ${esc(formatArchiveTs(snap.timestamp))}` : ''}</a>`
     : '';
+  const pub = r.publisherNote ? `${r.publisher} (${r.publisherNote})` : r.publisher;
+  // `type` is a closed vocabulary, not prose: it belongs in the UI table with
+  // the rest of the chrome, not in the hand-authored dictionaries.
+  const type = (ui && ui.refTypes && ui.refTypes[r.type]) || r.type;
   return `        <li id="ref-${n}">
           <a href="${esc(r.url)}" rel="noopener noreferrer" target="_blank">${esc(r.title)}</a>${archived}
-          <span class="ref-meta">${esc(r.publisher)} · ${esc(r.type)}</span>
+          <span class="ref-meta">${esc(pub)} · ${esc(type)}</span>
         </li>`;
 }
 
@@ -1838,7 +1889,7 @@ ${figures.map((f) => renderFigureCard(f, refNumById)).join('\n')}
     <section id="organizations">
       <h2>${esc(ui.organizationsHeading)}</h2>
       <div class="party-grid">
-${(organizations || []).map((o) => renderOrgCard(o, refNumById)).join('\n')}
+${(organizations || []).map((o) => renderOrgCard(o, refNumById, ui)).join('\n')}
       </div>
     </section>
 
@@ -1854,7 +1905,7 @@ ${disambigCards}
       <h2>${esc(ui.referencesHeading)}</h2>
       <p class="section-intro">${ui.refsIntro(references.length, archivedRefs)}</p>
       <ol class="references">
-${references.map((r, i) => renderReference(r, i + 1, archives)).join('\n')}
+${references.map((r, i) => renderReference(r, i + 1, archives, ui)).join('\n')}
       </ol>
     </section>
   </main>

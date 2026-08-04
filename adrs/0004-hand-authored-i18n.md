@@ -60,10 +60,21 @@ dataset. The MT disclaimer had become factually false.
   rewritten and its live counterpart is almost certainly untranslated). The
   fallback-to-English behaviour is correct at runtime and silent in review,
   which is why review needed a gate rather than a convention.
-- Known remaining gap, deliberately out of scope here: reference
-  ANNOTATIONS — the parenthetical stance notes the project writes for each
-  source ("mainstream — carries the physician's full clinical statement") —
-  ride inside the `references` array, which the walk skips wholesale. They
-  are the project's own prose, not bibliographic data, and they render in
-  English on the es/pt pages. Splitting them from the citation is tracked
-  separately.
+- **A reference is two things, and only one of them is bibliographic.**
+  `publisher` NAMES the source; `publisherNote` CHARACTERISES it ("left-wing
+  outlet — critical perspective", "live URL bot-blocked, verified via Wayback
+  availability"). The two were one string, so the wholesale `references` skip
+  — right about titles, publishers, URLs and dates — also silenced the
+  sourcing-discipline half of every citation, which rendered in English on
+  both localized pages. The skip is now an ALLOWLIST
+  (`REFERENCE_TRANSLATABLE`): a new key inside a reference stays untranslated
+  by default, which is the safe direction for citation data.
+- **Closed vocabularies are chrome, not data.** Reference `type` (news,
+  academic, archive…) and the organization card's "Founded" label were
+  hardcoded English. They live in the `UI[lang]` table, where a new value is
+  a code change that surfaces as a missing label — not a silent English word
+  on a Portuguese page. Dictionaries never reach chrome.
+- **Compound labels the project composes are not proper names.** "Flávio and
+  Eduardo Bolsonaro" put an English conjunction on every locale. `name` stays
+  untranslated (it holds real names), so the fix is in the label: an
+  ampersand reads in all three languages.

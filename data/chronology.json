@@ -922,7 +922,7 @@
    ]
   },
   {
-   "name": "Flávio and Eduardo Bolsonaro",
+   "name": "Flávio & Eduardo Bolsonaro",
    "role": "Presidential sons and public admirers; Calil dates the family's approach to Olavo to c. 2012–2013. Both received the Ordem de Rio Branco (Grande Oficial) in the same 2019 decree that gave Olavo the Grã-Cruz",
    "country": "Brazil",
    "sources": [
@@ -1126,7 +1126,7 @@
    ]
   },
   {
-   "name": "Gazeta do Povo and Revista Oeste",
+   "name": "Gazeta do Povo & Revista Oeste",
    "place": "Brazil",
    "relation": "Sympathetic outlets he wrote columns for late in life; both identified themselves as publishers of his columns in their obituaries",
    "sources": [
@@ -1226,7 +1226,8 @@
    "id": "agenciabrasil-obit",
    "title": "Olavo de Carvalho morre, aos 74 anos, nos Estados Unidos",
    "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2022-01/olavo-de-carvalho-morre-aos-74-anos-nos-estados-unidos",
-   "publisher": "Agência Brasil (EBC — state news agency)",
+   "publisher": "Agência Brasil",
+   "publisherNote": "EBC — state news agency",
    "type": "news"
   },
   {
@@ -1240,7 +1241,8 @@
    "id": "poder360-luto",
    "title": "Bolsonaro decreta luto oficial por morte de Olavo de Carvalho",
    "url": "https://www.poder360.com.br/governo/bolsonaro-decreta-luto-no-brasil-por-morte-de-olavo-de-carvalho/",
-   "publisher": "Poder360 (URL found via search, not individually re-verified)",
+   "publisher": "Poder360",
+   "publisherNote": "URL found via search, not individually re-verified",
    "type": "news"
   },
   {
@@ -1275,49 +1277,56 @@
    "id": "nyt-obit",
    "title": "Olavo de Carvalho, Bolsonaro's Far-Right Guru, Dies at 74",
    "url": "https://www.nytimes.com/2022/01/26/world/americas/olavo-de-carvalho-dead.html",
-   "publisher": "The New York Times (international press; live URL bot-blocked to our checker — verified via Wayback availability)",
+   "publisher": "The New York Times",
+   "publisherNote": "international press; live URL bot-blocked to our checker — verified via Wayback availability",
    "type": "news"
   },
   {
    "id": "gazetadopovo-obit",
    "title": "Olavo de Carvalho morre aos 74 anos nos Estados Unidos",
    "url": "https://www.gazetadopovo.com.br/ideias/olavo-de-carvalho-morre-aos-74-anos-nos-estados-unidos/",
-   "publisher": "Gazeta do Povo (conservative outlet he wrote for — sympathetic)",
+   "publisher": "Gazeta do Povo",
+   "publisherNote": "conservative outlet he wrote for — sympathetic",
    "type": "news"
   },
   {
    "id": "gazetadopovo-riobranco",
    "title": "Bolsonaro concede Ordem de Rio Branco ao escritor Olavo de Carvalho",
    "url": "https://www.gazetadopovo.com.br/republica/bolsonaro-concede-ordem-de-rio-branco-a-olavo-de-carvalho-e-dois-dos-filhos/",
-   "publisher": "Gazeta do Povo (sympathetic)",
+   "publisher": "Gazeta do Povo",
+   "publisherNote": "sympathetic",
    "type": "news"
   },
   {
    "id": "gazetadopovo-frascolla",
    "title": "O debate Olavo–Dugin dez anos depois (Bruna Frascolla)",
    "url": "https://www.gazetadopovo.com.br/vozes/bruna-frascolla/o-debate-olavo-dugin-dez-anos-depois/",
-   "publisher": "Gazeta do Povo (opinion column — sympathetic)",
+   "publisher": "Gazeta do Povo",
+   "publisherNote": "opinion column — sympathetic",
    "type": "news"
   },
   {
    "id": "revistaoeste-medico",
    "title": "Olavo de Carvalho não morreu de covid-19, afirma médico particular do escritor",
    "url": "https://revistaoeste.com/brasil/olavo-de-carvalho-nao-morreu-de-covid-19-afirma-medico-particular-do-escritor/",
-   "publisher": "Revista Oeste (outlet he wrote for — sympathetic; carries the physician's statement)",
+   "publisher": "Revista Oeste",
+   "publisherNote": "outlet he wrote for — sympathetic; carries the physician's statement",
    "type": "news"
   },
   {
    "id": "poder360-brasil-respiratorio",
    "title": "Olavo de Carvalho está no Brasil para tratar problemas respiratórios",
    "url": "https://www.poder360.com.br/brasil/olavo-de-carvalho-esta-no-brasil-para-tratar-problemas-respiratorios/",
-   "publisher": "Poder360 (contemporaneous report, July 2021)",
+   "publisher": "Poder360",
+   "publisherNote": "contemporaneous report, July 2021",
    "type": "news"
   },
   {
    "id": "diariodonordeste-medico",
    "title": "Morte de Olavo de Carvalho não teve relação com a Covid, alega seu médico particular",
    "url": "https://diariodonordeste.verdesmares.com.br/ultima-hora/pais/morte-de-olavo-de-carvalho-nao-teve-relacao-com-a-covid-alega-seu-medico-particular-1.3184656",
-   "publisher": "Diário do Nordeste (mainstream — carries the physician's full clinical statement)",
+   "publisher": "Diário do Nordeste",
+   "publisherNote": "mainstream — carries the physician's full clinical statement",
    "type": "news"
   },
   {
@@ -1338,56 +1347,64 @@
    "id": "padrepauloricardo-minimo",
    "title": "O Mínimo que Você Precisa Saber para Não Ser um Idiota (book presentation)",
    "url": "https://padrepauloricardo.org/episodios/o-minimo-que-voce-precisa-saber-para-nao-ser-um-idiota",
-   "publisher": "padrepauloricardo.org (Catholic conservative site — sympathetic)",
+   "publisher": "padrepauloricardo.org",
+   "publisherNote": "Catholic conservative site — sympathetic",
    "type": "web"
   },
   {
    "id": "sensoincomum-ufpe",
    "title": "Exibição de 'O Jardim das Aflições' é violentamente reprimida na UFPE",
    "url": "https://sensoincomum.org/2017/10/27/filme-jardim-aflicoes-olavo-carvalho-ufpe/",
-   "publisher": "Senso Incomum (olavista blog — sympathetic; link unverified, account attributed)",
+   "publisher": "Senso Incomum",
+   "publisherNote": "olavista blog — sympathetic; link unverified, account attributed",
    "type": "web"
   },
   {
    "id": "brasildefato-obit",
    "title": "Morre Olavo de Carvalho: astrólogo estava com covid; causa da morte não foi divulgada",
    "url": "https://www.brasildefato.com.br/2022/01/25/morre-olavo-de-carvalho-astrologo-estava-com-covid-causa-da-morte-nao-foi-divulgada/",
-   "publisher": "Brasil de Fato (left-wing outlet — critical perspective)",
+   "publisher": "Brasil de Fato",
+   "publisherNote": "left-wing outlet — critical perspective",
    "type": "news"
   },
   {
    "id": "pragmatismo-riobranco",
    "title": "Bolsonaro condecora Olavo com a Grã-Cruz da Ordem de Rio Branco",
    "url": "https://www.pragmatismopolitico.com.br/2019/05/bolsonaro-condecora-olavo-ordem-de-rio-branco.html",
-   "publisher": "Pragmatismo Político (left-wing site — critical perspective)",
+   "publisher": "Pragmatismo Político",
+   "publisherNote": "left-wing site — critical perspective",
    "type": "news"
   },
   {
    "id": "cartacapital-herdeiras",
    "title": "Justiça notifica herdeiras de Olavo por dívida de R$ 2,9 milhões a Caetano Veloso",
    "url": "https://www.cartacapital.com.br/justica/justica-notifica-herdeiras-de-olavo-por-divida-de-29-milhoes-a-caetano-veloso/",
-   "publisher": "CartaCapital (left-leaning magazine — critical perspective; live URL bot-blocked, verified via Wayback availability)",
+   "publisher": "CartaCapital",
+   "publisherNote": "left-leaning magazine — critical perspective; live URL bot-blocked, verified via Wayback availability",
    "type": "news"
   },
   {
    "id": "conjur-caetano",
    "title": "Negado recurso para sustar R$ 2,9 mi que Olavo deve pagar a Caetano",
    "url": "https://www.conjur.com.br/2020-nov-11/negado-recurso-sustar-29-mi-olavo-pagar-caetano/",
-   "publisher": "Consultor Jurídico (legal press)",
+   "publisher": "Consultor Jurídico",
+   "publisherNote": "legal press",
    "type": "news"
   },
   {
    "id": "camara-riobranco",
    "title": "Projeto anula decreto que concedeu Ordem de Rio Branco a Olavo de Carvalho",
    "url": "https://www.camara.leg.br/noticias/669762-projeto-anula-decreto-que-concedeu-ordem-de-rio-branco-a-olavo-de-carvalho",
-   "publisher": "Câmara dos Deputados (official legislative news portal)",
+   "publisher": "Câmara dos Deputados",
+   "publisherNote": "official legislative news portal",
    "type": "official"
   },
   {
    "id": "foxnews-araujo",
    "title": "Pro-Trump diplomat to become Brazil's foreign minister",
    "url": "https://www.foxnews.com/world/pro-trump-diplomat-to-become-brazils-foreign-minister",
-   "publisher": "Fox News (US conservative press)",
+   "publisher": "Fox News",
+   "publisherNote": "US conservative press",
    "type": "news"
   },
   {
@@ -1401,14 +1418,16 @@
    "id": "observador-discursos",
    "title": "Deus, Constituição e flirts. Os discursos de Bolsonaro nas entrelinhas",
    "url": "https://observador.pt/especiais/deus-constituicao-e-flirts-os-discursos-de-bolsonaro-nas-entrelinhas/",
-   "publisher": "Observador (Portugal)",
+   "publisher": "Observador",
+   "publisherNote": "Portugal",
    "type": "news"
   },
   {
    "id": "noticiasaominuto-filha",
    "title": "Olavo de Carvalho morreu de Covid, diz filha do guru do bolsonarismo",
    "url": "https://www.noticiasaominuto.com.br/politica/1879160/3-olavo-de-carvalho-morreu-de-covid-diz-filha-do-guru-do-bolsonarismo",
-   "publisher": "Notícias ao Minuto Brasil (carries the daughter's statement)",
+   "publisher": "Notícias ao Minuto Brasil",
+   "publisherNote": "carries the daughter's statement",
    "type": "news"
   },
   {
@@ -1422,126 +1441,144 @@
    "id": "calil-argumentum",
    "title": "Olavo de Carvalho e a ascensão da extrema-direita (Gilberto Calil), Argumentum v. 13 n. 2, pp. 64–81",
    "url": "https://www.redalyc.org/journal/4755/475571195007/",
-   "publisher": "Argumentum (UFES), via Redalyc (peer-reviewed — academic, critical perspective)",
+   "publisher": "Argumentum (UFES), via Redalyc",
+   "publisherNote": "peer-reviewed — academic, critical perspective",
    "type": "academic"
   },
   {
    "id": "sedgwick-blog",
    "title": "Brazil's most prominent post-Traditionalist dies (Mark Sedgwick)",
    "url": "https://traditionalistblog.blogspot.com/2022/01/Olavodeath.html",
-   "publisher": "Traditionalists blog (specialist scholar of Traditionalism; blog, not peer-reviewed)",
+   "publisher": "Traditionalists blog",
+   "publisherNote": "specialist scholar of Traditionalism; blog, not peer-reviewed",
    "type": "academic"
   },
   {
    "id": "castrorocha-review",
    "title": "Review of João Cezar de Castro Rocha, Guerra cultural e retórica do ódio (Caminhos, 2021)",
    "url": "https://periodicos.ufrn.br/interlegere/article/download/25175/14977/89867",
-   "publisher": "Interlegere (UFRN journal — academic, critical perspective)",
+   "publisher": "Interlegere",
+   "publisherNote": "UFRN journal — academic, critical perspective",
    "type": "academic"
   },
   {
    "id": "revistarosa-olavismo",
    "title": "Olavismo e bolsonarismo",
    "url": "https://revistarosa.com/1/olavismo-e-bolsonarismo",
-   "publisher": "Revista Rosa n. 1 (essay journal — academic, critical perspective)",
+   "publisher": "Revista Rosa n. 1",
+   "publisherNote": "essay journal — academic, critical perspective",
    "type": "academic"
   },
   {
    "id": "academia-dugin-review",
    "title": "Review: CARVALHO, Olavo de; DUGIN, Alexandre. Os EUA e a Nova Ordem Mundial (VIDE Editorial, 2012)",
    "url": "https://www.academia.edu/97714282/CARVALHO_Olavo_de_DUGIN_Alexandre_Os_EUA_e_a_Nova_Ordem_Mundial_Tradu%C3%A7%C3%A3o_de_Giuliano_Moraes_Campinas_SP_VIDE_Editorial_2012",
-   "publisher": "Academia.edu (journal review PDF — link bot-walled in our check; bibliographic details corroborated elsewhere)",
+   "publisher": "Academia.edu",
+   "publisherNote": "journal review PDF — link bot-walled in our check; bibliographic details corroborated elsewhere",
    "type": "academic"
   },
   {
    "id": "olavodecarvalho-org-wayback",
    "title": "Olavo de Carvalho — official website (archived 15 December 2021)",
    "url": "http://web.archive.org/web/20211215180559/https://olavodecarvalho.org/",
-   "publisher": "olavodecarvalho.org via Internet Archive (official — his own site; the live domain is now squatted)",
+   "publisher": "olavodecarvalho.org via Internet Archive",
+   "publisherNote": "official — his own site; the live domain is now squatted",
    "type": "archive"
   },
   {
    "id": "livraria-seminario-dugin",
    "title": "Os EUA e a Nova Ordem Mundial — product page",
    "url": "https://livraria.seminariodefilosofia.org/os-eua-e-a-nom",
-   "publisher": "Livraria Seminário de Filosofia (his course's official bookstore)",
+   "publisher": "Livraria Seminário de Filosofia",
+   "publisherNote": "his course's official bookstore",
    "type": "official"
   },
   {
    "id": "rafaelalmeida-cof",
    "title": "Índice de aulas do Curso Online de Filosofia (COF)",
    "url": "https://www.rafaelalmeida.com/cof.html",
-   "publisher": "rafaelalmeida.com (student archive — sympathetic)",
+   "publisher": "rafaelalmeida.com",
+   "publisherNote": "student archive — sympathetic",
    "type": "index"
   },
   {
    "id": "cof-transcriptions",
    "title": "COF — community transcriptions of the Curso Online de Filosofia (585 lectures)",
    "url": "https://github.com/alissonryan/cof-olavo",
-   "publisher": "Community transcription repository (upstream declares CC0 for the transcription work; the lectures remain the estate's)",
+   "publisher": "Community transcription repository",
+   "publisherNote": "upstream declares CC0 for the transcription work; the lectures remain the estate's",
    "type": "corpus"
   },
   {
    "id": "cof-audio",
    "title": "COF em Áudio — lecture audio collection",
    "url": "https://archive.org/details/COFemAudio",
-   "publisher": "Internet Archive (community upload)",
+   "publisher": "Internet Archive",
+   "publisherNote": "community upload",
    "type": "corpus"
   },
   {
    "id": "findagrave-memorial",
    "title": "Olavo Luiz Pimentel de Carvalho (1947–2022) — Find a Grave Memorial 236247781",
    "url": "https://www.findagrave.com/memorial/236247781/olavo_luiz_pimentel_de-carvalho",
-   "publisher": "Find a Grave (genealogical database; live URL bot-blocked, verified via Wayback availability)",
+   "publisher": "Find a Grave",
+   "publisherNote": "genealogical database; live URL bot-blocked, verified via Wayback availability",
    "type": "database"
   },
   {
    "id": "wikipedia-en",
    "title": "Olavo de Carvalho",
    "url": "https://en.wikipedia.org/wiki/Olavo_de_Carvalho",
-   "publisher": "English Wikipedia (tertiary — orientation only; prefer its underlying sources)",
+   "publisher": "English Wikipedia",
+   "publisherNote": "tertiary — orientation only; prefer its underlying sources",
    "type": "encyclopedia"
   },
   {
    "id": "wikipedia-pt",
    "title": "Olavo de Carvalho",
    "url": "https://pt.wikipedia.org/wiki/Olavo_de_Carvalho",
-   "publisher": "Portuguese Wikipedia (tertiary — orientation only; detailed bibliography)",
+   "publisher": "Portuguese Wikipedia",
+   "publisherNote": "tertiary — orientation only; detailed bibliography",
    "type": "encyclopedia"
   },
   {
    "id": "wikipedia-pt-film",
    "title": "O Jardim das Aflições (filme)",
    "url": "https://pt.wikipedia.org/wiki/O_Jardim_das_Afli%C3%A7%C3%B5es_(filme)",
-   "publisher": "Portuguese Wikipedia (tertiary)",
+   "publisher": "Portuguese Wikipedia",
+   "publisherNote": "tertiary",
    "type": "encyclopedia"
   },
   {
    "id": "ia-trueoutspeak",
    "title": "True Outspeak — programa de rádio de Olavo de Carvalho (episode collection, from 4 Dec 2006)",
    "url": "https://archive.org/details/trueoutspeak_olavo",
-   "publisher": "Internet Archive (community collection carrying the show's own audio)",
+   "publisher": "Internet Archive",
+   "publisherNote": "community collection carrying the show's own audio",
    "type": "archive"
   },
   {
    "id": "propublica-iai",
    "title": "Inter-American Institute for Philosophy, Government, and Social Thought — IRS nonprofit record (EIN 27-1394713)",
    "url": "https://projects.propublica.org/nonprofits/organizations/271394713",
-   "publisher": "ProPublica Nonprofit Explorer (IRS records)",
+   "publisher": "ProPublica Nonprofit Explorer",
+   "publisherNote": "IRS records",
    "type": "database"
   },
   {
    "id": "catracalivre-iai",
    "title": "O fim misterioso da entidade de Olavo de Carvalho nos EUA",
    "url": "https://catracalivre.com.br/cidadania/o-fim-misterioso-da-entidade-da-olavo-de-carvalho-nos-eua/",
-   "publisher": "Catraca Livre (mainstream/critical)",
+   "publisher": "Catraca Livre",
+   "publisherNote": "mainstream/critical",
    "type": "news"
   },
   {
    "id": "olavofb-iai",
    "title": "'Fechei o Interamerican...' — Olavo's closure statement, 29 November 2018 (fan mirror)",
    "url": "https://olavodecarvalhofb.wordpress.com/2018/11/29/",
-   "publisher": "olavodecarvalhofb.wordpress.com (fan archive mirroring his own statement — labeled as such)",
+   "publisher": "olavodecarvalhofb.wordpress.com",
+   "publisherNote": "fan archive mirroring his own statement — labeled as such",
    "type": "archive"
   },
   {
@@ -1555,7 +1592,8 @@
    "id": "gazetadopovo-bsm",
    "title": "Olavo de Carvalho anuncia jornal online Brasil Sem Medo",
    "url": "https://www.gazetadopovo.com.br/republica/breves/olavo-de-carvalho-jornal-online-brasil-sem-medo/",
-   "publisher": "Gazeta do Povo (sympathetic)",
+   "publisher": "Gazeta do Povo",
+   "publisherNote": "sympathetic",
    "type": "news"
   },
   {
@@ -1576,14 +1614,16 @@
    "id": "adorocinema-estreia",
    "title": "O Jardim das Aflições: estreia em circuito limitado (31 May 2017 news item)",
    "url": "https://www.adorocinema.com/noticias/filmes/noticia-131258/",
-   "publisher": "AdoroCinema (news desk — its own dated article, contradicting the film-page year label)",
+   "publisher": "AdoroCinema",
+   "publisherNote": "news desk — its own dated article, contradicting the film-page year label",
    "type": "news"
   },
   {
    "id": "youtube-channel",
    "title": "Olavo de Carvalho — YouTube channel About page ('Joined Jul 7, 2007')",
    "url": "https://www.youtube.com/olavodeca/about",
-   "publisher": "YouTube (the channel's own page — primary)",
+   "publisher": "YouTube",
+   "publisherNote": "the channel's own page — primary",
    "type": "official"
   },
   {
@@ -1604,70 +1644,80 @@
    "id": "olavo-cv-pdf",
    "title": "Olavo de Carvalho — Currículo (his own CV, PDF)",
    "url": "https://olavodecarvalho.org/wp-content/uploads/2018/07/Olavo-de-Carvalho-Curr%C3%ADculo.pdf",
-   "publisher": "olavodecarvalho.org legacy uploads (the author's own document; the domain root is now squatted but this file still serves — primary)",
+   "publisher": "olavodecarvalho.org legacy uploads",
+   "publisherNote": "the author's own document; the domain root is now squatted but this file still serves — primary",
    "type": "official"
   },
   {
    "id": "ihu-bbc",
    "title": "Olavo de Carvalho, o 'parteiro' da nova direita (João Fellet, BBC Brasil, Dec 2016 — mirror)",
    "url": "https://ihu.unisinos.br/185-noticias/noticias-2016/563424-olavo-de-carvalho-o-parteiro-da-nova-direita-que-diz",
-   "publisher": "BBC Brasil via IHU/Unisinos mirror (interview-based profile)",
+   "publisher": "BBC Brasil via IHU/Unisinos mirror",
+   "publisherNote": "interview-based profile",
    "type": "news"
   },
   {
    "id": "comuniquese-dc",
    "title": "Antes de ser guru bolsonarista, Olavo de Carvalho teve palco na imprensa",
    "url": "https://portal.comunique-se.com.br/antes-de-ser-guru-bolsonarista-olavo-de-carvalho-teve-palco-na-imprensa/",
-   "publisher": "Comunique-se (media-industry portal)",
+   "publisher": "Comunique-se",
+   "publisherNote": "media-industry portal",
    "type": "news"
   },
   {
    "id": "opovo-sacramentos",
    "title": "Olavo de Carvalho recebe os sacramentos antes de sua morte",
    "url": "https://blogs.opovo.com.br/ancoradouro/2022/01/25/olavo-de-carvalho-recebe-os-sacramentos-antes-de-sua-morte/",
-   "publisher": "O POVO, blog Ancoradouro (carries Silvio Grimaldo's account)",
+   "publisher": "O POVO, blog Ancoradouro",
+   "publisherNote": "carries Silvio Grimaldo's account",
    "type": "news"
   },
   {
    "id": "hdp-medalha",
    "title": "Intelectuais recusam medalha da Biblioteca Nacional e criticam homenagem a bolsonaristas",
    "url": "https://horadopovo.com.br/intelectuais-recusam-medalha-da-biblioteca-nacional-e-criticam-homenagem-a-bolsonaristas-golpistas/",
-   "publisher": "Hora do Povo (left-wing outlet — critical perspective; confirms the posthumous homage while contesting the honors batch)",
+   "publisher": "Hora do Povo",
+   "publisherNote": "left-wing outlet — critical perspective; confirms the posthumous homage while contesting the honors batch",
    "type": "news"
   },
   {
    "id": "olavofb-medalha",
    "title": "Medalha Biblioteca Nacional — Roxane recebe a homenagem póstuma (2 July 2022)",
    "url": "https://olavodecarvalhofb.wordpress.com/2022/07/02/41846/",
-   "publisher": "olavodecarvalhofb.wordpress.com (fan archive by Marie Asmar mirroring his social-media presence — labeled as such; family-side record of the ceremony)",
+   "publisher": "olavodecarvalhofb.wordpress.com",
+   "publisherNote": "fan archive by Marie Asmar mirroring his social-media presence — labeled as such; family-side record of the ceremony",
    "type": "archive"
   },
   {
    "id": "curitiba-camara",
    "title": "Câmara homenageia Olavo de Carvalho",
    "url": "https://www.curitiba.pr.leg.br/informacao/noticias/camara-homenageia-olavo-de-carvalho",
-   "publisher": "Câmara Municipal de Curitiba (official legislative portal)",
+   "publisher": "Câmara Municipal de Curitiba",
+   "publisherNote": "official legislative portal",
    "type": "official"
   },
   {
    "id": "olavofb-trachea",
    "title": "14-4-2021 — his own account of the tracheal tumor and the 2018 operation (fan mirror)",
    "url": "https://olavodecarvalhofb.wordpress.com/2021/04/14/14-4-2021/",
-   "publisher": "olavodecarvalhofb.wordpress.com (fan archive mirroring his own posts — labeled as such)",
+   "publisher": "olavodecarvalhofb.wordpress.com",
+   "publisherNote": "fan archive mirroring his own posts — labeled as such",
    "type": "archive"
   },
   {
    "id": "olavofb-bladder",
    "title": "18-5-2021 — his own account of the US bladder surgery, two tumors, incomplete (fan mirror)",
    "url": "https://olavodecarvalhofb.wordpress.com/2021/05/18/18-5-2021/",
-   "publisher": "olavodecarvalhofb.wordpress.com (fan archive — labeled as such)",
+   "publisher": "olavodecarvalhofb.wordpress.com",
+   "publisherNote": "fan archive — labeled as such",
    "type": "archive"
   },
   {
    "id": "boletim-cirurgia-2018",
    "title": "Olavo de Carvalho fará cirurgia para retirar cisto, mas passa bem",
    "url": "https://www.boletimdaliberdade.com.br/2018/03/27/olavo-de-carvalho-fara-cirurgia-para-retirar-cisto-mas-passa-bem/",
-   "publisher": "Boletim da Liberdade (sympathetic outlet)",
+   "publisher": "Boletim da Liberdade",
+   "publisherNote": "sympathetic outlet",
    "type": "news"
   },
   {
@@ -1744,21 +1794,24 @@
    "id": "sedgwick-aries-2021",
    "title": "Traditionalism in Brazil: Sufism, T'ai Chi, and Olavo de Carvalho",
    "url": "https://brill.com/view/journals/arie/21/2/article-p159_1.xml",
-   "publisher": "Aries — Journal for the Study of Western Esotericism 21 (2021), 159–184 (Brill; DOI 10.1163/15700593-20201001; full text served free at brill.com as checked 2026-08-03 — no Creative Commons licence is stated, so free-to-read, not formally open access)",
+   "publisher": "Aries — Journal for the Study of Western Esotericism 21 (2021), 159–184, Brill; DOI 10.1163/15700593-20201001",
+   "publisherNote": "full text served free at brill.com as checked 2026-08-03 — no Creative Commons licence is stated, so free-to-read, not formally open access",
    "type": "academic"
   },
   {
    "id": "olavo-true-outspeak",
    "title": "True Outspeak (weekly programme, 2006–2011)",
    "url": "https://www.youtube.com/playlist?list=PLeDYbSG3ee95BaJB-caH9btRz6tcv2sne",
-   "publisher": "Olavo de Carvalho, on BlogTalkRadio; playlist on YouTube",
+   "publisher": "YouTube",
+   "publisherNote": "his own BlogTalkRadio programme, 2006–2011; the playlist mirrors it",
    "type": "video"
   },
   {
    "id": "olavo-video-hef",
    "title": "Curso História Essencial da Filosofia (eight recorded sessions)",
    "url": "https://www.youtube.com/playlist?list=PL52ZkoPcWL64AIbTB1UCCdwlW1oMeDJvN",
-   "publisher": "Recorded 2002, videotaped by É Realizações; playlist on YouTube",
+   "publisher": "YouTube",
+   "publisherNote": "recorded 2002, videotaped by the publisher É Realizações",
    "type": "video"
   }
  ],
