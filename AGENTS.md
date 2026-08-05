@@ -52,6 +52,14 @@ compiles it into static HTML served by GitHub Pages.
    quoted verbatim until checked against the audio (the corpus's own rule).
    Sensitive single-source recollections about third parties stay out of the
    public dataset until corroborated.
+8. **Search the corpus with the `corpus-search` skill before claiming anything
+   is not in it.** The vault holds three collections and this subject appears
+   in two of them; a sweep over one and a report of "not in the corpus" is a
+   false negative, and has already been published as a finding once. Search the
+   CLAIM rather than the NAME — the ASR renders Jouvenel as `do jogo né`,
+   Husserl as `Russel`, and Al-Azhar as `Universidade de Lázaro`, which reads
+   as a real institution and so raises no suspicion. Any zero you report must
+   quote the scope it was measured over.
 
 ## Repository map
 
@@ -69,7 +77,9 @@ data/i18n/{es,pt}.json   HAND-AUTHORED translation caches, committed with the da
 data/archives.json       MACHINE-GENERATED Wayback snapshot cache (written by scripts/archive-refs.js; committed)
 philosophers.js          This repo's own optional renderer for the per-philosopher pages (ADR-0002)
 KEYWORDS.md              Finding aid: naming variants, ASR manglings, corpus-measurement traps —
-                         read it BEFORE any corpus or source search (sourcing-rules)
+                         read it BEFORE any corpus or source search (sourcing-rules). The
+                         `corpus-search` skill's index reads this file, so a mangling added
+                         here is expanded automatically by the next search.
 data/glossary-terms.json VENDORED, PINNED list of cronologia/glossary term ids (written by scripts/sync-glossary-terms.js; committed) — validates [[term-id]] cross-links offline
 data/places.json         VENDORED, PINNED copy of the cronologia/core gazetteer (written by scripts/sync-places.js; committed) — coordinates for the optional placesMap renderer; only needed when placesMap is declared
 src/styles.css           Stylesheet (copied into the build)
