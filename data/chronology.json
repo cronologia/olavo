@@ -3614,104 +3614,243 @@
         "fullName": "Mário Dias Ferreira dos Santos",
         "dates": "1907–1968",
         "place": "Tietê, São Paulo (Brazil)",
-        "summary": "Brazilian philosopher, translator and writer, creator of the system he named 'concrete philosophy'. In little more than fifteen years he published the monumental Enciclopédia de Ciências Filosóficas e Sociais, in dozens of volumes, working outside the university establishment. He fell into relative obscurity after his death and has been republished since the 2000s, with the rights to his work acquired by the publisher É Realizações.",
+        "summary": "Brazilian philosopher, translator and journalist, self-taught and deliberately outside the university, who built a system he called 'concrete philosophy' and published it through the 1950s and 1960s as the Enciclopédia de Ciências Filosóficas e Sociais. How many volumes it finally ran to is disputed: 45, 48 and 'more than 50' are all in print, each with a different source and a different way of counting. He translated from German, French and English, passed through São Paulo's anarchist milieu in the mid-1940s, and held no teaching post — 'Nunca ocupei nenhum cargo em nenhuma escola, por princípio', he said of himself in 1976. He fell into obscurity after his death in 1968 and has been republished since the late 1990s by several houses, most visibly É Realizações, whose programme of reissues was run by Olavo de Carvalho until it was reassigned in or before 2018.",
         "timeline": [
           {
             "when": "3 January 1907",
-            "label": "Born in Tietê (SP), son of the Portuguese Francisco Dias Ferreira dos Santos, a theatrical entrepreneur and cinema pioneer established in Pelotas (RS).",
+            "label": "Born Mário Dias Ferreira dos Santos in Tietê, in the state of São Paulo, son of Francisco Dias Ferreira dos Santos — a Portuguese from the Porto region who ran the itinerant theatre company Guarany-Brazil and is described as a pioneer of Brazilian cinema. The date descends from Carlo Beraldo's 1969 Enciclopedia Filosofica entry, which reaches this page only as quoted in Brazilian secondary literature; the corresponding Wikidata claim carries no reference at all. Tietê is near-universal, though the Faculdade Dehoniana's 2023 course notice gives 'São Paulo, SP' — an imprecision on an institutional site rather than a rival claim.",
             "sources": [
-              "luizberto-mario",
-              "migalhas-mario"
+              "beraldo-enciclopedia-1969",
+              "ufpb-santos-2016",
+              "wikidata-mario",
+              "dehoniana-mario-2023"
+            ]
+          },
+          {
+            "when": "c. 1911",
+            "approx": true,
+            "label": "The family moves to Pelotas, Rio Grande do Sul, where the father sets up a printing works, a cinema circuit, the Teatro Guarany and the Guarany Films production company; childhood and adolescence are spent there. The account is the UFPB dissertation's, which states in its own note that its entire biographical section comes from the unpublished family monograph written by his daughter and his wife.",
+            "sources": [
+              "ufpb-santos-2016",
+              "galvao-santos-2001"
             ]
           },
           {
             "when": "1913",
-            "label": "Appears, still a child, in his father's silent film 'Os óculos do vovô', one of the oldest Brazilian films known.",
+            "label": "Appears as a child in Os Óculos do Vovô, a short directed by his father and held by the Cinemateca Brasileira among the oldest surviving Brazilian films. The filmography record cited for it (ID 001395) reaches this page through a pt.wikipedia footnote and has not been checked against the Cinemateca directly, so the appearance is recorded as unverified.",
             "sources": [
-              "luizberto-mario"
+              "cinemateca-oculos-vovo",
+              "ptwiki-mario"
             ]
           },
           {
-            "when": "1910s–1920s",
-            "approx": true,
-            "label": "Early schooling at the Ginásio Gonzaga, the Jesuit college of Pelotas; at 14 he wishes to enter the Society of Jesus but is counseled against it.",
+            "when": "1916–1924",
+            "label": "Educated at the Jesuit Gymnasio, later Colégio Gonzaga, in Pelotas, until the age of eighteen. His atheist and anticlerical father enrolled him there for the quality of the teaching — the origin story he himself gave for his first contact with what he later called 'Filosofia Positiva'. Beraldo's entry confirms the school; the anecdote is the family monograph's.",
             "sources": [
-              "luizberto-mario"
+              "ufpb-santos-2016",
+              "beraldo-enciclopedia-1969",
+              "galvao-santos-2001"
             ]
           },
           {
             "when": "1925–1930",
-            "label": "Studies at the Law Faculty of Porto Alegre, graduating in 1930; begins writing for newspapers of Pelotas and Porto Alegre (Diário de Notícias, Correio do Povo).",
+            "label": "Reads Law and Social Sciences at the Faculdade de Direito de Porto Alegre, graduating in 1930. His first press article, 'O poeta da luz e da cor', appears in the Diário Popular of Pelotas on 20 July 1928 — the start of a career that runs to some 177 articles in the papers of Pelotas, Porto Alegre and São Paulo. The UFPB dissertation dates the beginning of the press work to 1928; the exact date, the title and the article count come from pt.wikipedia sourced to the family monograph. He supports the Revolution of 1930 as a journalist and then turns on acts of the new government.",
             "sources": [
-              "luizberto-mario"
+              "ufpb-santos-2016",
+              "beraldo-enciclopedia-1969",
+              "ptwiki-mario",
+              "galvao-santos-2001"
             ]
           },
           {
-            "when": "1930s",
+            "when": "1929",
+            "label": "Becomes director of the Rio Grande do Sul newspaper A Opinião Pública, and marries; two daughters follow, Yolanda and Nadiejda. The chain here is family testimony and is not independently corroborated. The sources also carry a name collision they do not resolve — Yolanda Duro Lhullier is given both as his mother and as his wife — and it is recorded here rather than smoothed away.",
+            "sources": [
+              "ptwiki-mario",
+              "galvao-santos-2001",
+              "ufpb-santos-2016"
+            ]
+          },
+          {
+            "when": "December 1930",
+            "label": "Arrested, reportedly for encouraging worker strikes, and released through the intervention of General Flores da Cunha and the Pelotas mayor Py Crespo, losing the newspaper directorship. He published his own account, 'PORQUE FUI DETIDO', in A Opinião Pública of 19 December 1930 — a datable primary document, located through a pt.wikipedia footnote and not seen here.",
+            "sources": [
+              "ptwiki-mario"
+            ]
+          },
+          {
+            "when": "1931–1938",
+            "label": "A documented gap. No source consulted for this page accounts for these eight years, and pt.wikipedia says as much explicitly. Recorded as unknown rather than filled in from the surrounding narrative.",
+            "sources": [
+              "ptwiki-mario"
+            ]
+          },
+          {
+            "when": "c. 1939–1941",
             "approx": true,
-            "label": "Works as a journalist; after the Revolution of 1930, is jailed for criticism of the new regime.",
+            "label": "Resumes press work — Clímax in Pelotas, Movimento and the Diário de Notícias in Porto Alegre. After his father's death the family firm, Empresa Xavier & Santos, the largest cinema chain in southern Brazil and by then under his direction, goes bankrupt in 1941.",
             "sources": [
-              "luizberto-mario"
+              "ufpb-santos-2016",
+              "ptwiki-mario",
+              "galvao-santos-2001"
             ]
           },
           {
-            "when": "1940",
-            "label": "Hired by Livraria do Globo as a translator from Latin, Greek, German and French; translates Aristotle, Nietzsche, Kant, Pascal and Thomas Aquinas, among others.",
+            "when": "c. 1943",
+            "approx": true,
+            "label": "Contracted by the Livraria do Globo in Porto Alegre to translate Nietzsche, Pascal, Amiel and Balzac, all from the originals. Globo then refuses a philosophical essay of his own, on the advice of a reader who held that Brazilians would not read philosophy — the stated trigger for his departure, and an account that comes from the family monograph. The years of the individual Nietzsche translations are the weakest point in this chronology: the UFPel dissertation that would fix them returns 403 from this session and has no Wayback snapshot.",
             "sources": [
-              "luizberto-mario"
+              "ufpb-santos-2016",
+              "galvao-santos-2001"
             ]
           },
           {
-            "when": "1945",
-            "label": "Moves to São Paulo, continuing his work as a translator at Editora Flama.",
+            "when": "1944 or 1945",
+            "label": "Moves to São Paulo. The year is not settled and both are recorded: pt.wikipedia gives 1945, a UFPel-adjacent account has him arriving around 1944 carrying his translation of the Vontade de Potência from the Globo period, and the UFPB dissertation gives no year at all. In São Paulo he translates for Editora Flama (Whitman, Benjamin Constant, Goethe), then directs the editorial section of Editora e Distribuidora Sagitário, publishing work of his own under pseudonyms, and later works in the rare-books section of the Livraria Ritz.",
             "sources": [
-              "luizberto-mario"
+              "ufpb-santos-2016",
+              "ptwiki-mario"
             ]
           },
           {
-            "when": "1952",
-            "label": "Begins, with Filosofia e Cosmovisão, the publication of the Enciclopédia de Ciências Filosóficas e Sociais, the systematic project that would occupy the rest of his life (counts of the total vary: 45 and more than 50 volumes are both cited).",
+            "when": "1945–1947",
+            "label": "Anarchist militancy in São Paulo: active at the Centro de Cultura Social, one of the city's principal anarchist nuclei, where he lectures and meets Jaime Cubero in 1945. At Sagitário he translates Rudolf Rocker — the one documented translation of the anarchist period. Two texts circulate in libertarian periodicals: Teses da Existência e da Inexistência de Deus, under the name Charles Duclos (Sagitário, 1946), and Análise Dialética do Marxismo. He is read and cited by Edgard Leuenroth and by Cubero, and is one of the few Brazilian students of Christian anarchism. No evidence was found that he ever translated Stirner: the specialist survey of Portuguese Stirner translations does not mention him, and the documented Portuguese versions of Der Einzige are by other hands.",
             "sources": [
-              "faje-mario"
+              "verve-ramus-2008",
+              "ptwiki-mario"
             ]
           },
           {
-            "when": "1953–1956",
-            "label": "Publishes the encyclopedia's introductory volumes at speed: Lógica e Dialética (1953), Psicologia (1953), Teoria do Conhecimento (1954), Ontologia e Cosmologia (1954), Tratado de Simbólica (1956), Filosofia da Crise (1956), O Homem Perante o Infinito (1956) and Noologia Geral (1956).",
+            "when": "1947–1953",
+            "label": "Logos is three things, and no source consulted reconciles them. pt.wikipedia has an Instituto Cultural Logos founded in 1947, a teaching institute giving in-person and correspondence courses in Portuguese, history, geography, the sciences, mathematics, psychology, philosophy, logic, dialectic and 'cosmovisão'. The UFPB dissertation has the Livraria e Editora Logos Ltda., the publishing house, founded in 1953, whose first titles are write-ups of oratory courses heavily attended by politicians and lawyers — Curso de Oratória e Retórica, Práticas de Oratória, Técnica do Discurso Moderno. pt.wikipedia also refers to a 'Logos S.A.' founded after 1952. These are plausibly three stages of one venture; they are recorded as three because nothing consulted joins them. From 1947 he says he gave himself entirely to philosophy, teaching private pupils and small informal groups.",
             "sources": [
-              "faje-mario"
+              "ptwiki-mario",
+              "ufpb-santos-2016"
+            ]
+          },
+          {
+            "when": "c. 1950",
+            "approx": true,
+            "label": "Compiles the cheap-format collection 'Cultura para Milhões' for Editora Edigraf — newsprint, no illustrations, deliberately low-cost, to widen access.",
+            "sources": [
+              "ufpb-santos-2016"
+            ]
+          },
+          {
+            "when": "1952–1956",
+            "label": "Filosofia e Cosmovisão, later designated volume 1 of the Enciclopédia de Ciências Filosóficas e Sociais, opens the project, and the systematic introductions follow across the branches: Lógica e Dialética (1953), Psicologia (1953), Teoria do Conhecimento (1954), Ontologia e Cosmologia (1954), Tratado de Simbólica (1956), Filosofia da Crise (1956), O Homem Perante o Infinito (1956) and Noologia Geral (1956). These years are the FAJE monograph's, and this is the messiest area in the record. For the first volume alone: 1952 under the Edanee imprint in the FAJE narrative and pt.wikipedia's prose; 1954 under Logos in pt.wikipedia's own bibliography, which contradicts its prose; 1955 under Logos on the scanned copy circulating online. Reprints issued without new-edition statements, and the retroactive renumbering of earlier books into the encyclopedia sequence, are the likely causes; the rule applied here is to cite the imprint one can actually see and say which copy it is.",
+            "sources": [
+              "faje-mario",
+              "ptwiki-mario"
+            ]
+          },
+          {
+            "when": "c. 1953–1955",
+            "approx": true,
+            "label": "The first twelve volumes appear. Distributors decline to carry them for want of demand, so he pioneers door-to-door book sales on credit — venda a crediário — in Brazil, successfully enough that he has to take premises able to receive sales representatives arriving from across the country. The anecdote comes through the family monograph.",
+            "sources": [
+              "ufpb-santos-2016",
+              "galvao-santos-2001"
             ]
           },
           {
             "when": "1957",
-            "label": "Publishes Filosofia Concreta, the tenth work of the series, in which he establishes his own way of philosophizing and the core of his system.",
+            "label": "Filosofia Concreta, the tenth work of the series and the one at which, in the standard academic reading, he passes from commentator and essayist to philosopher. The date is the FAJE monograph's; pt.wikipedia's work-list gives 1956 and the scanned Logos tomes I–III give 1961.",
             "sources": [
+              "faje-mario",
+              "ptwiki-mario"
+            ]
+          },
+          {
+            "when": "1952–1968",
+            "label": "How large the Enciclopédia de Ciências Filosóficas e Sociais finally was is disputed, and the figures are not noise: they turn on whether multi-tome works are counted once or severally, and on whether the Matese-imprint books count as encyclopedia volumes at all. Beraldo's 1969 entry gives 45 volumes 'in less than fifteen years', and is the origin of the figure most often repeated without attribution; Carlos Eduardo de Carvalho Vargas (Revista Nures, PUC-SP, 2007) gives 48, the last of them titled Deus; Miriam Dornas Gomes Pereira (FAJE, 2019) gives 'more than 50'; and catalogue copy circulates a fourth figure, '45 planned', which is a different claim again. The range is reported with each figure's source; none of them is chosen here.",
+            "sources": [
+              "beraldo-enciclopedia-1969",
+              "vargas-nures-2007",
               "faje-mario"
             ]
           },
           {
-            "when": "11 April 1968",
-            "label": "Dies, leaving the encyclopedia almost entirely published and a vast body of work partly unpublished.",
+            "when": "1963–1968",
+            "label": "Founds Editora Matese, which issues classics, the Matese series and the long-planned Dicionário de Filosofia e Ciências Culturais in four volumes (1963). The late books follow: A Invasão Vertical dos Bárbaros and A Sabedoria dos Princípios, which opens the Matese series, both 1967, with A Sabedoria da Unidade also in 1967 and A Sabedoria do Ser e do Nada in 1968.",
             "sources": [
-              "luizberto-mario",
+              "ufpb-santos-2016",
               "faje-mario",
-              "migalhas-mario"
+              "ptwiki-mario"
             ]
           },
           {
-            "when": "2000s",
-            "approx": true,
-            "label": "His work returns to circulation: the publisher É Realizações acquires the rights and republishes his books, among them A Invasão Vertical dos Bárbaros (repub. 2012).",
+            "when": "11 April 1968",
+            "label": "Dies, with very nearly the whole encyclopedia published in his lifetime. The date is solid — consistent across every source and present in Beraldo's 1969 entry. The particulars are not. That he died in São Paulo, of cardiovascular disease, and was buried in the Cemitério do Araçá rests on three Wikidata claims (P570, P20, P119), each of which carries zero references when the entity JSON is checked, and on a Find a Grave memorial that returns 403 to every client tried here. Place, cause and burial are therefore recorded as unverified.",
             "sources": [
-              "luizberto-mario",
-              "migalhas-mario"
+              "beraldo-enciclopedia-1969",
+              "wikidata-mario"
+            ]
+          },
+          {
+            "when": "1976",
+            "label": "Stanislavs Ladusãns publishes Rumos da filosofia atual no Brasil: em auto-retratos, whose pages 407–409 carry Ferreira dos Santos's own self-portrait and the much-quoted line 'Nunca ocupei nenhum cargo em nenhuma escola, por princípio' — I have never held any post in any school, on principle. Ladusãns places him among the leading Brazilian philosophers of the first half of the century, beside Flusser, Cruz Costa and Lima Vaz. The book is print-only and could not be obtained here, so the quotation is carried at second hand. The claim, widely circulated, that he taught philosophy of science at the USP Escola Politécnica and philosophy of communication at the Escola Superior de Cinema and the Escola de Arte Dramática in the 1960s is deliberately absent from this timeline: every occurrence traced runs back to movement and fan sites rather than to a USP institutional record, and this sentence of his own contradicts it.",
+            "sources": [
+              "ladusans-1976",
+              "bonzatto-pragmatismo-2024",
+              "ptwiki-mario"
+            ]
+          },
+          {
+            "when": "1988 onward",
+            "approx": true,
+            "label": "Academic reception, thin and late. Wadson Machado Neto's 1988 UFJF master's thesis is repeatedly named as the first academic study; later work includes Vargas (PUC-SP, 2007), Roger Moura dos Santos (UFPB, 2016), Elvis Amsterdã (UFSC, 2019), Pereira (FAJE, 2019) and Braga (Ítaca/UFRJ, 2024). João Cezar de Castro Rocha, in his preface to the 2017 Filosofia da Crise, attributes the long neglect partly to the 1950s turn toward university-based philosophical research, against which Ferreira dos Santos's autodidactism read as illegitimate — his explanation, offered in a book of the revival, and recorded as such.",
+            "sources": [
+              "ufpb-santos-2016",
+              "vargas-nures-2007",
+              "erealizacoes-crise-2017",
+              "coimbra-amsterda-2024"
+            ]
+          },
+          {
+            "when": "1998–2003",
+            "label": "Scattered posthumous republication, and not by one house: O Apocalipse de São João (Editorial Cone Sul, 1998), O Um e o Múltiplo em Platão and Pitágoras e o Tema do Número reissued by IBRASA (2000 and 2001), and Cristianismo, a Religião do Homem by the university press EDUSC (2003). In 2001 É Realizações published A Sabedoria das Leis Eternas, the earliest of its Ferreira dos Santos titles that can be dated here, 'com introdução, edição e notas de Olavo de Carvalho'. É Realizações had been founded in 2000 out of a cultural space Edson Manoel de Oliveira Filho had run since 1995, which hosted Olavo de Carvalho's courses from 1996–97.",
+            "sources": [
+              "ptwiki-mario",
+              "gazeta-escorsim-2018"
+            ]
+          },
+          {
+            "when": "2007–2019",
+            "label": "The systematic É Realizações reissues: Tratado de Simbólica (2007), Filosofia Concreta (2009), A Invasão Vertical dos Bárbaros (2012), Filosofia e Cosmovisão (2015, reprinted 2018), Filosofia da Crise (2017, with prefaces by Hans Ulrich Gumbrecht and João Cezar de Castro Rocha) and Homens da Tarde (2019); Lógica e Dialética came from PAULUS in 2007. These years are taken from third-party bibliographic and retail records: the publisher's own site refuses connections from this session, so its catalogue could not be checked. The reissues were accompanied by a layer of sympathetic profiles in the Brazilian press and in cultural blogs, which repeat the encyclopedia figure and the biography without attribution; they are cited here as evidence of the rediscovery discourse and not as sources for anything in it.",
+            "sources": [
+              "erealizacoes-crise-2017",
+              "ptwiki-mario",
+              "migalhas-mario",
+              "luizberto-mario"
+            ]
+          },
+          {
+            "when": "8 May 2018",
+            "label": "The revival's authorship is itself contested, and is attributed here rather than asserted. Francisco Escorsim reports in Gazeta do Povo that the É Realizações programme of Ferreira dos Santos republication, until then managed by Olavo de Carvalho, had been reassigned, producing 'significant changes in editorial treatment' and few new titles since. It is the one independent press account of the revival's internal history, and it is why no version of 'É Realizações rescued Mário Ferreira dos Santos' is stated on this page: that is a claim with a history behind it.",
+            "sources": [
+              "gazeta-escorsim-2018"
+            ]
+          },
+          {
+            "when": "2023",
+            "label": "Elvis Amsterdã's Vida e Obra de Mário Ferreira dos Santos: Uma Introdução (Curitiba: Editora Danúbio, 100 pp.) — the first book-length biographical study, with a biographical chronology, photographs and unpublished documents in an appendix, reviewed in the Revista Filosófica de Coimbra the following year. It is known to this page only through that review, and it is the book to read before any of the disagreements recorded above is closed.",
+            "sources": [
+              "coimbra-amsterda-2024"
             ]
           }
         ],
         "sources": [
-          "luizberto-mario",
+          "ufpb-santos-2016",
           "faje-mario",
-          "migalhas-mario"
+          "beraldo-enciclopedia-1969",
+          "ladusans-1976",
+          "galvao-santos-2001",
+          "verve-ramus-2008",
+          "vargas-nures-2007",
+          "coimbra-amsterda-2024",
+          "gazeta-escorsim-2018",
+          "ptwiki-mario"
         ]
       },
       {
@@ -4571,6 +4710,199 @@
           "bmcr-gambetti-riots",
           "bmcr-runia-philo"
         ]
+      },
+      {
+        "slug": "girard",
+        "name": "René Girard",
+        "fullName": "René Noël Théophile Girard",
+        "dates": "1923–2015",
+        "place": "Avignon, Vaucluse (France)",
+        "summary": "French-American literary critic, anthropologist and philosopher of religion; professor at Stanford from 1981 and a member of the Académie française from 2005. He is known for mimetic theory: desire is borrowed from a model rather than being autonomous, the rivalry it produces drives collective violence, and archaic societies discharged that violence through a scapegoat mechanism which he read the Gospels as exposing. Michel Serres, replying to his reception speech in 2005, called him 'the new Darwin of the human sciences' — a superlative recorded here as Serres's, spoken in a ceremony of praise.",
+        "timeline": [
+          {
+            "when": "25 December 1923",
+            "label": "Born in Avignon as René Noël Théophile Girard, son of Joseph Girard (1881–1962), archiviste-paléographe of the École nationale des chartes, curator of the Musée Calvet from 1906 to 1949 and thereafter of the Palais des Papes, and of Marie-Thérèse de Loye Fabre (1893–1967). The birth date is one of the few points on which every source consulted agrees: the Académie française, Britannica, the IEP, COV&R and Stanford's own memorial resolution all give it.",
+            "sources": [
+              "academie-girard",
+              "iep-girard",
+              "brit-girard",
+              "covr-girard",
+              "stanford-memorial-girard"
+            ]
+          },
+          {
+            "when": "1947–1953",
+            "label": "Graduates from the École nationale des chartes in 1947 as archiviste-paléographe, with a thesis on private life in Avignon in the second half of the fifteenth century; emigrates to the United States the same year and teaches at Indiana University Bloomington until 1953, taking a doctorate in history there in 1950 with a dissertation on American opinion of France, 1940–1943. The year he entered the École des chartes is given by no source consulted here and is left unstated rather than guessed; the school's published Positions des thèses for 1947 would settle it.",
+            "sources": [
+              "stanford-memorial-girard",
+              "stanfordmag-girard",
+              "iep-girard"
+            ]
+          },
+          {
+            "when": "1951",
+            "label": "Marries Martha McCullough; three children follow, Martin, Daniel and Mary. The year is disputed and is recorded rather than resolved: Britannica gives 1951, and Stanford Magazine's 'sixty-four years of marriage' counted back from his death agrees with it, while Wikipedia gives 1952. 1951 is the date used here.",
+            "sources": [
+              "brit-girard",
+              "stanfordmag-girard",
+              "academie-girard-deces"
+            ]
+          },
+          {
+            "when": "1953–1957",
+            "approx": true,
+            "label": "Teaches at Duke University and then at Bryn Mawr College. The sources do not divide the window consistently between the two, so it is given as one approximate span rather than split into two dated appointments.",
+            "sources": [
+              "iep-girard",
+              "stanford-memorial-girard"
+            ]
+          },
+          {
+            "when": "1957–1968",
+            "label": "First period at Johns Hopkins, where he is made full professor in 1961. He held two Guggenheim Fellowships: COV&R and the Académie française both describe him as a two-time fellow, but neither names the years. The years 1959 and 1966 circulate from Wikipedia and are confirmed by neither, so they are carried here as unverified rather than stated.",
+            "sources": [
+              "renegirardfr-bio",
+              "stanford-memorial-girard",
+              "covr-girard",
+              "academie-girard"
+            ]
+          },
+          {
+            "when": "Autumn 1958 – Lent 1959",
+            "approx": true,
+            "label": "The conversion, narrated here as his own account rather than as an established chronology. Girard told interviewers that an 'intellectual conversion' came in the autumn of 1958, while he was writing the twelfth chapter of his first book, accompanied by quasi-mystical experiences on the Pennsylvania Railroad, and that he rewrote the book's conclusion afterwards; a religious conversion followed during Lent 1959 and was sealed when a melanoma scare was cleared on Holy Wednesday, which in 1959 fell on 25 March. The reference works decline to date any of it: Britannica and the IEP say only that he converted while reading Dostoevsky, without a year, and Wikipedia offers 'c. 1959–1961'. The dates here come from his own interviews and from Cynthia Haven's biography, which itself rests on his retelling.",
+            "sources": [
+              "girard-quand-ces-choses",
+              "girard-reader",
+              "haven-evolution-desire",
+              "brit-girard",
+              "iep-girard"
+            ]
+          },
+          {
+            "when": "1961",
+            "label": "Mensonge romantique et vérité romanesque (Grasset), the book that introduced mimetic desire through readings of Cervantes, Stendhal, Flaubert, Proust and Dostoevsky. The English translation by Yvonne Freccero, Deceit, Desire, and the Novel, appeared from the Johns Hopkins Press in 1965 — the date in the publisher's own catalogue and in library records. Stanford Magazine and Wikipedia give 1966; 1965 is used here.",
+            "sources": [
+              "hfs-deceit-girard",
+              "iep-girard",
+              "stanfordmag-girard"
+            ]
+          },
+          {
+            "when": "18–21 October 1966",
+            "label": "'The Languages of Criticism and the Sciences of Man', the Johns Hopkins symposium Girard convened with Richard Macksey and Eugenio Donato to introduce French structuralism to American universities. Girard issued the invitations, among them to Jacques Lacan and to Jacques Derrida, whose paper 'La structure, le signe et le jeu dans le discours des sciences humaines' was delivered on 21 October 1966 and is conventionally dated as the arrival of post-structuralism in America — at a conference convened to promote structuralism. The proceedings appeared in 1970 as The Structuralist Controversy, and the symposium audio was digitised by the Sheridan Libraries in 2023.",
+            "sources": [
+              "jhu-jscholarship-1966",
+              "jhu-hub-1966"
+            ]
+          },
+          {
+            "when": "1968–1976",
+            "approx": true,
+            "label": "At the State University of New York at Buffalo. The span is not agreed: the widely copied account has him holding a distinguished professorship from 1971, and other accounts close the period in 1975. It is recorded as an approximate span with the disagreement left standing.",
+            "sources": [
+              "iep-girard",
+              "renegirardfr-bio",
+              "stanford-memorial-girard"
+            ]
+          },
+          {
+            "when": "1972",
+            "label": "La Violence et le sacré (Grasset), which took a prize of the Académie française; the English Violence and the Sacred, translated by Patrick Gregory, followed from Johns Hopkins University Press in 1977. It is the book that carried the scapegoat mechanism out of literary criticism and into anthropology and the study of religion, and the one on which the disciplinary objections to his method concentrate.",
+            "sources": [
+              "academie-girard",
+              "iep-girard",
+              "brit-girard"
+            ]
+          },
+          {
+            "when": "1976–1981",
+            "label": "Returns to Johns Hopkins as John M. Beall Professor of the Humanities. In 1978 he publishes Des choses cachées depuis la fondation du monde (Grasset), a book-length dialogue with the psychiatrist Jean-Michel Oughourlian and Guy Lefort in which the reading of the Gospels as the disclosure of the victim mechanism is set out; the English Things Hidden since the Foundation of the World appeared from Stanford University Press in 1987.",
+            "sources": [
+              "renegirardfr-bio",
+              "stanford-memorial-girard",
+              "iep-girard"
+            ]
+          },
+          {
+            "when": "1981–1995",
+            "label": "At Stanford as the inaugural Andrew B. Hammond Professor of French Language, Literature and Civilization, until his retirement as emeritus in 1995. Stanford's memorial resolution dates the appointment to 1981 and rene-girard.fr to 1980; the university's own record is followed here. The books of these years are Le Bouc émissaire (1982; English The Scapegoat, Johns Hopkins, 1986, trans. Freccero) and La Route antique des hommes pervers (1985; English Job, the Victim of His People, 1987).",
+            "sources": [
+              "stanford-memorial-girard",
+              "renegirardfr-bio",
+              "iep-girard",
+              "stanfordmag-girard"
+            ]
+          },
+          {
+            "when": "1990",
+            "label": "Two foundings in one year. In March the Colloquium on Violence & Religion is established at Stanford by James Williams, Charles Mabee and Robert Hamerton-Kelly; it is formally constituted in 1991 with Girard as honorary chair, Raymund Schwager as president and Wolfgang Palaver editing its bulletin, and it publishes the journal Contagion — the association's own account of its beginnings is the only detailed one, and is written from inside. The same year Shakespeare : les feux de l'envie (Grasset), written in English but published in French first, takes the Prix Médicis essai. The publisher's record dates the prize 1990 and Wikipedia 1991; 1990 is used here. The English A Theater of Envy followed from Oxford University Press in 1991.",
+            "sources": [
+              "covr-history",
+              "grasset-shakespeare-girard",
+              "covr-girard"
+            ]
+          },
+          {
+            "when": "1999–2004",
+            "label": "Je vois Satan tomber comme l'éclair (1999; English I See Satan Fall Like Lightning, Orbis, 2001), the most directly theological of the books, and Les Origines de la culture (2004), a set of interviews which took the Prix Aujourd'hui.",
+            "sources": [
+              "iep-girard",
+              "academie-girard"
+            ]
+          },
+          {
+            "when": "17–18 November 2000",
+            "label": "The Rio de Janeiro visit — the point at which this chronology's two subjects meet, and attested only through the Olavo de Carvalho network. A lecture and round table at the auditorium of the Faculdade da Cidade / UniverCidade on 17 November, and an interview at the Hotel Glória the next day, conducted by Pedro Sette Câmara and Alvaro Velloso de Carvalho with Olavo de Carvalho taking part, published on 19 November 2000. No independent Brazilian press record of the visit was found in Folha, Estadão, O Globo or the Jornal do Brasil; olavodecarvalho.org now serves a parked retail template and oindividuo.com returns 503, and the Internet Archive's availability API answered 429 to every request from this session, so no snapshot of either page could be checked in either direction. The only reachable text is an unattributed blog reproduction. Olavo refers to the meeting in the COF transcriptions — aula 18, 18 August 2009, a reviewed file: 'Quando o René Girard esteve no Rio de Janeiro, eu lhe perguntei isso' — which corroborates that a meeting took place but is itself part of the same network. Recorded as attributed, not as established.",
+            "sources": [
+              "olavo-girard-coletividade",
+              "oindividuo-girard-2000",
+              "elienai-girard-entrevista",
+              "cof-transcriptions"
+            ]
+          },
+          {
+            "when": "2005",
+            "label": "Elected to the Académie française on 17 March 2005 to fauteuil 37, succeeding the Dominican Ambroise-Marie Carré, on the sponsorship of Jacqueline de Romilly and Marc Fumaroli; received under the Coupole on 15 December 2005, with the reply delivered by Michel Serres. Serres's speech is the origin of the tag 'the new Darwin of the human sciences' — his phrase, in a ceremony whose genre is praise, and not a judgement this page makes. The reception is sometimes dated 2006; the Académie's own notice puts it on 15 December 2005.",
+            "sources": [
+              "academie-girard",
+              "academie-girard-reception",
+              "academie-girard-serres"
+            ]
+          },
+          {
+            "when": "2006–2008",
+            "label": "Honours, a last book and an institution. The Dr Leopold Lucas Prize (Tübingen) in 2006 and the Modern Language Association's Award for Lifetime Scholarly Achievement in 2008, alongside honorary doctorates from the Vrije Universiteit Amsterdam (1985), UFSIA Antwerp (1995), Padua (2001), Montréal (2004) and St Andrews (2008), and the Légion d'honneur as chevalier. In October 2007 Achever Clausewitz, his book-length conversation with Benoît Chantre, appeared from Carnets Nord; the English Battling to the End is dated 2009 in Stanford's obituary and 2010 by Stanford Magazine, and that discrepancy is left open here. 2007 is also the year Imitatio was founded to fund and propagate mimetic theory — a project of Peter Thiel's Thiel Foundation, set up with Robert Hamerton-Kelly, recorded here from a third-party account rather than from Imitatio's own.",
+            "sources": [
+              "academie-girard",
+              "persee-achever-clausewitz",
+              "influencewatch-thiel",
+              "imitatio-girard",
+              "stanfordmag-girard"
+            ]
+          },
+          {
+            "when": "4 November 2015",
+            "label": "Dies at his home on the Stanford campus, aged 91; the Académie française posted its death notice the next day. He was survived by Martha and their three children, and Stanford held a memorial on 19 January 2016. The standard obituaries — the Stanford Report of 4 November 2015, Quentin Hardy in the New York Times of 11 November 2015 and Jean Birnbaum in Le Monde of 5 November 2015 — exist but were unreachable from this session (Cloudflare, 403 and a paywall respectively), and are therefore not cited.",
+            "sources": [
+              "academie-girard-deces",
+              "academie-girard",
+              "stanford-memorial-girard",
+              "stanfordmag-girard"
+            ]
+          }
+        ],
+        "sources": [
+          "iep-girard",
+          "brit-girard",
+          "academie-girard",
+          "covr-girard",
+          "stanford-memorial-girard",
+          "stanfordmag-girard",
+          "renegirardfr-bio",
+          "haven-evolution-desire",
+          "academie-girard-serres"
+        ]
       }
     ],
     "references": [
@@ -4868,7 +5200,8 @@
         "title": "Os Brasileiros: Mário Ferreira dos Santos",
         "url": "https://luizberto.com/os-brasileiros-mario-ferreira-dos-santos/",
         "publisher": "Jornal da Besta Fubana (Brazilian cultural blog — biographical profile, sympathetic perspective)",
-        "type": "article"
+        "type": "article",
+        "publisherNote": "A sympathetic cultural-blog profile of the rediscovery years. Its biographical detail is downstream of Beraldo 1969 and the 2001 family monograph without saying so, and several of its particulars (a 1940 Globo contract, a list of translated authors including Aristotle and Aquinas) are not corroborated by the academic sources on this page. Cited as evidence of the rediscovery discourse, not as a source for the life."
       },
       {
         "id": "faje-mario",
@@ -4882,7 +5215,8 @@
         "title": "Redescobrindo o filósofo brasileiro Mário Ferreira dos Santos (Eduardo Luiz Santos Cabette, 2014)",
         "url": "https://www.migalhas.com.br/depeso/210801/redescobrindo-o-filosofo-brasileiro-mario-ferreira-dos-santos--uma-pontual-abordagem-criminologico-cultural",
         "publisher": "Migalhas (Brazilian legal portal — opinion article, sympathetic perspective)",
-        "type": "article"
+        "type": "article",
+        "publisherNote": "Thin biographically, and downstream of the same two upstream sources. Cited only as evidence of the 2010s rediscovery discourse."
       },
       {
         "id": "sep-agostinho",
@@ -5130,6 +5464,307 @@
         "url": "https://research.library.fordham.edu/cgi/viewcontent.cgi?article=1001&context=phil_babich",
         "publisher": "Fordham University research repository",
         "type": "primary"
+      },
+      {
+        "id": "iep-girard",
+        "title": "René Girard (1923—2015)",
+        "url": "https://iep.utm.edu/girard/",
+        "publisher": "Internet Encyclopedia of Philosophy",
+        "type": "encyclopedia",
+        "publisherNote": "The scholarly reference spine for this page. There is no Stanford Encyclopedia of Philosophy entry on Girard or on mimetic theory — a checked absence, not an oversight — so the IEP carries here the weight the SEP carries on the other pages of this site."
+      },
+      {
+        "id": "brit-girard",
+        "title": "René Girard",
+        "url": "https://www.britannica.com/biography/Rene-Girard",
+        "publisher": "Encyclopaedia Britannica",
+        "type": "encyclopedia"
+      },
+      {
+        "id": "academie-girard",
+        "title": "René Girard — les immortels, fauteuil 37",
+        "url": "https://www.academie-francaise.fr/les-immortels/rene-girard",
+        "publisher": "Académie française",
+        "type": "institutional",
+        "publisherNote": "The institution he belonged to from 2005, and the official record of the election, the fauteuil, the prizes it awarded him and his death. It is his own academy, not a neutral third party on his standing."
+      },
+      {
+        "id": "academie-girard-reception",
+        "title": "Réception de M. René Girard (15 décembre 2005)",
+        "url": "https://www.academie-francaise.fr/actualites/reception-de-m-rene-girard-f37",
+        "publisher": "Académie française",
+        "type": "institutional",
+        "publisherNote": "The Académie's own notice of the ceremony, and the record that settles its date at 15 December 2005 against the 2006 that circulates elsewhere."
+      },
+      {
+        "id": "academie-girard-serres",
+        "title": "Discours de réception de M. René Girard et réponse de M. Michel Serres",
+        "url": "https://www.academie-francaise.fr/discours-de-reception-et-reponse-de-m-michel-serres",
+        "publisher": "Académie française",
+        "type": "primary",
+        "publisherNote": "The two speeches as delivered. Serres's reply is where 'the new Darwin of the human sciences' comes from: the phrase is his, spoken in a ceremony whose genre is praise."
+      },
+      {
+        "id": "academie-girard-deces",
+        "title": "Décès de M. René Girard (5 novembre 2015)",
+        "url": "https://www.academie-francaise.fr/actualites/deces-de-m-rene-girard-f37",
+        "publisher": "Académie française",
+        "type": "institutional"
+      },
+      {
+        "id": "covr-girard",
+        "title": "René Girard",
+        "url": "https://violenceandreligion.com/rene-girard-2/",
+        "publisher": "Colloquium on Violence & Religion (COV&R)",
+        "type": "institutional",
+        "publisherNote": "The international scholarly association founded around his work, of which he was honorary chair — an interested party on his significance, cited here for institutional facts rather than for evaluation."
+      },
+      {
+        "id": "covr-history",
+        "title": "The History of COV&R",
+        "url": "https://violenceandreligion.com/the-history-of-covr/",
+        "publisher": "Colloquium on Violence & Religion (COV&R)",
+        "type": "institutional",
+        "publisherNote": "The association's account of its own founding — the only detailed one, and written from inside."
+      },
+      {
+        "id": "stanford-memorial-girard",
+        "title": "Memorial Resolution for René Girard (Stanford University Faculty Senate)",
+        "url": "https://www.patheos.com/blogs/cosmostheinlost/2017/02/10/the-stanford-memorial-resolution-for-rene-girard/",
+        "publisher": "Stanford University Faculty Senate, reproduced on Cosmos the in Lost (Patheos)",
+        "type": "institutional",
+        "publisherNote": "Stanford's own faculty resolution, and the strongest source for his degrees and appointments. It is cited through the Patheos mirror because news.stanford.edu is unreachable from this session (Cloudflare); the mirror reproduces the text, it does not authenticate it."
+      },
+      {
+        "id": "stanfordmag-girard",
+        "title": "Eminent Theorist (René Girard)",
+        "url": "https://stanfordmag.org/contents/eminent-theorist",
+        "publisher": "Stanford Magazine (Stanford Alumni Association)",
+        "type": "article",
+        "publisherNote": "His own university's alumni magazine — a sympathetic profile. It is also one of the two sources dating the English Deceit, Desire, and the Novel to 1966, against the publisher's catalogue."
+      },
+      {
+        "id": "renegirardfr-bio",
+        "title": "Biographie de René Girard",
+        "url": "https://rene-girard.fr/accueil/biographie",
+        "publisher": "Association Recherches Mimétiques (French association devoted to his work — sympathetic perspective)",
+        "type": "biography",
+        "publisherNote": "Useful for the French academic chronology, and the only source consulted here that splits the Johns Hopkins years cleanly. It differs from Stanford's own record on the Stanford appointment (1980 against 1981), and loses on that point."
+      },
+      {
+        "id": "jhu-jscholarship-1966",
+        "title": "The Languages of Criticism and the Sciences of Man symposium, 18–21 October 1966 — repository item record",
+        "url": "https://jscholarship.library.jhu.edu/items/78b234fd-4458-4111-9b37-210e5d1c13f0",
+        "publisher": "JScholarship, Johns Hopkins University Sheridan Libraries",
+        "type": "primary",
+        "publisherNote": "The repository item record for the symposium audio digitised in 2023, cited in place of the Sheridan Libraries news announcement, which returns 403 to this session. The item record itself also returned 403 on the day this entry was written, so it is recorded from the repository identifier rather than from a read of the page."
+      },
+      {
+        "id": "jhu-hub-1966",
+        "title": "Johns Hopkins humanities conference that changed the field turns 50 (22 March 2016)",
+        "url": "https://hub.jhu.edu/2016/03/22/hopkins-humanities-fiftieth-conference/",
+        "publisher": "The Hub, Johns Hopkins University",
+        "type": "article",
+        "publisherNote": "The host university's fiftieth-anniversary account of its own conference — celebratory, and the reachable source for who convened it and who was invited."
+      },
+      {
+        "id": "hfs-deceit-girard",
+        "title": "Deceit, Desire, and the Novel: Self and Other in Literary Structure — catalogue record",
+        "url": "https://www.hfsbooks.com/books/deceit-desire-and-the-novel-girard/",
+        "publisher": "Johns Hopkins University Press / Hopkins Fulfillment Services",
+        "type": "publisher",
+        "publisherNote": "The publisher's own catalogue record, which dates the Freccero translation to 1965. It is preferred here over the 1966 given by Stanford Magazine and by Wikipedia."
+      },
+      {
+        "id": "grasset-shakespeare-girard",
+        "title": "Shakespeare : les feux de l'envie — fiche éditeur",
+        "url": "https://www.grasset.fr/livre/shakespeare-les-feux-de-lenvie-9782246249917/",
+        "publisher": "Éditions Grasset",
+        "type": "publisher",
+        "publisherNote": "The French publisher's record, which dates the Prix Médicis essai to 1990 against the 1991 in circulation."
+      },
+      {
+        "id": "haven-evolution-desire",
+        "title": "Cynthia L. Haven, Evolution of Desire: A Life of René Girard (Michigan State University Press, 2018)",
+        "url": "https://msupress.org/9781611862836/evolution-of-desire/",
+        "publisher": "Michigan State University Press",
+        "type": "biography",
+        "publisherNote": "The biography of record, and the fullest account of the 1958–59 conversion. That account rests on Girard's own retelling, to this author and to earlier interviewers; it does not add an independent record of the events."
+      },
+      {
+        "id": "girard-quand-ces-choses",
+        "title": "René Girard, Quand ces choses commenceront… Entretiens avec Michel Treguer (Arléa, 1994)",
+        "url": "https://www.arlea.fr/Quand-ces-choses-commenceront",
+        "publisher": "Éditions Arléa",
+        "type": "primary",
+        "publisherNote": "Girard speaking about himself, more than thirty years after the events he dates. The conversion chronology on this page is his testimony and is presented as such."
+      },
+      {
+        "id": "girard-reader",
+        "title": "The Girard Reader, ed. James G. Williams (Crossroad, 1996), including the interview 'The Anthropology of the Cross'",
+        "url": "https://search.worldcat.org/title/34473134",
+        "publisher": "Crossroad Publishing / WorldCat record",
+        "type": "primary",
+        "publisherNote": "Edited by a founder of COV&R and framed as an introduction to the theory. The interview in it restates the same self-account; it does not corroborate it."
+      },
+      {
+        "id": "persee-achever-clausewitz",
+        "title": "Compte rendu : René Girard, Achever Clausewitz (Carnets Nord, 2007)",
+        "url": "https://www.persee.fr/doc/rhpr_0035-2403_2008_num_88_2_1336_t7_0207_0000",
+        "publisher": "Revue d'histoire et de philosophie religieuses (Persée)",
+        "type": "academic"
+      },
+      {
+        "id": "imitatio-girard",
+        "title": "Imitatio — mimetic theory programme",
+        "url": "https://www.imitatio.org/",
+        "publisher": "Imitatio, a project of the Thiel Foundation",
+        "type": "institutional",
+        "publisherNote": "An interested institutional actor, not a neutral reference. Imitatio was founded in 2007 by Peter Thiel's Thiel Foundation, with Robert Hamerton-Kelly, expressly to fund and propagate mimetic theory. It is cited here for its own existence and programme and never as an adjudication of Girard's standing or of his reception."
+      },
+      {
+        "id": "influencewatch-thiel",
+        "title": "The Thiel Foundation",
+        "url": "https://www.influencewatch.org/non-profit/the-thiel-foundation/",
+        "publisher": "InfluenceWatch, Capital Research Center (right-of-center watchdog — labeled as such)",
+        "type": "analysis",
+        "publisherNote": "Used only for the third-party record that Imitatio is a Thiel Foundation project, so that the founding is not sourced to the founded body itself."
+      },
+      {
+        "id": "olavo-girard-coletividade",
+        "title": "Olavo de Carvalho, 'René Girard e a coletividade homicida'",
+        "url": "https://olavodecarvalho.org/",
+        "publisher": "olavodecarvalho.org (the subject's own site)",
+        "type": "article",
+        "publisherNote": "The subject writing about Girard on his own site. The domain no longer serves that archive: as of August 2026 it returns a parked retail template, and the Internet Archive's availability API answered 429 to every request from this session, so no snapshot could be checked either way. The article is recorded as attested rather than read."
+      },
+      {
+        "id": "oindividuo-girard-2000",
+        "title": "Entrevista com René Girard, Hotel Glória, Rio de Janeiro, 18 de novembro de 2000 (publicada em 19/11/2000)",
+        "url": "https://www.oindividuo.com/",
+        "publisher": "O Indivíduo (Olavo de Carvalho's circle — interviewers Pedro Sette Câmara and Alvaro Velloso de Carvalho, with Olavo de Carvalho taking part)",
+        "type": "primary",
+        "publisherNote": "The original publication of the interview. The site returns 503 to this session, and the Internet Archive's availability API answered 429 to every request, so no snapshot could be checked either way; the interview is cited from a later reproduction; both ends of that chain sit inside the same network, and nothing independent corroborates the text."
+      },
+      {
+        "id": "elienai-girard-entrevista",
+        "title": "Reprodução da entrevista de René Girard no Rio de Janeiro (26 de janeiro de 2007)",
+        "url": "https://elienaijr.wordpress.com/2007/01/26/37/",
+        "publisher": "elienaijr.wordpress.com (personal blog — unattributed reproduction)",
+        "type": "blog",
+        "publisherNote": "A blog repost, seven years later, of the O Indivíduo interview. It is the only reachable text of the interview, carries no provenance statement of its own, and is cited as the reachable copy rather than as a source that verifies anything."
+      },
+      {
+        "id": "ufpb-santos-2016",
+        "title": "Roger Moura dos Santos, A via simbólica na fundamentação da Matese de Mário Ferreira dos Santos (dissertação de mestrado, UFPB, 2016)",
+        "url": "https://repositorio.ufpb.br/jspui/bitstream/tede/9570/7/Arquivototal.pdf",
+        "publisher": "Programa de Pós-Graduação em Filosofia, Universidade Federal da Paraíba",
+        "type": "academic",
+        "publisherNote": "The fullest academic biographical sketch available online (pp. 9–11). Its own note 1, p. 12, states that the biographical data come from the unpublished Galvão/Santos family monograph — so on life events it is a scholarly presentation of family testimony, not an independent check on it."
+      },
+      {
+        "id": "vargas-nures-2007",
+        "title": "Carlos Eduardo de Carvalho Vargas, 'Contribuições filosóficas de Mário Ferreira dos Santos à metodologia da pesquisa sobre religião', Revista Nures n. 5 (2007)",
+        "url": "https://www.pucsp.br/revistanures/revista6/nures6_carlosvargas.pdf",
+        "publisher": "Núcleo de Estudos Religião e Sociedade, PUC-SP",
+        "type": "academic",
+        "publisherNote": "The source of the 48-volume figure for the Enciclopédia, against Beraldo's 45 and Pereira's 'more than 50'."
+      },
+      {
+        "id": "verve-ramus-2008",
+        "title": "Gustavo Ramus, 'Anarquismo cristão e sua influência no Brasil', verve n. 13 (2008)",
+        "url": "https://revistas.pucsp.br/index.php/verve/article/view/5203",
+        "publisher": "verve — revista semestral autogestionária do Nu-Sol, PUC-SP",
+        "type": "academic",
+        "publisherNote": "Academic, and independent of the Olavo-linked revival — which is what makes it load-bearing for the 1945–47 anarchist period. The same journal's specialist survey of Portuguese Stirner translations does not mention Ferreira dos Santos at all, which is why no Stirner translation is claimed on this page."
+      },
+      {
+        "id": "coimbra-amsterda-2024",
+        "title": "Recensão: Elvis Amsterdã, Vida e Obra de Mário Ferreira dos Santos: Uma Introdução (Danúbio, 2023), Revista Filosófica de Coimbra n. 66 (2024), pp. 479–485",
+        "url": "https://impactum-journals.uc.pt/rfc/article/view/14352",
+        "publisher": "Revista Filosófica de Coimbra (Universidade de Coimbra)",
+        "type": "academic",
+        "publisherNote": "The first book-length biography of Ferreira dos Santos is known to this page only through this review: the book itself was not obtainable here, so everything attributed to it is attributed at one remove."
+      },
+      {
+        "id": "beraldo-enciclopedia-1969",
+        "title": "Carlo Beraldo, entry on Mário Ferreira dos Santos, in Enciclopedia Filosofica (Centro di Studi Filosofici di Gallarate), Firenze: Sansoni, 1969, p. 231",
+        "url": "https://openlibrary.org/works/OL22458059W",
+        "publisher": "Centro di Studi Filosofici di Gallarate / G. C. Sansoni Editore (Open Library record for the edition)",
+        "type": "encyclopedia",
+        "publisherNote": "The near-contemporary reference work, and the origin of the '45 volumes in less than fifteen years' figure that later Brazilian accounts repeat without attribution. QUOTED-ONLY AND UNREAD: it is used here as quoted in Brazilian secondary literature; nobody in this chain has opened the Italian volume. Treat the 45 as Beraldo 1969 as quoted until someone reads the page. The claim, current in Brazil, that he is 'the only Brazilian philosopher with a full-page entry in a European philosophy encyclopedia' is a Brazilian gloss on this entry and is not something the entry says of itself."
+      },
+      {
+        "id": "ladusans-1976",
+        "title": "Stanislavs Ladusãns, Rumos da filosofia atual no Brasil: em auto-retratos (1976), pp. 407–409",
+        "url": "https://openlibrary.org/works/OL11010359W",
+        "publisher": "Open Library record for the edition",
+        "type": "primary",
+        "publisherNote": "Carries Ferreira dos Santos's own self-portrait, and is the single most important document of his self-understanding — including the line 'Nunca ocupei nenhum cargo em nenhuma escola, por princípio'. UNREAD: print only, not obtainable from this session; the quotation reaches this page at second hand and is flagged as such wherever it is used."
+      },
+      {
+        "id": "galvao-santos-2001",
+        "title": "Nadiejda Galvão and Yolanda Santos, Monografia sobre Mário Ferreira dos Santos (unpublished, 2001)",
+        "url": "https://repositorio.ufpb.br/jspui/bitstream/tede/9570/7/Arquivototal.pdf",
+        "publisher": "Unpublished family monograph; its existence and role documented at note 1, p. 12 of the UFPB dissertation (linked)",
+        "type": "primary",
+        "publisherNote": "FAMILY TESTIMONY, NOT INDEPENDENT SCHOLARSHIP — the authors are his daughter and his wife. It is the upstream source of most of the modern Brazilian biography, including the Jesuit-school story, the Globo refusal and the credit-sales anecdote. UNREAD: unpublished and not obtainable; it is cited here to name the provenance of claims that would otherwise look independently sourced, and the link goes to the dissertation that documents it, not to the monograph."
+      },
+      {
+        "id": "gazeta-escorsim-2018",
+        "title": "Francisco Escorsim, 'As editoras em tempos de guerra cultural – II', Gazeta do Povo, 8 May 2018",
+        "url": "https://www.gazetadopovo.com.br/vozes/francisco-escorsim/editoras-em-tempos-de-guerra-cultural-ii/",
+        "publisher": "Gazeta do Povo (Brazilian daily — opinion column)",
+        "type": "article",
+        "publisherNote": "The one independent press account of the É Realizações republication programme's internal history, including that it had been run by Olavo de Carvalho and was then reassigned. Independent of the Olavo orbit, which is why the revival entry rests on it rather than on publisher or fan copy."
+      },
+      {
+        "id": "bonzatto-pragmatismo-2024",
+        "title": "Eduardo Bonzatto, 'Mário Ferreira dos Santos, Vilém Flusser e Olavo de Carvalho: o peso dos intelectuais fora da universidade', Pragmatismo Político, 14 February 2024",
+        "url": "https://www.pragmatismopolitico.com.br/2024/02/mario-ferreira-dos-santos-vilem-flusser-olavo-de-carvalho-peso-intelectuais-fora-universidade.html",
+        "publisher": "Pragmatismo Político (Brazilian opinion site — left-of-center)",
+        "type": "article",
+        "publisherNote": "An opinion piece that cites no scholarly sources and rests on Ferreira dos Santos's own quoted statement about never having held a post. Used only for that reading, and labeled as a reading."
+      },
+      {
+        "id": "wikidata-mario",
+        "title": "Mário Ferreira dos Santos (Q672004)",
+        "url": "https://www.wikidata.org/wiki/Q672004",
+        "publisher": "Wikidata",
+        "type": "encyclopedia",
+        "publisherNote": "Checked against Special:EntityData/Q672004.json: the birth (P569), death (P570), place-of-death (P20) and burial (P119) claims each carry ZERO references. Cited here to record where the unreferenced particulars circulating about his death come from, not to support them."
+      },
+      {
+        "id": "cinemateca-oculos-vovo",
+        "title": "Os Óculos do Vovô (1913) — Cinemateca Brasileira filmography record 001395",
+        "url": "https://bases.cinemateca.org.br/",
+        "publisher": "Cinemateca Brasileira (filmography database)",
+        "type": "institutional",
+        "publisherNote": "The record identifier reaches this page through a pt.wikipedia footnote and has NOT been checked against the Cinemateca's own database, whose search interface is all that the link resolves to. The appearance of the child in the film is flagged unverified for that reason."
+      },
+      {
+        "id": "erealizacoes-crise-2017",
+        "title": "Mário Ferreira dos Santos, Filosofia da Crise (São Paulo: É Realizações, 2017), prefaces by Hans Ulrich Gumbrecht and João Cezar de Castro Rocha, pp. 1–17",
+        "url": "https://openlibrary.org/works/OL32688668W",
+        "publisher": "É Realizações (Open Library record for the edition)",
+        "type": "book",
+        "publisherNote": "The publisher's own site refuses connections from this session, so this and the other É Realizações years are taken from third-party bibliographic records rather than from the publisher's catalogue. The prefaces are cited for Castro Rocha's explanation of the long neglect, which is his argument and is attributed to him."
+      },
+      {
+        "id": "dehoniana-mario-2023",
+        "title": "Geysel Rodrigues, 'Mario Ferreira dos Santos: o curso sobre um filósofo brasileiro', Faculdade Dehoniana, 7 July 2023",
+        "url": "https://dehoniana.edu.br/mario-ferreira-dos-santos-o-curso-sobre-um-filosofo-brasileiro/",
+        "publisher": "Faculdade Dehoniana (Catholic higher-education institution, Taubaté)",
+        "type": "institutional",
+        "publisherNote": "Cited only as the institutional site that gives his birthplace as 'São Paulo, SP' rather than Tietê — an imprecision in circulation, recorded so that it is not mistaken for a rival claim."
+      },
+      {
+        "id": "ptwiki-mario",
+        "title": "Mário Ferreira dos Santos",
+        "url": "https://pt.wikipedia.org/wiki/M%C3%A1rio_Ferreira_dos_Santos",
+        "publisher": "Portuguese Wikipedia",
+        "type": "encyclopedia",
+        "publisherNote": "Tertiary, and used here as a FINDING AID for its footnotes rather than as an authority — which is how it earns its place. Its prose and its own bibliography contradict each other on the publication years of the core works, and much of what it carries traces to the 2001 family monograph; both facts are recorded on the page rather than smoothed over. There is no Itaú Cultural entry on Ferreira dos Santos to prefer to it: that page returns 404, the site's own search surfaces only unrelated homonyms, and Wayback holds no snapshot of one."
       }
     ]
   },
