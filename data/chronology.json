@@ -3344,58 +3344,95 @@
         "fullName": "Friedrich Wilhelm Nietzsche",
         "dates": "1844–1900",
         "place": "Röcken, Saxony (Prussia, present-day Germany)",
-        "summary": "German philosopher and cultural critic, trained as a classical philologist, who published intensely through the 1870s and 1880s. He is known for his radical critiques of traditional European morality, religion and philosophy, and for concepts such as the will to power, the eternal recurrence and the Übermensch. His productive career ended abruptly with the mental collapse of 1889.",
+        "summary": "German philosopher and cultural critic, trained as a classical philologist, who published intensely through the 1870s and 1880s. He is known for his radical critiques of traditional European morality, religion and philosophy, and for concepts such as the will to power, the eternal recurrence and the Übermensch. His productive career ended abruptly with the mental collapse of 1889; much of what later circulated under his name was shaped posthumously by his sister Elisabeth's stewardship of the estate.",
         "timeline": [
           {
             "when": "15 October 1844",
-            "label": "Born in Röcken, near Leipzig, son of a Lutheran pastor.",
+            "label": "Born in Röcken, near Lützen in Prussian Saxony, first child of the Lutheran pastor Carl Ludwig Nietzsche. His father died in 1849, and in 1850 the family moved to Naumburg.",
+            "sources": [
+              "sep-nietzsche",
+              "brit-nietzsche",
+              "iep-nietzsche"
+            ]
+          },
+          {
+            "when": "1858–1864",
+            "label": "Educated on a scholarship at Schulpforta, the boarding school near Naumburg, receiving a rigorous classical training.",
             "sources": [
               "sep-nietzsche",
               "brit-nietzsche"
             ]
           },
           {
-            "when": "May 1869",
-            "label": "At 24, called to the chair of classical philology at the University of Basel — the youngest ever appointed to such a post; in his student years at Leipzig he had met Richard Wagner.",
+            "when": "1864–1868",
+            "label": "A year of theology and philology at Bonn, then follows the philologist Friedrich Ritschl to Leipzig, where he discovers Schopenhauer and, in 1868, meets Richard Wagner; military service with a cavalry regiment is cut short by a serious chest injury.",
             "sources": [
               "sep-nietzsche",
               "brit-nietzsche"
             ]
           },
           {
-            "when": "1872",
-            "label": "Publishes his first book, The Birth of Tragedy, a polemic that breaks with conventional philological scholarship.",
+            "when": "1869",
+            "label": "Called to the chair of classical philology at Basel at 24, before completing the doctorate, on Ritschl's recommendation — the youngest ever appointed to such a post, a superlative recorded here as the SEP's. The sources differ on the appointment's month: the SEP has May, the IEP January, Britannica gives none.",
             "sources": [
               "sep-nietzsche",
+              "iep-nietzsche",
               "brit-nietzsche"
             ]
           },
           {
-            "when": "1878",
-            "label": "Publishes Human, All Too Human, the landmark of his 'positivist' phase and of the break with Wagner.",
+            "when": "August–October 1870",
+            "label": "Serves in the Franco-Prussian War as a volunteer medical orderly; contracts dysentery and diphtheria and returns to Basel in permanently weakened health.",
             "sources": [
               "brit-nietzsche",
               "sep-nietzsche"
             ]
           },
           {
-            "when": "1879",
-            "label": "Resigns the Basel chair for health reasons; begins the decade of itinerant life between Switzerland, Italy and France, devoted to writing.",
+            "when": "1872",
+            "label": "Publishes The Birth of Tragedy. The young philologist Ulrich von Wilamowitz-Moellendorff answers with the pamphlet Zukunftsphilologie!, deriding its method; Erwin Rohde replies in kind and Wagner defends the book in an open letter — a polemic that cost it its standing in the discipline.",
+            "sources": [
+              "sep-nietzsche",
+              "babich-zukunftsphilologie"
+            ]
+          },
+          {
+            "when": "1873–1876",
+            "label": "The four Untimely Meditations. The winter of 1876–77 is spent in Sorrento with Paul Rée and Malwida von Meysenbug, his first long absence from Basel and the season his distance from Wagner becomes visible. The break with Wagner has no single date: the SEP places it in the mid-1870s, the IEP says 1877, Britannica calls it final by 1878 — a range, recorded as such.",
+            "sources": [
+              "sep-nietzsche",
+              "iep-nietzsche",
+              "brit-nietzsche",
+              "young-sorrento"
+            ]
+          },
+          {
+            "when": "1878",
+            "label": "Human, All Too Human, the landmark of the aphoristic 'positivist' middle period.",
             "sources": [
               "sep-nietzsche",
               "brit-nietzsche"
             ]
           },
           {
+            "when": "1879",
+            "label": "Resigns the Basel chair on health grounds, with a pension. Britannica dates the resignation 14 June 1879; the IEP writes that he retired in 1878 — the disagreement is recorded rather than resolved. A decade of itinerant writing follows: summers at Sils-Maria in the Engadine, winters in Italian cities and at Nice.",
+            "sources": [
+              "brit-nietzsche",
+              "iep-nietzsche",
+              "sep-nietzsche"
+            ]
+          },
+          {
             "when": "1882",
-            "label": "Publishes The Gay Science (expanded second edition 1887), where the announcement of the 'death of God' first appears.",
+            "label": "The Gay Science, carrying the first announcement of the 'death of God'; the year also of the intense friendship and breach with Lou Salomé — an episode Britannica's account omits entirely.",
             "sources": [
               "sep-nietzsche"
             ]
           },
           {
             "when": "1883–1885",
-            "label": "Publishes Thus Spoke Zarathustra, in four parts.",
+            "label": "Thus Spoke Zarathustra, in four parts; the fourth is printed privately and at first circulates only among a handful of friends.",
             "sources": [
               "sep-nietzsche",
               "brit-nietzsche"
@@ -3403,30 +3440,68 @@
           },
           {
             "when": "1886–1887",
-            "label": "Publishes Beyond Good and Evil (1886) and On the Genealogy of Morality (1887), central works of his maturity.",
+            "label": "Beyond Good and Evil (1886) and On the Genealogy of Morality (1887), the central works of the maturity; an expanded second edition of The Gay Science follows in 1887.",
             "sources": [
               "sep-nietzsche"
             ]
           },
           {
             "when": "1888",
-            "label": "Last productive year: writes Twilight of the Idols, The Case of Wagner and other final texts.",
+            "label": "The last productive year, largely in Turin: The Case of Wagner is the only one of its books he saw published. Twilight of the Idols appeared in 1889, The Antichrist and Nietzsche contra Wagner in 1895, Ecce Homo only in 1908 — everything after the collapse reached the public through the estate.",
             "sources": [
+              "sep-nietzsche",
+              "brit-nietzsche"
+            ]
+          },
+          {
+            "when": "3 January 1889",
+            "label": "Collapses in Turin — the breakdown itself is in every source. The famous horse is not: the SEP and Britannica omit the anecdote entirely, the IEP hedges with 'reportedly', and its sole original source is a 1900 interview with Nietzsche's Turin landlord conducted by an unnamed journalist relaying an unnamed policeman — third-hand, eleven years after the event, with no coachman and no flogging in it. It is recorded here as an attributed tradition, not an established event.",
+            "sources": [
+              "larb-townsend-horse",
+              "verrecchia-catastrofe",
+              "iep-nietzsche",
               "sep-nietzsche"
             ]
           },
           {
-            "when": "January 1889",
-            "label": "Suffers a mental collapse in Turin; spends his final years in the care of his mother and then his sister, in deepening silence.",
+            "when": "1889–1897",
+            "approx": true,
+            "label": "The clinic years and after: Basel, then the Jena asylum under Otto Binswanger, where the contemporaneous diagnosis was dementia paralytica — tertiary syphilis; from 1890 in his mother's care in Naumburg, and from 1897, after her death, in his sister's at the Villa Silberblick in Weimar.",
             "sources": [
-              "sep-nietzsche"
+              "sep-nietzsche",
+              "gilman-conversations"
+            ]
+          },
+          {
+            "when": "1889 onward",
+            "approx": true,
+            "label": "The diagnosis has remained open. Against the syphilis verdict stand named alternatives: a 2008 neurological study proposing CADASIL, Huenemann's 2013 case for a slow-growing retro-orbital meningioma, and frontotemporal dementia; a 2015 survey of the question concludes it is unresolved. The SEP itself endorses the meningioma reading — recorded here as the SEP's position, not as a settled fact.",
+            "sources": [
+              "hemelsoet-2008",
+              "huenemann-oxford",
+              "arquivos-2015"
+            ]
+          },
+          {
+            "when": "1894–1896",
+            "label": "His sister Elisabeth Förster-Nietzsche founds the Nietzsche-Archiv in Naumburg in 1894 and moves it to Weimar in 1896.",
+            "sources": [
+              "klassik-nietzsche-archiv"
             ]
           },
           {
             "when": "25 August 1900",
-            "label": "Dies in Weimar, of a stroke complicated by pneumonia; his sister Elisabeth takes control of his literary estate.",
+            "label": "Dies in Weimar — the SEP records a stroke complicated by pneumonia — and is buried beside his father at Röcken. Elisabeth outlived him by thirty-five years, controlling the estate until her death in 1935.",
             "sources": [
+              "sep-nietzsche",
               "brit-nietzsche",
+              "klassik-nietzsche-archiv"
+            ]
+          },
+          {
+            "when": "1901–1906",
+            "label": "The Will to Power is published — an arrangement of notebook material by Elisabeth and Peter Gast, expanded in 1906. The SEP judges the compilation not well founded in Nietzsche's surviving plans and marred by Elisabeth's editorial hand; the critical Colli–Montinari edition, begun in 1967, dissolved the book back into the notebooks, Montinari concluding that a book called The Will to Power does not exist. Elisabeth's tampering with letters is documented separately; the broader claim that she forged The Will to Power outruns the record and is not made here.",
+            "sources": [
               "sep-nietzsche"
             ]
           }
@@ -3434,7 +3509,16 @@
         "sources": [
           "sep-nietzsche",
           "brit-nietzsche",
-          "iep-nietzsche"
+          "iep-nietzsche",
+          "larb-townsend-horse",
+          "verrecchia-catastrofe",
+          "hemelsoet-2008",
+          "huenemann-oxford",
+          "arquivos-2015",
+          "gilman-conversations",
+          "young-sorrento",
+          "babich-zukunftsphilologie",
+          "klassik-nietzsche-archiv"
         ]
       },
       {
@@ -4738,9 +4822,10 @@
       {
         "id": "sep-nietzsche",
         "title": "Friedrich Nietzsche",
-        "url": "https://plato.stanford.edu/entries/nietzsche/",
+        "url": "https://plato.stanford.edu/archives/sum2026/entries/nietzsche/",
         "publisher": "Stanford Encyclopedia of Philosophy",
-        "type": "encyclopedia"
+        "type": "encyclopedia",
+        "publisherNote": "Cited from the archived Summer 2026 edition, which is fixed text; the live entry can change silently."
       },
       {
         "id": "brit-nietzsche",
@@ -4752,9 +4837,10 @@
       {
         "id": "iep-nietzsche",
         "title": "Friedrich Nietzsche",
-        "url": "https://iep.utm.edu/nietzsche/",
+        "url": "https://iep.utm.edu/nietzsch/",
         "publisher": "Internet Encyclopedia of Philosophy",
-        "type": "encyclopedia"
+        "type": "encyclopedia",
+        "publisherNote": "The biography lives at /nietzsch/, without the final e; /nietzsche/ on the same site is a different, thematic article. The short slug is the one this page cites."
       },
       {
         "id": "sep-leibniz",
@@ -4978,6 +5064,71 @@
         "title": "Eusebius, Historia ecclesiastica II.4, 5, 17, 18",
         "url": "https://www.newadvent.org/fathers/250102.htm",
         "publisher": "Nicene and Post-Nicene Fathers, ser. 2 vol. 1 (trans. A. C. McGiffert)",
+        "type": "primary"
+      },
+      {
+        "id": "klassik-nietzsche-archiv",
+        "title": "Nietzsche-Archiv",
+        "url": "https://www.klassik-stiftung.de/en/nietzsche-archiv/",
+        "publisher": "Klassik Stiftung Weimar",
+        "type": "institutional"
+      },
+      {
+        "id": "larb-townsend-horse",
+        "title": "Chris Townsend, 'Nietzsche's Horse'",
+        "url": "https://lareviewofbooks.org/blog/essays/nietzsches-horse/",
+        "publisher": "Los Angeles Review of Books, 25 April 2017",
+        "type": "analysis",
+        "publisherNote": "The accessible English treatment of the anecdote's sourcing: the sole original source is a 1900 interview with the landlord by an unnamed journalist relaying an unnamed policeman — third-hand, eleven years after the event, with no coachman and no flogging in it."
+      },
+      {
+        "id": "verrecchia-catastrofe",
+        "title": "Anacleto Verrecchia, La catastrofe di Nietzsche a Torino (Einaudi, 1978)",
+        "url": "https://philpapers.org/rec/VERLCD-12",
+        "publisher": "Einaudi / PhilPapers record",
+        "type": "book"
+      },
+      {
+        "id": "huenemann-oxford",
+        "title": "Charlie Huenemann, 'Nietzsche's Illness', in The Oxford Handbook of Nietzsche (OUP, 2013)",
+        "url": "https://doi.org/10.1093/oxfordhb/9780199534647.013.0004",
+        "publisher": "Oxford University Press",
+        "type": "academic"
+      },
+      {
+        "id": "hemelsoet-2008",
+        "title": "Hemelsoet, Hemelsoet & Devreese, 'The neurological illness of Friedrich Nietzsche' (2008)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18575181/",
+        "publisher": "Acta Neurologica Belgica / PubMed",
+        "type": "academic"
+      },
+      {
+        "id": "arquivos-2015",
+        "title": "'Furious Frederich: Nietzsche's neurosyphilis diagnosis and new hypotheses' (2015)",
+        "url": "https://www.scielo.br/j/anp/a/hKjVTWVT6XCm64MBFM4vLjx/?lang=en",
+        "publisher": "Arquivos de Neuro-Psiquiatria",
+        "type": "academic",
+        "publisherNote": "The survey that keeps the question open, against any source that presents one diagnosis as settled."
+      },
+      {
+        "id": "gilman-conversations",
+        "title": "Sander L. Gilman (ed.), Conversations with Nietzsche: A Life in the Words of His Contemporaries",
+        "url": "https://academic.oup.com/book/48491",
+        "publisher": "Oxford University Press",
+        "type": "book"
+      },
+      {
+        "id": "young-sorrento",
+        "title": "Julian Young, Friedrich Nietzsche: A Philosophical Biography, ch. 13 'Sorrento'",
+        "url": "https://www.cambridge.org/core/books/abs/friedrich-nietzsche/sorrento/CA6A899FD259674EFDCE0BC3B85FD0D5",
+        "publisher": "Cambridge University Press",
+        "type": "book"
+      },
+      {
+        "id": "babich-zukunftsphilologie",
+        "title": "Ulrich von Wilamowitz-Moellendorff, Zukunftsphilologie! (1872), trans. Babette Babich",
+        "url": "https://research.library.fordham.edu/cgi/viewcontent.cgi?article=1001&context=phil_babich",
+        "publisher": "Fordham University research repository",
         "type": "primary"
       }
     ]
