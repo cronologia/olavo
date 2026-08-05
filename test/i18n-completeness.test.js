@@ -161,6 +161,50 @@ for (const lang of LANGS) {
   });
 }
 
+/**
+ * Everything above trusts that the walk in this file selects the same strings
+ * `localizeData` translates. That trust is exactly what broke when the walk and
+ * the compiler drifted, so it is checked directly: translate the dataset with a
+ * dictionary that MARKS every string, then read back which ones the compiler
+ * actually moved. Marking per string (rather than one sentinel for all)
+ * preserves the identity of each, so the two sets are comparable.
+ *
+ * Any divergence — a new subtree allowlist in build.js, a boolean smuggled back
+ * into the walk, a rule reproduced slightly differently here — surfaces as a
+ * named list of strings instead of as a mistranslated page.
+ */
+test('this walk selects exactly the strings localizeData translates', () => {
+  const { localizeData } = require('../build.js');
+  // NUL: legal in a JSON string and present in no real one, so a marked value
+  // cannot collide with dataset prose. (build.js only builds when run directly,
+  // so requiring it here compiles nothing.)
+  const MARK = '\u0000';
+  const markDict = {};
+  for (const s of allStrings()) markDict[s] = MARK + s;
+  const localized = localizeData(data, markDict, 'en');
+
+  const moved = new Set();
+  const collect = (v) => {
+    if (Array.isArray(v)) return v.forEach(collect);
+    if (v && typeof v === 'object') return Object.values(v).forEach(collect);
+    if (typeof v === 'string' && v.startsWith(MARK)) moved.add(v.slice(MARK.length));
+  };
+  collect(localized);
+
+  const selected = new Set(translatableStrings());
+  // Two empty sets agree about nothing. A dataset that routes no string at all
+  // through the dictionaries would make this test vacuous rather than green.
+  assert.ok(selected.size, 'no translatable strings found — this comparison would be vacuous');
+  const onlyCompiler = [...moved].filter((s) => !selected.has(s)).sort();
+  const onlyTest = [...selected].filter((s) => !moved.has(s)).sort();
+  assert.deepStrictEqual(
+    { onlyCompiler, onlyTest }, { onlyCompiler: [], onlyTest: [] },
+    `this file no longer mirrors localizeData. onlyCompiler = strings the build ` +
+    `translates and this audit ignores (they will render untranslated and nothing ` +
+    `else would say so); onlyTest = strings this audit demands translations for ` +
+    `that the build never translates (a Spanish "translation" of a book title).`);
+});
+
 test('doctrine dating: prose goes in dateNote, dates stay in date', () => {
   const items = (data.doctrines && data.doctrines.items) || [];
   assert.ok(items.length, 'no doctrines to check');
