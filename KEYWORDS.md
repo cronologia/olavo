@@ -177,3 +177,35 @@ islâmicas". The lesson is the one already in this file, in its sharpest form ye
 automatically. It is lexical, so it closes the *variant* half of the problem and
 not the *paraphrase* half: no expansion turns "O Profeta da Paz" into "um livro
 sobre o Islam".
+
+## René Girard — a name that is NOT mangled, and the traps around it (checked 2026-08-05)
+
+Recorded in prose deliberately. `corpus-index.py` turns every two-column
+markdown-table row in this file into a query expansion, and each of the
+candidate manglings below is a **false friend**: putting them in a table would
+inject them into every future Girard search and manufacture hits.
+
+Word-boundary, accent-insensitive over the 589 COF transcription files:
+
+- **`Girard` — 12 files, 28 hits.** COF014 (8), COF018 (6), COF036 (4),
+  COF094 (2), then COF033, COF035, COF037, COF163, COF242, COF243, COF507,
+  COF532 with one each. The ASR spells him correctly; he is not a
+  Jouvenel case.
+- **Ruled out, in context, one by one:** `Girar` (15 files) is the Portuguese
+  verb; `Gerard` (17 files) resolves to Gerardo Mello Mourão, Gerardo de
+  Cremona and a "Zé Gerard Vieira", never to René; `Renegado` (3 files) is the
+  ordinary word. `Girards`, `Jirar` and `Renê girado` return nothing at all.
+- **The claim carries further than the name**, as usual. `desejo mimético`
+  6 files / 30 hits — COF036 alone has 17 against 4 occurrences of the name in
+  the same file; `mimético` 9 files / 36 hits; `mimética` 5 files;
+  `bode expiatório` 15 files / 22 hits. Any count of Girard's presence built on
+  the surname alone understates it.
+- **Phrases that return zero**, and are therefore not search routes here:
+  `violência e o sagrado` (the book title as a phrase), `vítima expiatória`,
+  `mecanismo vitimário`. The corpus discusses the ideas without using the
+  Portuguese book title, and `bode expiatório` is the term it actually uses.
+- One incidental finding worth keeping: COF014 (11 July 2009) has a student
+  stating that "a editora Vozes reeditou Coisas Ocultas desde a Fundação do
+  Mundo". Brazilian catalogue records point to Paz e Terra for that title, not
+  Vozes; the claim is a lead, from a reviewed file, and is not asserted
+  anywhere in this dataset.

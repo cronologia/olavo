@@ -2657,6 +2657,114 @@
         }
       ],
       "engagedAulas": 7
+    },
+    "girard": {
+      "canonical": "René Girard",
+      "variants": [
+        "Girard"
+      ],
+      "filesWithHits": 12,
+      "totalHits": 28,
+      "topAulas": [
+        {
+          "aula": 14,
+          "id": "COF014",
+          "hits": 8,
+          "date": "2009-07-11",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 18,
+          "id": "COF018",
+          "hits": 6,
+          "date": "2009-08-18",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 36,
+          "id": "COF036",
+          "hits": 4,
+          "date": "2009-12-12",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 94,
+          "id": "COF094",
+          "hits": 2,
+          "date": "2011-02-12",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 33,
+          "id": "COF033",
+          "hits": 1,
+          "date": "2009-11-21",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 35,
+          "id": "COF035",
+          "hits": 1,
+          "date": "2009-12-05",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 37,
+          "id": "COF037",
+          "hits": 1,
+          "date": "2009-12-19",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 163,
+          "id": "COF163",
+          "hits": 1,
+          "date": "2012-07-14",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 242,
+          "id": "COF242",
+          "hits": 1,
+          "date": "2014-03-15",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 243,
+          "id": "COF243",
+          "hits": 1,
+          "date": "2014-03-22",
+          "dateVerified": true,
+          "reviewStatus": "revisada"
+        },
+        {
+          "aula": 507,
+          "id": "COF507",
+          "hits": 1,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        },
+        {
+          "aula": 532,
+          "id": "COF532",
+          "hits": 1,
+          "date": null,
+          "dateVerified": false,
+          "reviewStatus": "revisao_pendente"
+        }
+      ],
+      "engagedAulas": 2,
+      "variantNote": "Measured 2026-08-05 with the same accent-insensitive word-boundary method as the rest of this file. Girard is a name ASR mangles, so the variant hunt was run before the zero-risk was accepted: 'Girar' (15 files), 'Gerard' (17) and 'Renegado' (3) were all checked in context and NONE is Girard — Girar is the Portuguese verb, Gerard resolves to Gerardo Mello Mourão, Gerardo de Cremona and a 'Zé Gerard Vieira', and Renegado is the ordinary word. 'Girards', 'Jirar' and 'Renê girado' return nothing. The claim-phrase sweep finds more engagement than the name does: 'desejo mimético' 6 files / 30 hits (COF036 alone 17, against 4 hits of the name there), 'mimético' 9 files, 'bode expiatório' 15 files / 22 hits; 'violência e o sagrado', 'vítima expiatória' and 'mecanismo vitimário' return zero as phrases. The counts in this entry are name-based, like every other entry here, and therefore understate the engagement."
     }
   }
 }
