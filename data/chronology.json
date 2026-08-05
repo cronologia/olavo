@@ -500,12 +500,13 @@
       "dateVerified": true,
       "place": "Virginia, USA",
       "title": "Moves to the United States",
-      "text": "Settled in the Richmond, Virginia area, where he lived until his death; the date is given consistently across obituaries and profiles.",
+      "text": "Settled in the Richmond, Virginia area, where he lived until his death. The year is given consistently across obituaries and profiles — all of them secondary — and he confirms it himself on air: answering a caller on 8 October 2007 who had just left Brazil, he says he has been here two years, which puts the move in the second half of 2005 and is the only first-person dating of it found so far. In the same answer he says his first visit to the United States was in 1986, when he was already a grown man, married and the father of several children — the year the traditionalist material places him at Bloomington.",
       "sources": [
         "gazetadopovo-obit",
         "agenciabrasil-obit",
         "gazetadopovo-riobranco",
-        "wikipedia-en"
+        "wikipedia-en",
+        "to-43-dois-anos"
       ],
       "threads": [
         "philosophy-teaching",
@@ -818,13 +819,14 @@
       "dateVerified": false,
       "place": "Europe",
       "title": "Students of the course hold the first European meeting of the seminar",
-      "text": "A gathering of Brazilian students of the Curso Online de Filosofia living in or passing through Europe, with Carvalho joining from the United States. Asked about exile, he said he had escaped the disintegration it caused Solzhenitsyn because he still had his family and an audience of thousands in his own language, and that the exile a philosopher actually needs is temporal rather than geographical — leaving your own epoch to see it with the eyes of another. The year comes from the recording's own title; no date is announced in it.",
+      "text": "A gathering of Brazilian students of the Curso Online de Filosofia living in or passing through Europe, with Carvalho joining from the United States. Asked about exile, the answer given was that the speaker had escaped the disintegration it caused Solzhenitsyn because he still had his family and an audience of thousands in his own language, and that the exile a philosopher actually needs is temporal rather than geographical — leaving your own epoch to see it with the eyes of another. The year comes from the recording's own title; no date is announced in it.",
       "sources": [
         "olavo-video-cof-europa-2016"
       ],
       "threads": [
         "philosophy-teaching"
-      ]
+      ],
+      "dateNote": "Two things about this source, both of which limit it. The recording carries no speaker labels, and it is a group meeting that opens with a host introducing participants by name — so the answer above is attributed to the event rather than to Carvalho, who is its host and its likeliest author but cannot be established as the speaker from the transcript alone. And the transcription is the worst in the collection: Solzhenitsyn survives as 'lula só flores'. Pending a speaker-attributed pass over the audio (archive#62)."
     },
     {
       "year": 2017,
@@ -2253,6 +2255,14 @@
       "publisher": "True Outspeak (BlogTalkRadio)",
       "type": "recording",
       "publisherNote": "19 November 2007, dated from the title parenthetical only. Auto-captioned; the captions render Al-Azhar as 'Universidade de Lázaro'. Nothing is quoted as his exact words pending audio verification."
+    },
+    {
+      "id": "to-43-dois-anos",
+      "title": "True Outspeak #43 — two years in the United States, and the first visit in 1986",
+      "url": "https://www.youtube.com/results?search_query=true+outspeak+43",
+      "publisher": "True Outspeak (BlogTalkRadio)",
+      "type": "recording",
+      "publisherNote": "8 October 2007, dated from the title parenthetical. Auto-captioned but speaker-separated — the passage is his answer to a named caller's question, so the attribution is legible from the transcript, unlike the collection's unlabelled series (archive#62). Nothing quoted as his exact words pending audio."
     }
   ],
   "philosophers": {
