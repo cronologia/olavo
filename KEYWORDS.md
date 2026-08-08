@@ -31,7 +31,7 @@ search traps; multiword variants live in `core/tools/cof-entity-aliases.json`)
 | Frithjof Schuon | Chuon (53), Xuon (5) |
 | René Guénon | Genon (26), Ganon (4) |
 | Louis Lavelle | Lavel (16), Lavell |
-| Eric Voegelin | Voeglin (11), Vogelin, Vegelin, Voguelin — COF spells him correctly in 128 files; the `Eric Fergin` mangling is True Outspeak's alone, see below |
+| Eric Voegelin | Voeglin (11), Vogelin, Vegelin, Voguelin |
 | Edmund Husserl | Russerl (6) |
 | Ortega y Gasset | Gassett (5); multiword "Ortega C"/"Ortega Cela" are in the core alias table |
 | Nietzsche | Nietsche (4), Nietzche (2), Nitzsche, Nitsche |
@@ -45,19 +45,47 @@ The 2002–03 philosophy course produced traps worse than a misspelled name,
 because several render as *real words that change the meaning* — and one that
 is merely a misspelling still hid the most important passage in the course.
 
-**The series inside this collection mangle differently, and a variant learned
-in one does not transfer.** Voegelin is the demonstration: COF spells him
-correctly in 128 files and True Outspeak calls him `Eric Fergin` in nine, so a
-single corpus-wide search on the real name looks productive while silently
-missing almost everything in the video collection. Measure per series before
-concluding anything from a count.
+**The collections mangle differently, and a variant learned in one does not
+transfer.** Voegelin was the first case found: COF spells him correctly in 113
+files and True Outspeak calls him `Eric Fergin`, so a single corpus-wide search
+on the real name looks productive while missing everything in the video
+collection.
+
+Auditing all 25 canonical names in the variant map against each collection
+(2026-08-08) shows it is not one name — **it is the whole collection**. Files
+carrying the canonical spelling versus files carrying only a mangling:
+
+| name | COF canon / var-only | olavo-video canon / var-only |
+|---|---|---|
+| Husserl | 106 / 45 | **0 / 19** |
+| Eric Voegelin | 113 / 7 | **0 / 8** |
+| Lavelle | 88 / 3 | **0 / 7** |
+| Louis Lavelle | 72 / 5 | **0 / 7** |
+| Frithjof Schuon | 27 / 8 | **0 / 6** |
+| Bertrand de Jouvenel | 6 / 5 | **0 / 2** |
+| Al-Azhar | — | **0 / 2** |
+| Ortega y Gasset | 69 / 13 | **0 / 1** |
+| Ellsworth Huntington | 2 / 0 | **0 / 1** |
+| Reinhold Niebuhr | 2 / 0 | **0 / 1** |
+| John Duns Scotus | 3 / 50 | **0 / 1** |
+
+Eleven of the thirteen names measurable in `olavo-video` appear there **zero
+times under their correct spelling**. Only Nietzsche and Martin Lings survive
+it, once each. In COF the canonical usually wins — with one glaring exception,
+**John Duns Scotus, where 50 of 53 files (94%) carry only a variant.**
+
+Practical rule: **in `olavo-video` a canonical-spelling count is not evidence
+of anything.** Search through the variant map (`corpus-index.py` expands
+automatically, but only when you give it the *full* canonical — `Voegelin`
+alone does not match the key `Eric Voegelin`). In COF the canonical is usually
+safe; Duns Scotus is not.
 
 | Actual | Appears in captions as | Why it matters |
 |---|---|---|
 | **Husserl** | `Russel`, `russer` | Reads as Bertrand Russell. In the Aristotle session the surrounding exchange is about phenomenology, and the same file attaches the name to *The Origin of Geometry* — Husserl's text. Taking the caption at face value would invert his stated 20th-century canon (Lavelle, Husserl, then Zubiri/Voegelin/Lonergan) into its opposite. |
 | **Lavelle** | `lavel`, `o lavel` | Cost a real finding. A word-boundary count of the correct spelling returns 1 across the whole 2002 course and reads as a bare name-drop; what is actually there is his twentieth-century canon with Lavelle at its head. Any mention map over this corpus has to be run against the ASR spellings, not the true ones. |
-| **estóicos / estóica** (Stoics) | `históricos`, `histórica` | Systematic through the Hellenistic session. Every Stoic claim in that file reads as a claim about "historical philosophy". A search for Stoicism finds nothing; a reader who does not know the substitution mis-attributes the whole passage. |
-| **pré-socráticos** | `socráticos` (the prefix is dropped) | Produces sentences that state the exact opposite of what was said. Systematic in the pre-Socratics session, where the distinction between Socratics and pre-Socratics is the whole subject. |
+| **estóicos / estóica** (Stoics) | `históricos`, `histórica` (do not expand) | Systematic through the Hellenistic session. Every Stoic claim in that file reads as a claim about "historical philosophy". A search for Stoicism finds nothing; a reader who does not know the substitution mis-attributes the whole passage. |
+| **pré-socráticos** | `socráticos` (the prefix is dropped) (do not expand) | Produces sentences that state the exact opposite of what was said. Systematic in the pre-Socratics session, where the distinction between Socratics and pre-Socratics is the whole subject. |
 | **Eric Voegelin** | `Eric Fergin` | **True Outspeak, not the 2002 course.** `Fergin` is in 9 episodes (12 occurrences); the correct spelling is in 1. Searching the real name finds a tenth of the material. Settled by two independent checks: to-032 pairs him with `Léo Straus` — Strauss and Voegelin being the standard pairing — and to-153 spells him correctly in the same collection. What it hides is not a name-drop but a whole thread: the residential Voegelin course at Colonial Heights, 27 Apr – 2 May 2009, announced across four episodes. |
 
 None of the meaning-changing three is detectable by spellcheck: in each case the wrong word is a
