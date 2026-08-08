@@ -31,7 +31,7 @@ search traps; multiword variants live in `core/tools/cof-entity-aliases.json`)
 | Frithjof Schuon | Chuon (53), Xuon (5) |
 | René Guénon | Genon (26), Ganon (4) |
 | Louis Lavelle | Lavel (16), Lavell |
-| Eric Voegelin | Voeglin (11), Vogelin, Vegelin, Voguelin |
+| Eric Voegelin | Voeglin (11), Vogelin, Vegelin, Voguelin — COF spells him correctly in 128 files; the `Eric Fergin` mangling is True Outspeak's alone, see below |
 | Edmund Husserl | Russerl (6) |
 | Ortega y Gasset | Gassett (5); multiword "Ortega C"/"Ortega Cela" are in the core alias table |
 | Nietzsche | Nietsche (4), Nietzche (2), Nitzsche, Nitsche |
@@ -43,15 +43,22 @@ search traps; multiword variants live in `core/tools/cof-entity-aliases.json`)
 
 The 2002–03 philosophy course produced traps worse than a misspelled name,
 because several render as *real words that change the meaning* — and one that
-is merely a misspelling still hid the most important passage in the course:
+is merely a misspelling still hid the most important passage in the course.
+
+**The series inside this collection mangle differently, and a variant learned
+in one does not transfer.** Voegelin is the demonstration: COF spells him
+correctly in 128 files and True Outspeak calls him `Eric Fergin` in nine, so a
+single corpus-wide search on the real name looks productive while silently
+missing almost everything in the video collection. Measure per series before
+concluding anything from a count.
 
 | Actual | Appears in captions as | Why it matters |
 |---|---|---|
 | **Husserl** | `Russel`, `russer` | Reads as Bertrand Russell. In the Aristotle session the surrounding exchange is about phenomenology, and the same file attaches the name to *The Origin of Geometry* — Husserl's text. Taking the caption at face value would invert his stated 20th-century canon (Lavelle, Husserl, then Zubiri/Voegelin/Lonergan) into its opposite. |
 | **Lavelle** | `lavel`, `o lavel` | Cost a real finding. A word-boundary count of the correct spelling returns 1 across the whole 2002 course and reads as a bare name-drop; what is actually there is his twentieth-century canon with Lavelle at its head. Any mention map over this corpus has to be run against the ASR spellings, not the true ones. |
 | **estóicos / estóica** (Stoics) | `históricos`, `histórica` | Systematic through the Hellenistic session. Every Stoic claim in that file reads as a claim about "historical philosophy". A search for Stoicism finds nothing; a reader who does not know the substitution mis-attributes the whole passage. |
-
 | **pré-socráticos** | `socráticos` (the prefix is dropped) | Produces sentences that state the exact opposite of what was said. Systematic in the pre-Socratics session, where the distinction between Socratics and pre-Socratics is the whole subject. |
+| **Eric Voegelin** | `Eric Fergin` | **True Outspeak, not the 2002 course.** `Fergin` is in 9 episodes (12 occurrences); the correct spelling is in 1. Searching the real name finds a tenth of the material. Settled by two independent checks: to-032 pairs him with `Léo Straus` — Strauss and Voegelin being the standard pairing — and to-153 spells him correctly in the same collection. What it hides is not a name-drop but a whole thread: the residential Voegelin course at Colonial Heights, 27 Apr – 2 May 2009, announced across four episodes. |
 
 None of the meaning-changing three is detectable by spellcheck: in each case the wrong word is a
 valid Portuguese word in context, and in the third the sentence stays
