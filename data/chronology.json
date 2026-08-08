@@ -642,6 +642,21 @@
     },
     {
       "year": 2008,
+      "date": "2008-04",
+      "dateVerified": false,
+      "dateNote": "Announced across several broadcasts for 'the last two weeks of April' 2008; the exact days of that first course are not stated. The three later courses in the series carry full dates.",
+      "place": "Colonial Heights, Virginia, USA",
+      "title": "Residential courses in Virginia, with students flying in from Brazil",
+      "text": "Alongside the online teaching he ran short in-person courses at his own house in Virginia, and his broadcasts announce four of them: political philosophy in the last two weeks of April 2008; method in philosophy, 29 September to 4 October 2008; an introduction to the work of Eric Voegelin, 27 April to 2 May 2009, which he describes as a repeat of the previous year's; and philosophy of science in the second half of May 2010. Enrolment ran through a single intermediary in Paraná reachable by telephone, and he presented the fee as payable in instalments and deliberately modest. The students were Brazilians travelling to the United States: in February 2009 he tells those signed up for the Voegelin course to get their visas as early as they can, warning that entry had become only slightly easier. The two operations were not separate for long — in May 2010 he says the last class of the philosophy-of-science course went out on the Saturday as a session of the online seminar. Self-testimony from machine-transcribed broadcasts, paraphrased; the dates are his announcements, not an institutional record, and no attendance figure is given.",
+      "sources": [
+        "olavo-true-outspeak"
+      ],
+      "threads": [
+        "philosophy-teaching"
+      ]
+    },
+    {
+      "year": 2008,
       "date": "2008-08-04",
       "dateVerified": false,
       "place": "Online (from Virginia, USA)",
@@ -678,7 +693,7 @@
       "dateVerified": true,
       "place": "Online (from Virginia, USA)",
       "title": "First lecture of the Curso Online de Filosofia (COF)",
-      "text": "The paid weekly online philosophy course he taught until his death — 585 lectures over thirteen years. A student index and English Wikipedia date the first class to 14 March 2009. The community transcription corpus of the course is public (see references); this project cites it by lecture number and date only. His own broadcasts bracket the launch closely: on 9 March 2009 he announced the first class for 'next Saturday, the 14th', and a week later reported that they had expected about a hundred people and more than four hundred arrived, collapsing the streaming provider and forcing the bandwidth to be widened. The start had slipped for five months — promised 'next month' in December 2008, then 'February, March at the latest' in January, then 'a week, ten days at most' in late February — and the delivered format was a members-only stream with an open Brazilian phone line rather than the Skype arrangement he had described in October 2008. It began fortnightly and was weekly by that August.",
+      "text": "The paid weekly online philosophy course he taught until his death — 585 lectures over thirteen years. A student index and English Wikipedia date the first class to 14 March 2009. He announced it on 9 March as a five-year course beginning the following Saturday at three in the afternoon, Brasília time, and had been calling it a five-year course on air since at least January; asked why not a Friday or Saturday evening, he said he would not take people's night out. The community transcription corpus of the course is public (see references); this project cites it by lecture number and date only. His own broadcasts bracket the launch closely: on 9 March 2009 he announced the first class for 'next Saturday, the 14th', and a week later reported that they had expected about a hundred people and more than four hundred arrived, collapsing the streaming provider and forcing the bandwidth to be widened. The start had slipped for five months — promised 'next month' in December 2008, then 'February, March at the latest' in January, then 'a week, ten days at most' in late February — and the delivered format was a members-only stream with an open Brazilian phone line rather than the Skype arrangement he had described in October 2008. It began fortnightly and was weekly by that August.",
       "sources": [
         "rafaelalmeida-cof",
         "wikipedia-en",
