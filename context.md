@@ -29,10 +29,11 @@ point at, instead of each project re-explaining him in event notes.
 
 1. **The chronology** (`data/chronology.json` events): his life and works —
    journalism, books with publication dates, the move abroad, the COF, the
-   political years, death and the disputes around it. 32 of 37 core event
-   dates are verified against external sources; every flag and disagreement
-   is visible in the entries.
-2. **The reception layer** (SHIPPED: twenty per-philosopher pages, three
+   political years, death and the disputes around it. 40 of 62 event
+   dates are verified against external sources; the rest carry
+   `dateVerified: false` with their provenance stated, and every flag and
+   disagreement is visible in the entries.
+2. **The reception layer** (SHIPPED: twenty-two per-philosopher pages, three
    locales): for each philosopher Olavo referenced, a page with the thinker's
    own cited timeline plus "Reception in the COF" — which lectures engage
    him, on which dates, from `data/cof-reception.json` (computed from the
