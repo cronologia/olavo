@@ -338,12 +338,10 @@
       "date": "1996",
       "dateVerified": true,
       "place": "Rio de Janeiro, Brazil",
-      "title": "Publishes O Imbecil Coletivo",
-      "text": "His polemic against the Brazilian intelligentsia ('atualidades inculturais brasileiras'); Calil (2021) notes it achieved significant circulation and made him a public figure.",
+      "title": "Publishes Aristóteles em Nova Perspectiva",
+      "text": "His 'theory of the four discourses' reading of Aristotle (Topbooks); year and publisher rest on a single tertiary source.",
       "sources": [
-        "gazetadopovo-obit",
-        "calil-argumentum",
-        "wikipedia-pt"
+        "wikipedia-en"
       ],
       "threads": [
         "philosophy-teaching"
@@ -354,10 +352,12 @@
       "date": "1996",
       "dateVerified": true,
       "place": "Rio de Janeiro, Brazil",
-      "title": "Publishes Aristóteles em Nova Perspectiva",
-      "text": "His 'theory of the four discourses' reading of Aristotle (Topbooks); year and publisher rest on a single tertiary source.",
+      "title": "Publishes O Imbecil Coletivo",
+      "text": "His polemic against the Brazilian intelligentsia ('atualidades inculturais brasileiras'); Calil (2021) notes it achieved significant circulation and made him a public figure.",
       "sources": [
-        "wikipedia-en"
+        "gazetadopovo-obit",
+        "calil-argumentum",
+        "wikipedia-pt"
       ],
       "threads": [
         "philosophy-teaching"
@@ -670,6 +670,20 @@
       ]
     },
     {
+      "year": 2008,
+      "date": "2008-09-24",
+      "dateVerified": false,
+      "place": "São Paulo, Brazil (taught by videoconference from Virginia)",
+      "title": "Last in-person Seminário de Filosofia class announced on air",
+      "text": "After he left Brazil in 2005 the Seminário de Filosofia did not stop: it ran as a monthly evening class at his publisher's premises in Vila Mariana, São Paulo, which he taught by videoconference from Virginia, with enrolment by a Brazilian telephone number. He announced sixteen such sessions on his programme between April 2007 and this one, and then never announced another — seven weeks after the Seminário website went live and five and a half months before the online course began. The absence is measured rather than assumed: he went on making announcements of exactly that kind, for in-person events in Brazil with a phone line, twenty-seven times after this date, and never again for a Seminário class. What the record shows is that he stopped announcing it, not that it was wound up; no broadcast says it ended. Self-testimony from machine-transcribed broadcasts, paraphrased.",
+      "sources": [
+        "olavo-true-outspeak"
+      ],
+      "threads": [
+        "philosophy-teaching"
+      ]
+    },
+    {
       "year": 2009,
       "date": "2009",
       "dateVerified": true,
@@ -693,7 +707,7 @@
       "dateVerified": true,
       "place": "Online (from Virginia, USA)",
       "title": "First lecture of the Curso Online de Filosofia (COF)",
-      "text": "The paid weekly online philosophy course he taught until his death — 585 lectures over thirteen years. A student index and English Wikipedia date the first class to 14 March 2009. He announced it on 9 March as a five-year course beginning the following Saturday at three in the afternoon, Brasília time, and had been calling it a five-year course on air since at least January; asked why not a Friday or Saturday evening, he said he would not take people's night out. The community transcription corpus of the course is public (see references); this project cites it by lecture number and date only. His own broadcasts bracket the launch closely: on 9 March 2009 he announced the first class for 'next Saturday, the 14th', and a week later reported that they had expected about a hundred people and more than four hundred arrived, collapsing the streaming provider and forcing the bandwidth to be widened. The start had slipped for five months — promised 'next month' in December 2008, then 'February, March at the latest' in January, then 'a week, ten days at most' in late February — and the delivered format was a members-only stream with an open Brazilian phone line rather than the Skype arrangement he had described in October 2008. It began fortnightly and was weekly by that August.",
+      "text": "The paid weekly online philosophy course he taught until his death — 585 lectures over thirteen years. A student index and English Wikipedia date the first class to 14 March 2009. He announced it on 9 March as a five-year course beginning the following Saturday at three in the afternoon, Brasília time, and had been calling it a five-year course on air since at least January; asked why not a Friday or Saturday evening, he said he would not take people's night out. The community transcription corpus of the course is public (see references); this project cites it by lecture number and date only. His own broadcasts bracket the launch closely: on 9 March 2009 he announced the first class for 'next Saturday, the 14th', and a week later reported that they had expected about a hundred people and more than four hundred arrived, collapsing the streaming provider and forcing the bandwidth to be widened. The start had slipped for five months — promised 'next month' in December 2008, then 'February, March at the latest' in January, then 'a week, ten days at most' in late February — and the delivered format was a members-only stream with an open Brazilian phone line rather than the Skype arrangement he had described in October 2008. The second lecture followed a week later and only then did it settle into fortnights; he said in April that he was trying to make it weekly and not yet managing, achieved an unbroken weekly run from July, and had it confirmed from the floor on 1 August when a student complained that the course was no longer every fortnight.",
       "sources": [
         "rafaelalmeida-cof",
         "wikipedia-en",
@@ -724,9 +738,10 @@
       "dateVerified": false,
       "place": "Virginia, USA",
       "title": "Says he now holds a green card, ending the visa constraint",
-      "text": "He mentions it first in passing while signing off — he has his green card now, and the country he left has been stolen from him. Three later broadcasts of 2010 fill it in: he was admitted as a resident alien of extraordinary ability, the category he says is given to great scientists; it took four years of work and a thousand pages of documents; and he uses it in arguing for the Arizona immigration law. This bears on the shape of the emigration: the constraint under which he left Brazil in 2005 has an end date, and it falls here. Self-testimony from machine-transcribed broadcasts, paraphrased and dated to them; no immigration record has been sought or seen.",
+      "text": "He mentions it first in passing while signing off — he has his green card now, and the country he left has been stolen from him. Later broadcasts of 2010 fill it in: he was admitted as a resident alien of extraordinary ability, the category he says is given to great scientists; it took four years of work and a great many documents; he describes himself as a foreigner rather than an immigrant, but a permanent resident; and he uses the card in arguing for the Arizona immigration law. The lecture of 7 November 2009 brackets the grant from the other side: he was then still on a journalist visa, calling himself a prisoner of Uncle Sam, and had asked immigration for travel authorisation without yet receiving it — so the constraint under which he left Brazil in 2005 ends within the fifteen weeks between that lecture and this broadcast. Two cautions travel with it. The figures are rhetorical: the same story carries a thousand pages of documents in August 2010 and two thousand in October, always inside an argument against illegal immigration. And he never claims more than residency — in April 2011 he says plainly that he is not an American citizen. Self-testimony from machine-transcribed broadcasts and lectures, paraphrased and dated to them; no immigration record has been sought or seen, and no broadcast dates the grant itself.",
       "sources": [
-        "olavo-true-outspeak"
+        "olavo-true-outspeak",
+        "cof-transcriptions"
       ],
       "threads": [
         "formation-press",
@@ -739,9 +754,10 @@
       "dateVerified": true,
       "place": "Online (from Virginia, USA)",
       "title": "Names Padre Paulo Ricardo as his personal confessor",
-      "text": "In the lecture of 30 October 2010 he described Padre Paulo Ricardo de Azevedo as his personal confessor; a year earlier (28 November 2009) he had called him the only priest in Brazil he trusted, and in May 2010 he recounted the priest's recent visit to his Virginia home. Together with his stated practice of confession as late as 2020 and the sacraments received on his deathbed (reported by Silvio Grimaldo of Brasil Sem Medo), this documents in his own dated words his return to full Catholic practice during the US years. The origin of that return — accounts circulate of a c. 2006 visit — remains unverified and is told differently by sympathetic and hostile sources.",
+      "text": "In the lecture of 30 October 2010 he described Padre Paulo Ricardo de Azevedo as his personal confessor; a year earlier (28 November 2009) he had called him the only priest in Brazil he trusted, and in May 2010 he recounted the priest's recent visit to his Virginia home. On 19 July 2010 he gave the account behind it: he would not confess to priests whose ordination he was unsure was valid, and resolved to wait for a priest he trusted — a period he dates not in years but to the onset of what he calls the confusion in the Church. The broadcasts name the priest from 4 June 2007 and carry three on-air appearances by him during 2009, one of them in studio. This is not a conversion narrative, and the corpus resists being made into one: a year before the confessor statement he told his students in the present tense that he goes to church, receives the sacraments and leaves at once, and that he had confessed on occasions where the priest's advice struck him as idiotic, asking only whether he was absolved (28 November 2009 and 31 October 2009 lectures). In January 2007 he said he was Catholic and always had been. Through the same months he attacked the Brazilian church hierarchy with increasing severity. What is dated here is what he said, on air and in class; no spiritual state is asserted, and the origin of any return — accounts circulate of a c. 2006 visit — remains unverified and is told differently by sympathetic and hostile sources.",
       "sources": [
         "cof-transcriptions",
+        "olavo-true-outspeak",
         "opovo-sacramentos"
       ],
       "threads": [
@@ -786,7 +802,7 @@
       "dateVerified": false,
       "place": "Online (from Virginia, USA)",
       "title": "True Outspeak stops without a farewell",
-      "text": "The last episode preserved in the archive's capture of the series ends the way every other one does — the time is up, until next week, thank you. There is no farewell in it or in the five before it, and an unexplained five-week gap sits just behind it, between 16 February and 23 March. English Wikipedia has the programme running until 2013; the capture of the public playlist holds 201 episodes and stops here. Recorded as a property of what survives, not as an end date: whether it continued elsewhere is not settled by the material this project holds.",
+      "text": "The last episode preserved in the archive's capture of the series ends the way every other one does — the time is up, until next week, thank you — and it advertises a course five weeks out, at a cheaper venue chosen to cut students' costs. There is no farewell in it or in the nine before it, and an unexplained five-week gap sits just behind it, between 16 February and 23 March, the largest in the whole run. The silence carries less weight than it appears to: across all 201 episodes he explains a missed week exactly once, in May 2010, so saying nothing after a gap is his habit rather than a signal. The gap is in the programme and not in the capture — the uploader's numbering runs to #210 with ten numbers missing, every one of them at an over-long date gap, and across these five weeks the numbering is unbroken. English Wikipedia has the programme running until 2013; the capture of the public playlist holds 201 episodes and stops here. Recorded as a property of what survives, not as an end date: the corpus contains no statement of intent, no farewell and no retrospective, and whether it continued elsewhere is not settled by the material this project holds.",
       "sources": [
         "olavo-true-outspeak"
       ],
@@ -1503,6 +1519,14 @@
           "olavo-true-outspeak",
           "olavo-video-hef",
           "rafaelalmeida-cof"
+        ]
+      },
+      {
+        "title": "'Seminário de Filosofia' names three different things",
+        "text": "He used one name for the in-person body he says he founded in 1987 and taught in Rio, São Paulo, Curitiba and elsewhere; for the subscription website seminariodefilosofia.org, launched 4 August 2008 as a paid archive of his back catalogue; and, from 14 March 2009, for the Curso Online de Filosofia taught inside that site. He drew the boundary himself when the course was new — it would be held on the Seminário's page but was not the Seminário's page, one thing and another thing — and for a time the two had separate memberships and, from March 2010, separate prices. By May 2011 the distinction had collapsed in his own usage: the weekly transmission of the Seminário de Filosofia simply is the course. The consequence for reading him is concrete. He gives two incompatible origin stories under the one name — in one lecture losing his job at O Globo is what freed him to start it, in others it is being abroad and unable to travel to Brazil — and the first can only be the 1980s body while the second can only be the online course. This site therefore names which of the three is meant wherever it matters, and treats an undated 'Seminário' reference as ambiguous rather than resolving it.",
+        "sources": [
+          "olavo-true-outspeak",
+          "cof-transcriptions"
         ]
       }
     ]
