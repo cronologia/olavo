@@ -213,6 +213,33 @@ automatically. It is lexical, so it closes the *variant* half of the problem and
 not the *paraphrase* half: no expansion turns "O Profeta da Paz" into "um livro
 sobre o Islam".
 
+## Aleksandr Dugin — and a trap that was recorded wrongly (corrected 2026-08-09)
+
+**The note in archive#51 saying `Dugin` "returns zero corpus-wide" is wrong, and
+it was wrong in the direction that stops people searching.** Measured 2026-08-09:
+
+| Collection | `Dugin`, canonical |
+|---|---|
+| `olavo-video` | **0** |
+| `cof` | hits |
+| `transcripts` | hits |
+
+The zero is real only in `olavo-video`. COF's 257 `revisada` files are
+human-corrected and their editors normalised the name, so the canonical spelling
+works there; the `revisao_pendente` files, being raw ASR, mangle it like
+everything else. This is the **per-collection asymmetry** already documented for
+Voegelin and Husserl, and this time it had been written down as a corpus-wide
+fact — a note telling searchers not to bother looking. **Record the collection a
+zero was measured in, or the note becomes a false absence with our name on it.**
+
+| Actual | Appears in captions as | Where |
+|---|---|---|
+| **Aleksandr Dugin** | `Alexandre Dugu`, `Duguin`, `Alexandre do Guin`, `Alexandre do Guini`, `Alexandre do Guim`, `du Guin`, `Doug Guin`, `Alexandre Guina`, `Alexandre Doug`, `professor do Guin`, `Dugui`, `Duggin`, `douguin` — (do not expand) | Sixteen-plus forms across `olavo-video` (to-068, to-107, to-194…to-201) and the COF unreviewed files. `Dugan` in the English-language transcripts. Deliberately not expanded: the `Dug*`/`do Gu*` shape is dense with false friends — `do Guenon` (Guénon, ~15 files), `Douglas`, `do Gustavo`, `do Guimarães`, `do Gueroult`, `do Guevara`, `do gueto`, and an unrelated `Eric Duggan` in COF252. Search the claim (the debate, the Russian, eurasianismo) and read outward. |
+| **páginas** | `parnas`; a single page as bare `par` | `olavo-video`, 19 occurrences. Cost a real finding: `550 páginas` returns **zero** across all 201 True Outspeak episodes, while the passage exists and says exactly that. Any search for a page count has to use the mangling. |
+
+Also worth knowing: **`Alexandre` mostly returns Alejandro Peña-Esclusa**, not
+Dugin, and the programme's own name garbles to `True Outak`.
+
 ## René Girard — a name that is NOT mangled, and the traps around it (checked 2026-08-05)
 
 Recorded in prose deliberately. `corpus-index.py` turns every two-column
