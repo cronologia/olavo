@@ -273,3 +273,26 @@ Word-boundary, accent-insensitive over the 589 COF transcription files:
   Mundo". Brazilian catalogue records point to Paz e Terra for that title, not
   Vozes; the claim is a lead, from a reviewed file, and is not asserted
   anywhere in this dataset.
+
+## Ku Klux Klan / KKK
+
+- **Lexical presence is exactly two Olavo loci** (index of 2026-08-10, all
+  1,027 files: cof 589, olavo-video 237, transcripts 201). COF397 (undated,
+  revisao_pendente, two copies of one passage): Charlottesville 2017
+  commentary — the torch marches are "estética nazista... que só lembra um
+  pouquinho o KKK". COF182 (2012-12-01, revisada): the sentence "não teríeis
+  podido produzir nada melhor do que a Ku Klux Klan ou os fascistas" is
+  **Bertrand Russell's**, read aloud to be refuted — a quotation, not Olavo's
+  claim. Everything else is noise: `kkk` as a laugh token in sng-002, and
+  teitelbaum-war-for-eternity (transcripts collection, Teitelbaum's voice, not
+  Olavo's) on the blues musician who befriended Klansmen who then left the
+  Klan — the Daryl Davis story.
+- **Known zero: "the Klan collapsed because Catholics fought them in the
+  street".** Searched as names (`Klux`, `Klan`, `KKK`) and as the claim
+  (`católicos porrada`, `católicos brigar rua`, `capuzes brancos`,
+  `cruz queimando`, `linchamento católicos`, `tochas`, `Cavaleiros de
+  Colombo`, `juramento falso católicos`); positive control `anticatólico` /
+  `anticatólica` hits all three collections. 32 indexed files are incomplete
+  (archive#37), so this zero is a lead, not proof of absence — the story may
+  sit in unindexed audio, or be told without any of these anchors. If located,
+  the passage is REQUIRES-AUDIO before quotation.
