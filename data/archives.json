@@ -1,6 +1,6 @@
 {
   "generatedBy": "scripts/archive-refs.js",
-  "updatedAt": "2026-08-04",
+  "updatedAt": "2026-08-10",
   "snapshots": {
     "http://web.archive.org/web/20211215180559/https://olavodecarvalho.org/": {
       "refId": "olavodecarvalho-org-wayback",
@@ -19,6 +19,12 @@
       "archiveUrl": "https://web.archive.org/web/20250707222826/https://aventurasnahistoria.com.br/noticias/historia-hoje/olavo-de-carvalho-morreu-de-covid-19-diz-filha.phtml",
       "timestamp": "20250707222826",
       "checkedAt": "2026-08-02"
+    },
+    "https://bases.cinemateca.org.br/": {
+      "refId": "cinemateca-oculos-vovo",
+      "archiveUrl": "https://web.archive.org/web/20260606220636/https://bases.cinemateca.org.br/",
+      "timestamp": "20260606220636",
+      "checkedAt": "2026-08-10"
     },
     "https://blogs.opovo.com.br/ancoradouro/2022/01/25/olavo-de-carvalho-recebe-os-sacramentos-antes-de-sua-morte/": {
       "refId": "opovo-sacramentos",
@@ -68,6 +74,12 @@
       "timestamp": "20220525055855",
       "checkedAt": "2026-08-03"
     },
+    "https://elienaijr.wordpress.com/2007/01/26/37/": {
+      "refId": "elienai-girard-entrevista",
+      "archiveUrl": "https://web.archive.org/web/20101129192028/http://elienaijr.wordpress.com:80/2007/01/26/37/",
+      "timestamp": "20101129192028",
+      "checkedAt": "2026-08-10"
+    },
     "https://en.fschuon.info/?page_id=209": {
       "refId": "fschuon-bio",
       "archiveUrl": "https://web.archive.org/web/20241126235034/https://en.fschuon.info/?page_id=209",
@@ -85,6 +97,12 @@
       "archiveUrl": "https://web.archive.org/web/20260607145658/https://exame.com/brasil/bolsonaro-decreta-luto-de-um-dia-por-morte-de-olavo-de-carvalho/",
       "timestamp": "20260607145658",
       "checkedAt": "2026-08-02"
+    },
+    "https://faculdadejesuita.edu.br/wp-content/uploads/2024/07/2019-MIRIAN-DORNAS-GOMES-PEREIRA.pdf": {
+      "refId": "faje-mario",
+      "archiveUrl": "https://web.archive.org/web/20250807005047/https://faculdadejesuita.edu.br/wp-content/uploads/2024/07/2019-MIRIAN-DORNAS-GOMES-PEREIRA.pdf",
+      "timestamp": "20250807005047",
+      "checkedAt": "2026-08-10"
     },
     "https://github.com/alissonryan/cof-olavo": {
       "refId": "cof-transcriptions",
@@ -104,6 +122,12 @@
       "timestamp": "20240423054128",
       "checkedAt": "2026-08-03"
     },
+    "https://hub.jhu.edu/2016/03/22/hopkins-humanities-fiftieth-conference/": {
+      "refId": "jhu-hub-1966",
+      "archiveUrl": "https://web.archive.org/web/20260120155950/https://hub.jhu.edu/2016/03/22/hopkins-humanities-fiftieth-conference/",
+      "timestamp": "20260120155950",
+      "checkedAt": "2026-08-10"
+    },
     "https://iep.utm.edu/aristotle/": {
       "refId": "iep-aristotle",
       "archiveUrl": "https://web.archive.org/web/20260730160337/https://iep.utm.edu/aristotle/",
@@ -115,6 +139,12 @@
       "archiveUrl": "https://web.archive.org/web/20220119073455/https://iep.utm.edu/augustin/",
       "timestamp": "20220119073455",
       "checkedAt": "2026-08-04"
+    },
+    "https://iep.utm.edu/girard/": {
+      "refId": "iep-girard",
+      "archiveUrl": "https://web.archive.org/web/20260806163334/https://iep.utm.edu/girard/",
+      "timestamp": "20260806163334",
+      "checkedAt": "2026-08-10"
     },
     "https://iep.utm.edu/hegelsoc/": {
       "refId": "iep-hegel",
@@ -145,6 +175,12 @@
       "archiveUrl": "https://web.archive.org/web/20260801112732/https://iep.utm.edu/leib-met/",
       "timestamp": "20260801112732",
       "checkedAt": "2026-08-04"
+    },
+    "https://iep.utm.edu/nietzsch/": {
+      "refId": "iep-nietzsche",
+      "archiveUrl": "https://web.archive.org/web/20260801184143/https://iep.utm.edu/nietzsch/",
+      "timestamp": "20260801184143",
+      "checkedAt": "2026-08-10"
     },
     "https://iep.utm.edu/philo/": {
       "refId": "iep-philo",
@@ -182,6 +218,12 @@
       "timestamp": "20260803101205",
       "checkedAt": "2026-08-03"
     },
+    "https://impactum-journals.uc.pt/rfc/article/view/14352": {
+      "refId": "coimbra-amsterda-2024",
+      "archiveUrl": "https://web.archive.org/web/20260415105548/https://impactum-journals.uc.pt/rfc/article/view/14352",
+      "timestamp": "20260415105548",
+      "checkedAt": "2026-08-10"
+    },
     "https://istoe.com.br/apos-dois-dias-internado-olavo-de-carvalho-recebe-alta-do-hospital/": {
       "refId": "istoe-alta-2020",
       "archiveUrl": "https://web.archive.org/web/20200320033345/https://istoe.com.br/apos-dois-dias-internado-olavo-de-carvalho-recebe-alta-do-hospital/",
@@ -193,6 +235,18 @@
       "archiveUrl": "https://web.archive.org/web/20190426100620/https://jornalggn.com.br/politica/olavo-de-carvalho-e-militares-de-parceiros-ideologicos-a-rivais-por-maria-cristina-fernandes/",
       "timestamp": "20190426100620",
       "checkedAt": "2026-08-04"
+    },
+    "https://jscholarship.library.jhu.edu/items/78b234fd-4458-4111-9b37-210e5d1c13f0": {
+      "refId": "jhu-jscholarship-1966",
+      "archiveUrl": "https://web.archive.org/web/20250711040437/https://jscholarship.library.jhu.edu/items/78b234fd-4458-4111-9b37-210e5d1c13f0",
+      "timestamp": "20250711040437",
+      "checkedAt": "2026-08-10"
+    },
+    "https://lareviewofbooks.org/blog/essays/nietzsches-horse/": {
+      "refId": "larb-townsend-horse",
+      "archiveUrl": "https://web.archive.org/web/20260702002650/https://lareviewofbooks.org/blog/essays/nietzsches-horse/",
+      "timestamp": "20260702002650",
+      "checkedAt": "2026-08-10"
     },
     "https://livraria.seminariodefilosofia.org/os-eua-e-a-nom": {
       "refId": "livraria-seminario-dugin",
@@ -206,6 +260,12 @@
       "timestamp": "20251206151830",
       "checkedAt": "2026-08-04"
     },
+    "https://msupress.org/9781611862836/evolution-of-desire/": {
+      "refId": "haven-evolution-desire",
+      "archiveUrl": "https://web.archive.org/web/20260513103327/https://msupress.org/9781611862836/evolution-of-desire/",
+      "timestamp": "20260513103327",
+      "checkedAt": "2026-08-10"
+    },
     "https://nexojornal.com.br/expresso/2018/11/09/Como-Bolsonaro-usa-livros-para-refor%C3%A7ar-seu-discurso": {
       "refId": "nexo-livros",
       "archiveUrl": "https://web.archive.org/web/20250818105133/https://www.nexojornal.com.br/expresso/2018/11/09/Como-Bolsonaro-usa-livros-para-refor%C3%A7ar-seu-discurso",
@@ -217,6 +277,12 @@
       "archiveUrl": "https://web.archive.org/web/20210514051037/https://observador.pt/especiais/deus-constituicao-e-flirts-os-discursos-de-bolsonaro-nas-entrelinhas/",
       "timestamp": "20210514051037",
       "checkedAt": "2026-08-02"
+    },
+    "https://olavodecarvalho.org/": {
+      "refId": "olavo-girard-coletividade",
+      "archiveUrl": "https://web.archive.org/web/20260803101133/https://olavodecarvalho.org/",
+      "timestamp": "20260803101133",
+      "checkedAt": "2026-08-10"
     },
     "https://olavodecarvalho.org/wp-content/uploads/2018/07/Olavo-de-Carvalho-Curr%C3%ADculo.pdf": {
       "refId": "olavo-cv-pdf",
@@ -235,6 +301,12 @@
       "archiveUrl": "https://web.archive.org/web/20221015032812/https://olavodecarvalhofb.wordpress.com/2021/05/18/18-5-2021/",
       "timestamp": "20221015032812",
       "checkedAt": "2026-08-03"
+    },
+    "https://olavodecarvalhofb.wordpress.com/2021/05/23/ordem-cronologica-das-obras-e-trabalhos/": {
+      "refId": "olavofb-cronologia",
+      "archiveUrl": "https://web.archive.org/web/20250818100953/https://olavodecarvalhofb.wordpress.com/2021/05/23/ordem-cronologica-das-obras-e-trabalhos/",
+      "timestamp": "20250818100953",
+      "checkedAt": "2026-08-10"
     },
     "https://olavodecarvalhofb.wordpress.com/2022/07/02/41846/": {
       "refId": "olavofb-medalha",
@@ -272,6 +344,12 @@
       "timestamp": "20251104094152",
       "checkedAt": "2026-08-04"
     },
+    "https://pt.wikipedia.org/wiki/M%C3%A1rio_Ferreira_dos_Santos": {
+      "refId": "ptwiki-mario",
+      "archiveUrl": "https://web.archive.org/web/20251116191732/https://pt.wikipedia.org/wiki/M%C3%A1rio_Ferreira_dos_Santos",
+      "timestamp": "20251116191732",
+      "checkedAt": "2026-08-10"
+    },
     "https://pt.wikipedia.org/wiki/O_Jardim_das_Afli%C3%A7%C3%B5es_(filme)": {
       "refId": "wikipedia-pt-film",
       "archiveUrl": "https://web.archive.org/web/20260708215339/https://pt.wikipedia.org/wiki/O_Jardim_das_Afli%C3%A7%C3%B5es_(filme)",
@@ -283,6 +361,30 @@
       "archiveUrl": "https://web.archive.org/web/20260618203000/https://pt.wikipedia.org/wiki/Olavo_de_Carvalho",
       "timestamp": "20260618203000",
       "checkedAt": "2026-08-02"
+    },
+    "https://pubmed.ncbi.nlm.nih.gov/18575181/": {
+      "refId": "hemelsoet-2008",
+      "archiveUrl": "https://web.archive.org/web/20260130095420/https://pubmed.ncbi.nlm.nih.gov/18575181/",
+      "timestamp": "20260130095420",
+      "checkedAt": "2026-08-10"
+    },
+    "https://rene-girard.fr/accueil/biographie": {
+      "refId": "renegirardfr-bio",
+      "archiveUrl": "https://web.archive.org/web/20251107185332/https://www.rene-girard.fr/accueil/biographie",
+      "timestamp": "20251107185332",
+      "checkedAt": "2026-08-10"
+    },
+    "https://repositorio.ufpb.br/jspui/bitstream/tede/9570/7/Arquivototal.pdf": {
+      "refId": "ufpb-santos-2016",
+      "archiveUrl": "https://web.archive.org/web/20251101034957/https://repositorio.ufpb.br/jspui/bitstream/tede/9570/7/Arquivototal.pdf",
+      "timestamp": "20251101034957",
+      "checkedAt": "2026-08-10"
+    },
+    "https://research.library.fordham.edu/cgi/viewcontent.cgi?article=1001&context=phil_babich": {
+      "refId": "babich-zukunftsphilologie",
+      "archiveUrl": "https://web.archive.org/web/20240513234044/https://research.library.fordham.edu/cgi/viewcontent.cgi?article=1001&context=phil_babich",
+      "timestamp": "20240513234044",
+      "checkedAt": "2026-08-10"
     },
     "https://revistaoeste.com/brasil/olavo-de-carvalho-nao-morreu-de-covid-19-afirma-medico-particular-do-escritor/": {
       "refId": "revistaoeste-medico",
@@ -296,11 +398,23 @@
       "timestamp": "20240514193150",
       "checkedAt": "2026-08-02"
     },
+    "https://revistas.pucsp.br/index.php/verve/article/view/5203": {
+      "refId": "verve-ramus-2008",
+      "archiveUrl": "https://web.archive.org/web/20260115172405/https://revistas.pucsp.br/index.php/verve/article/view/5203",
+      "timestamp": "20260115172405",
+      "checkedAt": "2026-08-10"
+    },
     "https://sensoincomum.org/2017/10/27/filme-jardim-aflicoes-olavo-carvalho-ufpe/": {
       "refId": "sensoincomum-ufpe",
       "archiveUrl": "https://web.archive.org/web/20250708210625/https://sensoincomum.org/2017/10/27/filme-jardim-aflicoes-olavo-carvalho-ufpe/",
       "timestamp": "20250708210625",
       "checkedAt": "2026-08-02"
+    },
+    "https://stanfordmag.org/contents/eminent-theorist": {
+      "refId": "stanfordmag-girard",
+      "archiveUrl": "https://web.archive.org/web/20260116000534/https://stanfordmag.org/contents/eminent-theorist",
+      "timestamp": "20260116000534",
+      "checkedAt": "2026-08-10"
     },
     "https://traditionalistblog.blogspot.com/2020/10/new-website-and-new-videos-about-schuon.html": {
       "refId": "sedgwick-blog-schuon",
@@ -314,17 +428,53 @@
       "timestamp": "20251207023853",
       "checkedAt": "2026-08-03"
     },
+    "https://violenceandreligion.com/rene-girard-2/": {
+      "refId": "covr-girard",
+      "archiveUrl": "https://web.archive.org/web/20260711012406/https://violenceandreligion.com/rene-girard-2/",
+      "timestamp": "20260711012406",
+      "checkedAt": "2026-08-10"
+    },
     "https://voegelinview.com/biographical-sketch/": {
       "refId": "voegelinview-bio",
       "archiveUrl": "https://web.archive.org/web/20260629224823/https://voegelinview.com/biographical-sketch/",
       "timestamp": "20260629224823",
       "checkedAt": "2026-08-04"
     },
+    "https://www.academie-francaise.fr/actualites/deces-de-m-rene-girard-f37": {
+      "refId": "academie-girard-deces",
+      "archiveUrl": "https://web.archive.org/web/20251205153259/https://www.academie-francaise.fr/actualites/deces-de-m-rene-girard-f37",
+      "timestamp": "20251205153259",
+      "checkedAt": "2026-08-10"
+    },
+    "https://www.academie-francaise.fr/actualites/reception-de-m-rene-girard-f37": {
+      "refId": "academie-girard-reception",
+      "archiveUrl": "https://web.archive.org/web/20260218032854/https://www.academie-francaise.fr/actualites/reception-de-m-rene-girard-f37",
+      "timestamp": "20260218032854",
+      "checkedAt": "2026-08-10"
+    },
+    "https://www.academie-francaise.fr/discours-de-reception-et-reponse-de-m-michel-serres": {
+      "refId": "academie-girard-serres",
+      "archiveUrl": "https://web.archive.org/web/20260208055030/https://www.academie-francaise.fr/discours-de-reception-et-reponse-de-m-michel-serres",
+      "timestamp": "20260208055030",
+      "checkedAt": "2026-08-10"
+    },
+    "https://www.academie-francaise.fr/les-immortels/rene-girard": {
+      "refId": "academie-girard",
+      "archiveUrl": "https://web.archive.org/web/20260415201604/https://www.academie-francaise.fr/les-immortels/rene-girard",
+      "timestamp": "20260415201604",
+      "checkedAt": "2026-08-10"
+    },
     "https://www.adorocinema.com/noticias/filmes/noticia-131258/": {
       "refId": "adorocinema-estreia",
       "archiveUrl": "https://web.archive.org/web/20250713203950/https://www.adorocinema.com/noticias/filmes/noticia-131258/",
       "timestamp": "20250713203950",
       "checkedAt": "2026-08-04"
+    },
+    "https://www.arlea.fr/Quand-ces-choses-commenceront": {
+      "refId": "girard-quand-ces-choses",
+      "archiveUrl": "https://web.archive.org/web/20230930002158/https://www.arlea.fr/Quand-ces-choses-commenceront",
+      "timestamp": "20230930002158",
+      "checkedAt": "2026-08-10"
     },
     "https://www.bahianoticias.com.br/holofote/noticia/71000-caetano-veloso-notifica-herdeiras-de-olavo-de-carvalho": {
       "refId": "bahianoticias-herdeiras",
@@ -446,6 +596,12 @@
       "timestamp": "20260716124854",
       "checkedAt": "2026-08-04"
     },
+    "https://www.britannica.com/biography/Rene-Girard": {
+      "refId": "brit-girard",
+      "archiveUrl": "https://web.archive.org/web/20260807073915/https://www.britannica.com/biography/Rene-Girard",
+      "timestamp": "20260807073915",
+      "checkedAt": "2026-08-10"
+    },
     "https://www.britannica.com/biography/Saint-Augustine": {
       "refId": "brit-agostinho",
       "archiveUrl": "https://web.archive.org/web/20260718014753/https://www.britannica.com/biography/Saint-Augustine",
@@ -475,6 +631,12 @@
       "archiveUrl": "https://web.archive.org/web/20250724113257/https://www.camara.leg.br/noticias/669762-projeto-anula-decreto-que-concedeu-ordem-de-rio-branco-a-olavo-de-carvalho/",
       "timestamp": "20250724113257",
       "checkedAt": "2026-08-02"
+    },
+    "https://www.cambridge.org/core/books/abs/friedrich-nietzsche/sorrento/CA6A899FD259674EFDCE0BC3B85FD0D5": {
+      "refId": "young-sorrento",
+      "archiveUrl": "https://web.archive.org/web/20250418062351/https://www.cambridge.org/core/books/abs/friedrich-nietzsche/sorrento/CA6A899FD259674EFDCE0BC3B85FD0D5",
+      "timestamp": "20250418062351",
+      "checkedAt": "2026-08-10"
     },
     "https://www.cartacapital.com.br/justica/justica-notifica-herdeiras-de-olavo-por-divida-de-29-milhoes-a-caetano-veloso/": {
       "refId": "cartacapital-herdeiras",
@@ -578,17 +740,59 @@
       "timestamp": "20230930183642",
       "checkedAt": "2026-08-02"
     },
+    "https://www.gazetadopovo.com.br/vozes/francisco-escorsim/editoras-em-tempos-de-guerra-cultural-ii/": {
+      "refId": "gazeta-escorsim-2018",
+      "archiveUrl": "https://web.archive.org/web/20221019233036/https://www.gazetadopovo.com.br/vozes/francisco-escorsim/editoras-em-tempos-de-guerra-cultural-ii/",
+      "timestamp": "20221019233036",
+      "checkedAt": "2026-08-10"
+    },
+    "https://www.grasset.fr/livre/shakespeare-les-feux-de-lenvie-9782246249917/": {
+      "refId": "grasset-shakespeare-girard",
+      "archiveUrl": "https://web.archive.org/web/20260520020031/https://www.grasset.fr/livre/shakespeare-les-feux-de-lenvie-9782246249917/",
+      "timestamp": "20260520020031",
+      "checkedAt": "2026-08-10"
+    },
+    "https://www.hfsbooks.com/books/deceit-desire-and-the-novel-girard/": {
+      "refId": "hfs-deceit-girard",
+      "archiveUrl": "https://web.archive.org/web/20201128015043/https://www.hfsbooks.com/books/deceit-desire-and-the-novel-girard/",
+      "timestamp": "20201128015043",
+      "checkedAt": "2026-08-10"
+    },
     "https://www.hotnews.ro/stiri-international-25328501-astrolog-filosof-coronasceptic-olavo-carvalho-murit-covid-19-mentorul-presedintelui-jair-bolsonaro-fusese-decorat-ordinul-national-pentru-merit-romaniei-grad-comandor.htm": {
       "refId": "hotnews-decoratie",
       "archiveUrl": "https://web.archive.org/web/20220202192933/https://www.hotnews.ro/stiri-international-25328501-astrolog-filosof-coronasceptic-olavo-carvalho-murit-covid-19-mentorul-presedintelui-jair-bolsonaro-fusese-decorat-ordinul-national-pentru-merit-romaniei-grad-comandor.htm",
       "timestamp": "20220202192933",
       "checkedAt": "2026-08-04"
     },
+    "https://www.imitatio.org/": {
+      "refId": "imitatio-girard",
+      "archiveUrl": "https://web.archive.org/web/20260730001928/http://www.imitatio.org/",
+      "timestamp": "20260730001928",
+      "checkedAt": "2026-08-10"
+    },
+    "https://www.influencewatch.org/non-profit/the-thiel-foundation/": {
+      "refId": "influencewatch-thiel",
+      "archiveUrl": "https://web.archive.org/web/20260421154824/https://www.influencewatch.org/non-profit/the-thiel-foundation/",
+      "timestamp": "20260421154824",
+      "checkedAt": "2026-08-10"
+    },
     "https://www.jornaldocomercio.com/_conteudo/politica/2021/04/787642-olavo-de-carvalho-volta-a-ser-internado-com-problemas-respiratorios.html": {
       "refId": "jc-trachea-2021",
       "archiveUrl": "https://web.archive.org/web/20210414171040/https://www.jornaldocomercio.com/_conteudo/politica/2021/04/787642-olavo-de-carvalho-volta-a-ser-internado-com-problemas-respiratorios.html",
       "timestamp": "20210414171040",
       "checkedAt": "2026-08-04"
+    },
+    "https://www.klassik-stiftung.de/en/nietzsche-archiv/": {
+      "refId": "klassik-nietzsche-archiv",
+      "archiveUrl": "https://web.archive.org/web/20250111081355/https://www.klassik-stiftung.de/en/nietzsche-archiv/",
+      "timestamp": "20250111081355",
+      "checkedAt": "2026-08-10"
+    },
+    "https://www.metropoles.com/brasil/herdeiros-de-olavo-de-carvalho": {
+      "refId": "metropoles-herdeiros",
+      "archiveUrl": "https://web.archive.org/web/20240630104715/https://www.metropoles.com/brasil/herdeiros-de-olavo-de-carvalho",
+      "timestamp": "20240630104715",
+      "checkedAt": "2026-08-10"
     },
     "https://www.metropoles.com/brasil/olavo-de-carvalho-guru-do-bolsonarismo-morre-aos-74-anos": {
       "refId": "metropoles-obit",
@@ -656,6 +860,18 @@
       "timestamp": "20250424010222",
       "checkedAt": "2026-08-02"
     },
+    "https://www.oindividuo.com/": {
+      "refId": "oindividuo-girard-2000",
+      "archiveUrl": "https://web.archive.org/web/20260425141756/http://www.oindividuo.com/",
+      "timestamp": "20260425141756",
+      "checkedAt": "2026-08-10"
+    },
+    "https://www.patheos.com/blogs/cosmostheinlost/2017/02/10/the-stanford-memorial-resolution-for-rene-girard/": {
+      "refId": "stanford-memorial-girard",
+      "archiveUrl": "https://web.archive.org/web/20250512215310/https://www.patheos.com/blogs/cosmostheinlost/2017/02/10/the-stanford-memorial-resolution-for-rene-girard/",
+      "timestamp": "20250512215310",
+      "checkedAt": "2026-08-10"
+    },
     "https://www.poder360.com.br/brasil/internado-olavo-de-carvalho-tem-infeccao-urinaria-e-na-corrente-sanguinea/": {
       "refId": "poder360-sepse",
       "archiveUrl": "https://web.archive.org/web/20251019023947/https://www.poder360.com.br/brasil/internado-olavo-de-carvalho-tem-infeccao-urinaria-e-na-corrente-sanguinea/",
@@ -704,6 +920,18 @@
       "timestamp": "20260313172228",
       "checkedAt": "2026-08-02"
     },
+    "https://www.pragmatismopolitico.com.br/2024/02/mario-ferreira-dos-santos-vilem-flusser-olavo-de-carvalho-peso-intelectuais-fora-universidade.html": {
+      "refId": "bonzatto-pragmatismo-2024",
+      "archiveUrl": "https://web.archive.org/web/20260413012527/https://www.pragmatismopolitico.com.br/2024/02/mario-ferreira-dos-santos-vilem-flusser-olavo-de-carvalho-peso-intelectuais-fora-universidade.html",
+      "timestamp": "20260413012527",
+      "checkedAt": "2026-08-10"
+    },
+    "https://www.pucsp.br/revistanures/revista6/nures6_carlosvargas.pdf": {
+      "refId": "vargas-nures-2007",
+      "archiveUrl": "https://web.archive.org/web/20070609083759/http://www.pucsp.br/revistanures/revista6/nures6_carlosvargas.pdf",
+      "timestamp": "20070609083759",
+      "checkedAt": "2026-08-10"
+    },
     "https://www.rafaelalmeida.com/cof.html": {
       "refId": "rafaelalmeida-cof",
       "archiveUrl": "https://web.archive.org/web/20260726042015/https://www.rafaelalmeida.com/cof.html",
@@ -715,6 +943,12 @@
       "archiveUrl": "https://web.archive.org/web/20260803100506/https://www.redalyc.org/journal/4755/475571195007/",
       "timestamp": "20260803100506",
       "checkedAt": "2026-08-03"
+    },
+    "https://www.scielo.br/j/anp/a/hKjVTWVT6XCm64MBFM4vLjx/?lang=en": {
+      "refId": "arquivos-2015",
+      "archiveUrl": "https://web.archive.org/web/20260219114857/http://www.scielo.br/j/anp/a/hKjVTWVT6XCm64MBFM4vLjx/?lang=en",
+      "timestamp": "20260219114857",
+      "checkedAt": "2026-08-10"
     },
     "https://www.scielo.br/j/cint/a/M53bML6CVgc73SLTTNFyPMh/?lang=en": {
       "refId": "fdl-contexto-internacional",
@@ -740,11 +974,23 @@
       "timestamp": "20211109012902",
       "checkedAt": "2026-08-04"
     },
+    "https://www.wikidata.org/wiki/Q672004": {
+      "refId": "wikidata-mario",
+      "archiveUrl": "https://web.archive.org/web/20241218002557/https://www.wikidata.org/wiki/Q672004",
+      "timestamp": "20241218002557",
+      "checkedAt": "2026-08-10"
+    },
     "https://www.youtube.com/playlist?list=PLeDYbSG3ee95BaJB-caH9btRz6tcv2sne": {
       "refId": "olavo-true-outspeak",
       "archiveUrl": "https://web.archive.org/web/20260804163257/https://www.youtube.com/playlist?list=PLeDYbSG3ee95BaJB-caH9btRz6tcv2sne",
       "timestamp": "20260804163257",
       "checkedAt": "2026-08-04"
+    },
+    "https://www.youtube.com/watch?v=": {
+      "refId": "to-49-premio-nao-publicado",
+      "archiveUrl": "https://web.archive.org/web/20260808113649/https://www.youtube.com/watch?v=",
+      "timestamp": "20260808113649",
+      "checkedAt": "2026-08-10"
     },
     "https://www.youtube.com/watch?v=BsZXOGDwMb0": {
       "refId": "olavo-video-fdl-2005",
@@ -757,6 +1003,12 @@
       "archiveUrl": "https://web.archive.org/web/20241209054836/https://www.youtube.com/watch?v=L6AB7jZ-hiY",
       "timestamp": "20241209054836",
       "checkedAt": "2026-08-04"
+    },
+    "https://www.youtube.com/watch?v=eVUrUmVV7ps": {
+      "refId": "to-146-islam-livro",
+      "archiveUrl": "https://web.archive.org/web/20260810081204/https://www.youtube.com/watch?v=eVUrUmVV7ps",
+      "timestamp": "20260810081204",
+      "checkedAt": "2026-08-10"
     },
     "https://www.youtube.com/watch?v=ic49hbeYG5o": {
       "refId": "olavo-video-fdl-2000",
