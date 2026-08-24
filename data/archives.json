@@ -1,6 +1,6 @@
 {
   "generatedBy": "scripts/archive-refs.js",
-  "updatedAt": "2026-08-17",
+  "updatedAt": "2026-08-24",
   "snapshots": {
     "http://web.archive.org/web/20211215180559/https://olavodecarvalho.org/": {
       "refId": "olavodecarvalho-org-wayback",
@@ -290,6 +290,12 @@
       "timestamp": "20251119115301",
       "checkedAt": "2026-08-03"
     },
+    "https://olavodecarvalhofb.wordpress.com/2018/11/29/": {
+      "refId": "olavofb-iai",
+      "archiveUrl": "https://web.archive.org/web/20260824072012/https://olavodecarvalhofb.wordpress.com/2018/11/29/",
+      "timestamp": "20260824072012",
+      "checkedAt": "2026-08-24"
+    },
     "https://olavodecarvalhofb.wordpress.com/2021/04/14/14-4-2021/": {
       "refId": "olavofb-trachea",
       "archiveUrl": "https://web.archive.org/web/20221015032820/https://olavodecarvalhofb.wordpress.com/2021/04/14/14-4-2021/",
@@ -433,6 +439,12 @@
       "archiveUrl": "https://web.archive.org/web/20260711012406/https://violenceandreligion.com/rene-girard-2/",
       "timestamp": "20260711012406",
       "checkedAt": "2026-08-10"
+    },
+    "https://violenceandreligion.com/the-history-of-covr/": {
+      "refId": "covr-history",
+      "archiveUrl": "https://web.archive.org/web/20260416082841/https://violenceandreligion.com/the-history-of-covr/",
+      "timestamp": "20260416082841",
+      "checkedAt": "2026-08-24"
     },
     "https://voegelinview.com/biographical-sketch/": {
       "refId": "voegelinview-bio",
@@ -962,6 +974,12 @@
       "timestamp": "20260116085247",
       "checkedAt": "2026-08-04"
     },
+    "https://www.travessa.com.br/o-leao-e-os-ossos-o-que-restou-do-imbecil-vol-iii/artigo/369f04fc-ff4e-45c6-b94e-e9397c13ce6c": {
+      "refId": "travessa-leao",
+      "archiveUrl": "https://web.archive.org/web/20260810080956/https://www.travessa.com.br/o-leao-e-os-ossos-o-que-restou-do-imbecil-vol-iii/artigo/369f04fc-ff4e-45c6-b94e-e9397c13ce6c",
+      "timestamp": "20260810080956",
+      "checkedAt": "2026-08-24"
+    },
     "https://www.universalis.fr/encyclopedie/louis-lavelle/": {
       "refId": "universalis-lavelle",
       "archiveUrl": "https://web.archive.org/web/20241127035142/https://www.universalis.fr/encyclopedie/louis-lavelle/",
@@ -980,11 +998,23 @@
       "timestamp": "20241218002557",
       "checkedAt": "2026-08-10"
     },
+    "https://www.youtube.com/olavodeca/about": {
+      "refId": "youtube-channel",
+      "archiveUrl": "https://web.archive.org/web/20260824072045/https://www.youtube.com/olavodeca/about",
+      "timestamp": "20260824072045",
+      "checkedAt": "2026-08-24"
+    },
     "https://www.youtube.com/playlist?list=PLeDYbSG3ee95BaJB-caH9btRz6tcv2sne": {
       "refId": "olavo-true-outspeak",
       "archiveUrl": "https://web.archive.org/web/20260804163257/https://www.youtube.com/playlist?list=PLeDYbSG3ee95BaJB-caH9btRz6tcv2sne",
       "timestamp": "20260804163257",
       "checkedAt": "2026-08-04"
+    },
+    "https://www.youtube.com/results?search_query=true+outspeak+43": {
+      "refId": "to-43-dois-anos",
+      "archiveUrl": "https://web.archive.org/web/20260810081331/https://www.youtube.com/results?search_query=true+outspeak+43",
+      "timestamp": "20260810081331",
+      "checkedAt": "2026-08-24"
     },
     "https://www.youtube.com/watch?v=": {
       "refId": "to-49-premio-nao-publicado",
