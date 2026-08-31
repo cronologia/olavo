@@ -1,6 +1,6 @@
 {
   "generatedBy": "scripts/archive-refs.js",
-  "updatedAt": "2026-08-24",
+  "updatedAt": "2026-08-31",
   "snapshots": {
     "http://web.archive.org/web/20211215180559/https://olavodecarvalho.org/": {
       "refId": "olavodecarvalho-org-wayback",
@@ -247,6 +247,12 @@
       "archiveUrl": "https://web.archive.org/web/20260702002650/https://lareviewofbooks.org/blog/essays/nietzsches-horse/",
       "timestamp": "20260702002650",
       "checkedAt": "2026-08-10"
+    },
+    "https://lege5.ro/gratuit/gi3dknbr/decretul-nr-581-2000-privind-conferirea-ordinului-national-pentru-merit": {
+      "refId": "lege5-decret-581-2000",
+      "archiveUrl": "https://web.archive.org/web/20260831134815/https://lege5.ro/gratuit/gi3dknbr/decretul-nr-581-2000-privind-conferirea-ordinului-national-pentru-merit",
+      "timestamp": "20260831134815",
+      "checkedAt": "2026-08-31"
     },
     "https://livraria.seminariodefilosofia.org/os-eua-e-a-nom": {
       "refId": "livraria-seminario-dugin",
