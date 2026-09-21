@@ -1,6 +1,6 @@
 {
   "generatedBy": "scripts/archive-refs.js",
-  "updatedAt": "2026-09-14",
+  "updatedAt": "2026-09-21",
   "snapshots": {
     "http://web.archive.org/web/20211215180559/https://olavodecarvalho.org/": {
       "refId": "olavodecarvalho-org-wayback",
@@ -79,6 +79,12 @@
       "archiveUrl": "https://web.archive.org/web/20220525055855/https://diariodonordeste.verdesmares.com.br/ultima-hora/pais/morte-de-olavo-de-carvalho-nao-teve-relacao-com-a-covid-alega-seu-medico-particular-1.3184656",
       "timestamp": "20220525055855",
       "checkedAt": "2026-08-03"
+    },
+    "https://docslib.org/doc/4932555/olavo-lp-de-carvalho": {
+      "refId": "olavo-resume-en",
+      "archiveUrl": "https://web.archive.org/web/20260914124425/https://docslib.org/doc/4932555/olavo-lp-de-carvalho",
+      "timestamp": "20260914124425",
+      "checkedAt": "2026-09-21"
     },
     "https://elienaijr.wordpress.com/2007/01/26/37/": {
       "refId": "elienai-girard-entrevista",
@@ -385,6 +391,12 @@
       "archiveUrl": "https://web.archive.org/web/20260130095420/https://pubmed.ncbi.nlm.nih.gov/18575181/",
       "timestamp": "20260130095420",
       "checkedAt": "2026-08-10"
+    },
+    "https://rdap.publicinterestregistry.org/rdap/domain/midiasemmascara.org": {
+      "refId": "rdap-msm-org",
+      "archiveUrl": "https://web.archive.org/web/20260914124444/https://rdap.publicinterestregistry.org/rdap/domain/midiasemmascara.org",
+      "timestamp": "20260914124444",
+      "checkedAt": "2026-09-21"
     },
     "https://rene-girard.fr/accueil/biographie": {
       "refId": "renegirardfr-bio",
@@ -901,6 +913,12 @@
       "archiveUrl": "https://web.archive.org/web/20250512215310/https://www.patheos.com/blogs/cosmostheinlost/2017/02/10/the-stanford-memorial-resolution-for-rene-girard/",
       "timestamp": "20250512215310",
       "checkedAt": "2026-08-10"
+    },
+    "https://www.persee.fr/doc/rhpr_0035-2403_2008_num_88_2_1336_t7_0207_0000_2": {
+      "refId": "persee-achever-clausewitz",
+      "archiveUrl": "https://web.archive.org/web/20211103074549/https://www.persee.fr/doc/rhpr_0035-2403_2008_num_88_2_1336_t7_0207_0000_2",
+      "timestamp": "20211103074549",
+      "checkedAt": "2026-09-21"
     },
     "https://www.poder360.com.br/brasil/internado-olavo-de-carvalho-tem-infeccao-urinaria-e-na-corrente-sanguinea/": {
       "refId": "poder360-sepse",
