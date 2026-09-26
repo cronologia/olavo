@@ -1,0 +1,13 @@
+{
+  "_about": "Template build.js functions this site customises on purpose. Checked by cronologia/core tools/build-drift.py: an undeclared difference is drift; when the template's version of a declared function changes, the declaration goes STALE until the change is ported here and `base` is bumped (python3 tools/build-drift.py --hash <name>).",
+  "customized": {
+    "renderPage": {
+      "reason": "the philosophers, doctrines and works sections and their nav links",
+      "base": "45fda29b9eea"
+    },
+    "main": {
+      "reason": "writes the philosopher pages for each locale, with the page-language notice",
+      "base": "7d2f6fde8121"
+    }
+  }
+}
