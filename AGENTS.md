@@ -83,6 +83,7 @@ KEYWORDS.md              Finding aid: naming variants, ASR manglings, corpus-mea
 data/glossary-terms.json VENDORED, PINNED list of cronologia/glossary term ids (written by scripts/sync-glossary-terms.js; committed) — validates [[term-id]] cross-links offline
 data/places.json         VENDORED, PINNED copy of the cronologia/core gazetteer (written by scripts/sync-places.js; committed) — coordinates for the optional placesMap renderer; only needed when placesMap is declared
 src/styles.css           Stylesheet (copied into the build)
+src/river.js             Time-river filters, find box and reading window (core#108); copied into the build only when meta.layout is "river"
 src/latam.svg            VENDORED Latin America base map (Natural Earth, public domain) — used by the `map` tier renderer; regenerate with scripts/gen-latam-svg.js (dev-only, needs npm)
 src/world-land.json      COMMITTED world basemap for the placesMap renderer (Natural Earth 1:110m, public domain; see its _meta) — only needed when placesMap is declared
 scripts/validate-data.js Schema check (runs in CI before the build) — also fails on unknown glossary [[term-id]] links

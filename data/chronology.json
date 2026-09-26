@@ -4,6 +4,7 @@
     "subtitle": "Chronology of Olavo de Carvalho (1947–2022): life and works",
     "description": "An open, source-referenced chronology of Olavo de Carvalho — self-taught philosopher and polemicist, teacher of the Curso Online de Filosofia and the central intellectual reference of the Brazilian New Right; earlier a journalist, and briefly a professional astrologer.",
     "language": "en",
+    "layout": "river",
     "siteUrl": "https://cronologia.github.io/olavo/",
     "lastUpdated": "2026-08-04",
     "dataQualityNote": "Work-in-progress dataset compiled from public sources (see references). Contested claims — above all his influence on the Bolsonaro government, the cause of his death, and the episodes of his early trajectory — are attributed to their authors, never asserted in this site's voice. Dates not verified against a primary source are flagged. Corrections against primary sources are welcome.",
