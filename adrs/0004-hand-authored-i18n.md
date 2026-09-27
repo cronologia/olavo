@@ -78,3 +78,21 @@ dataset. The MT disclaimer had become factually false.
   Eduardo Bolsonaro" put an English conjunction on every locale. `name` stays
   untranslated (it holds real names), so the fix is in the label: an
   ampersand reads in all three languages.
+
+## Amendment (2026-09-27, olavo#81)
+
+Decision 1 said the page reads "hand-reviewed translation". That label is a
+claim to readers, and no person had in fact reviewed the es/pt text after its
+last changes. The owner asked instead for an AI review and accepted the
+translations on its strength:
+
+- Claude Opus 5.5 checked every non-identity string of both caches against the
+  English for fidelity (meaning, attributions and hedges, names, dates and
+  numbers, untranslated English, glossary-marker ids, quotations verbatim).
+  It found 20 errors - chiefly translations filed under the wrong English entry
+  on the philosopher pages (course-session labels carrying claims, and claims
+  carrying labels) - and 40 minor slips; all 60 fixes are applied.
+- `_meta.humanReviewed` is now `false`, and `_meta.aiReview` records the model,
+  date, scope and outcome. The page therefore states what is true: written by
+  the assistant, not reviewed by a person. It returns to "reviewed by a person"
+  only when a person has read the text, and the cache's `_meta` says who and when.
