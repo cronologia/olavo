@@ -5147,7 +5147,7 @@
         "title": "René Guénon — author biography",
         "url": "https://worldwisdom.com/author/rene-guenon/",
         "publisher": "World Wisdom (perennialist publisher — labeled as such; biographical text by Oldmeadow)",
-        "type": "publisher"
+        "type": "web"
       },
       {
         "id": "universalis-guenon",
@@ -5240,7 +5240,7 @@
         "title": "Os Brasileiros: Mário Ferreira dos Santos",
         "url": "https://luizberto.com/os-brasileiros-mario-ferreira-dos-santos/",
         "publisher": "Jornal da Besta Fubana (Brazilian cultural blog — biographical profile, sympathetic perspective)",
-        "type": "article",
+        "type": "web",
         "publisherNote": "A sympathetic cultural-blog profile of the rediscovery years. Its biographical detail is downstream of Beraldo 1969 and the 2001 family monograph without saying so, and several of its particulars (a 1940 Globo contract, a list of translated authors including Aristotle and Aquinas) are not corroborated by the academic sources on this page. Cited as evidence of the rediscovery discourse, not as a source for the life."
       },
       {
@@ -5255,7 +5255,7 @@
         "title": "Redescobrindo o filósofo brasileiro Mário Ferreira dos Santos (Eduardo Luiz Santos Cabette, 2014)",
         "url": "https://www.migalhas.com.br/depeso/210801/redescobrindo-o-filosofo-brasileiro-mario-ferreira-dos-santos--uma-pontual-abordagem-criminologico-cultural",
         "publisher": "Migalhas (Brazilian legal portal — opinion article, sympathetic perspective)",
-        "type": "article",
+        "type": "news",
         "publisherNote": "Thin biographically, and downstream of the same two upstream sources. Cited only as evidence of the 2010s rediscovery discourse."
       },
       {
@@ -5291,7 +5291,7 @@
         "title": "Eric Voegelin Biographical Sketch",
         "url": "https://voegelinview.com/biographical-sketch/",
         "publisher": "VoegelinView (journal devoted to Voegelin's thought — sympathetic perspective)",
-        "type": "biography"
+        "type": "web"
       },
       {
         "id": "sep-husserl",
@@ -5340,14 +5340,14 @@
         "title": "Frithjof Schuon — Biography",
         "url": "https://en.fschuon.info/?page_id=209",
         "publisher": "fschuon.info (Schuon estate/circle site — perennialist perspective, labeled as such)",
-        "type": "biography"
+        "type": "web"
       },
       {
         "id": "sedgwick-blog-schuon",
         "title": "Traditionalists: New website and new videos about Schuon (12 Oct 2020)",
         "url": "https://traditionalistblog.blogspot.com/2020/10/new-website-and-new-videos-about-schuon.html",
         "publisher": "Traditionalists blog, Mark Sedgwick (academic historian of Traditionalism — independent/critical perspective)",
-        "type": "blog"
+        "type": "academic"
       },
       {
         "id": "sedgwick-oup",
@@ -5438,14 +5438,14 @@
         "title": "Eusebius, Historia ecclesiastica II.4, 5, 17, 18",
         "url": "https://www.newadvent.org/fathers/250102.htm",
         "publisher": "Nicene and Post-Nicene Fathers, ser. 2 vol. 1 (trans. A. C. McGiffert)",
-        "type": "primary"
+        "type": "book"
       },
       {
         "id": "klassik-nietzsche-archiv",
         "title": "Nietzsche-Archiv",
         "url": "https://www.klassik-stiftung.de/en/nietzsche-archiv/",
         "publisher": "Klassik Stiftung Weimar",
-        "type": "institutional"
+        "type": "official"
       },
       {
         "id": "larb-townsend-horse",
@@ -5503,7 +5503,7 @@
         "title": "Ulrich von Wilamowitz-Moellendorff, Zukunftsphilologie! (1872), trans. Babette Babich",
         "url": "https://research.library.fordham.edu/cgi/viewcontent.cgi?article=1001&context=phil_babich",
         "publisher": "Fordham University research repository",
-        "type": "primary"
+        "type": "academic"
       },
       {
         "id": "iep-girard",
@@ -5525,7 +5525,7 @@
         "title": "René Girard — les immortels, fauteuil 37",
         "url": "https://www.academie-francaise.fr/les-immortels/rene-girard",
         "publisher": "Académie française",
-        "type": "institutional",
+        "type": "official",
         "publisherNote": "The institution he belonged to from 2005, and the official record of the election, the fauteuil, the prizes it awarded him and his death. It is his own academy, not a neutral third party on his standing."
       },
       {
@@ -5533,7 +5533,7 @@
         "title": "Réception de M. René Girard (15 décembre 2005)",
         "url": "https://www.academie-francaise.fr/actualites/reception-de-m-rene-girard-f37",
         "publisher": "Académie française",
-        "type": "institutional",
+        "type": "official",
         "publisherNote": "The Académie's own notice of the ceremony, and the record that settles its date at 15 December 2005 against the 2006 that circulates elsewhere."
       },
       {
@@ -5541,7 +5541,7 @@
         "title": "Discours de réception de M. René Girard et réponse de M. Michel Serres",
         "url": "https://www.academie-francaise.fr/discours-de-reception-et-reponse-de-m-michel-serres",
         "publisher": "Académie française",
-        "type": "primary",
+        "type": "official",
         "publisherNote": "The two speeches as delivered. Serres's reply is where 'the new Darwin of the human sciences' comes from: the phrase is his, spoken in a ceremony whose genre is praise."
       },
       {
@@ -5549,14 +5549,14 @@
         "title": "Décès de M. René Girard (5 novembre 2015)",
         "url": "https://www.academie-francaise.fr/actualites/deces-de-m-rene-girard-f37",
         "publisher": "Académie française",
-        "type": "institutional"
+        "type": "official"
       },
       {
         "id": "covr-girard",
         "title": "René Girard",
         "url": "https://violenceandreligion.com/rene-girard-2/",
         "publisher": "Colloquium on Violence & Religion (COV&R)",
-        "type": "institutional",
+        "type": "official",
         "publisherNote": "The international scholarly association founded around his work, of which he was honorary chair — an interested party on his significance, cited here for institutional facts rather than for evaluation."
       },
       {
@@ -5564,7 +5564,7 @@
         "title": "The History of COV&R",
         "url": "https://violenceandreligion.com/the-history-of-covr/",
         "publisher": "Colloquium on Violence & Religion (COV&R)",
-        "type": "institutional",
+        "type": "official",
         "publisherNote": "The association's account of its own founding — the only detailed one, and written from inside."
       },
       {
@@ -5572,7 +5572,7 @@
         "title": "Memorial Resolution for René Girard (Stanford University Faculty Senate)",
         "url": "https://www.patheos.com/blogs/cosmostheinlost/2017/02/10/the-stanford-memorial-resolution-for-rene-girard/",
         "publisher": "Stanford University Faculty Senate, reproduced on Cosmos the in Lost (Patheos)",
-        "type": "institutional",
+        "type": "official",
         "publisherNote": "Stanford's own faculty resolution, and the strongest source for his degrees and appointments. It is cited through the Patheos mirror because news.stanford.edu is unreachable from this session (Cloudflare); the mirror reproduces the text, it does not authenticate it."
       },
       {
@@ -5580,7 +5580,7 @@
         "title": "Eminent Theorist (René Girard)",
         "url": "https://stanfordmag.org/contents/eminent-theorist",
         "publisher": "Stanford Magazine (Stanford Alumni Association)",
-        "type": "article",
+        "type": "news",
         "publisherNote": "His own university's alumni magazine — a sympathetic profile. It is also one of the two sources dating the English Deceit, Desire, and the Novel to 1966, against the publisher's catalogue."
       },
       {
@@ -5588,7 +5588,7 @@
         "title": "Biographie de René Girard",
         "url": "https://rene-girard.fr/accueil/biographie",
         "publisher": "Association Recherches Mimétiques (French association devoted to his work — sympathetic perspective)",
-        "type": "biography",
+        "type": "web",
         "publisherNote": "Useful for the French academic chronology, and the only source consulted here that splits the Johns Hopkins years cleanly. It differs from Stanford's own record on the Stanford appointment (1980 against 1981), and loses on that point."
       },
       {
@@ -5596,7 +5596,7 @@
         "title": "The Languages of Criticism and the Sciences of Man symposium, 18–21 October 1966 — repository item record",
         "url": "https://jscholarship.library.jhu.edu/items/78b234fd-4458-4111-9b37-210e5d1c13f0",
         "publisher": "JScholarship, Johns Hopkins University Sheridan Libraries",
-        "type": "primary",
+        "type": "archive",
         "publisherNote": "The repository item record for the symposium audio digitised in 2023, cited in place of the Sheridan Libraries news announcement, which returns 403 to this session. The item record itself also returned 403 on the day this entry was written, so it is recorded from the repository identifier rather than from a read of the page."
       },
       {
@@ -5604,7 +5604,7 @@
         "title": "Johns Hopkins humanities conference that changed the field turns 50 (22 March 2016)",
         "url": "https://hub.jhu.edu/2016/03/22/hopkins-humanities-fiftieth-conference/",
         "publisher": "The Hub, Johns Hopkins University",
-        "type": "article",
+        "type": "news",
         "publisherNote": "The host university's fiftieth-anniversary account of its own conference — celebratory, and the reachable source for who convened it and who was invited."
       },
       {
@@ -5612,7 +5612,7 @@
         "title": "Deceit, Desire, and the Novel: Self and Other in Literary Structure — catalogue record",
         "url": "https://www.hfsbooks.com/books/deceit-desire-and-the-novel-girard/",
         "publisher": "Johns Hopkins University Press / Hopkins Fulfillment Services",
-        "type": "publisher",
+        "type": "book",
         "publisherNote": "The publisher's own catalogue record, which dates the Freccero translation to 1965. It is preferred here over the 1966 given by Stanford Magazine and by Wikipedia."
       },
       {
@@ -5620,7 +5620,7 @@
         "title": "Shakespeare : les feux de l'envie — fiche éditeur",
         "url": "https://www.grasset.fr/livre/shakespeare-les-feux-de-lenvie-9782246249917/",
         "publisher": "Éditions Grasset",
-        "type": "publisher",
+        "type": "book",
         "publisherNote": "The French publisher's record, which dates the Prix Médicis essai to 1990 against the 1991 in circulation."
       },
       {
@@ -5628,7 +5628,7 @@
         "title": "Cynthia L. Haven, Evolution of Desire: A Life of René Girard (Michigan State University Press, 2018)",
         "url": "https://msupress.org/9781611862836/evolution-of-desire/",
         "publisher": "Michigan State University Press",
-        "type": "biography",
+        "type": "book",
         "publisherNote": "The biography of record, and the fullest account of the 1958–59 conversion. That account rests on Girard's own retelling, to this author and to earlier interviewers; it does not add an independent record of the events."
       },
       {
@@ -5636,7 +5636,7 @@
         "title": "René Girard, Quand ces choses commenceront… Entretiens avec Michel Treguer (Arléa, 1994)",
         "url": "https://www.arlea.fr/Quand-ces-choses-commenceront",
         "publisher": "Éditions Arléa",
-        "type": "primary",
+        "type": "book",
         "publisherNote": "Girard speaking about himself, more than thirty years after the events he dates. The conversion chronology on this page is his testimony and is presented as such."
       },
       {
@@ -5644,7 +5644,7 @@
         "title": "The Girard Reader, ed. James G. Williams (Crossroad, 1996), including the interview 'The Anthropology of the Cross'",
         "url": "https://search.worldcat.org/title/34473134",
         "publisher": "Crossroad Publishing / WorldCat record",
-        "type": "primary",
+        "type": "book",
         "publisherNote": "Edited by a founder of COV&R and framed as an introduction to the theory. The interview in it restates the same self-account; it does not corroborate it."
       },
       {
@@ -5659,7 +5659,7 @@
         "title": "Imitatio — mimetic theory programme",
         "url": "https://www.imitatio.org/",
         "publisher": "Imitatio, a project of the Thiel Foundation",
-        "type": "institutional",
+        "type": "official",
         "publisherNote": "An interested institutional actor, not a neutral reference. Imitatio was founded in 2007 by Peter Thiel's Thiel Foundation, with Robert Hamerton-Kelly, expressly to fund and propagate mimetic theory. It is cited here for its own existence and programme and never as an adjudication of Girard's standing or of his reception."
       },
       {
@@ -5675,7 +5675,7 @@
         "title": "Olavo de Carvalho, 'René Girard e a coletividade homicida'",
         "url": "https://olavodecarvalho.org/",
         "publisher": "olavodecarvalho.org (the subject's own site)",
-        "type": "article",
+        "type": "analysis",
         "publisherNote": "The subject writing about Girard on his own site. The domain no longer serves that archive: as of August 2026 it returns a parked retail template, and the Internet Archive's availability API answered 429 to every request from this session, so no snapshot could be checked either way. The article is recorded as attested rather than read."
       },
       {
@@ -5683,7 +5683,7 @@
         "title": "Entrevista com René Girard, Hotel Glória, Rio de Janeiro, 18 de novembro de 2000 (publicada em 19/11/2000)",
         "url": "https://www.oindividuo.com/",
         "publisher": "O Indivíduo (Olavo de Carvalho's circle — interviewers Pedro Sette Câmara and Alvaro Velloso de Carvalho, with Olavo de Carvalho taking part)",
-        "type": "primary",
+        "type": "testimony",
         "publisherNote": "The original publication of the interview. The site returns 503 to this session, and the Internet Archive's availability API answered 429 to every request, so no snapshot could be checked either way; the interview is cited from a later reproduction; both ends of that chain sit inside the same network, and nothing independent corroborates the text."
       },
       {
@@ -5691,7 +5691,7 @@
         "title": "Reprodução da entrevista de René Girard no Rio de Janeiro (26 de janeiro de 2007)",
         "url": "https://elienaijr.wordpress.com/2007/01/26/37/",
         "publisher": "elienaijr.wordpress.com (personal blog — unattributed reproduction)",
-        "type": "blog",
+        "type": "testimony",
         "publisherNote": "A blog repost, seven years later, of the O Indivíduo interview. It is the only reachable text of the interview, carries no provenance statement of its own, and is cited as the reachable copy rather than as a source that verifies anything."
       },
       {
@@ -5739,7 +5739,7 @@
         "title": "Stanislavs Ladusãns, Rumos da filosofia atual no Brasil: em auto-retratos (1976), pp. 407–409",
         "url": "https://openlibrary.org/works/OL11010359W",
         "publisher": "Open Library record for the edition",
-        "type": "primary",
+        "type": "book",
         "publisherNote": "Carries Ferreira dos Santos's own self-portrait, and is the single most important document of his self-understanding — including the line 'Nunca ocupei nenhum cargo em nenhuma escola, por princípio'. UNREAD: print only, not obtainable from this session; the quotation reaches this page at second hand and is flagged as such wherever it is used."
       },
       {
@@ -5747,7 +5747,7 @@
         "title": "Nadiejda Galvão and Yolanda Santos, Monografia sobre Mário Ferreira dos Santos (unpublished, 2001)",
         "url": "https://repositorio.ufpb.br/jspui/bitstream/tede/9570/7/Arquivototal.pdf",
         "publisher": "Unpublished family monograph; its existence and role documented at note 1, p. 12 of the UFPB dissertation (linked)",
-        "type": "primary",
+        "type": "academic",
         "publisherNote": "FAMILY TESTIMONY, NOT INDEPENDENT SCHOLARSHIP — the authors are his daughter and his wife. It is the upstream source of most of the modern Brazilian biography, including the Jesuit-school story, the Globo refusal and the credit-sales anecdote. UNREAD: unpublished and not obtainable; it is cited here to name the provenance of claims that would otherwise look independently sourced, and the link goes to the dissertation that documents it, not to the monograph."
       },
       {
@@ -5755,7 +5755,7 @@
         "title": "Francisco Escorsim, 'As editoras em tempos de guerra cultural – II', Gazeta do Povo, 8 May 2018",
         "url": "https://www.gazetadopovo.com.br/vozes/francisco-escorsim/editoras-em-tempos-de-guerra-cultural-ii/",
         "publisher": "Gazeta do Povo (Brazilian daily — opinion column)",
-        "type": "article",
+        "type": "news",
         "publisherNote": "The one independent press account of the É Realizações republication programme's internal history, including that it had been run by Olavo de Carvalho and was then reassigned. Independent of the Olavo orbit, which is why the revival entry rests on it rather than on publisher or fan copy."
       },
       {
@@ -5763,7 +5763,7 @@
         "title": "Eduardo Bonzatto, 'Mário Ferreira dos Santos, Vilém Flusser e Olavo de Carvalho: o peso dos intelectuais fora da universidade', Pragmatismo Político, 14 February 2024",
         "url": "https://www.pragmatismopolitico.com.br/2024/02/mario-ferreira-dos-santos-vilem-flusser-olavo-de-carvalho-peso-intelectuais-fora-universidade.html",
         "publisher": "Pragmatismo Político (Brazilian opinion site — left-of-center)",
-        "type": "article",
+        "type": "news",
         "publisherNote": "An opinion piece that cites no scholarly sources and rests on Ferreira dos Santos's own quoted statement about never having held a post. Used only for that reading, and labeled as a reading."
       },
       {
@@ -5779,7 +5779,7 @@
         "title": "Os Óculos do Vovô (1913) — Cinemateca Brasileira filmography record 001395",
         "url": "https://bases.cinemateca.org.br/",
         "publisher": "Cinemateca Brasileira (filmography database)",
-        "type": "institutional",
+        "type": "database",
         "publisherNote": "The record identifier reaches this page through a pt.wikipedia footnote and has NOT been checked against the Cinemateca's own database, whose search interface is all that the link resolves to. The appearance of the child in the film is flagged unverified for that reason."
       },
       {
@@ -5795,7 +5795,7 @@
         "title": "Geysel Rodrigues, 'Mario Ferreira dos Santos: o curso sobre um filósofo brasileiro', Faculdade Dehoniana, 7 July 2023",
         "url": "https://dehoniana.edu.br/mario-ferreira-dos-santos-o-curso-sobre-um-filosofo-brasileiro/",
         "publisher": "Faculdade Dehoniana (Catholic higher-education institution, Taubaté)",
-        "type": "institutional",
+        "type": "web",
         "publisherNote": "Cited only as the institutional site that gives his birthplace as 'São Paulo, SP' rather than Tietê — an imprecision in circulation, recorded so that it is not mistaken for a rival claim."
       },
       {
