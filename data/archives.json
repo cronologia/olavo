@@ -1,6 +1,6 @@
 {
   "generatedBy": "scripts/archive-refs.js",
-  "updatedAt": "2026-09-21",
+  "updatedAt": "2026-09-27",
   "snapshots": {
     "http://web.archive.org/web/20211215180559/https://olavodecarvalho.org/": {
       "refId": "olavodecarvalho-org-wayback",
@@ -397,6 +397,12 @@
       "archiveUrl": "https://web.archive.org/web/20260914124444/https://rdap.publicinterestregistry.org/rdap/domain/midiasemmascara.org",
       "timestamp": "20260914124444",
       "checkedAt": "2026-09-21"
+    },
+    "https://rdap.publicinterestregistry.org/rdap/domain/theinteramerican.org": {
+      "refId": "rdap-iai",
+      "archiveUrl": "https://web.archive.org/web/20260921124753/https://rdap.publicinterestregistry.org/rdap/domain/theinteramerican.org",
+      "timestamp": "20260921124753",
+      "checkedAt": "2026-09-27"
     },
     "https://rene-girard.fr/accueil/biographie": {
       "refId": "renegirardfr-bio",
