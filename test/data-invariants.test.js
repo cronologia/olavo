@@ -44,7 +44,8 @@ test('reference ids are unique', () => {
 
 test('events are dated plausibly and titled', () => {
   for (const e of data.events) {
-    assert.ok(Number.isFinite(e.year) && e.year > 1500 && e.year < 2100, `bad year ${e.year}`);
+    // A negative year is BCE (-4 is 4 BCE); there is no year 0 (core#100).
+    assert.ok(Number.isFinite(e.year) && e.year >= -100 && e.year !== 0 && e.year < 2100, `bad year ${e.year}`);
     assert.ok(e.title && e.title.length > 3, `event ${e.year} missing title`);
     assert.equal(typeof e.dateVerified, 'boolean', `event "${e.title}" missing dateVerified`);
   }
@@ -84,7 +85,8 @@ test('translation cache is applied where present', () => {
   if (keys.length === 0) return;
   const html = renderPage(localizeData(data, es, 'es'), {}, { lang: 'es', base: siteBase(data.meta), route: '' });
   const src = JSON.stringify(data);
-  // Two conditions, and the test was wrong about both once.
+  // Two conditions, and the test was wrong about both once (upstreamed from
+  // olavo, core#121).
   //
   // The translation must DIFFER from its key. Timeline dates are translatable
   // and most of them are bare years, so "1886" is a dictionary entry whose
