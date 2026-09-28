@@ -1,6 +1,6 @@
 {
   "generatedBy": "scripts/archive-refs.js",
-  "updatedAt": "2026-09-27",
+  "updatedAt": "2026-09-28",
   "snapshots": {
     "http://web.archive.org/web/20211215180559/https://olavodecarvalho.org/": {
       "refId": "olavodecarvalho-org-wayback",
@@ -85,6 +85,13 @@
       "archiveUrl": "https://web.archive.org/web/20260914124425/https://docslib.org/doc/4932555/olavo-lp-de-carvalho",
       "timestamp": "20260914124425",
       "checkedAt": "2026-09-21"
+    },
+    "https://doi.org/10.1093/oxfordhb/9780199534647.013.0004": {
+      "refId": "huenemann-oxford",
+      "archiveUrl": "https://web.archive.org/web/20240711045645/https://academic.oup.com/edited-volume/38564/chapter/334359292",
+      "timestamp": "20240711045645",
+      "via": "https://academic.oup.com/edited-volume/38564/chapter/334359292",
+      "checkedAt": "2026-09-28"
     },
     "https://elienaijr.wordpress.com/2007/01/26/37/": {
       "refId": "elienai-girard-entrevista",
@@ -439,6 +446,12 @@
       "archiveUrl": "https://web.archive.org/web/20260115172405/https://revistas.pucsp.br/index.php/verve/article/view/5203",
       "timestamp": "20260115172405",
       "checkedAt": "2026-08-10"
+    },
+    "https://search.worldcat.org/title/34473134": {
+      "refId": "girard-reader",
+      "archiveUrl": "https://web.archive.org/web/20260928140201/https://search.worldcat.org/title/34473134",
+      "timestamp": "20260928140201",
+      "checkedAt": "2026-09-28"
     },
     "https://sensoincomum.org/2017/10/27/filme-jardim-aflicoes-olavo-carvalho-ufpe/": {
       "refId": "sensoincomum-ufpe",
