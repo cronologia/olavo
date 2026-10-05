@@ -1,6 +1,6 @@
 {
   "generatedBy": "scripts/archive-refs.js",
-  "updatedAt": "2026-09-28",
+  "updatedAt": "2026-10-05",
   "snapshots": {
     "http://web.archive.org/web/20211215180559/https://olavodecarvalho.org/": {
       "refId": "olavodecarvalho-org-wayback",
@@ -500,6 +500,12 @@
       "archiveUrl": "https://web.archive.org/web/20260831135512/https://worldwisdom.com/author/rene-guenon/",
       "timestamp": "20260831135512",
       "checkedAt": "2026-09-07"
+    },
+    "https://www.academia.edu/97714282/CARVALHO_Olavo_de_DUGIN_Alexandre_Os_EUA_e_a_Nova_Ordem_Mundial_Tradu%C3%A7%C3%A3o_de_Giuliano_Moraes_Campinas_SP_VIDE_Editorial_2012": {
+      "refId": "academia-dugin-review",
+      "archiveUrl": "https://web.archive.org/web/20261005143440/https://www.academia.edu/97714282/CARVALHO_Olavo_de_DUGIN_Alexandre_Os_EUA_e_a_Nova_Ordem_Mundial_Tradu%C3%A7%C3%A3o_de_Giuliano_Moraes_Campinas_SP_VIDE_Editorial_2012",
+      "timestamp": "20261005143440",
+      "checkedAt": "2026-10-05"
     },
     "https://www.academie-francaise.fr/actualites/deces-de-m-rene-girard-f37": {
       "refId": "academie-girard-deces",
