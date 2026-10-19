@@ -1,6 +1,6 @@
 {
   "generatedBy": "scripts/archive-refs.js",
-  "updatedAt": "2026-10-12",
+  "updatedAt": "2026-10-19",
   "snapshots": {
     "http://web.archive.org/web/20211215180559/https://olavodecarvalho.org/": {
       "refId": "olavodecarvalho-org-wayback",
@@ -73,6 +73,12 @@
       "archiveUrl": "https://web.archive.org/web/20260211122457/https://classiques.uqam.ca/classiques/lavelle_louis/lavelle_louis.html",
       "timestamp": "20260211122457",
       "checkedAt": "2026-08-04"
+    },
+    "https://dehoniana.edu.br/mario-ferreira-dos-santos-o-curso-sobre-um-filosofo-brasileiro/": {
+      "refId": "dehoniana-mario-2023",
+      "archiveUrl": "https://web.archive.org/web/20261019132650/https://dehoniana.edu.br/mario-ferreira-dos-santos-o-curso-sobre-um-filosofo-brasileiro/",
+      "timestamp": "20261019132650",
+      "checkedAt": "2026-10-19"
     },
     "https://diariodonordeste.verdesmares.com.br/ultima-hora/pais/morte-de-olavo-de-carvalho-nao-teve-relacao-com-a-covid-alega-seu-medico-particular-1.3184656": {
       "refId": "diariodonordeste-medico",
